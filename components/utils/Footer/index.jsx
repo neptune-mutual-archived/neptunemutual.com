@@ -100,7 +100,7 @@ export const Footer = () => {
           <div className={styles["link-wrapper-2"]}>
             <div className={styles["link"]}>
               <Link href={social.medium}>
-                <a target="_blank" aria-label="Medium">
+                <a target="_blank" aria-label="Visit Our Medium Blog">
                   <Trans>Blog</Trans>
                 </a>
               </Link>
@@ -129,7 +129,7 @@ export const Footer = () => {
             <div className={styles["link"]}>
               <Link href="https://docs.neptunemutual.com/usage/terms-of-use">
                 <a target="_blank" aria-label="Terms of Service">
-                  <Trans>Terms and Conditions</Trans>
+                  <Trans>Terms of Service</Trans>
                 </a>
               </Link>
             </div>

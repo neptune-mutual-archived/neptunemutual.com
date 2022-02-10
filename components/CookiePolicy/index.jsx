@@ -45,11 +45,8 @@ export const CookiePolicy = () => {
               </Dialog.Title>
               <p>
                 <Trans>
-                  We use third-party{" "}
-                  <a href={"#"}>
-                    <a>cookies</a>
-                  </a>{" "}
-                  in order to personalize your experience.
+                  We use third-party cookies in order to personalize your
+                  experience.
                 </Trans>
               </p>
               <div>

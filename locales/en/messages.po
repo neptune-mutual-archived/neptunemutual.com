@@ -25,7 +25,7 @@ msgstr "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
 msgid "A hack on one project will not affect cover for another."
 msgstr "A hack on one project will not affect cover for another."
 
-#: components/CookiePolicy/index.jsx:66
+#: components/CookiePolicy/index.jsx:63
 msgid "Accept"
 msgstr "Accept"
 
@@ -192,7 +192,7 @@ msgstr "Create Covers"
 msgid "Crowdfund your investor protection fund."
 msgstr "Crowdfund your investor protection fund."
 
-#: components/CookiePolicy/index.jsx:60
+#: components/CookiePolicy/index.jsx:57
 msgid "Decline"
 msgstr "Decline"
 
@@ -561,8 +561,8 @@ msgid "Technical Recruiter"
 msgstr "Technical Recruiter"
 
 #: components/utils/Footer/index.jsx:132
-msgid "Terms and Conditions"
-msgstr "Terms and Conditions"
+msgid "Terms of Service"
+msgstr "Terms of Service"
 
 #: lib/data/roadmap-data.js:74
 msgid "The Idea"
@@ -637,8 +637,8 @@ msgid "We saw a growing need for security and reliable covers that inspired us t
 msgstr "We saw a growing need for security and reliable covers that inspired us to create Neptune Mutual."
 
 #: components/CookiePolicy/index.jsx:47
-msgid "We use third-party <0><1>cookies</1></0> in order to personalize your experience."
-msgstr "We use third-party <0><1>cookies</1></0> in order to personalize your experience."
+msgid "We use third-party cookies in order to personalize your experience."
+msgstr "We use third-party cookies in order to personalize your experience."
 
 #: components/GotCovered/GotCovered.jsx:49
 msgid "We’ve Got You Covered"

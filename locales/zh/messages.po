@@ -25,7 +25,7 @@ msgstr ""
 msgid "A hack on one project will not affect cover for another."
 msgstr ""
 
-#: components/CookiePolicy/index.jsx:66
+#: components/CookiePolicy/index.jsx:63
 msgid "Accept"
 msgstr ""
 
@@ -192,7 +192,7 @@ msgstr ""
 msgid "Crowdfund your investor protection fund."
 msgstr ""
 
-#: components/CookiePolicy/index.jsx:60
+#: components/CookiePolicy/index.jsx:57
 msgid "Decline"
 msgstr ""
 
@@ -561,7 +561,7 @@ msgid "Technical Recruiter"
 msgstr ""
 
 #: components/utils/Footer/index.jsx:132
-msgid "Terms and Conditions"
+msgid "Terms of Service"
 msgstr ""
 
 #: lib/data/roadmap-data.js:74
@@ -637,7 +637,7 @@ msgid "We saw a growing need for security and reliable covers that inspired us t
 msgstr ""
 
 #: components/CookiePolicy/index.jsx:47
-msgid "We use third-party <0><1>cookies</1></0> in order to personalize your experience."
+msgid "We use third-party cookies in order to personalize your experience."
 msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:49
