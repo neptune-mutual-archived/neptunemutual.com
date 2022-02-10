@@ -49,7 +49,7 @@ export const LandingPage = () => {
             </Trans>
           </h3>
 
-          <Link href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype?node-id=1%3A3228&starting-point-node-id=1%3A742">
+          <Link href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype?node-id=1%3A742&starting-point-node-id=1%3A742">
             <a target="_blank" className={styles.cta}>
               <Trans>View App Prototype</Trans>
             </a>
