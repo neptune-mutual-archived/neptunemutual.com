@@ -36,7 +36,7 @@ export const ContentSlider = ({ activeIndex, onContentSlideUpdate }) => {
                 className={styles.container}
                 tabIndex={isActive ? undefined : "-1"}
               >
-                <h1 className={styles.title}>{name}</h1>
+                <h3 className={styles.title}>{name}</h3>
 
                 {description && (
                   <div className={styles.desc_wrapper}>

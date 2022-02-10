@@ -45,20 +45,20 @@ export const CoverPoolComponent = () => {
       <div className={"section_horizontal_container"}>
         <div className={styles.content_container}>
           <div className={styles.left_container}>
-            <h1 className={styles.left_heading}>
+            <h2 className={styles.left_heading}>
               <Trans>Your Cover Pool</Trans>,
               <br className={styles.heading_line_break} />{" "}
               <Trans>Your Style</Trans>
-            </h1>
+            </h2>
             <h3 className={styles.buidl}>
               <Trans>Let&apos;s #buidl</Trans>
             </h3>
-            <h4 className={styles.desc}>
+            <p className={styles.desc}>
               <Trans>
                 Imagine how cool it would be to access all coverage features
                 inside your own app just the way you like it.
               </Trans>
-            </h4>
+            </p>
             <div className={styles.desktop_button_container}>
               <Link href="https://www.npmjs.com/package/@neptunemutual/sdk">
                 <a
@@ -99,10 +99,12 @@ export const CoverPoolComponent = () => {
           {/* <div className="mx-4 lg:pr-8 xl:pr-32 2xl:pr-80 mt-10 lg:mt-60 flex flex-col lg:flex-row w-full justify-between gap-8"> */}
           {coverPoolContent.map((paragraph, idx) => (
             <div key={idx}>
-              <h3 className={styles.neutralTitle}>{paragraph.neutralTitle}</h3>
-              <h1 className={styles.colouredTitle}>
-                {paragraph.colouredTitle}
-              </h1>
+              <h3>
+                <p className={styles.neutralTitle}>{paragraph.neutralTitle}</p>
+                <p className={styles.colouredTitle}>
+                  {paragraph.colouredTitle}
+                </p>
+              </h3>
               <p className={styles.description}>{paragraph.description}</p>
             </div>
           ))}

@@ -75,19 +75,19 @@ export const IndustryComponent = () => {
             </div>
           </div>
           <div className="mt-9 md:mt-0 md:ml-auto max-w-full">
-            <img src={neptune} alt="Neptune Planet" />
+            <img src={neptune} alt="Illustration of Neptune Planet" />
           </div>
         </div>
 
         <div className="mt-58 xl:mt-76 bg-white shadow-powerCard border-transparent rounded-2xl p-3">
           <div className={styles.inner_container}>
-            <h1 className="text-2xl leading-10 sm:text-h3 text-01052D text-center font-semibold font-sora">
+            <h2 className="text-2xl leading-10 sm:text-h3 text-01052D text-center font-semibold font-sora">
               <Trans>Trusted by Industry Leaders</Trans>
-            </h1>
+            </h2>
             <div className="flex flex-col md:flex-row items-center justify-center">
-              <img src={fenbushiImg} alt="Fenbushi Brand" />
+              <img src={fenbushiImg} alt="Fenbushi" />
               <div className="p-7 md:p-9"></div>
-              <img src={animocaImg} alt="Animoca Brand" />
+              <img src={animocaImg} alt="Animoca Brands" />
             </div>
           </div>
         </div>

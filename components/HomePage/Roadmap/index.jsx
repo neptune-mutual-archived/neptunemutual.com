@@ -86,12 +86,12 @@ export const Roadmap = () => {
       )}
     >
       <div className={classNames("section_horizontal_container")}>
-        <h1 className={styles.title}>
+        <h2 className={styles.title}>
           <Trans>Our Roadmap for Growing the Neptune Mutual Ecosystem</Trans>
-        </h1>
-        <h4 className={styles.subtitle}>
+        </h2>
+        <p className={styles.subtitle}>
           <Trans>Follow our progress. Join our community.</Trans>
-        </h4>
+        </p>
 
         <div className={styles.slider_container}>
           <button

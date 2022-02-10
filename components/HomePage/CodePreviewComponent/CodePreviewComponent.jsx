@@ -50,14 +50,14 @@ const CodePreviewComponent = () => {
         <img
           className={styles.desktop_image}
           src={addLiquidityActive ? liquidityImage : coverImage}
-          alt="sdk-examples"
+          alt="Source Code Explaining How to Add Liquidity"
         />
       </div>
       <div className={styles.mobile_image_container}>
         <img
           className={styles.mobile_image}
           src={addLiquidityActive ? liquidityImageMobile : coverImageMobile}
-          alt="sdk-examples"
+          alt="Source Code Explaining How to Purchase Cover"
         />
       </div>
     </div>

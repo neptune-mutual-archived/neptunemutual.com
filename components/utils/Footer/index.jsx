@@ -18,7 +18,7 @@ export const Footer = () => {
     <div data-scroll-section className={styles.mx}>
       <div className={styles["footer-wrapper"]}>
         <div className={styles["planet-image"]}>
-          <img src={neptune} alt="Planet" />
+          <img src={neptune} alt="Illustration of Neptune Planet" />
         </div>
         <div className={styles["stay-tuned-wrapper"]}>
           <div className={styles["select-lang"]}>
@@ -31,11 +31,11 @@ export const Footer = () => {
 
           <div className={styles["stay-tuned-div"]}>
             <div className={styles["neptune-image"]}>
-              <img src={logo} alt="Neptune Mutual" />
+              <img src={logo} alt="Neptune Mutual Logo" />
             </div>
-            <h1 className={styles["stay-tuned-text"]}>
+            <h2 className={styles["stay-tuned-text"]}>
               <Trans>Let&#x2019;s Connect</Trans>
-            </h1>
+            </h2>
             <p className={styles["stay-tuned-desc"]}>
               <Trans>
                 Don&apos;t be a stranger! Join and interact with us on our

@@ -44,16 +44,16 @@ export const GotCoveredComponent = () => {
   return (
     <div className={styles.container}>
       <div className="section_horizontal_container">
-        <div className="">
-          <h1 className={styles.section_title}>
+        <div>
+          <h2 className={styles.section_title}>
             <Trans>We&#x2019;ve Got You Covered</Trans>
-          </h1>
-          <h3 className={styles.section_desc}>
+          </h2>
+          <p className={styles.section_desc}>
             <Trans>
               Get guaranteed payouts from our parametric cover model. Resolve
               incidents faster without the need for claims assessment.
             </Trans>
-          </h3>
+          </p>
         </div>
 
         <div className={styles.cards_container}>
@@ -61,7 +61,7 @@ export const GotCoveredComponent = () => {
             <div key={index} className={styles.card}>
               <div className={styles.card_icon_wrapper}>{item.icon}</div>
               <div className={styles.content_wrapper}>
-                <h4 className={styles.card_title}>{item.title}</h4>
+                <h3 className={styles.card_title}>{item.title}</h3>
                 <p className={styles.card_desc}>{item.description}</p>
                 <a
                   href={item.linkTo}

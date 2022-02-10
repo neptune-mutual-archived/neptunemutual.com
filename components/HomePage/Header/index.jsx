@@ -30,7 +30,7 @@ export const Header = () => {
         <div className={styles.header_container}>
           <div className={styles.logo}>
             <Link href="/" passHref>
-              <img src={logo} alt="Neptune Mutual" />
+              <img src={logo} alt="Neptune Mutual Logo" />
             </Link>
           </div>
           <div className={styles.navbar_content}>

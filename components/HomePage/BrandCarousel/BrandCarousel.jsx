@@ -20,11 +20,11 @@ import styles from "./style.module.scss";
 
 const carouselItems = [
   {
-    name: "Coinbase",
+    name: "Coinbase Ventures",
     imgSrc: coinbaseImg,
   },
   {
-    name: "Huobi",
+    name: "Huobi Ventures",
     imgSrc: huobiImg,
   },
   {
@@ -36,7 +36,7 @@ const carouselItems = [
     imgSrc: gravityImg,
   },
   {
-    name: "HexTrust",
+    name: "Hex Trust",
     imgSrc: hextrust,
   },
   {
@@ -44,7 +44,7 @@ const carouselItems = [
     imgSrc: gsr,
   },
   {
-    name: "FundamentalLabs",
+    name: "Fundamental Labs",
     imgSrc: fundamentalLabs,
   },
   {
@@ -52,7 +52,7 @@ const carouselItems = [
     imgSrc: gbv,
   },
   {
-    name: "CambiumGrove",
+    name: "Cambium Grove",
     imgSrc: cambiumGrove,
   },
   {
@@ -60,11 +60,11 @@ const carouselItems = [
     imgSrc: pacific,
   },
   {
-    name: "Newvision",
+    name: "New Vision",
     imgSrc: newvision,
   },
   {
-    name: "Baboonvc",
+    name: "Baboon VC",
     imgSrc: baboonvc,
   },
   {
@@ -129,7 +129,7 @@ export const BrandCarouselComponent = () => {
         {carouselItems.map((item, idx) => {
           return (
             <div key={idx} className={styles.image_container}>
-              <img src={item.imgSrc} alt={item.name} />
+              <img src={item.imgSrc} alt={item.name + " Logo"} />
             </div>
           );
         })}

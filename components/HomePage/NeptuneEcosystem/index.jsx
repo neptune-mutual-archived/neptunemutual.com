@@ -9,7 +9,7 @@ import styles2 from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 
 const topLeftImg = "/images/ecosystem/top-left.png";
-const bottomLeftImg = "/images/ecosystem/bottom-left.png";
+const appScreenshot = "/images/ecosystem/app-screenshot.png";
 const bottomRightImg = "/images/ecosystem/bottom-right.png";
 
 export const NeptuneEcosystemComponent = () => {
@@ -223,34 +223,34 @@ export const NeptuneEcosystemComponent = () => {
     <div ref={ref}>
       <div className={`pin-wrapper ${styles["main-wrapper"]}`}>
         <div className={styles["top-left-img"]}>
-          <img src={topLeftImg} alt="Vector" />
+          <img src={topLeftImg} alt="Transparent Image for Styling" />
         </div>
         <div className={styles["bottom-left-img"]}>
-          <img src={bottomLeftImg} alt="Vector" />
+          <img src={appScreenshot} alt="Neptune Mutual App Screenshot Bottom" />
         </div>
         <div className={styles["bottom-left-img2"]}>
-          <img src={bottomLeftImg} alt="Vector" />
+          <img src={appScreenshot} alt="Neptune Mutual App Screenshot Bottom" />
         </div>
         <div className={styles["bottom-right-img"]}>
-          <img src={bottomRightImg} alt="Vector" />
+          <img src={bottomRightImg} alt="Transparent Image for Styling" />
         </div>
         <div className={styles["desc-wrapper"]}>
           <div className={styles.full_height}>
-            <h1 className={styles["title"]}>
+            <h2 className={styles["title"]}>
               <Trans>Neptune Mutual Ecosystem</Trans>
-            </h1>
+            </h2>
 
             <div className={`${styles["titles-wrapper"]} ${styles.desktop}`}>
               <div className={styles2[`titles-wrapper-inner`]}>
                 {ecosystemData.map(({ name, id }) => (
-                  <h2
+                  <h3
                     key={id}
                     className={`${styles[`title-style${id}`]} ${
                       styles["title2"]
                     }`}
                   >
                     {name}
-                  </h2>
+                  </h3>
                 ))}
               </div>
             </div>
@@ -268,13 +268,13 @@ export const NeptuneEcosystemComponent = () => {
                     <div className={styles["flex-col-10"]}>
                       {subData.map(({ name, description }, idx) => (
                         <div key={idx}>
-                          <h4
+                          <h3
                             className={`${styles[`title-style${id}`]} ${
                               styles["title-style"]
                             }`}
                           >
                             {name}
-                          </h4>
+                          </h3>
                           <p className={styles["point-desc"]}>{description}</p>
                         </div>
                       ))}
@@ -291,13 +291,13 @@ export const NeptuneEcosystemComponent = () => {
                 <div key={id} className={styles["flex-col-10"]}>
                   {subData.map(({ name, description }, idx) => (
                     <div key={idx}>
-                      <p
+                      <h3
                         className={`${styles[`title-style${id}`]} ${
                           styles["title-style"]
                         }`}
                       >
                         {name}
-                      </p>
+                      </h3>
                       <p className={styles["point-desc"]}>{description}</p>
                     </div>
                   ))}

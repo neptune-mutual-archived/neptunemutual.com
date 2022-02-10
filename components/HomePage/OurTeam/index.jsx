@@ -26,16 +26,16 @@ export const OurTeamComponent = () => {
       <div className={"section_horizontal_container"}>
         <div className={styles.container}>
           <div className={styles["header-wrapper"]}>
-            <h1 className={styles["header-title"]}>
+            <h2 className={styles["header-title"]}>
               <Trans>Our Team</Trans>
-            </h1>
-            <h3 className={styles["header-desc"]}>
+            </h2>
+            <p className={styles["header-desc"]}>
               <Trans>
                 We are a global and dynamic team with a mission to create a
                 reliable, fast, and effective platform that protects digital
                 assets.
               </Trans>
-            </h3>
+            </p>
           </div>
 
           <div className={styles.carousel_container}>
@@ -52,10 +52,10 @@ export const OurTeamComponent = () => {
               )}
               navElementEnd
             >
-              {teamMembers.map(({ imageSrc, name }, idx) => (
+              {teamMembers.map(({ imageSrc, nameInvariant }, idx) => (
                 <div key={idx}>
                   {imageSrc ? (
-                    <img src={imageSrc} alt={name} />
+                    <img src={imageSrc} alt={nameInvariant} />
                   ) : (
                     <div>
                       <div className={styles["placeholder-image"]}></div>

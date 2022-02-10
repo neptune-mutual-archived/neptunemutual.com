@@ -70,9 +70,9 @@ export const BlogComponent = () => {
       <div className={"section_horizontal_container"}>
         <div className={styles.section}>
           <div className={styles.section_header}>
-            <h1 className={styles.section_title}>
+            <h2 className={styles.section_title}>
               <Trans>Latest Updates</Trans>
-            </h1>
+            </h2>
             <div className={styles.section_cta}>
               <Link href="https://medium.com/neptune-mutual">
                 <a target="_blank" rel="noreferrer">
@@ -97,7 +97,7 @@ export const BlogComponent = () => {
                   <div className={classNames(styles.image_container)}>
                     <img
                       src={thumbnail}
-                      alt="Blog1"
+                      alt={title}
                       className={styles["post-img-1"]}
                     />
                   </div>
