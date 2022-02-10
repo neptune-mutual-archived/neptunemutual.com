@@ -1,4 +1,5 @@
 const { i18n } = require("./next-i18next.config.js");
+const headers = require("./headers.json");
 
 module.exports = {
   reactStrictMode: true,
@@ -12,6 +13,6 @@ module.exports = {
     return config;
   },
   async headers() {
-    return [];
+    return headers;
   },
 };
