@@ -1,4 +1,4 @@
-const { i18n } = require("./next-i18next.config.js");
+const { i18n } = require("./i18n.config");
 const headers = require("./headers.json");
 
 module.exports = {
