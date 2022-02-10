@@ -28,7 +28,7 @@ export const IndustryComponent = () => {
                 href={social.twitter}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="twitter link"
+                aria-label="Twitter"
               >
                 <TwitterIcon className="w-7 h-7 relative top-1" />
               </a>
@@ -36,7 +36,7 @@ export const IndustryComponent = () => {
                 href={social.reddit}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="reddit link"
+                aria-label="Reddit"
               >
                 <RedditIcon className="w-7 h-7" />
               </a>
@@ -44,7 +44,7 @@ export const IndustryComponent = () => {
                 href={social.telegram}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="telegram link"
+                aria-label="Telegram"
               >
                 <TelegramIcon className="w-7 h-7" />
               </a>
@@ -52,7 +52,7 @@ export const IndustryComponent = () => {
                 href={social.linkedin}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="linkedin link"
+                aria-label="LinkedIn"
               >
                 <LinkedinIcon className="w-7 h-7" />
               </a>
@@ -60,7 +60,7 @@ export const IndustryComponent = () => {
                 href={social.medium}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="medium link"
+                aria-label="Medium"
               >
                 <MediumIcon className="w-7 h-7" />
               </a>
@@ -68,7 +68,7 @@ export const IndustryComponent = () => {
                 href={social.github}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="github link"
+                aria-label="Github"
               >
                 <GithubIcon className="w-7 h-7" />
               </a>

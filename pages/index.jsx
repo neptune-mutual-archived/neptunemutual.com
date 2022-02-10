@@ -1,7 +1,7 @@
 import { BaseLayout } from "@layouts/Base";
 import { HomePage } from "../components/HomePage";
 import { pageRoutes } from "@lib/routes";
-import { Banner } from "@components/HomePage/Banner";
+import { Notice } from "@components/HomePage/Notice";
 
 import "slick-carousel/slick/slick.css";
 import { Trans } from "@lingui/macro";
@@ -16,8 +16,9 @@ export default function Home() {
       canonical={pageRoutes.home}
     >
       <>
-        <Banner
+        <Notice
           link="https://www.cointelligence.com/content/neptune-mutual-raises-strategic-round-led-by-animoca-brands-to-build-cover-protocol-for-metaverse-assets/"
+          linkText={<Trans>View Press Release</Trans>}
           text={
             <Trans>
               Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to

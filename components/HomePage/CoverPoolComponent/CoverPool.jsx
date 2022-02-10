@@ -94,11 +94,9 @@ export const CoverPoolComponent = () => {
           {/* <div className="mx-4 lg:pr-8 xl:pr-32 2xl:pr-80 mt-10 lg:mt-60 flex flex-col lg:flex-row w-full justify-between gap-8"> */}
           {coverPoolContent.map((paragraph, idx) => (
             <div key={idx}>
-              <h3>
-                <p className={styles.neutralTitle}>{paragraph.neutralTitle}</p>
-                <p className={styles.colouredTitle}>
-                  {paragraph.colouredTitle}
-                </p>
+              <h3 className={styles.neutralTitle}>{paragraph.neutralTitle}</h3>
+              <h3 className={styles.colouredTitle}>
+                {paragraph.colouredTitle}
               </h3>
               <p className={styles.description}>{paragraph.description}</p>
             </div>

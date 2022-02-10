@@ -25,7 +25,7 @@ msgstr ""
 msgid "A hack on one project will not affect cover for another."
 msgstr ""
 
-#: components/CookiePolicy/index.jsx:63
+#: components/CookiePolicy/index.jsx:66
 msgid "Accept"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "All participants of the Neptune Mutual ecosystem will get a comprehensive documentation that helps with understanding the different aspects of the Neptune Mutual protocol."
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:22
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:19
 msgid "Anywhere"
 msgstr ""
 
@@ -57,7 +57,7 @@ msgstr ""
 msgid "As the next iteration and enhancements to the dashboard solution, Neptune Mutual also scores the security posture of our portfolio DeFi projects and apps. The score rating can be used on any external website by simply copying and pasting a few lines of code."
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:28
 msgid "Attract"
 msgstr ""
 
@@ -109,7 +109,7 @@ msgstr ""
 msgid "Built on Typescript, developers can use the SDK in both frontend and backend environments using any popular framework. The SDK is available as an NPM package:"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:24
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
 msgstr ""
 
@@ -168,7 +168,7 @@ msgstr ""
 msgid "Content Strategist"
 msgstr ""
 
-#: components/CookiePolicy/index.jsx:47
+#: components/CookiePolicy/index.jsx:44
 msgid "Cookies disclaimer"
 msgstr ""
 
@@ -274,8 +274,8 @@ msgstr ""
 msgid "Get guaranteed payouts from our parametric cover model. Resolve incidents faster without the need for claims assessment."
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:74
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:96
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:65
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:90
 msgid "Get the Neptune Mutual SDK"
 msgstr ""
 
@@ -311,7 +311,7 @@ msgstr ""
 msgid "Henry Law"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:57
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:54
 msgid "Imagine how cool it would be to access all coverage features inside your own app just the way you like it."
 msgstr ""
 
@@ -343,11 +343,11 @@ msgstr ""
 msgid "Lending Income"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:12
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:9
 msgid "Less Code"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:54
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:51
 msgid "Let's #buidl"
 msgstr ""
 
@@ -355,7 +355,7 @@ msgstr ""
 msgid "Let’s Connect"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:32
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:29
 msgid "Liquidity"
 msgstr ""
 
@@ -387,7 +387,7 @@ msgstr ""
 msgid "Neptune Mutual Ecosystem"
 msgstr ""
 
-#: pages/index.jsx:22
+#: pages/index.jsx:23
 msgid "Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to Build Cover Protocol for Metaverse Assets"
 msgstr ""
 
@@ -608,7 +608,7 @@ msgstr ""
 msgid "Trusted by Industry Leaders"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:18
 msgid "Use"
 msgstr ""
 
@@ -624,6 +624,10 @@ msgstr ""
 msgid "View App Prototype"
 msgstr ""
 
+#: pages/index.jsx:21
+msgid "View Press Release"
+msgstr ""
+
 #: components/HomePage/OurTeam/index.jsx:33
 msgid "We are a global and dynamic team with a mission to create a reliable, fast, and effective platform that protects digital assets."
 msgstr ""
@@ -632,7 +636,7 @@ msgstr ""
 msgid "We saw a growing need for security and reliable covers that inspired us to create Neptune Mutual."
 msgstr ""
 
-#: components/CookiePolicy/index.jsx:50
+#: components/CookiePolicy/index.jsx:47
 msgid "We use third-party <0><1>cookies</1></0> in order to personalize your experience."
 msgstr ""
 
@@ -640,15 +644,15 @@ msgstr ""
 msgid "We’ve Got You Covered"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:34
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
 msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:11
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:8
 msgid "Write"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:14
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:11
 msgid "Write less code and plug in your own Web3 provider. Get complete access to all coverage features."
 msgstr ""
 
@@ -656,11 +660,11 @@ msgstr ""
 msgid "Your Confident, Protected Community"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:49
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:46
 msgid "Your Cover Pool"
 msgstr ""
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:51
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:48
 msgid "Your Style"
 msgstr ""
 

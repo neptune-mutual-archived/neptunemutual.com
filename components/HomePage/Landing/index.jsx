@@ -41,13 +41,13 @@ export const LandingPage = () => {
               </Trans>
             </h1>
           </div>
-          <h3 id="story" className={styles["sub-headline"]}>
+          <p id="story" className={styles["sub-headline"]}>
             <Trans>
               Choose a cover pool, select its duration, and enter how much you
               need to cover. Instantly receive your claims payout in stablecoin
               after incident resolution.
             </Trans>
-          </h3>
+          </p>
 
           <Link href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype?node-id=1%3A742&starting-point-node-id=1%3A742">
             <a target="_blank" className={styles.cta}>

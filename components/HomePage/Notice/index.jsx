@@ -3,7 +3,7 @@ import { classNames } from "@lib/utils/classNames";
 import { useState } from "react";
 import styles from "./index.module.scss";
 
-export const Banner = ({
+export const Notice = ({
   text,
   linkText = "Read More",
   bgColor = "bg-[#3770E1]",
@@ -16,8 +16,8 @@ export const Banner = ({
   }
 
   return (
-    <div className={classNames(styles.banner_container, bgColor)}>
-      <div className={styles.banner_content}>
+    <div className={classNames(styles.notice_container, bgColor)}>
+      <div className={styles.notice_content}>
         <div className={styles.text_wrapper}>
           <p>
             <span className={styles.text}>{text}</span>
@@ -37,7 +37,7 @@ export const Banner = ({
           onClick={() => {
             setShow((prev) => !prev);
           }}
-          aria-label="Close popup button"
+          aria-label="Button to Close Notice"
         >
           <CloseIcon width="14" height="14" fill="white" />
         </button>

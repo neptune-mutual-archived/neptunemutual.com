@@ -48,7 +48,7 @@ export const Footer = () => {
                 href={social.twitter}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="twitter link"
+                aria-label="Twitter"
               >
                 <TwitterIcon className={styles["twitter-icon"]} />
               </a>
@@ -56,7 +56,7 @@ export const Footer = () => {
                 href={social.reddit}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="reddit link"
+                aria-label="Reddit"
               >
                 <RedditIcon className={styles["icon-class"]} />
               </a>
@@ -64,7 +64,7 @@ export const Footer = () => {
                 href={social.telegram}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="telegram link"
+                aria-label="Telegram"
               >
                 <TelegramIcon className={styles["icon-class"]} />
               </a>
@@ -72,7 +72,7 @@ export const Footer = () => {
                 href={social.linkedin}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="linkedin link"
+                aria-label="LinkedIn"
               >
                 <LinkedinIcon className={styles["icon-class"]} />
               </a>
@@ -80,7 +80,7 @@ export const Footer = () => {
                 href={social.medium}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="medium link"
+                aria-label="Medium"
               >
                 <MediumIcon className={styles["icon-class"]} />
               </a>
@@ -88,7 +88,7 @@ export const Footer = () => {
                 href={social.github}
                 target={"_blank"}
                 rel="noreferrer"
-                aria-label="github link"
+                aria-label="Github"
               >
                 <GithubIcon className={styles["icon-class"]} />
               </a>
@@ -100,42 +100,42 @@ export const Footer = () => {
           <div className={styles["link-wrapper-2"]}>
             <div className={styles["link"]}>
               <Link href={social.medium}>
-                <a target="_blank" aria-label="medium-link">
+                <a target="_blank" aria-label="Medium">
                   <Trans>Blog</Trans>
                 </a>
               </Link>
             </div>
             <div className={styles["link"]}>
               <Link href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM">
-                <a target="_self" aria-label="clickup-link">
+                <a target="_self" aria-label="Contact Us">
                   <Trans>Contact</Trans>
                 </a>
               </Link>
             </div>
             <div className={styles["link"]}>
               <Link href="https://angel.co/company/neptune-mutual">
-                <a target="_blank" aria-label="career-link">
+                <a target="_blank" aria-label="Careers Page">
                   <Trans>Careers</Trans>
                 </a>
               </Link>
             </div>
             <div className={styles["link"]}>
               <Link href={social.documentation}>
-                <a target="_blank" aria-label="documentation-link">
+                <a target="_blank" aria-label="Documentation Site">
                   <Trans>Documentation</Trans>
                 </a>
               </Link>
             </div>
             <div className={styles["link"]}>
               <Link href="https://docs.neptunemutual.com/usage/terms-of-use">
-                <a target="_blank" aria-label="TOS-link">
+                <a target="_blank" aria-label="Terms of Service">
                   <Trans>Terms and Conditions</Trans>
                 </a>
               </Link>
             </div>
             <div className={styles["link"]}>
               <Link href="https://docs.neptunemutual.com/usage/terms-of-use">
-                <a target="_blank" aria-label="policy-link">
+                <a target="_blank" aria-label="Privacy Policy">
                   <Trans>Privacy Policy</Trans>
                 </a>
               </Link>

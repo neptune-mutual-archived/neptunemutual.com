@@ -78,14 +78,14 @@ const NavElement = ({ prev, next }) => {
         <button
           className={styles["nav-btn"]}
           onClick={prev}
-          aria-label="previous member button"
+          aria-label="Previous Team Member Button"
         >
           <ChevronLeftIcon className={styles["nav-btn-icon"]} />
         </button>
         <button
           className={styles["nav-btn"]}
           onClick={next}
-          aria-label="next member button"
+          aria-label="Next Team Member Button"
         >
           <ChevronRightIcon className={styles["nav-btn-icon"]} />
         </button>

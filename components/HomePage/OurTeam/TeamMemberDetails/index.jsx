@@ -6,7 +6,8 @@ import styles from "./style.module.scss";
 import { teamMembers } from "@lib/data/team-data";
 
 export const TeamMemberDetails = ({ idx }) => {
-  const { name, title, links } = teamMembers[idx] || teamMembers[0];
+  const { name, title, nameInvariant, links } =
+    teamMembers[idx] || teamMembers[0];
 
   return (
     <div className={styles.details_wrapper}>
@@ -18,7 +19,7 @@ export const TeamMemberDetails = ({ idx }) => {
             href={links.linkedIn}
             target={"_blank"}
             rel="noreferrer"
-            aria-label="linkedin link"
+            aria-label={"LinkedIn Profile of " + nameInvariant}
           >
             <LinkedinFilledIcon />
           </a>
@@ -28,7 +29,7 @@ export const TeamMemberDetails = ({ idx }) => {
             href={links.twitter}
             target={"_blank"}
             rel="noreferrer"
-            aria-label="twitter link"
+            aria-label={"Twitter Profile of " + nameInvariant}
           >
             <TwitterFilledIcon />
           </a>
@@ -38,7 +39,7 @@ export const TeamMemberDetails = ({ idx }) => {
             href={links.medium}
             target={"_blank"}
             rel="noreferrer"
-            aria-label="medium link"
+            aria-label={"Medium Link of " + nameInvariant}
           >
             <MediumFilledIcon />
           </a>
@@ -48,7 +49,7 @@ export const TeamMemberDetails = ({ idx }) => {
             href={links.facebook}
             target={"_blank"}
             rel="noreferrer"
-            aria-label="facebook link"
+            aria-label={"Facebook Profile of " + nameInvariant}
           >
             <FacebookFilledIcon />
           </a>

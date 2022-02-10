@@ -97,7 +97,7 @@ export const Roadmap = () => {
           <button
             className={styles.nav_btn}
             onClick={onPrev}
-            aria-label="goto previous button"
+            aria-label="Scroll to View Previous Items"
           >
             <ChevronLeftIcon width={24} />
           </button>
@@ -147,7 +147,7 @@ export const Roadmap = () => {
           <button
             className={styles.nav_btn}
             onClick={onNext}
-            aria-label="goto next button"
+            aria-label="Scroll to View Next Items"
           >
             <ChevronRightIcon width={24} />
           </button>

@@ -6,7 +6,7 @@ export const BurgerComponent = ({ isOpen, onToggle }) => {
     <button
       onClick={onToggle}
       className={classNames(styles.wrapper, isOpen && styles.active)}
-      aria-label="Open/Close sidebar"
+      aria-label="Open or Close the Sidebar"
     >
       <div className={classNames(styles.bar)}></div>
       <div className={classNames(styles.bar)}></div>
