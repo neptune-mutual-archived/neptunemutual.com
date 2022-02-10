@@ -1,8 +1,7 @@
-import { Fragment } from "react";
+import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import styles from "./style.module.scss";
 import { useLocalStorage } from "@lib/hooks/useLocalStorage";
-import { useEffect } from "react";
 import { Trans } from "@lingui/macro";
 
 function handleClose() {
@@ -12,6 +11,7 @@ function handleClose() {
 
 export const CookiePolicy = () => {
   const [accepted, setAccepted] = useLocalStorage("dev-cookies", false);
+  const [isOpen, setIsOpen] = useState(!accepted);
 
   function removeGtag() {
     const gtagScript = document.querySelector("#gtag-init");
@@ -20,15 +20,12 @@ export const CookiePolicy = () => {
     }
   }
 
-  useEffect(() => {
-    if (!accepted) removeGtag();
-  }, [accepted]);
-
-  function closeModal() {
-    setAccepted(true);
+  function closeModal(allow) {
+    setIsOpen(false);
+    if (allow) setAccepted(true);
+    else removeGtag();
   }
 
-  const isOpen = !accepted;
   return (
     <Transition appear show={isOpen} as={Fragment}>
       <Dialog as="div" className={styles.dialog} onClose={handleClose}>
@@ -56,10 +53,16 @@ export const CookiePolicy = () => {
                 </Trans>
               </p>
               <div>
-                <button className={styles.decline} onClick={closeModal}>
+                <button
+                  className={styles.decline}
+                  onClick={() => closeModal(false)}
+                >
                   <Trans>Decline</Trans>
                 </button>
-                <button className={styles.accept} onClick={closeModal}>
+                <button
+                  className={styles.accept}
+                  onClick={() => closeModal(true)}
+                >
                   <Trans>Accept</Trans>
                 </button>
               </div>
