@@ -74,7 +74,7 @@ export const BlogComponent = () => {
               <Trans>Latest Updates</Trans>
             </h1>
             <div className={styles.section_cta}>
-              <Link href="https://neptunemutual.medium.com/">
+              <Link href="https://medium.com/neptune-mutual">
                 <a target="_blank" rel="noreferrer">
                   <span>
                     <Trans>Check out Our Blog</Trans>
@@ -111,7 +111,7 @@ export const BlogComponent = () => {
           </div>
 
           <div className={styles.section_second_cta}>
-            <Link href="https://neptunemutual.medium.com/">
+            <Link href="https://medium.com/neptune-mutual">
               <a target="_blank">
                 <span>
                   <Trans>Read Our Blog</Trans>

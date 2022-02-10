@@ -34,7 +34,7 @@ export const Header = () => {
             </Link>
           </div>
           <div className={styles.navbar_content}>
-            <Link href="https://neptunemutual.medium.com/">
+            <Link href="https://medium.com/neptune-mutual">
               <a target="_blank" className={styles.nav_item}>
                 <Trans>Blog</Trans>
               </a>

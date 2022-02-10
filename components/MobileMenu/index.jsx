@@ -7,7 +7,7 @@ export const MobileMenu = () => {
   return (
     <div className={styles.mobileMenu}>
       <div className={styles.menu_item}>
-        <Link href="https://neptunemutual.medium.com/">
+        <Link href="https://medium.com/neptune-mutual">
           <a target="_blank">
             <Trans>Blog</Trans>
           </a>
