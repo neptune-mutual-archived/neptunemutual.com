@@ -1,9 +1,6 @@
 import CodePreviewComponent from "@components/HomePage/CodePreviewComponent/CodePreviewComponent";
 import { Button } from "@components/HomePage/CoverPoolComponent/Button";
 import { Trans } from "@lingui/macro";
-import { classNames } from "@lib/utils/classNames";
-import { DownloadIcon } from "@utils/icons/DownloadIcon";
-import Link from "next/link";
 import styles from "./coverpool.module.scss";
 
 const coverPoolContent = [
@@ -60,21 +57,13 @@ export const CoverPoolComponent = () => {
               </Trans>
             </h4>
             <div className={styles.desktop_button_container}>
-              <Link href="https://www.npmjs.com/package/@neptunemutual/sdk">
-                <a
-                  target="_blank"
-                  className={classNames(
-                    "group",
-                    styles.desktop_button,
-                    styles.btn_container
-                  )}
-                >
-                  <DownloadIcon className={styles.button_icon} />
-                  <span className={styles.button_style}>
-                    <Trans>Get the Neptune Mutual SDK</Trans>
-                  </span>
-                </a>
-              </Link>
+              <a
+                href="https://www.npmjs.com/package/@neptunemutual/sdk"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button text={<Trans>Get the Neptune Mutual SDK</Trans>} />
+              </a>
             </div>
           </div>
           <div className={styles.code_component_wrapper}>
@@ -93,7 +82,13 @@ export const CoverPoolComponent = () => {
 
       <div className={"section_horizontal_container"}>
         <div className={styles.mobile_btn_container}>
-          <Button text={<Trans>Get the Neptune Mutual SDK</Trans>} />
+          <a
+            href="https://www.npmjs.com/package/@neptunemutual/sdk"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button text={<Trans>Get the Neptune Mutual SDK</Trans>} />
+          </a>
         </div>
         <div className={styles.bottom_container}>
           {/* <div className="mx-4 lg:pr-8 xl:pr-32 2xl:pr-80 mt-10 lg:mt-60 flex flex-col lg:flex-row w-full justify-between gap-8"> */}

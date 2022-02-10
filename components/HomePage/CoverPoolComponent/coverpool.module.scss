@@ -116,12 +116,18 @@
 .code_component_wrapper {
   position: relative;
   display: none;
+  margin-top: 84px;
 
   @media (min-width: 640px) {
     display: block;
   }
 
+  @media (min-width: 768px) {
+    margin-top: 60px;
+  }
+
   @media (min-width: 1024px) {
+    margin-top: 0;
     display: grid;
   }
 }
@@ -306,14 +312,27 @@
 }
 
 .desktop_button_container {
-  display: flex;
+  display: none;
   margin-top: 4.25rem;
+}
+
+@media (min-width: 1024px) {
+  .desktop_button_container {
+    display: flex;
+  }
 }
 
 .button_style {
   font-family: Inter, sans-serif;
-  font-size: 1.125rem;
-  line-height: 1.25rem;
+  font-size: 15px;
+  line-height: 18px;
+}
+
+@media (min-width: 400px) {
+  .button_style {
+    font-size: 18px;
+    line-height: 21px;
+  }
 }
 
 .button_icon {
