@@ -1,0 +1,138 @@
+.container {
+  padding-top: 200px;
+  padding-bottom: 15rem;
+
+  margin: 0 auto;
+  text-align: center;
+  background-image: url(/images/team/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  @media (min-width: 768px) {
+    background-position: top;
+    background-size: contain;
+  }
+}
+
+.header-title {
+  font-family: Sora, sans-serif;
+  font-size: 31px;
+  line-height: 49px;
+  font-weight: 600;
+
+  @media (min-width: 768px) {
+    font-size: 49px;
+    line-height: 56px;
+  }
+
+  @media (min-width: 1366px) {
+    font-size: 61px;
+    line-height: 56px;
+  }
+}
+
+.header-desc {
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  max-width: 334px;
+  margin-top: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 768px) {
+    font-size: 25px;
+    line-height: 40px;
+    max-width: 601px;
+    margin-top: 1rem;
+  }
+}
+
+.header-wrapper {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+// .slider-wrapper {
+
+//   @media (min-width: 768px) {
+//     padding-left: 8rem;
+//     padding-right: 8rem;
+//   }
+
+//   @media (min-width: 1366px) {
+//     border-left-width: 1px;
+//     border-right-width: 1px;
+//     border-color: #b0c4db80;
+//     margin-left: 1.5rem;
+//     margin-right: 1.5rem;
+//   }
+
+//   @media (min-width: 1512px) {
+//     margin-left: 6rem;
+//     margin-right: 6rem;
+//     padding-left: 6.5rem;
+//     padding-right: 6.5rem;
+//   }
+
+//   @media (min-width: 1920px) {
+//     margin-left: 18.5rem;
+//     margin-right: 18.5rem;
+//   }
+// }
+
+.placeholder-image {
+  aspect-ratio: 1008 / 1088;
+  background-image: linear-gradient(to right, #dfc3fb, #babcf9);
+  border-radius: 50%;
+}
+
+.carousel_container {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  max-width: 1000px;
+}
+
+@media (min-width: 1366px) {
+  .carousel_container {
+    margin-top: 3rem;
+  }
+}
+
+.nav_wrapper {
+  display: none;
+
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+}
+
+.nav-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+.nav-btn-icon {
+  height: 0.75rem;
+  width: 0.75rem;
+}

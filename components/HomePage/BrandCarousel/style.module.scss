@@ -1,0 +1,45 @@
+.brand_container {
+  margin-top: 2rem;
+
+  @media (min-width: 1280px) {
+    margin-top: 1.25rem;
+  }
+
+  .image_container {
+    padding: 10px;
+  }
+
+  img {
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0px 7px 22px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  // .hide_on_mobile {
+  //   display: none;
+
+  //   @media (min-width: 640px) {
+  //     display: block;
+  //   }
+  // }
+
+  // .show_on_mobile {
+  //   display: grid;
+  //   grid-template-columns: repeat(2, minmax(0, 1fr));
+  //   gap: 0.25rem;
+
+  //   :last-child {
+  //     grid-column: span 2 / span 2;
+  //   }
+  //   @media (min-width: 640px) {
+  //     display: none;
+  //   }
+  // }
+
+  // .single_carousel_image {
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+}

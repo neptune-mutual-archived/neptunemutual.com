@@ -1,0 +1,23 @@
+.points-wrapper-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  // grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  // grid-row-gap: 75px;
+
+  @media (min-width: 1024px) {
+    grid-row-gap: 100px;
+  }
+}
+
+.titles-wrapper-inner {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0.25rem;
+
+  @media (min-width: 1366px) {
+    grid-row-gap: 0px;
+  }
+}

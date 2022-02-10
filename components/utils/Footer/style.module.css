@@ -1,0 +1,170 @@
+.mx {
+  @apply mx-auto;
+}
+
+.footer-wrapper {
+  @apply relative w-full h-auto overflow-x-hidden bg-01052D;
+}
+
+.planet-image {
+  @apply hidden absolute top-36 right-28;
+}
+
+@media (min-width: 1024px) {
+  .planet-image {
+    @apply block;
+  }
+}
+
+@media (min-width: 1920px) {
+  .planet-image {
+    @apply right-56;
+  }
+}
+
+.stay-tuned-wrapper {
+  @apply px-4 pt-24;
+}
+
+@media (min-width: 640px) {
+  .stay-tuned-wrapper {
+    @apply px-32;
+  }
+}
+
+@media (min-width: 1920px) {
+  .stay-tuned-wrapper {
+    @apply mx-72 px-26;
+  }
+}
+
+.select-lang {
+  @apply hidden lg:flex justify-end;
+}
+.select-lang {
+  @apply hidden justify-end;
+}
+
+@media (min-width: 1024px) {
+  .select-lang {
+    @apply flex;
+  }
+}
+
+.stay-tuned-div {
+  @apply mt-5 text-center;
+}
+
+@media (min-width: 1024px) {
+  .stay-tuned-div {
+    @apply mt-7 text-left;
+  }
+}
+
+.neptune-image {
+  @apply w-47 mx-auto;
+}
+
+@media (min-width: 640px) {
+  .neptune-image {
+    @apply w-63;
+  }
+}
+
+@media (min-width: 1024px) {
+  .neptune-image {
+    @apply mx-0;
+  }
+}
+
+.stay-tuned-text {
+  @apply mt-8 mb-8 text-white font-sora;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 40px;
+}
+
+@media (min-width: 1024px) {
+  .stay-tuned-text {
+    @apply mt-11 text-4xl;
+  }
+}
+
+.stay-tuned-desc {
+  @apply mt-2 font-light font-poppins tracking-wider;
+  color: #a1a1a1;
+}
+
+@media (min-width: 1024px) {
+  .stay-tuned-desc {
+    @apply mt-4 w-1/2;
+  }
+}
+
+.icons-wrapper {
+  @apply mx-1 flex justify-center mt-8 gap-8;
+}
+
+@media (min-width: 1024px) {
+  .icons-wrapper {
+    @apply justify-start;
+  }
+}
+
+.twitter-icon {
+  @apply w-7 h-7 relative top-1;
+}
+
+.icon-class {
+  @apply w-7 h-7;
+}
+
+.link-wrapper-1 {
+  @apply mt-18 py-4 border-y border-b0c4db border-opacity-40;
+}
+
+@media (min-width: 1024px) {
+  .link-wrapper-1 {
+    @apply mt-38;
+  }
+}
+
+.link-wrapper-2 {
+  @apply flex flex-col justify-center items-center gap-6;
+}
+
+@media (min-width: 1024px) {
+  .link-wrapper-2 {
+    @apply flex-row;
+  }
+}
+
+.link {
+  @apply font-sora font-light text-white leading-10;
+}
+
+.disclaimer-wrapper {
+  @apply px-4 mt-6 mb-18 text-center;
+}
+
+@media (min-width: 640px) {
+  .disclaimer-wrapper {
+    @apply px-32;
+  }
+}
+
+@media (min-width: 1920px) {
+  .disclaimer-wrapper {
+    @apply mx-72 px-26;
+  }
+}
+
+.disclaimer-title {
+  @apply font-light font-poppins leading-10 tracking-wide;
+  color: #a1a1a1;
+}
+
+.disclaimer-text {
+  @apply tracking-wider font-light font-poppins;
+  color: #a1a1a1;
+}

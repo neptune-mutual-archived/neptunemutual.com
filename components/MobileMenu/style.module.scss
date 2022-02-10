@@ -1,0 +1,14 @@
+.mobileMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.menu_item {
+  font-family: "Inter", sans-serif;
+  margin: 16px 0;
+  color: #ffffff;
+  font-size: 32px;
+  line-height: 40px;
+}

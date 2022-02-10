@@ -1,0 +1,50 @@
+.hero {
+  position: relative;
+  background: linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 245, 253, 1)
+    ),
+    url(/home-gradient-small.png/);
+  background-size: cover;
+  background-position: center;
+
+  @media (min-width: 768px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 20%,
+        rgba(255, 245, 253, 1)
+      ),
+      url(/home-gradient.png);
+    background-position: center;
+    background-size: cover;
+  }
+  @media (min-width: 1366px) {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0) 20%,
+        rgba(255, 245, 253, 1)
+      ),
+      url(/home-foreground.png), url(/home-gradient.png);
+    background-position: center, center;
+    background-size: 175% 100%, cover;
+    background-repeat: no-repeat;
+    animation: gradient 10s linear infinite;
+    animation-direction: alternate;
+
+    @keyframes gradient {
+      0% {
+        background-position: 0%;
+      }
+      100% {
+        background-position: 100%;
+      }
+    }
+  }
+}
+
+.bg_root {
+  background-image: linear-gradient(180deg, #fff5fd 0%, #f1f3f6 100%);
+  background-size: cover;
+  background-position: top;
+}

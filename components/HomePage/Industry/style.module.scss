@@ -1,0 +1,91 @@
+.sections_container {
+  padding-top: 64px;
+
+  @media (min-width: 768px) {
+    padding-top: 112px;
+    padding-bottom: 64px;
+  }
+
+  @media (min-width: 1366px) {
+    padding-top: 224px;
+    padding-bottom: 152px;
+  }
+  @media (min-width: 1512px) {
+    padding-top: 224px;
+  }
+}
+
+.connect_container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  background-color: #01052d;
+  border-radius: 1rem /* 16px */;
+  box-shadow: 0px 29.6346px 78.5962px rgba(74, 74, 74, 0.5);
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.inner_container {
+  border-radius: 1rem;
+  overflow: hidden;
+  background: #deeaf640;
+  // background-image: url(/industry-gradient-mobile.png);
+  background-image: url(/images/powered-by/powered-by-bg.svg);
+  background-size: cover;
+  padding: 21px 1rem 52px;
+
+  @media (min-width: 768px) {
+    padding: 42px 1rem 94px;
+  }
+  @media (min-width: 1512px) {
+    padding: 50px 1rem 115px;
+  }
+
+  h1 {
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #01052d;
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+    @media (min-width: 768px) {
+      max-width: 621px;
+      font-size: 49px;
+      line-height: 64px;
+      margin-bottom: 70px;
+    }
+
+    @media (min-width: 1366px) {
+      max-width: 731px;
+      margin-bottom: 88px;
+    }
+  }
+
+  img {
+    max-width: 250px;
+    @media (min-width: 768px) {
+      max-width: 318px;
+    }
+  }
+}
+
+.heading {
+  font-family: "Sora", sans-serif;
+  font-weight: 600;
+  font-size: 31px;
+  line-height: 40px;
+  text-align: center;
+  color: #ffffff;
+
+  @media (min-width: 768px) {
+    text-align: left;
+  }
+}

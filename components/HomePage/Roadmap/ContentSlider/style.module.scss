@@ -1,0 +1,57 @@
+.container {
+  font-family: Poppins, sans-serif;
+
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #000000;
+
+  margin-top: 30px;
+
+  @media (min-width: 768px) {
+    margin-top: 64px;
+    padding: 0 1rem;
+  }
+
+  @media (min-width: 1366px) {
+    margin-top: 52px;
+    max-width: 768px;
+    padding: 0 6rem;
+  }
+}
+
+.title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+
+  @media (min-width: 1366px) {
+    font-size: 25px;
+    line-height: 37px;
+  }
+}
+
+.desc_wrapper {
+  margin-top: 16px;
+}
+
+.desc_text {
+  margin-top: 1rem;
+}
+
+.ul {
+  margin-top: 1.5rem;
+  display: flex;
+  list-style-type: disc;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding-left: 1rem;
+}
+
+.component_wrapper {
+  margin-top: 2rem;
+  max-width: 540px;
+}

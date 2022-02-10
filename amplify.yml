@@ -1,0 +1,25 @@
+version: 1
+env:
+  variables:
+    AMPLIFY_NEXTJS_EXPERIMENTAL_TRACE: true
+    _LIVE_UPDATES:
+      [{ "pkg": "next-version", "type": "internal", "version": "latest" }]
+frontend:
+  phases:
+    preBuild:
+      commands:
+        - nvm install
+        - nvm use
+        - npm install -g yarn
+        - yarn install --frozen-lockfile
+    build:
+      commands:
+        - yarn run build
+  artifacts:
+    baseDirectory: .next
+    files:
+      - "**/*"
+  cache:
+    paths:
+      - "node_modules/**/*" # Cache `node_modules` for faster `yarn` or `npm i`
+      - ".next/cache/**/*" # Cache Next.js for faster application rebuilds

@@ -1,0 +1,31 @@
+{
+    "editor.formatOnSave": true,
+    "[javascriptreact]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[javascript]": {
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+        }
+    },
+    "[yaml]": {
+        "editor.formatOnSave": false
+    },
+    "files.associations": {
+        "*.css": "postcss"
+    },
+    "emmet.includeLanguages": {
+        "postcss": "css"
+    },
+    "emmet.syntaxProfiles": {
+        "postcss": "css"
+    },
+    "editor.tabSize": 2,
+    "javascript.validate.enable": false,
+    "javascript.preferences.importModuleSpecifier": "non-relative",
+    "files.eol": "\n"
+}

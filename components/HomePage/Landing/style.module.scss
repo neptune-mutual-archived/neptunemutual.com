@@ -1,0 +1,114 @@
+.heading-container {
+  padding-top: 2.75rem;
+
+  @media (min-width: 768px) {
+    padding-top: 3.125rem;
+  }
+  @media (min-width: 1512px) {
+    padding-top: 7.25rem;
+  }
+}
+
+.h2 {
+  max-width: 343px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: "Sora", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+
+  font-size: 31px;
+  line-height: 40px;
+
+  span {
+    white-space: nowrap;
+    display: block;
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    max-width: 690px;
+    font-size: 59.4558px;
+    line-height: 81px;
+  }
+
+  @media (min-width: 1512px) {
+    max-width: 882px;
+    font-size: 76px;
+    line-height: 104px;
+  }
+}
+
+/* Sub headline */
+.sub-headline {
+  color: #000000;
+  margin: auto;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  max-width: 343px;
+
+  margin-top: 1.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+
+  font-size: 1rem;
+  line-height: 2rem;
+  letter-spacing: 0.02em;
+
+  @media (min-width: 768px) {
+    max-width: 601px;
+
+    margin-top: 1.25rem;
+    font-size: 1.22rem;
+    line-height: 2.375rem;
+  }
+
+  @media (min-width: 1512px) {
+    max-width: 769px;
+
+    margin-top: 1.5rem;
+    font-size: 1.56rem;
+    line-height: 3rem;
+  }
+}
+
+// Button
+.cta {
+  display: block;
+  padding: 1.5rem 3rem;
+  margin: 1.875rem auto 0;
+  text-align: center;
+  max-width: 238px;
+  border-radius: 0.25rem;
+
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-family: Sora, sans-serif;
+  color: #ffffff;
+  background: #000000;
+  background-image: linear-gradient(to right, #000000, #000000, #000000);
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 750ms;
+
+  &:focus,
+  &:hover {
+    background-image: linear-gradient(to right, #4e7dd9, #5358d8, #5358d8);
+  }
+
+  @media (min-width: 768px) {
+    max-width: 279px;
+    font-size: 1.125rem;
+    line-height: 1.4375rem;
+    margin-top: 3.5rem;
+  }
+}

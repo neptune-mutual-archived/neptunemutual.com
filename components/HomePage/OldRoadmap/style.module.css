@@ -1,0 +1,188 @@
+.mx {
+  @apply mx-auto;
+}
+
+.main-wrapper {
+  @apply px-4 pt-26;
+}
+
+@media (min-width: 640px) {
+  .main-wrapper {
+    @apply px-32;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-wrapper {
+    @apply border-x border-b0c4db border-opacity-50 mx-6 pt-76;
+  }
+}
+
+@media (min-width: 1512px) {
+  .main-wrapper {
+    @apply mx-24 px-26;
+  }
+}
+
+@media (min-width: 1920px) {
+  .main-wrapper {
+    @apply mx-74;
+  }
+}
+
+.header-title {
+  @apply leading-12 m-auto font-sora text-3xxl font-semibold text-left;
+}
+
+@media (min-width: 640px) {
+  .header-title {
+    @apply text-center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-title {
+    @apply w-3/4 leading-normal text-h3;
+  }
+}
+
+.header-title2 {
+  @apply font-poppins font-light leading-10 mt-2 text-left tracking-wide;
+}
+
+@media (min-width: 640px) {
+  .header-title2 {
+    @apply text-center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header-title2 {
+    @apply text-2xl mt-4;
+  }
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .slider-wrapper {
+    margin-top: 6rem;
+  }
+}
+
+.desc-panel {
+  text-align: left;
+  padding-top: 4rem;
+  height: 30rem;
+}
+
+@media (min-width: 1024px) {
+  .desc-panel {
+    @apply pl-40;
+  }
+}
+
+@media (min-width: 1280px) {
+  .desc-panel {
+    @apply pl-46;
+  }
+}
+
+@media (min-width: 1920px) {
+  .desc-panel {
+    @apply pl-52;
+  }
+}
+
+.desc-panel-name {
+  @apply font-poppins font-semibold text-2xl leading-8;
+}
+
+@media (min-width: 1024px) {
+  .desc-panel-name {
+    @apply text-4xl leading-10;
+  }
+}
+
+.panel-desc-wrapper {
+  @apply grid gap-y-3 mt-4;
+}
+
+.panel-desc-text {
+  @apply font-poppins font-light mt-4;
+}
+
+@media (min-width: 1024px) {
+  .panel-desc-text {
+    @apply w-4/5;
+  }
+}
+
+.panel-list-ul {
+  @apply mt-6 flex flex-col gap-0 list-disc pl-4;
+}
+
+.panel-list-li {
+  @apply w-2/3 font-poppins font-light;
+}
+
+.panel-component-wrapper {
+  @apply mt-8;
+}
+
+@media (min-width: 768px) {
+  .panel-component-wrapper {
+    @apply w-2/3;
+  }
+}
+
+@media (min-width: 1920px) {
+  .panel-component-wrapper {
+    @apply w-1/2;
+  }
+}
+
+.coversdk-code {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  font-weight: 500;
+  background: #f1f3f6;
+  border: 1px solid #aaaaaa;
+  padding: 0.75rem;
+  max-width: 450px;
+}
+
+.coversdk-alert {
+  @apply absolute flex items-center;
+  height: 100%;
+  top: 0;
+  right: 10%;
+}
+
+@media (min-width: 768px) {
+  .coversdk-alert {
+    left: 105%;
+    top: 0;
+  }
+}
+
+.coversdk-alert-span {
+  border-radius: 9999px;
+  background: #a6adba;
+  padding: 0.4rem 0.75rem;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.prodmvp-btn {
+  @apply flex gap-4 p-3 border border-black rounded-md;
+  border: 2px solid;
+  border-radius: 0.375rem;
+}
+
+.down-icon {
+  @apply w-5 h-5;
+}

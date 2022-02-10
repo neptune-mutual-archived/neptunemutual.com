@@ -1,0 +1,136 @@
+.title {
+  // sr-only
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.trick_el {
+  display: inline-block;
+  height: 100vh;
+  vertical-align: bottom;
+}
+
+.dialog {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  overflow-y: auto;
+  z-index: 100;
+}
+
+.dialog_content {
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: #01052d99;
+}
+
+.content_container {
+  overflow: hidden;
+  padding: 2rem 2rem 1.25rem 2rem;
+  max-width: 640px;
+  background: #f5f9fc;
+  backdrop-filter: blur(50px);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  text-align: left;
+  margin-bottom: 0;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: Poppins, sans-serif;
+
+  @media (min-width: 768px) {
+    flex-direction: row;
+    margin-bottom: 2rem;
+    bottom: 2rem;
+    border-radius: 20px;
+    padding: 2rem;
+  }
+}
+
+.content_container p {
+  padding-bottom: 14px;
+
+  @media (min-width: 768px) {
+    padding-right: 14px;
+  }
+}
+
+.content_container a {
+  text-decoration: underline;
+
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.content_container > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0 0.75rem;
+  }
+}
+
+.content_container button {
+  font-size: 13px;
+  line-height: 16px;
+  border-radius: 4px;
+  width: 105px;
+  padding: 12px 0;
+  flex-grow: 1;
+
+  @media (min-width: 768px) {
+    padding: 9px 0;
+  }
+}
+
+.accept {
+  background-color: #2151b0;
+  color: #ffffff;
+}
+
+.decline {
+  border: 1px solid #4e7dd9;
+  color: #003fbd;
+}
+
+@media (min-width: 640px) {
+  .content_container {
+    margin: 0 100px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .content_container {
+    margin: 0 643px;
+  }
+}

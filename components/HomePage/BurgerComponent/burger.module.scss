@@ -1,0 +1,33 @@
+.wrapper {
+  position: relative;
+  margin-right: 0.5rem;
+
+  @media (min-width: 640px) {
+    display: none;
+  }
+}
+
+.active {
+  z-index: 11;
+}
+
+.bar {
+  width: 1.75rem;
+  height: 0.2rem;
+  margin: 3px 0;
+  background-color: #000000;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  .active &:nth-child(1) {
+    transform: translateY(0.375rem) rotate(45deg);
+    background-color: #ffffff;
+  }
+  .active &:nth-child(2) {
+    opacity: 0;
+  }
+  .active &:nth-child(3) {
+    transform: translateY(-0.375rem) rotate(-45deg);
+    background-color: #ffffff;
+  }
+}

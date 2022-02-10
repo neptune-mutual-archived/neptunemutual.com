@@ -1,0 +1,34 @@
+.dropdown_container {
+  position: relative;
+}
+
+.dropdown_menu {
+  // display: none;
+  position: absolute;
+  width: 100%;
+  padding-top: 4px;
+}
+
+.dropdown_list {
+  width: 100%;
+  position: absolute;
+  border: 1px solid;
+  border-radius: 4px;
+  display: none;
+  flex-direction: column;
+
+  a {
+    padding: 4px;
+    padding-left: 12px;
+    display: block;
+  }
+
+  a:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+}
+
+.dropdown_list:hover,
+.dropdown_btn:focus + .dropdown_menu > .dropdown_list {
+  display: flex;
+}

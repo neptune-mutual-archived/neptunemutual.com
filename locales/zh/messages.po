@@ -1,0 +1,669 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2022-02-10 12:44+0530\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: zh\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: lib/data/ecosystem-data.js:13
+msgid "100%+ MCR"
+msgstr ""
+
+#: components/HomePage/Landing/index.jsx:38
+msgid "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:23
+msgid "A hack on one project will not affect cover for another."
+msgstr ""
+
+#: components/CookiePolicy/index.jsx:63
+msgid "Accept"
+msgstr ""
+
+#: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:38
+msgid "Add Liquidity"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:47
+msgid "Add your Proof Of Deposits (PODs) tokens to get native tokens of the cover creator."
+msgstr ""
+
+#: lib/data/roadmap-data.js:235
+msgid "Aggregated Policies (v2)"
+msgstr ""
+
+#: lib/data/roadmap-data.js:123
+msgid "All participants of the Neptune Mutual ecosystem will get a comprehensive documentation that helps with understanding the different aspects of the Neptune Mutual protocol."
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:22
+msgid "Anywhere"
+msgstr ""
+
+#: lib/data/roadmap-data.js:270
+msgid "As the industry evolves and matures further, Neptune Mutual creates even more products, apps, and services to remain relevant in the space and continuously innovate."
+msgstr ""
+
+#: lib/data/roadmap-data.js:259
+msgid "As the next iteration and enhancements to the dashboard solution, Neptune Mutual also scores the security posture of our portfolio DeFi projects and apps. The score rating can be used on any external website by simply copying and pasting a few lines of code."
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
+msgid "Attract"
+msgstr ""
+
+#: lib/data/roadmap-data.js:247
+msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
+msgstr ""
+
+#: lib/data/team-data.js:150
+msgid "Binita Thapa"
+msgstr ""
+
+#: lib/data/team-data.js:28
+msgid "Binod Nirvan"
+msgstr ""
+
+#: lib/data/team-data.js:71
+#: lib/data/team-data.js:77
+msgid "Blockchain Advisor"
+msgstr ""
+
+#: lib/data/team-data.js:65
+#: lib/data/team-data.js:185
+msgid "Blockchain Engineer"
+msgstr ""
+
+#: lib/data/roadmap-data.js:72
+msgid "Blockchain-based covers have a low claims-to-payout ratio. Existing cover products are unscalable, discretionary, and discriminatory. Smart contract audits do not guarantee security. Attacks on exchanges, metaverses, DApps, and DeFi protocols are increasing and getting more sophisticated."
+msgstr ""
+
+#: components/HomePage/Header/index.jsx:39
+#: components/MobileMenu/index.jsx:12
+#: components/utils/Footer/index.jsx:104
+msgid "Blog"
+msgstr ""
+
+#: lib/data/team-data.js:135
+msgid "Brando"
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:34
+msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
+msgstr ""
+
+#: lib/data/ecosystem-data.js:92
+msgid "Build your own dedicated cover protection community within your ecosystem."
+msgstr ""
+
+#: lib/data/roadmap-data.js:151
+msgid "Built on Typescript, developers can use the SDK in both frontend and backend environments using any popular framework. The SDK is available as an NPM package:"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:24
+msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
+msgstr ""
+
+#: lib/data/team-data.js:29
+msgid "CEO & Founder"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:86
+msgid "Capital Efficiency"
+msgstr ""
+
+#: components/utils/Footer/index.jsx:118
+msgid "Careers"
+msgstr ""
+
+#: components/HomePage/BlogComponent/index.jsx:80
+msgid "Check out Our Blog"
+msgstr ""
+
+#: lib/data/roadmap-data.js:135
+msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
+msgstr ""
+
+#: lib/data/team-data.js:47
+msgid "Chief Legal Officer"
+msgstr ""
+
+#: components/HomePage/Landing/index.jsx:45
+msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
+msgstr ""
+
+#: lib/data/team-data.js:39
+#: lib/data/team-data.js:197
+msgid "Co-Founder"
+msgstr ""
+
+#: lib/data/team-data.js:179
+msgid "Community"
+msgstr ""
+
+#: lib/data/team-data.js:191
+msgid "Community Ninja"
+msgstr ""
+
+#: components/HomePage/Industry/index.jsx:24
+msgid "Connect with Us"
+msgstr ""
+
+#: components/HomePage/Header/index.jsx:47
+#: components/MobileMenu/index.jsx:19
+#: components/utils/Footer/index.jsx:111
+msgid "Contact"
+msgstr ""
+
+#: lib/data/team-data.js:91
+msgid "Content Strategist"
+msgstr ""
+
+#: components/CookiePolicy/index.jsx:47
+msgid "Cookies disclaimer"
+msgstr ""
+
+#: lib/data/roadmap-data.js:42
+msgid "Copied"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:74
+msgid "Cover Creation"
+msgstr ""
+
+#: lib/data/roadmap-data.js:132
+msgid "Cover SDK Beta"
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:32
+msgid "Create Covers"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:87
+msgid "Crowdfund your investor protection fund."
+msgstr ""
+
+#: components/CookiePolicy/index.jsx:60
+msgid "Decline"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:21
+msgid "Dedicated Cover Pools"
+msgstr ""
+
+#: lib/data/team-data.js:83
+msgid "Design Lead"
+msgstr ""
+
+#: components/MobileMenu/index.jsx:26
+#: components/utils/Footer/index.jsx:125
+msgid "Documentation"
+msgstr ""
+
+#: components/utils/Footer/index.jsx:40
+msgid "Don't be a stranger! Join and interact with us on our growing social media communities. Stay up to date on our latest developments and progress."
+msgstr ""
+
+#: lib/data/team-data.js:196
+msgid "Edward Ryall"
+msgstr ""
+
+#: lib/data/team-data.js:99
+msgid "Emmanuel Rogel"
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:72
+msgid "FIND OUT MORE"
+msgstr ""
+
+#: lib/data/team-data.js:151
+msgid "Finance Analyst"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:54
+msgid "Flash Loan Income"
+msgstr ""
+
+#: lib/data/team-data.js:64
+msgid "Flashburst"
+msgstr ""
+
+#: components/HomePage/Roadmap/index.jsx:93
+msgid "Follow our progress. Join our community."
+msgstr ""
+
+#: lib/data/roadmap-data.js:88
+msgid "Four key principles drive the design of Neptune Mutual's cover protocol:"
+msgstr ""
+
+#: lib/data/team-data.js:178
+msgid "Freemind"
+msgstr ""
+
+#: lib/data/team-data.js:118
+#: lib/data/team-data.js:127
+msgid "Frontend Engineer"
+msgstr ""
+
+#: lib/data/roadmap-data.js:171
+msgid "Fund Raising, Recruitment & Build"
+msgstr ""
+
+#: lib/data/roadmap-data.js:227
+msgid "Furthermore, the app, Github, hosting, CI/CD pipelines, DNS, HTTP security, and more is thoroughly audited as well. Additional, proper cyber hygienes are implemented across the organization."
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:21
+msgid "Get Protection"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:42
+msgid "Get cover fee paid by cover policyholders."
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:52
+msgid "Get guaranteed payouts from our parametric cover model. Resolve incidents faster without the need for claims assessment."
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:74
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:96
+msgid "Get the Neptune Mutual SDK"
+msgstr ""
+
+#: lib/data/team-data.js:46
+msgid "Gilbert NG"
+msgstr ""
+
+#: lib/data/team-data.js:38
+msgid "Gillian Wu"
+msgstr ""
+
+#: lib/data/team-data.js:170
+msgid "Graphics Designer"
+msgstr ""
+
+#: lib/data/team-data.js:136
+msgid "Growth"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:79
+msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
+msgstr ""
+
+#: lib/data/team-data.js:70
+msgid "Hans Koning"
+msgstr ""
+
+#: lib/data/team-data.js:90
+msgid "Hanz Cabilao"
+msgstr ""
+
+#: lib/data/team-data.js:190
+msgid "Henry Law"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:57
+msgid "Imagine how cool it would be to access all coverage features inside your own app just the way you like it."
+msgstr ""
+
+#: lib/data/roadmap-data.js:163
+msgid "In September 2021, we incorporated legal entities to support the fundraising, development, recruitment, expansion, and operational demand of the Neptune Mutual protocol."
+msgstr ""
+
+#: lib/data/ecosystem-data.js:56
+msgid "Income received from flash loan lendings gets added to the pool."
+msgstr ""
+
+#: lib/data/roadmap-data.js:161
+msgid "Incorporation & Legal"
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:12
+msgid "Invest stablecoin liquidity to receive rewards and protect your favorite blockchain projects."
+msgstr ""
+
+#: lib/data/team-data.js:159
+msgid "Jonalyn Delos Santos"
+msgstr ""
+
+#: components/HomePage/BlogComponent/index.jsx:74
+msgid "Latest Updates"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:62
+msgid "Lending Income"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:12
+msgid "Less Code"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:54
+msgid "Let's #buidl"
+msgstr ""
+
+#: components/utils/Footer/index.jsx:37
+msgid "Let’s Connect"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:32
+msgid "Liquidity"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:38
+msgid "Liquidity Providers Return"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:6
+msgid "Low Risk Cover Policies"
+msgstr ""
+
+#: lib/data/team-data.js:82
+msgid "Mark Garcia"
+msgstr ""
+
+#: lib/data/roadmap-data.js:95
+msgid "Minimizing risk"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:31
+msgid "NPM token price won't affect cover pool liquidity."
+msgstr ""
+
+#: lib/data/roadmap-data.js:113
+msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
+msgstr ""
+
+#: components/HomePage/NeptuneEcosystem/index.jsx:240
+msgid "Neptune Mutual Ecosystem"
+msgstr ""
+
+#: pages/index.jsx:22
+msgid "Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to Build Cover Protocol for Metaverse Assets"
+msgstr ""
+
+#: lib/data/roadmap-data.js:223
+msgid "Neptune Mutual SDK undergoes a strict internal security audit before it becomes available for public use."
+msgstr ""
+
+#: lib/data/roadmap-data.js:180
+msgid "Neptune Mutual has grown quickly from 3 co-founders to a team of over 25, based in countries across the world."
+msgstr ""
+
+#: lib/data/roadmap-data.js:174
+msgid "Neptune Mutual successfully closed its Seed Round backed by industry leaders including Fenbushi and Coinbase Ventures. Soon after, Animoca Brands led the subsequent investment round and has been joined by an impressive list of investors."
+msgstr ""
+
+#: components/utils/Footer/index.jsx:148
+msgid "Neptune Mutual © 2022"
+msgstr ""
+
+#: lib/data/roadmap-data.js:103
+msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
+msgstr ""
+
+#: lib/data/team-data.js:76
+msgid "On Yavin"
+msgstr ""
+
+#: components/HomePage/Roadmap/index.jsx:90
+msgid "Our Roadmap for Growing the Neptune Mutual Ecosystem"
+msgstr ""
+
+#: components/HomePage/OurTeam/index.jsx:30
+msgid "Our Team"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:45
+msgid "POD Staking"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:77
+msgid "Parametric Cover"
+msgstr ""
+
+#: lib/data/team-data.js:108
+msgid "Paul Steven Cue"
+msgstr ""
+
+#: lib/data/team-data.js:56
+msgid "People Manager"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:99
+msgid "Personalized Rewards"
+msgstr ""
+
+#: components/utils/Footer/index.jsx:139
+msgid "Privacy Policy"
+msgstr ""
+
+#: lib/data/roadmap-data.js:86
+msgid "Product Design"
+msgstr ""
+
+#: lib/data/roadmap-data.js:121
+msgid "Product MVP"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:107
+msgid "Protect your Funding Community"
+msgstr ""
+
+#: lib/data/roadmap-data.js:210
+msgid "Protocol Audit & Launch"
+msgstr ""
+
+#: lib/data/roadmap-data.js:187
+msgid "Protocol Testnet Launch"
+msgstr ""
+
+#: lib/data/team-data.js:141
+msgid "Pukar Acharya"
+msgstr ""
+
+#: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:46
+msgid "Purchase Covers"
+msgstr ""
+
+#: components/HomePage/BlogComponent/index.jsx:117
+msgid "Read Our Blog"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:109
+msgid "Reassurance cover for liquidity pools is available to lower the risk for liquidity providers."
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:10
+#: lib/data/ecosystem-data.js:41
+msgid "Receive Rewards"
+msgstr ""
+
+#: lib/data/team-data.js:142
+msgid "Research Analyst"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:101
+msgid "Reward your cover protection community with your native tokens."
+msgstr ""
+
+#: components/utils/Footer/index.jsx:151
+msgid "Risk warning: Trading crypto assets involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Neptune Mutual based on the legal requirements in your country of residence."
+msgstr ""
+
+#: lib/data/team-data.js:184
+msgid "Rudolf"
+msgstr ""
+
+#: lib/data/team-data.js:126
+msgid "Rupak Acharya"
+msgstr ""
+
+#: lib/data/roadmap-data.js:221
+msgid "SDK Audit & Launch"
+msgstr ""
+
+#: lib/data/team-data.js:117
+msgid "Savin Bhandari"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:10
+msgid "Say goodbye to denied claims assessment."
+msgstr ""
+
+#: lib/data/roadmap-data.js:96
+msgid "Scalability"
+msgstr ""
+
+#: lib/data/roadmap-data.js:94
+msgid "Security"
+msgstr ""
+
+#: lib/data/roadmap-data.js:245
+msgid "Security Analytics Dashboard"
+msgstr ""
+
+#: lib/data/roadmap-data.js:257
+msgid "Security Scorecards & Widgets"
+msgstr ""
+
+#: lib/data/team-data.js:109
+msgid "Senior Graphic Designer"
+msgstr ""
+
+#: lib/data/team-data.js:100
+msgid "Social Strategist"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:29
+msgid "Stablecoin Liquidity"
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:23
+msgid "Stay protected against exchange hacks & dApp, DeFi, and smart contract exploits."
+msgstr ""
+
+#: lib/data/team-data.js:55
+msgid "Supritha Shanmugam"
+msgstr ""
+
+#: lib/data/team-data.js:160
+msgid "Technical Recruiter"
+msgstr ""
+
+#: components/utils/Footer/index.jsx:132
+msgid "Terms and Conditions"
+msgstr ""
+
+#: lib/data/roadmap-data.js:70
+msgid "The Idea"
+msgstr ""
+
+#: lib/data/roadmap-data.js:212
+msgid "The Neptune Mutual Protocol v1 gets audited by a couple of highly-sophisticated security research companies. The protocol gets improved over time through bug-bounty programs and continuous security reviews conducted by independent researchers."
+msgstr ""
+
+#: lib/data/roadmap-data.js:190
+msgid "The Neptune Mutual protocol launches on a couple of test networks like Kovan and Binance Smart Chain Testnet. Community members participate in the protocol by becoming cover purchasers, liquidity providers, and consensus witnesses. We will develop <0>Neptune Mutual faucet</0> to provide users with testnet DAI and NPM tokens"
+msgstr ""
+
+#: lib/data/roadmap-data.js:110
+msgid "The minting of NPM tokens will have a time-frame of 6 years."
+msgstr ""
+
+#: lib/data/ecosystem-data.js:64
+msgid "The protocol supplies a small part of the assets that are in excess of the minimum capital requirement to lending protocols."
+msgstr ""
+
+#: lib/data/roadmap-data.js:109
+msgid "There is a fixed supply of 1 billion NPM tokens."
+msgstr ""
+
+#: lib/data/ecosystem-data.js:15
+msgid "There is always enough liquidity to pay all cover policyholders."
+msgstr ""
+
+#: lib/data/roadmap-data.js:237
+msgid "This upgrade enables multiple policies to be aggregated under a single cover pool providing larger DeFi and Meta projects an ability to secure their portfolio of smaller DApps."
+msgstr ""
+
+#: lib/data/roadmap-data.js:268
+msgid "To Be Announced"
+msgstr ""
+
+#: lib/data/roadmap-data.js:101
+msgid "Token Design"
+msgstr ""
+
+#: components/HomePage/Industry/index.jsx:85
+msgid "Trusted by Industry Leaders"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
+msgid "Use"
+msgstr ""
+
+#: lib/data/roadmap-data.js:97
+msgid "User Experience"
+msgstr ""
+
+#: lib/data/team-data.js:169
+msgid "Vaishnavi Sahu"
+msgstr ""
+
+#: components/HomePage/Landing/index.jsx:54
+msgid "View App Prototype"
+msgstr ""
+
+#: components/HomePage/OurTeam/index.jsx:33
+msgid "We are a global and dynamic team with a mission to create a reliable, fast, and effective platform that protects digital assets."
+msgstr ""
+
+#: lib/data/roadmap-data.js:79
+msgid "We saw a growing need for security and reliable covers that inspired us to create Neptune Mutual."
+msgstr ""
+
+#: components/CookiePolicy/index.jsx:50
+msgid "We use third-party <0><1>cookies</1></0> in order to personalize your experience."
+msgstr ""
+
+#: components/GotCovered/GotCovered.jsx:49
+msgid "We’ve Got You Covered"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:34
+msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:11
+msgid "Write"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:14
+msgid "Write less code and plug in your own Web3 provider. Get complete access to all coverage features."
+msgstr ""
+
+#: lib/data/ecosystem-data.js:90
+msgid "Your Confident, Protected Community"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:49
+msgid "Your Cover Pool"
+msgstr ""
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:51
+msgid "Your Style"
+msgstr ""
+
+#: lib/data/ecosystem-data.js:9
+msgid "Zero Risk"
+msgstr ""

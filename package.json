@@ -1,0 +1,45 @@
+{
+  "name": "neptunemutual-web",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lang:extract": "NODE_ENV=development lingui extract --clean",
+    "lang": "yarn lang:extract && lingui compile",
+    "prettier:fix": "prettier --check \"components/**/*.js\""
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.4.3",
+    "@heroicons/react": "^1.0.5",
+    "@lingui/react": "^3.13.2",
+    "gsap": "^3.9.1",
+    "make-plural": "^7.1.0",
+    "next": "^12.0.10",
+    "next-i18next": "^10.2.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-slick": "^0.28.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.2",
+    "@lingui/cli": "^3.13.2",
+    "@lingui/core": "3.10.2",
+    "@lingui/loader": "^3.13.2",
+    "@lingui/macro": "^3.13.2",
+    "autoprefixer": "^10.4.2",
+    "babel-plugin-macros": "^3.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.8",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "postcss": "^8.4.5",
+    "prettier": "^2.5.1",
+    "sass": "^1.49.4",
+    "tailwindcss": "^3.0.15"
+  }
+}

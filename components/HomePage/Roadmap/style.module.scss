@@ -1,0 +1,248 @@
+.section_container {
+  padding: 12.5rem 0 0;
+
+  @media (min-width: 768px) {
+    padding: 8.5rem 0 0;
+  }
+
+  @media (min-width: 1366px) {
+    padding: 19rem 6rem 0;
+  }
+
+  @media (min-width: 1512px) {
+    padding: 9rem 6rem 0;
+  }
+}
+
+.title {
+  font-family: Sora, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #000000;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    font-size: 49px;
+    line-height: 64px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: 1366px) {
+    max-width: 812px;
+  }
+}
+
+.subtitle {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.slider_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -1rem;
+
+  @media (min-width: 768px) {
+    margin: 0 -1.5rem; /* depends on section_horizontal_container */
+  }
+
+  @media (min-width: 1366px) {
+    margin: 0 0;
+  }
+}
+
+.slider {
+  width: calc(100% - 0px - 0px); /* Arrows - 2*50, Margin - 2*0 */
+  padding-top: 42px;
+  margin: 0 0px;
+  position: relative;
+
+  @media (min-width: 1366px) {
+    width: calc(100% - 100px - 0px); /* Arrows - 2*50, Margin - 2*0 */
+  }
+
+  .line {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #000000;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(0, 0, 0, 1) 15%,
+      rgba(0, 0, 0, 1) 85%,
+      rgba(255, 255, 255, 0) 100%
+    );
+
+    @media (min-width: 768px) {
+      height: 1px;
+      background: #000000;
+    }
+  }
+}
+
+.dot_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100px;
+  max-height: 172px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: none;
+  pointer-events: none;
+
+  @media (min-width: 768px) {
+    pointer-events: unset;
+  }
+}
+
+.dot {
+  margin-top: 48px;
+  position: relative;
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #0e1028;
+  border: 1px solid #0e1028;
+  border-radius: 50%;
+
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+
+  .future & {
+    background-color: #fff;
+  }
+
+  .future.active &,
+  .active & {
+    background-color: #4e7dd9;
+    border-color: #4e7dd9;
+  }
+
+  .dot_wrapper:hover & {
+    transform: scaleX(1.5) scaleY(1.5);
+  }
+}
+
+.dot_name {
+  margin-top: 28px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #4f4f4f;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  // display: none;
+
+  // @media (min-width: 768px) {
+  //   display: block;
+  // }
+
+  .active & {
+    color: #4e7dd9;
+  }
+}
+
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+@keyframes ping-small {
+  0% {
+    transform: scale(0.25);
+  }
+  75%,
+  100% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+}
+
+.animate-circle1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: -6px;
+  left: -6px;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(78 125 217 / var(--tw-bg-opacity));
+}
+
+.animate-circle2 {
+  top: -14px;
+  left: -14px;
+  height: 3rem;
+  width: 3rem;
+  --tw-bg-opacity: 0.2;
+}
+
+.animate-circle3 {
+  top: -22px;
+  left: -22px;
+  height: 4rem;
+  width: 4rem;
+  --tw-bg-opacity: 0.1;
+}
+
+.animate-circle2,
+.animate-circle3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 10;
+  border-radius: 50%;
+  background-color: rgb(78 125 217 / var(--tw-bg-opacity));
+}
+
+.animate-circle1,
+.animate-circle2,
+.animate-circle3 {
+  animation: ping-small 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+@media (min-width: 768px) {
+  .animate-circle1,
+  .animate-circle2,
+  .animate-circle3 {
+    animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+  }
+}
+
+.nav_btn {
+  background: #f1f3f6;
+  border: 1px solid #000000;
+  padding: 12px;
+  border-radius: 50%;
+
+  display: none;
+
+  @media (min-width: 1366px) {
+    display: block;
+  }
+}

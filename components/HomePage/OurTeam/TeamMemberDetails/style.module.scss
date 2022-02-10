@@ -1,0 +1,51 @@
+.details_wrapper {
+  margin-top: 2rem;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    margin-top: 1rem;
+  }
+
+  @media (min-width: 1366px) {
+    margin-top: 0.5rem;
+  }
+}
+
+.details_wrapper .name {
+  font-family: Poppins, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+  color: #000000;
+
+  @media (min-width: 768px) {
+    font-size: 25px;
+    line-height: 37px;
+  }
+}
+
+.details_wrapper .role {
+  margin-top: 8px;
+  font-family: Poppins, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #000000;
+
+  @media (min-width: 768px) {
+    font-size: 14px;
+    margin-top: 0;
+  }
+}
+
+.details_wrapper .links {
+  display: flex;
+  margin-top: 1.5rem;
+  gap: 0.75rem;
+  justify-content: center;
+  align-items: center;
+  height: 25px;
+}

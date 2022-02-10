@@ -1,0 +1,76 @@
+.header_wrapper {
+  margin: 0 auto;
+
+  .header_container {
+    display: flex;
+    position: relative;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+    background-color: transparent;
+    color: #000000;
+    font-family: "Sora", sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.025em;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: 640px) {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+
+    @media (min-width: 1024px) {
+      padding-left: 8rem;
+      padding-right: 8rem;
+    }
+    @media (min-width: 1920px) {
+      padding-left: 24rem;
+      padding-right: 24rem;
+    }
+  }
+
+  .logo {
+    font-family: "Sora", sans-serif;
+    width: 12rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+
+    @media (min-width: 640px) {
+      width: 16rem;
+    }
+  }
+
+  .navbar_content {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (min-width: 640px) {
+      display: flex;
+    }
+  }
+
+  .nav_item {
+    font-family: "Sora", sans-serif;
+    font-size: 16px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+  }
+
+  .last_nav {
+    margin-right: 1.5rem;
+  }
+}

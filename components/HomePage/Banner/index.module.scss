@@ -1,0 +1,51 @@
+.banner_container {
+}
+
+.banner_content {
+  padding: 0.75rem 0.75rem;
+  max-width: 80rem /* 1280px */;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.875rem /* 14px */;
+  line-height: 1.25rem /* 20px */;
+  color: #fff;
+
+  @media (min-width: 1024px) {
+    padding: 0.75rem 1.75rem;
+  }
+}
+
+.text_wrapper {
+  flex: 1 1 auto;
+  min-width: 0; // important - https://css-tricks.com/flexbox-truncated-text/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    /* display: inline-flex; */
+    min-width: 0; // important - https://css-tricks.com/flexbox-truncated-text/
+    margin-left: 0.75rem;
+    margin-right: 1rem;
+
+    .text {
+      margin-right: 1rem;
+      flex: 1 0;
+      /* white-space: nowrap; */
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    a {
+      white-space: nowrap;
+    }
+  }
+}
+
+.close_icon {
+  display: block;
+  margin-left: auto;
+  padding: 4px;
+}
