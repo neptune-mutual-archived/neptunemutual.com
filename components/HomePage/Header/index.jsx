@@ -34,19 +34,24 @@ export const Header = () => {
             </Link>
           </div>
           <div className={styles.navbar_content}>
-            <Link href="https://medium.com/neptune-mutual">
-              <a target="_blank" className={styles.nav_item}>
-                <Trans>Blog</Trans>
-              </a>
-            </Link>
-            <Link href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM">
-              <a
-                target="_self"
-                className={classNames(styles.nav_item, styles.last_nav)}
-              >
-                <Trans>Contact</Trans>
-              </a>
-            </Link>
+            <a
+              href="https://medium.com/neptune-mutual"
+              rel="noreferrer"
+              target="_blank"
+              className={styles.nav_item}
+              aria-label="Blog"
+            >
+              <Trans>Blog</Trans>
+            </a>
+            <a
+              href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM"
+              rel="noreferrer"
+              target="_self"
+              aria-label="Contact"
+              className={classNames(styles.nav_item, styles.last_nav)}
+            >
+              <Trans>Contact</Trans>
+            </a>
             <SelectLanguage />
           </div>
           <BurgerComponent isOpen={isOpen} onToggle={toggleMenu} />

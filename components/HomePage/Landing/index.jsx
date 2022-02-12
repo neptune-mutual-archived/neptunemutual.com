@@ -1,7 +1,6 @@
 import gsap from "gsap";
 import SplitText from "../../utils/Split3.min.js";
 import { useEffect } from "react";
-import Link from "next/link";
 
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
@@ -49,11 +48,15 @@ export const LandingPage = () => {
             </Trans>
           </p>
 
-          <Link href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype?node-id=1%3A742&starting-point-node-id=1%3A742">
-            <a target="_blank" className={styles.cta}>
-              <Trans>View App Prototype</Trans>
-            </a>
-          </Link>
+          <a
+            href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype?node-id=1%3A3228&starting-point-node-id=1%3A742"
+            rel="noreferrer"
+            target="_blank"
+            className={styles.cta}
+            aria-label="App Prototype"
+          >
+            <Trans>View App Prototype</Trans>
+          </a>
         </div>
       </div>
     </div>

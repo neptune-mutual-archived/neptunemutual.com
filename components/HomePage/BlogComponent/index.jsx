@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Fragment, useEffect, useState } from "react";
 import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
@@ -74,13 +73,16 @@ export const BlogComponent = () => {
               <Trans>Latest Updates</Trans>
             </h2>
             <div className={styles.section_cta}>
-              <Link href="https://medium.com/neptune-mutual">
-                <a target="_blank" rel="noreferrer">
-                  <span>
-                    <Trans>Check out Our Blog</Trans>
-                  </span>
-                </a>
-              </Link>
+              <a
+                href="https://medium.com/neptune-mutual"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Blog"
+              >
+                <span>
+                  <Trans>Check out Our Blog</Trans>
+                </span>
+              </a>
               <ArrowNarrowRightIcon />
             </div>
           </div>
@@ -111,13 +113,16 @@ export const BlogComponent = () => {
           </div>
 
           <div className={styles.section_second_cta}>
-            <Link href="https://medium.com/neptune-mutual">
-              <a target="_blank">
-                <span>
-                  <Trans>Read Our Blog</Trans>
-                </span>
-              </a>
-            </Link>
+            <a
+              rel="noreferrer"
+              href="https://medium.com/neptune-mutual"
+              target="_blank"
+              aria-label="Read our Blog"
+            >
+              <span>
+                <Trans>Read Our Blog</Trans>
+              </span>
+            </a>
             <ArrowNarrowRightIcon />
           </div>
         </div>
