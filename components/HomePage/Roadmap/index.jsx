@@ -20,6 +20,7 @@ const getVW = () => {
 export const Roadmap = () => {
   const [selected, setSelected] = useState(currentIndex);
   const [shouldSetInitial, setShouldSetInitial] = useState(false);
+  const [sliderIndex, setSliderIndex] = useState(currentIndex - 5);
 
   const sliderRef = useRef(null);
 
@@ -44,7 +45,7 @@ export const Roadmap = () => {
     initialSlide: currentIndex - 5,
     slidesToShow: 7,
     slidesToScroll: 3,
-    afterChange: (x) => console.log(x),
+    afterChange: (index) => setSliderIndex(index),
     onInit: () => setShouldSetInitial(true),
 
     responsive: [
@@ -95,7 +96,12 @@ export const Roadmap = () => {
 
         <div className={styles.slider_container}>
           <button
-            className={styles.nav_btn}
+            disabled={sliderIndex <= 0}
+            className={
+              sliderIndex <= 0
+                ? classNames(styles.nav_btn, "cursor-not-allowed")
+                : styles.nav_btn
+            }
             onClick={onPrev}
             aria-label="Scroll to View Previous Items"
           >
@@ -145,7 +151,16 @@ export const Roadmap = () => {
           </div>
 
           <button
-            className={styles.nav_btn}
+            disabled={
+              points.length - sliderIndex <=
+              sliderRef?.current?.props?.slidesToShow
+            }
+            className={
+              points.length - sliderIndex <=
+              sliderRef?.current?.props?.slidesToShow
+                ? classNames(styles.nav_btn, "cursor-not-allowed")
+                : styles.nav_btn
+            }
             onClick={onNext}
             aria-label="Scroll to View Next Items"
           >
