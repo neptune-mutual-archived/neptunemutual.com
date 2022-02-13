@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Trans } from "@lingui/macro";
 import TwitterIcon from "@utils/icons/TwitterIcon";
 import GithubIcon from "@utils/icons/GithubIcon";
@@ -99,46 +98,64 @@ export const Footer = () => {
         <div className={styles["link-wrapper-1"]}>
           <div className={styles["link-wrapper-2"]}>
             <div className={styles["link"]}>
-              <Link href={social.medium}>
-                <a target="_blank" aria-label="Visit Our Medium Blog">
-                  <Trans>Blog</Trans>
-                </a>
-              </Link>
+              <a
+                rel="noreferrer"
+                href={social.medium}
+                target="_blank"
+                aria-label="Visit Our Medium Blog"
+              >
+                <Trans>Blog</Trans>
+              </a>
             </div>
             <div className={styles["link"]}>
-              <Link href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM">
-                <a target="_self" aria-label="Contact Us">
-                  <Trans>Contact</Trans>
-                </a>
-              </Link>
+              <a
+                href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM"
+                rel="noreferrer"
+                target="_self"
+                aria-label="Contact Us"
+              >
+                <Trans>Contact</Trans>
+              </a>
             </div>
             <div className={styles["link"]}>
-              <Link href="https://angel.co/company/neptune-mutual">
-                <a target="_blank" aria-label="Careers Page">
-                  <Trans>Careers</Trans>
-                </a>
-              </Link>
+              <a
+                href="https://angel.co/company/neptune-mutual"
+                rel="noreferrer"
+                target="_blank"
+                aria-label="Careers Page"
+              >
+                <Trans>Careers</Trans>
+              </a>
             </div>
             <div className={styles["link"]}>
-              <Link href={social.documentation}>
-                <a target="_blank" aria-label="Documentation Site">
-                  <Trans>Documentation</Trans>
-                </a>
-              </Link>
+              <a
+                rel="noreferrer"
+                href={social.documentation}
+                target="_blank"
+                aria-label="Documentation Site"
+              >
+                <Trans>Documentation</Trans>
+              </a>
             </div>
             <div className={styles["link"]}>
-              <Link href="https://docs.neptunemutual.com/usage/terms-of-use">
-                <a target="_blank" aria-label="Terms of Service">
-                  <Trans>Terms of Service</Trans>
-                </a>
-              </Link>
+              <a
+                rel="noreferrer"
+                href="https://docs.neptunemutual.com/usage/terms-of-use"
+                target="_blank"
+                aria-label="Terms of Service"
+              >
+                <Trans>Terms of Service</Trans>
+              </a>
             </div>
             <div className={styles["link"]}>
-              <Link href="https://docs.neptunemutual.com/usage/terms-of-use">
-                <a target="_blank" aria-label="Privacy Policy">
-                  <Trans>Privacy Policy</Trans>
-                </a>
-              </Link>
+              <a
+                rel="noreferrer"
+                href="https://docs.neptunemutual.com/usage/terms-of-use"
+                target="_blank"
+                aria-label="Privacy Policy"
+              >
+                <Trans>Privacy Policy</Trans>
+              </a>
             </div>
           </div>
         </div>

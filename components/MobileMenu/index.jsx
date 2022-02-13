@@ -1,31 +1,39 @@
 import { SelectLanguage } from "@components/common/SelectLanguage";
 import { Trans } from "@lingui/macro";
-import Link from "next/link";
 import styles from "./style.module.scss";
 
 export const MobileMenu = () => {
   return (
     <div className={styles.mobileMenu}>
       <div className={styles.menu_item}>
-        <Link href="https://medium.com/neptune-mutual">
-          <a target="_blank">
-            <Trans>Blog</Trans>
-          </a>
-        </Link>
+        <a
+          href="https://medium.com/neptune-mutual"
+          rel="noreferrer"
+          target="_blank"
+          aria-label="Blog"
+        >
+          <Trans>Blog</Trans>
+        </a>
       </div>
       <div className={styles.menu_item}>
-        <Link href="https://t.me/neptunemutualchat">
-          <a target="_blank">
-            <Trans>Contact</Trans>
-          </a>
-        </Link>
+        <a
+          href="https://t.me/neptunemutualchat"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Contact"
+        >
+          <Trans>Contact</Trans>
+        </a>
       </div>
       <div className={styles.menu_item}>
-        <Link href="https://docs.neptunemutual.com">
-          <a target="_blank">
-            <Trans>Documentation</Trans>
-          </a>
-        </Link>
+        <a
+          href="https://docs.neptunemutual.com"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="Documentation"
+        >
+          <Trans>Documentation</Trans>
+        </a>
       </div>
       <div className={styles.menu_item}>
         <SelectLanguage
