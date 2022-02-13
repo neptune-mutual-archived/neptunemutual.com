@@ -141,7 +141,6 @@ msgstr "Directeur Juridique"
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "Choisissez un pool de couverture, sélectionnez sa durée et saisissez le montant que vous devez couvrir. Recevez instantanément le paiement de vos réclamations en stablecoin après la résolution de l'incident"
 
-#: lib/data/team-data.js:41
 #: lib/data/team-data.js:219
 msgid "Co-Founder"
 msgstr "Co-fondateur"
@@ -675,3 +674,7 @@ msgstr "Votre style"
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
 msgstr "Risque Zéro"
+
+#: lib/data/team-data.js:41
+msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
+msgstr "{0, select, male {Co-fondateur} female {Co-fondateur}}"

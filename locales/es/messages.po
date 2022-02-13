@@ -141,7 +141,6 @@ msgstr "Director legal"
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "Elija un grupo de cobertura, seleccione su duración e ingrese cuánto necesita cubrir. Reciba instantáneamente el pago de sus reclamos en moneda estable después de la resolución del incidente."
 
-#: lib/data/team-data.js:41
 #: lib/data/team-data.js:219
 msgid "Co-Founder"
 msgstr "Cofundador"
@@ -293,7 +292,7 @@ msgstr "Gillian Wu"
 
 #: lib/data/team-data.js:188
 msgid "Graphics Designer"
-msgstr "Diseñador gráfico"
+msgstr "Diseñadora gráfica"
 
 #: lib/data/team-data.js:150
 msgid "Growth"
@@ -562,7 +561,7 @@ msgstr "Supritha Shanmugam"
 
 #: lib/data/team-data.js:177
 msgid "Technical Recruiter"
-msgstr "Reclutador técnico"
+msgstr "Reclutadora técnica"
 
 #: components/utils/Footer/index.jsx:147
 msgid "Terms of Service"
@@ -675,3 +674,7 @@ msgstr "Su estilo"
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
 msgstr "Riesgo cero"
+
+#: lib/data/team-data.js:41
+msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
+msgstr "{0, select, male {Cofundador} female {Cofundadora}}"
