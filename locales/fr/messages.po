@@ -19,7 +19,7 @@ msgstr "100%+ MCR"
 
 #: components/HomePage/Landing/index.jsx:36
 msgid "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
-msgstr "<0>Réduisez</0> <1>votre Exposition aux</1> <2>Risques du Marché de la Crypto-monnaies</2>"
+msgstr "<0>Réduisez</0> <1>votre Exposition aux</1> <2>Risques du Marché de la Crypto-Monnaie</2>"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
@@ -388,7 +388,7 @@ msgstr "Les jetons NPM sont principalement utilisés pour notre mécanisme de ra
 
 #: components/HomePage/NeptuneEcosystem/index.jsx:240
 msgid "Neptune Mutual Ecosystem"
-msgstr "Écosystème mutuel de Neptune"
+msgstr "Écosystème de Neptune Mutual"
 
 #: pages/index.jsx:23
 msgid "Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to Build Cover Protocol for Metaverse Assets"
