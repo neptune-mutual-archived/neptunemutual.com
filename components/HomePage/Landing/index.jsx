@@ -26,11 +26,10 @@ export const LandingPage = () => {
     };
 
     animate("#header-text", 0.04);
-    animate("#story", 0.05);
   }, []);
 
   return (
-    <div className={"section_border_container"}>
+    <div className={"section_border_container hero"}>
       <div className={"section_horizontal_container"}>
         <div className="relative w-full pb-24">
           <div className={styles["heading-container"]}>
