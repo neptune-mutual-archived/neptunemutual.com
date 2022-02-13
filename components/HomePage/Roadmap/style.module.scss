@@ -95,7 +95,6 @@
   align-items: center;
   text-align: center;
   max-width: 100px;
-  max-height: 172px;
   margin-left: auto;
   margin-right: auto;
   outline: none;
@@ -107,7 +106,7 @@
 }
 
 .dot {
-  margin-top: 48px;
+  margin-top: 112px;
   position: relative;
   display: block;
   width: 20px;
@@ -142,6 +141,7 @@
   font-weight: 300;
   font-size: 14px;
   line-height: 21px;
+  height: 124px;
   text-align: center;
   letter-spacing: 0.02em;
 
