@@ -141,7 +141,6 @@ msgstr "Chief Legal Officer"
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 
-#: lib/data/team-data.js:41
 #: lib/data/team-data.js:219
 msgid "Co-Founder"
 msgstr "Co-Founder"
@@ -675,3 +674,7 @@ msgstr "Your Style"
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
 msgstr "Zero Risk"
+
+#: lib/data/team-data.js:41
+msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
+msgstr "{0, select, male {Co-Founder} female {Co-Founder}}"
