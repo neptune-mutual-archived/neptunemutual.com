@@ -26,7 +26,6 @@
   line-height: 40px;
 
   span {
-    white-space: nowrap;
     display: block;
     text-align: center;
   }
@@ -82,11 +81,10 @@
 
 // Button
 .cta {
-  display: block;
+  display: inline-block;
   padding: 1.5rem 3rem;
   margin: 1.875rem auto 0;
   text-align: center;
-  max-width: 238px;
   border-radius: 0.25rem;
 
   font-size: 0.875rem;
@@ -106,7 +104,6 @@
   }
 
   @media (min-width: 768px) {
-    max-width: 279px;
     font-size: 1.125rem;
     line-height: 1.4375rem;
     margin-top: 3.5rem;
