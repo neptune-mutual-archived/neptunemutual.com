@@ -1,6 +1,8 @@
 import CodePreviewComponent from "@components/HomePage/CodePreviewComponent/CodePreviewComponent";
 import { Button } from "@components/HomePage/CoverPoolComponent/Button";
+import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
+import { DownloadIcon } from "@utils/icons/DownloadIcon";
 import styles from "./coverpool.module.scss";
 
 const coverPoolContent = [
@@ -61,8 +63,16 @@ export const CoverPoolComponent = () => {
                 href="https://www.npmjs.com/package/@neptunemutual/sdk"
                 target="_blank"
                 rel="noreferrer"
+                className={classNames(
+                  "group",
+                  styles.desktop_button,
+                  styles.btn_container
+                )}
               >
-                <Button text={<Trans>Get the Neptune Mutual SDK</Trans>} />
+                <DownloadIcon className={styles.button_icon} />
+                <span className={styles.button_style}>
+                  <Trans>Get the Neptune Mutual SDK</Trans>
+                </span>
               </a>
             </div>
           </div>
