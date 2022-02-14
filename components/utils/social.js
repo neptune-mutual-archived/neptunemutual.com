@@ -4,6 +4,6 @@ export const social = {
   telegram: "https://t.me/neptunemutual",
   linkedin: "https://www.linkedin.com/company/neptune-mutual",
   medium: "https://medium.com/neptune-mutual",
-  github: "https://github.com/neptune-mutual",
+  github: "https://github.com/neptune-mutual-blue",
   documentation: "https://docs.neptunemutual.com/",
 };

@@ -13,7 +13,7 @@ module.exports = [
       "base-uri 'none'",
       "form-action 'none'",
       "object-src 'none'",
-      "img-src 'self' data: https://*.medium.com",
+      "img-src 'self' https://*.medium.com",
       "font-src 'self'",
     ],
   },
@@ -72,7 +72,7 @@ module.exports = [
   },
   {
     key: "Access-Control-Allow-Origin",
-    values: ["neptunemutual.com"],
+    values: ["https://neptunemutual.com"],
   },
   {
     key: "Access-Control-Max-Age",
