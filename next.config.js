@@ -12,7 +12,7 @@ module.exports = {
 
     return config;
   },
-  async headers() {
+  /* async headers() {
     return headers;
-  },
+  }, */
 };
