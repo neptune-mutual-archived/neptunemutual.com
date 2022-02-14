@@ -28,6 +28,7 @@
 
 .top-left-img {
   @apply hidden absolute top-0 left-0;
+  z-index: -1;
 }
 
 @media (min-width: 1024px) {
@@ -38,6 +39,7 @@
 
 .bottom-left-img {
   @apply absolute w-52 top-16 right-0;
+   z-index: -1;
 }
 
 @media (min-width: 640px) {
@@ -60,6 +62,7 @@
 
 .bottom-left-img2 {
   @apply hidden absolute;
+   z-index: -1;
 }
 
 @media (min-width: 1024px) {
