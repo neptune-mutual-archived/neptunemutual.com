@@ -49,15 +49,11 @@ export const NeptuneEcosystemComponent = () => {
         (heights.pointsInner - totalHeights) / (points.childElementCount - 1);
 
       totalHeights = 0;
-      let maxTitleHeight = Math.max(
-        titles.children[0].offsetHeight,
-        titles.children[1].offsetHeight,
-        titles.children[2].offsetHeight
-      );
       for (let i = 0; i < titles.childElementCount; i++) {
-        heights[`titles-child-${i + 1}`] = maxTitleHeight;
+        let elHeight = titles.children[i].offsetHeight;
+        heights[`titles-child-${i + 1}`] = elHeight;
         // titles.children[i].style.height = `${maxTitleHeight}px`;
-        totalHeights += maxTitleHeight;
+        totalHeights += elHeight;
       }
       heights["titlesInner"] = titles?.offsetHeight;
       heights["titles-gap"] =
