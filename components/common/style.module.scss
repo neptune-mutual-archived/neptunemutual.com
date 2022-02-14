@@ -29,6 +29,6 @@
 }
 
 .dropdown_list:hover,
-.dropdown_btn:focus + .dropdown_menu > .dropdown_list {
+.dropdown_btn:focus ~ .dropdown_menu > .dropdown_list {
   display: flex;
 }
