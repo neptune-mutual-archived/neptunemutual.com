@@ -1,11 +1,9 @@
 .header_wrapper {
-  margin: 0 auto;
+  border: 0px;
 
   .header_container {
     display: flex;
     position: relative;
-    margin-left: 1rem;
-    margin-right: 1rem;
     padding-top: 0.875rem;
     padding-bottom: 0.875rem;
     background-color: transparent;
@@ -16,21 +14,12 @@
     letter-spacing: 0.025em;
     justify-content: space-between;
     align-items: center;
+    max-width: 80rem;
+    margin: 0 auto;
 
     @media (min-width: 640px) {
-      padding-top: 1.5rem;
+      padding-top: 1.5rem; 
       padding-bottom: 1.5rem;
-      padding-left: 2rem;
-      padding-right: 2rem;
-    }
-
-    @media (min-width: 1024px) {
-      padding-left: 8rem;
-      padding-right: 8rem;
-    }
-    @media (min-width: 1920px) {
-      padding-left: 24rem;
-      padding-right: 24rem;
     }
   }
 

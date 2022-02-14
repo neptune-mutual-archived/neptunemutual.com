@@ -222,50 +222,85 @@ export const NeptuneEcosystemComponent = () => {
   return (
     <div ref={ref}>
       <div className={`pin-wrapper ${styles["main-wrapper"]}`}>
-        <div className={styles["top-left-img"]}>
-          <img src={topLeftImg} alt="Transparent Image for Styling" />
-        </div>
-        <div className={styles["bottom-left-img"]}>
-          <img src={appScreenshot} alt="Neptune Mutual App Screenshot Bottom" />
-        </div>
-        <div className={styles["bottom-left-img2"]}>
-          <img src={appScreenshot} alt="Neptune Mutual App Screenshot Bottom" />
-        </div>
-        <div className={styles["bottom-right-img"]}>
-          <img src={bottomRightImg} alt="Transparent Image for Styling" />
-        </div>
-        <div className={styles["desc-wrapper"]}>
-          <div className={styles.full_height}>
-            <h2 className={styles["title"]}>
-              <Trans>Neptune Mutual Ecosystem</Trans>
-            </h2>
-
-            <div className={`${styles["titles-wrapper"]} ${styles.desktop}`}>
-              <div className={styles2[`titles-wrapper-inner`]}>
-                {ecosystemData.map(({ name, id }) => (
-                  <h3
-                    key={id}
-                    className={`${styles[`title-style${id}`]} ${
-                      styles["title2"]
-                    }`}
-                  >
-                    {name}
-                  </h3>
-                ))}
-              </div>
+        <div className={`section_border_container border_none ${styles.h100}`}>
+          <div className={`section_horizontal_container ${styles.h100}`}>
+            <div className={styles["top-left-img"]}>
+              <img src={topLeftImg} alt="Transparent Image for Styling" />
             </div>
-            <div className={`${styles["mobile-wrapper"]} ${styles.mobile}`}>
-              <div className="mobile-wrapper-inner">
-                {ecosystemData.map(({ id, name, subData }) => (
-                  <div key={id}>
-                    <h2
-                      className={`${styles[`title-style${id}`]} ${
-                        styles["title2"]
-                      }`}
-                    >
-                      {name}
-                    </h2>
-                    <div className={styles["flex-col-10"]}>
+            <div className={styles["bottom-left-img"]}>
+              <img
+                src={appScreenshot}
+                alt="Neptune Mutual App Screenshot Bottom"
+              />
+            </div>
+            <div className={styles["bottom-left-img2"]}>
+              <img
+                src={appScreenshot}
+                alt="Neptune Mutual App Screenshot Bottom"
+              />
+            </div>
+            <div className={styles["bottom-right-img"]}>
+              <img src={bottomRightImg} alt="Transparent Image for Styling" />
+            </div>
+            <div className={styles["desc-wrapper"]}>
+              <div className={styles.full_height}>
+                <h2 className={styles["title"]}>
+                  <Trans>Neptune Mutual Ecosystem</Trans>
+                </h2>
+
+                <div
+                  className={`${styles["titles-wrapper"]} ${styles.desktop}`}
+                >
+                  <div className={styles2[`titles-wrapper-inner`]}>
+                    {ecosystemData.map(({ name, id }) => (
+                      <h3
+                        key={id}
+                        className={`${styles[`title-style${id}`]} ${
+                          styles["title2"]
+                        }`}
+                      >
+                        {name}
+                      </h3>
+                    ))}
+                  </div>
+                </div>
+                <div className={`${styles["mobile-wrapper"]} ${styles.mobile}`}>
+                  <div className="mobile-wrapper-inner">
+                    {ecosystemData.map(({ id, name, subData }) => (
+                      <div key={id}>
+                        <h2
+                          className={`${styles[`title-style${id}`]} ${
+                            styles["title2"]
+                          }`}
+                        >
+                          {name}
+                        </h2>
+                        <div className={styles["flex-col-10"]}>
+                          {subData.map(({ name, description }, idx) => (
+                            <div key={idx}>
+                              <h3
+                                className={`${styles[`title-style${id}`]} ${
+                                  styles["title-style"]
+                                }`}
+                              >
+                                {name}
+                              </h3>
+                              <p className={styles["point-desc"]}>
+                                {description}
+                              </p>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+
+              <div className={`${styles["points-wrapper"]} ${styles.desktop}`}>
+                <div className={styles2[`points-wrapper-inner`]}>
+                  {ecosystemData.map(({ id, subData }) => (
+                    <div key={id} className={styles["flex-col-10"]}>
                       {subData.map(({ name, description }, idx) => (
                         <div key={idx}>
                           <h3
@@ -279,30 +314,9 @@ export const NeptuneEcosystemComponent = () => {
                         </div>
                       ))}
                     </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-
-          <div className={`${styles["points-wrapper"]} ${styles.desktop}`}>
-            <div className={styles2[`points-wrapper-inner`]}>
-              {ecosystemData.map(({ id, subData }) => (
-                <div key={id} className={styles["flex-col-10"]}>
-                  {subData.map(({ name, description }, idx) => (
-                    <div key={idx}>
-                      <h3
-                        className={`${styles[`title-style${id}`]} ${
-                          styles["title-style"]
-                        }`}
-                      >
-                        {name}
-                      </h3>
-                      <p className={styles["point-desc"]}>{description}</p>
-                    </div>
                   ))}
                 </div>
-              ))}
+              </div>
             </div>
           </div>
         </div>

@@ -14,12 +14,17 @@ const logo = "/logos/neptune-mutual-full-inverse.png";
 
 export const Footer = () => {
   return (
-    <div data-scroll-section className={styles.mx}>
-      <div className={styles["footer-wrapper"]}>
-        <div className={styles["planet-image"]}>
-          <img src={neptune} alt="Illustration of Neptune Planet" />
-        </div>
-        <div className={styles["stay-tuned-wrapper"]}>
+    <div data-scroll-section className={styles["footer-wrapper"]}>
+      <div
+        className={`section_border_container border_none ${styles["planet-image"]}`}
+      >
+        <img src={neptune} alt="Illustration of Neptune Planet" />
+      </div>
+
+      <div
+        className={`section_border_container border_none ${styles["stay-tuned-wrapper"]}`}
+      >
+        <div className="section_horizontal_container">
           <div className={styles["select-lang"]}>
             <SelectLanguage
               textFill="text-white"
@@ -94,8 +99,9 @@ export const Footer = () => {
             </div>
           </div>
         </div>
-
-        <div className={styles["link-wrapper-1"]}>
+      </div>
+      <div className={styles["link-wrapper-1"]}>
+        <div className="section_border_container border_none">
           <div className={styles["link-wrapper-2"]}>
             <div className={styles["link"]}>
               <a
@@ -159,8 +165,12 @@ export const Footer = () => {
             </div>
           </div>
         </div>
+      </div>
 
-        <div className={styles["disclaimer-wrapper"]}>
+      <div
+        className={`section_border_container border_none ${styles["disclaimer-wrapper"]}`}
+      >
+        <div className="section_horizontal_container">
           <p className={styles["disclaimer-title"]}>
             <Trans>Neptune Mutual &copy; 2022</Trans>
           </p>
