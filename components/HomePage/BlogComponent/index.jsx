@@ -25,7 +25,7 @@ export const BlogComponent = () => {
         // Safari doesn't like dashes
         const normalized = x.replace(/-/g, "/");
 
-        const code =
+        let code =
           navigator.userLanguage ||
           (navigator.languages &&
             navigator.languages.length &&
@@ -34,7 +34,7 @@ export const BlogComponent = () => {
           navigator.browserLanguage ||
           navigator.systemLanguage ||
           "en";
-
+        code = code?.includes("en") ? "en" : code;
         return new Date(normalized).toLocaleDateString(code, {
           year: "numeric",
           month: "short",
