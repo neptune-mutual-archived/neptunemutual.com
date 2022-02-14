@@ -4,670 +4,678 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: @lingui/cli\n"
+"X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
 "Language: zh\n"
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2022-02-14 13:21+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
-"Plural-Forms: \n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
-msgstr ""
+msgstr "100% 以上资金/承保额比例"
 
-#: components/HomePage/Landing/index.jsx:38
+#: components/HomePage/Landing/index.jsx:36
 msgid "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
-msgstr ""
+msgstr "<0>降低</0> <1>您所面临的</1> <2>加密市场风险</2>"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
-msgstr ""
+msgstr "针对一个保障池进行的黑客攻击并不会影响到其他的保障池。"
 
 #: components/CookiePolicy/index.jsx:63
 msgid "Accept"
-msgstr ""
+msgstr "接受"
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:38
 msgid "Add Liquidity"
-msgstr ""
+msgstr "添加流动性"
 
 #: lib/data/ecosystem-data.js:47
 msgid "Add your Proof Of Deposits (PODs) tokens to get native tokens of the cover creator."
-msgstr ""
+msgstr "添加您的存款证明 (POD) 代币以获取保障池创建者的原生代币。"
 
-#: lib/data/roadmap-data.js:239
+#: lib/data/roadmap-data.js:233
 msgid "Aggregated Policies (v2)"
-msgstr ""
+msgstr "聚合保单 (v2)"
 
-#: lib/data/roadmap-data.js:128
+#: lib/data/roadmap-data.js:122
 msgid "All participants of the Neptune Mutual ecosystem will get a comprehensive documentation that helps with understanding the different aspects of the Neptune Mutual protocol."
-msgstr ""
+msgstr "Neptune Mutual 生态的所有参与者都将获得一份详尽的文档，来全面了解 Neptune Mutual 协议。"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:19
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
 msgid "Anywhere"
-msgstr ""
+msgstr "任何地方"
 
-#: lib/data/roadmap-data.js:274
+#: lib/data/roadmap-data.js:268
 msgid "As the industry evolves and matures further, Neptune Mutual creates even more products, apps, and services to remain relevant in the space and continuously innovate."
-msgstr ""
+msgstr "随着行业的进一步发展和成熟，Neptune Mutual 会创造更多的产品、应用和服务，以在该领域保持相关性并不断创新。"
 
-#: lib/data/roadmap-data.js:263
+#: lib/data/roadmap-data.js:257
 msgid "As the next iteration and enhancements to the dashboard solution, Neptune Mutual also scores the security posture of our portfolio DeFi projects and apps. The score rating can be used on any external website by simply copying and pasting a few lines of code."
-msgstr ""
+msgstr "作为安全分析界面解决方案的增强版，Neptune Mutual 还将对我们投资组合中的 DeFi 项目和应用程序的安全状况进行评分。该评分可以为第三方应用。"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:28
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:30
 msgid "Attract"
-msgstr ""
+msgstr "吸引"
 
-#: lib/data/roadmap-data.js:251
+#: lib/data/roadmap-data.js:245
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
-msgstr ""
+msgstr "根据需求，Neptune Mutual 团队会与区块链安全专家、团体和公司合作，专门为在Neptune Mutual生态中发起保障池的项目组合“构思”了一个全新的安全分析服务方案。"
 
 #: lib/data/team-data.js:166
 msgid "Binita Thapa"
-msgstr ""
+msgstr "Ninita Thapa"
 
 #: lib/data/team-data.js:29
 msgid "Binod Nirvan"
-msgstr ""
+msgstr "Binod Nirvan"
 
 #: lib/data/team-data.js:77
 #: lib/data/team-data.js:84
 msgid "Blockchain Advisor"
-msgstr ""
+msgstr "区块链顾问"
 
 #: lib/data/team-data.js:70
 #: lib/data/team-data.js:205
 msgid "Blockchain Engineer"
-msgstr ""
+msgstr "区块链工程师"
 
-#: lib/data/roadmap-data.js:76
+#: lib/data/roadmap-data.js:70
 msgid "Blockchain-based covers have a low claims-to-payout ratio. Existing cover products are unscalable, discretionary, and discriminatory. Smart contract audits do not guarantee security. Attacks on exchanges, metaverses, DApps, and DeFi protocols are increasing and getting more sophisticated."
-msgstr ""
+msgstr "基于区块链的保障产品的偿付比率通常较低。现有的保障产品很难规模化、且赔付审核权在承保方，受保方往往处于不利的地位。审计并不能确保智能合约的安全性。针对交易所、元宇宙、去中心化应用以及DeFi 协议的攻击与日俱增，并且越来越复杂化。"
 
-#: components/HomePage/Header/index.jsx:39
-#: components/MobileMenu/index.jsx:12
-#: components/utils/Footer/index.jsx:104
+#: components/HomePage/Header/index.jsx:46
+#: components/MobileMenu/index.jsx:15
+#: components/utils/Footer/index.jsx:113
 msgid "Blog"
-msgstr ""
+msgstr "博客"
 
 #: lib/data/team-data.js:149
 msgid "Brando"
-msgstr ""
+msgstr "Brando"
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
-msgstr ""
+msgstr "为您的协议、交易所或 DeFi 项目建立一个保障社区。"
 
 #: lib/data/ecosystem-data.js:92
 msgid "Build your own dedicated cover protection community within your ecosystem."
-msgstr ""
+msgstr "在您的生态系统中建立专属的保障社区。"
 
-#: lib/data/roadmap-data.js:155
+#: lib/data/roadmap-data.js:149
 msgid "Built on Typescript, developers can use the SDK in both frontend and backend environments using any popular framework. The SDK is available as an NPM package:"
-msgstr ""
+msgstr "基于 Typescript，开发人员可以使用任何流行的框架在前端和后端环境中使用 SDK。 SDK 以 NPM 包的形式提供："
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:23
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
-msgstr ""
+msgstr "该 SDK 基于 Typescript 构建，适用于任何框架的前端和后端环境。"
 
 #: lib/data/team-data.js:30
 msgid "CEO & Founder"
-msgstr ""
+msgstr "首席执行官兼创始人"
 
 #: lib/data/ecosystem-data.js:86
 msgid "Capital Efficiency"
-msgstr ""
+msgstr "资本效率"
 
-#: components/utils/Footer/index.jsx:118
+#: components/utils/Footer/index.jsx:133
 msgid "Careers"
-msgstr ""
+msgstr "人才招募"
 
-#: components/HomePage/BlogComponent/index.jsx:80
+#: components/HomePage/BlogComponent/index.jsx:83
 msgid "Check out Our Blog"
-msgstr ""
+msgstr "查看我们的博客"
 
-#: lib/data/roadmap-data.js:139
+#: lib/data/roadmap-data.js:133
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
-msgstr ""
+msgstr "查看 Neptune Mutual Github 存储库上的 Cover SDK 源代码。 <0>阅读 SDK 文档</0>，了解如何通过您自己的前端应用或后端 API 上访问保障池创建管理功能。"
 
 #: lib/data/team-data.js:50
 msgid "Chief Legal Officer"
-msgstr ""
+msgstr "首席法务官"
 
-#: components/HomePage/Landing/index.jsx:45
+#: components/HomePage/Landing/index.jsx:43
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
-msgstr ""
+msgstr "选择一个保障池，选择投保期限，然后输入您想投保的金额。事件解决后，您会立即收到以稳定币结算的赔付金额。"
 
-#: lib/data/team-data.js:41
 #: lib/data/team-data.js:219
 msgid "Co-Founder"
-msgstr ""
+msgstr "联合创始人"
 
 #: lib/data/team-data.js:198
 msgid "Community"
-msgstr ""
+msgstr "社区"
 
 #: lib/data/team-data.js:212
 msgid "Community Ninja"
-msgstr ""
+msgstr "社区忍者"
 
 #: components/HomePage/Industry/index.jsx:24
 msgid "Connect with Us"
-msgstr ""
+msgstr "联系我们"
 
-#: components/HomePage/Header/index.jsx:47
-#: components/MobileMenu/index.jsx:19
-#: components/utils/Footer/index.jsx:111
+#: components/HomePage/Header/index.jsx:55
+#: components/MobileMenu/index.jsx:25
+#: components/utils/Footer/index.jsx:123
 msgid "Contact"
-msgstr ""
+msgstr "联系方式"
 
 #: lib/data/team-data.js:100
 msgid "Content Strategist"
-msgstr ""
+msgstr "内容策略师"
 
 #: components/CookiePolicy/index.jsx:44
 msgid "Cookies disclaimer"
-msgstr ""
+msgstr "Cookies 免责声明"
 
-#: lib/data/roadmap-data.js:42
+#: lib/data/roadmap-data.js:43
 msgid "Copied"
-msgstr ""
+msgstr "已复制"
 
 #: lib/data/ecosystem-data.js:74
 msgid "Cover Creation"
-msgstr ""
+msgstr "创建保障池"
 
-#: lib/data/roadmap-data.js:136
+#: lib/data/roadmap-data.js:130
 msgid "Cover SDK Beta"
-msgstr ""
+msgstr "保障池 SDK Beta版"
 
 #: components/GotCovered/GotCovered.jsx:32
 msgid "Create Covers"
-msgstr ""
+msgstr "创建保障池"
 
 #: lib/data/ecosystem-data.js:87
 msgid "Crowdfund your investor protection fund."
-msgstr ""
+msgstr "众筹您的投资者保护基金。"
 
 #: components/CookiePolicy/index.jsx:57
 msgid "Decline"
-msgstr ""
+msgstr "拒绝"
 
 #: lib/data/ecosystem-data.js:21
 msgid "Dedicated Cover Pools"
-msgstr ""
+msgstr "专属保障池"
 
 #: lib/data/team-data.js:91
 msgid "Design Lead"
-msgstr ""
+msgstr "设计主管"
 
-#: components/MobileMenu/index.jsx:26
-#: components/utils/Footer/index.jsx:125
+#: components/MobileMenu/index.jsx:35
+#: components/utils/Footer/index.jsx:143
 msgid "Documentation"
-msgstr ""
+msgstr "文档"
 
-#: components/utils/Footer/index.jsx:40
+#: components/utils/Footer/index.jsx:44
 msgid "Don't be a stranger! Join and interact with us on our growing social media communities. Stay up to date on our latest developments and progress."
-msgstr ""
+msgstr "欢迎加入我们不断壮大的社交媒体社区来参与互动。随时了解我们的最新动态和进展。"
+
+#: lib/data/roadmap-data.js:60
+msgid "Download Neptune Mutual Lightpaper"
+msgstr "下载 Neptune Mutual 简版白皮书"
 
 #: lib/data/team-data.js:218
 msgid "Edward Ryall"
-msgstr ""
+msgstr "Edward Ryall"
 
 #: lib/data/team-data.js:109
 msgid "Emmanuel Rogel"
-msgstr ""
+msgstr "Emmanuel Rogel"
 
 #: components/GotCovered/GotCovered.jsx:72
 msgid "FIND OUT MORE"
-msgstr ""
+msgstr "了解更多"
 
 #: lib/data/team-data.js:167
 msgid "Finance Analyst"
-msgstr ""
+msgstr "财务分析师"
 
 #: lib/data/ecosystem-data.js:54
 msgid "Flash Loan Income"
-msgstr ""
+msgstr "闪贷收入"
 
 #: lib/data/team-data.js:69
 msgid "Flashburst"
-msgstr ""
+msgstr "Flashburst"
 
-#: components/HomePage/Roadmap/index.jsx:93
+#: components/HomePage/Roadmap/index.jsx:94
 msgid "Follow our progress. Join our community."
-msgstr ""
+msgstr "加入我们的社区，了解我们的进度"
 
-#: lib/data/roadmap-data.js:92
+#: lib/data/roadmap-data.js:86
 msgid "Four key principles drive the design of Neptune Mutual's cover protocol:"
-msgstr ""
+msgstr "推动Neptune Mutual 保障协议设计的四个关键原则："
 
 #: lib/data/team-data.js:197
 msgid "Freemind"
-msgstr ""
+msgstr "Freemind"
 
 #: lib/data/team-data.js:130
 #: lib/data/team-data.js:140
 msgid "Frontend Engineer"
-msgstr ""
+msgstr "前端工程师"
 
-#: lib/data/roadmap-data.js:175
+#: lib/data/roadmap-data.js:169
 msgid "Fundraising, Recruitment & Build"
-msgstr ""
+msgstr "融资、招聘和研发"
 
-#: lib/data/roadmap-data.js:231
+#: lib/data/roadmap-data.js:225
 msgid "Furthermore, the app, Github, hosting, CI/CD pipelines, DNS, HTTP security, and more is thoroughly audited as well. Additional, proper cyber hygienes are implemented across the organization."
-msgstr ""
+msgstr "此外，应用程序、Github、托管、CI/CD 管道、DNS、HTTP 安全性等也会经过全面审核。我们还会实施贯穿整个组织体系的网络安全措施。"
 
 #: components/GotCovered/GotCovered.jsx:21
 msgid "Get Protection"
-msgstr ""
+msgstr "获得保障"
 
 #: lib/data/ecosystem-data.js:42
 msgid "Get cover fee paid by cover policyholders."
-msgstr ""
+msgstr "获取投保人支付的保费。"
 
 #: components/GotCovered/GotCovered.jsx:52
 msgid "Get guaranteed payouts from our parametric cover model. Resolve incidents faster without the need for claims assessment."
-msgstr ""
+msgstr "从我们的参数化保障模式中获得确定的赔付。无需理赔评估即可更快地解决事件。"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:65
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:90
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:74
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:100
 msgid "Get the Neptune Mutual SDK"
-msgstr ""
+msgstr "获取Neptune Mutual SDK"
 
 #: lib/data/team-data.js:49
 msgid "Gilbert NG"
-msgstr ""
+msgstr "Gilbert NG"
 
 #: lib/data/team-data.js:40
 msgid "Gillian Wu"
-msgstr ""
+msgstr "Gillian Wu"
 
 #: lib/data/team-data.js:188
 msgid "Graphics Designer"
-msgstr ""
+msgstr "平面设计师"
 
 #: lib/data/team-data.js:150
 msgid "Growth"
-msgstr ""
+msgstr "成长"
 
 #: lib/data/ecosystem-data.js:79
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
-msgstr ""
+msgstr "您的保单持有人在事件发生后将会获得迅速的解决以及确定的偿付保障"
 
 #: lib/data/team-data.js:76
 msgid "Hans Koning"
-msgstr ""
+msgstr "Hans Koning"
 
 #: lib/data/team-data.js:99
 msgid "Hanz Cabilao"
-msgstr ""
+msgstr "Hanz Cabilao"
 
 #: lib/data/team-data.js:211
 msgid "Henry Law"
-msgstr ""
+msgstr "Henry Law"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:54
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:56
 msgid "Imagine how cool it would be to access all coverage features inside your own app just the way you like it."
-msgstr ""
+msgstr "想象一下您可以在自己的应用程序上随心使用所有的保障池创建管理功能，这是不是很棒！"
 
-#: lib/data/roadmap-data.js:167
+#: lib/data/roadmap-data.js:161
 msgid "In September 2021, we incorporated legal entities to support the fundraising, development, recruitment, expansion, and operational demand of the Neptune Mutual protocol."
-msgstr ""
+msgstr "2021年9月我们设立了法人实体来支持Neptune Mutual协议的融资，产品开发，人才招聘，业务拓展及运营。"
 
 #: lib/data/ecosystem-data.js:56
 msgid "Income received from flash loan lendings gets added to the pool."
-msgstr ""
+msgstr "通过闪电贷获得的收益会添加到保障池中"
 
-#: lib/data/roadmap-data.js:165
+#: lib/data/roadmap-data.js:159
 msgid "Incorporation & Legal"
-msgstr ""
+msgstr "公司注册与法律"
 
 #: components/GotCovered/GotCovered.jsx:12
 msgid "Invest stablecoin liquidity to receive rewards and protect your favorite blockchain projects."
-msgstr ""
+msgstr "用稳定币提供流动性以获取奖励，并为您喜爱的区块链项目提供保障"
 
 #: lib/data/team-data.js:176
 msgid "Jonalyn Delos Santos"
-msgstr ""
+msgstr "Jonalyn Delos Santos"
 
-#: components/HomePage/BlogComponent/index.jsx:74
+#: components/HomePage/BlogComponent/index.jsx:73
 msgid "Latest Updates"
-msgstr ""
+msgstr "最新动态"
 
 #: lib/data/ecosystem-data.js:62
 msgid "Lending Income"
-msgstr ""
+msgstr "借贷收入"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:9
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:11
 msgid "Less Code"
-msgstr ""
+msgstr "少量代码"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:51
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:53
 msgid "Let's #buidl"
-msgstr ""
+msgstr "开始创建"
 
-#: components/utils/Footer/index.jsx:37
+#: components/utils/Footer/index.jsx:41
 msgid "Let’s Connect"
-msgstr ""
+msgstr "联络我们"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:29
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
 msgid "Liquidity"
-msgstr ""
+msgstr "流动性"
 
 #: lib/data/ecosystem-data.js:38
 msgid "Liquidity Providers Return"
-msgstr ""
+msgstr "LP (流动性提供者) 收益"
 
 #: lib/data/ecosystem-data.js:6
 msgid "Low Risk Cover Policies"
-msgstr ""
+msgstr "低风险保单"
 
 #: lib/data/team-data.js:90
 msgid "Mark Garcia"
-msgstr ""
+msgstr "Mark Garcia"
 
-#: lib/data/roadmap-data.js:99
+#: lib/data/roadmap-data.js:93
 msgid "Minimizing risk"
-msgstr ""
+msgstr "降低风险"
 
 #: lib/data/ecosystem-data.js:31
 msgid "NPM token price won't affect cover pool liquidity."
-msgstr ""
+msgstr "NPM代币的价格波动不会影响保障池的流动性。"
 
-#: lib/data/roadmap-data.js:117
+#: lib/data/roadmap-data.js:111
 msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
-msgstr ""
+msgstr "NPM代币主要用于事件解决通报机制，以及协议上的其他功能比如创建保单。"
 
-#: components/HomePage/NeptuneEcosystem/index.jsx:240
+#: components/HomePage/NeptuneEcosystem/index.jsx:248
 msgid "Neptune Mutual Ecosystem"
-msgstr ""
+msgstr "Neptune Mutual 生态"
 
 #: pages/index.jsx:23
 msgid "Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to Build Cover Protocol for Metaverse Assets"
-msgstr ""
+msgstr "Neptune Mutual 的战略轮融资由Animoca Brands领投，我们将开创为元宇宙资产创建保障池的先河。"
 
-#: lib/data/roadmap-data.js:227
+#: lib/data/roadmap-data.js:221
 msgid "Neptune Mutual SDK undergoes a strict internal security audit before it becomes available for public use."
-msgstr ""
-
-#: lib/data/roadmap-data.js:184
-msgid "Neptune Mutual has grown quickly from 3 co-founders to a team of over 25, based in countries across the world."
-msgstr ""
+msgstr "Neptune Mutual SDK 在面向公众推出之前会经过严格的内部安全审计。"
 
 #: lib/data/roadmap-data.js:178
+msgid "Neptune Mutual has grown quickly from 3 co-founders to a team of over 25, based in countries across the world."
+msgstr "Neptune Mutual 在短短数月内已由仅有3位创始人的团队迅速成长为在世界各国拥有超过25名员工的全球化团队。"
+
+#: lib/data/roadmap-data.js:172
 msgid "Neptune Mutual successfully closed its Seed Round backed by industry leaders including Fenbushi and Coinbase Ventures. Soon after, Animoca Brands led the subsequent investment round and has been joined by an impressive list of investors."
-msgstr ""
+msgstr "Neptune Mutual 成功地完成种子轮融资，获得业界领军者Fenbushi和Coinbase Ventures等机构支持。随后，我们在战略轮获得Animoca Brands领投亦得到其他颇具影响力的投资者的大力支持和参与。"
 
-#: components/utils/Footer/index.jsx:148
+#: components/utils/Footer/index.jsx:175
 msgid "Neptune Mutual © 2022"
-msgstr ""
+msgstr "Neptune Mutual © 2022"
 
-#: lib/data/roadmap-data.js:107
+#: lib/data/roadmap-data.js:101
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
-msgstr ""
+msgstr "Neptune Mutual 简化版白皮书介绍了NPM的代币设计和应用。以下是几个要带点："
 
 #: lib/data/team-data.js:83
 msgid "On Yavin"
-msgstr ""
+msgstr "On Yavin"
 
-#: components/HomePage/Roadmap/index.jsx:90
+#: components/HomePage/Roadmap/index.jsx:91
 msgid "Our Roadmap for Growing the Neptune Mutual Ecosystem"
-msgstr ""
+msgstr "Neptune Mutual 生态发展路线图"
 
 #: components/HomePage/OurTeam/index.jsx:30
 msgid "Our Team"
-msgstr ""
+msgstr "我们的团队"
 
 #: lib/data/ecosystem-data.js:45
 msgid "POD Staking"
-msgstr ""
+msgstr "POD 权益质押"
 
 #: lib/data/ecosystem-data.js:77
 msgid "Parametric Cover"
-msgstr ""
+msgstr "参数化保障"
 
 #: lib/data/team-data.js:119
 msgid "Paul Steven Cue"
-msgstr ""
+msgstr "Paul Steven Cue"
 
 #: lib/data/team-data.js:60
 msgid "People Manager"
-msgstr ""
+msgstr "人力资源主管"
 
 #: lib/data/ecosystem-data.js:99
 msgid "Personalized Rewards"
-msgstr ""
+msgstr "个性化的奖励"
 
-#: components/utils/Footer/index.jsx:139
+#: components/utils/Footer/index.jsx:163
 msgid "Privacy Policy"
-msgstr ""
+msgstr "隐私政策"
 
-#: lib/data/roadmap-data.js:90
+#: lib/data/roadmap-data.js:84
 msgid "Product Design"
-msgstr ""
+msgstr "产品设计"
 
-#: lib/data/roadmap-data.js:126
+#: lib/data/roadmap-data.js:120
 msgid "Product MVP"
-msgstr ""
+msgstr "产品MVP"
 
 #: lib/data/ecosystem-data.js:107
 msgid "Protect your Funding Community"
-msgstr ""
+msgstr "保护您的资金池社区"
 
-#: lib/data/roadmap-data.js:214
+#: lib/data/roadmap-data.js:208
 msgid "Protocol Audit & Launch"
-msgstr ""
+msgstr "协议审计及发布"
 
-#: lib/data/roadmap-data.js:191
+#: lib/data/roadmap-data.js:185
 msgid "Protocol Testnet Launch"
-msgstr ""
+msgstr "发布协议测试网络"
 
 #: lib/data/team-data.js:156
 msgid "Pukar Acharya"
-msgstr ""
+msgstr "Pukar Acharya"
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:46
 msgid "Purchase Covers"
-msgstr ""
+msgstr "购买保单"
 
-#: components/HomePage/BlogComponent/index.jsx:117
+#: components/HomePage/BlogComponent/index.jsx:123
 msgid "Read Our Blog"
-msgstr ""
+msgstr "阅读博客"
 
 #: lib/data/ecosystem-data.js:109
 msgid "Reassurance cover for liquidity pools is available to lower the risk for liquidity providers."
-msgstr ""
+msgstr "为保障池提供的再保险保障将进一步降低流动性提供者的风险。"
 
 #: components/GotCovered/GotCovered.jsx:10
 #: lib/data/ecosystem-data.js:41
 msgid "Receive Rewards"
-msgstr ""
+msgstr "领取奖励"
 
 #: lib/data/team-data.js:157
 msgid "Research Analyst"
-msgstr ""
+msgstr "分析师"
 
 #: lib/data/ecosystem-data.js:101
 msgid "Reward your cover protection community with your native tokens."
-msgstr ""
+msgstr "为您的保障社区用户提供原生代币奖励"
 
-#: components/utils/Footer/index.jsx:151
+#: components/utils/Footer/index.jsx:178
 msgid "Risk warning: Trading crypto assets involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Neptune Mutual based on the legal requirements in your country of residence."
-msgstr ""
+msgstr "风险提示：交易加密资产涉及重大风险，并可能导致您的资金损失。您的投资不应超过您可以承受的损失，并且您应确保您完全了解所涉及的风险。交易前，请考虑您的投资经验、投资目标，并在必要时寻求独立的财务建议。您有责任根据您所在国家/地区的法律要求来确定您能否使用 Neptune Mutual 的服务。"
 
 #: lib/data/team-data.js:204
 msgid "Rudolf"
-msgstr ""
+msgstr "Rudolf"
 
 #: lib/data/team-data.js:138
 msgid "Rupak Acharya"
-msgstr ""
+msgstr "Rupak Acharya"
 
-#: lib/data/roadmap-data.js:225
+#: lib/data/roadmap-data.js:219
 msgid "SDK Audit & Launch"
-msgstr ""
+msgstr "SDK 审计与发布"
 
 #: lib/data/team-data.js:129
 msgid "Savin Bhandari"
-msgstr ""
+msgstr "Savin Bhandari"
 
 #: lib/data/ecosystem-data.js:10
 msgid "Say goodbye to denied claims assessment."
-msgstr ""
+msgstr "和被拒的理赔评估说再见"
 
-#: lib/data/roadmap-data.js:100
+#: lib/data/roadmap-data.js:94
 msgid "Scalability"
-msgstr ""
+msgstr "可拓展性"
 
-#: lib/data/roadmap-data.js:98
+#: lib/data/roadmap-data.js:92
 msgid "Security"
-msgstr ""
+msgstr "安全"
 
-#: lib/data/roadmap-data.js:249
+#: lib/data/roadmap-data.js:243
 msgid "Security Analytics Dashboard"
-msgstr ""
+msgstr "安全分析界面"
 
-#: lib/data/roadmap-data.js:261
+#: lib/data/roadmap-data.js:255
 msgid "Security Scorecards & Widgets"
-msgstr ""
+msgstr "安全评分卡和工具"
 
 #: lib/data/team-data.js:120
 msgid "Senior Graphic Designer"
-msgstr ""
+msgstr "高级平面设计师"
 
 #: lib/data/team-data.js:110
 msgid "Social Strategist"
-msgstr ""
+msgstr "社区战略主管"
 
 #: lib/data/ecosystem-data.js:29
 msgid "Stablecoin Liquidity"
-msgstr ""
+msgstr "稳定币流动性"
 
 #: components/GotCovered/GotCovered.jsx:23
 msgid "Stay protected against exchange hacks & dApp, DeFi, and smart contract exploits."
-msgstr ""
+msgstr "保障自己免于交易所黑客和去中心化应用，DeFi，智能合约的安全漏洞攻击"
 
 #: lib/data/team-data.js:59
 msgid "Supritha Shanmugam"
-msgstr ""
+msgstr "Supritha Shanmugam"
 
 #: lib/data/team-data.js:177
 msgid "Technical Recruiter"
-msgstr ""
+msgstr "技术招聘主管"
 
-#: components/utils/Footer/index.jsx:132
+#: components/utils/Footer/index.jsx:153
 msgid "Terms of Service"
-msgstr ""
+msgstr "服务条款"
 
-#: lib/data/roadmap-data.js:74
+#: lib/data/roadmap-data.js:68
 msgid "The Idea"
-msgstr ""
+msgstr "我们的想法"
 
-#: lib/data/roadmap-data.js:216
+#: lib/data/roadmap-data.js:210
 msgid "The Neptune Mutual Protocol v1 gets audited by a couple of highly-sophisticated security research companies. The protocol gets improved over time through bug-bounty programs and continuous security reviews conducted by independent researchers."
-msgstr ""
+msgstr "Neptune Mutual协议v1通过几个领先的安全研究公司进行安全审计。协议后续会通过漏洞赏金计划和独立研究员的持续安全检查来不断提高自身的安全性。"
 
-#: lib/data/roadmap-data.js:194
+#: lib/data/roadmap-data.js:188
 msgid "The Neptune Mutual protocol launches on a couple of test networks like Kovan and Binance Smart Chain Testnet. Community members participate in the protocol by becoming cover purchasers, liquidity providers, and consensus witnesses. We will develop <0>Neptune Mutual faucet</0> to provide users with testnet DAI and NPM tokens"
-msgstr ""
+msgstr "Neptune Mutual协议已在Kovan 和 Binance Smart Chain Testnet 等测试网络上发布。社区用户可以在协议上购买保单，提供流动性，以及见证共识的产生。 我们会开发<0>Neptune Mutual faucet</0> 为用户提供测试用的 DAI 和 NPM 代币。"
 
-#: lib/data/roadmap-data.js:114
+#: lib/data/roadmap-data.js:108
 msgid "The minting of NPM tokens will have a time-frame of 6 years."
-msgstr ""
+msgstr "NPM代币铸币期间为6年。"
 
 #: lib/data/ecosystem-data.js:64
 msgid "The protocol supplies a small part of the assets that are in excess of the minimum capital requirement to lending protocols."
-msgstr ""
+msgstr "本协议会在满足最低资本要求前提下提供一小部分流动性给借贷协议"
 
-#: lib/data/roadmap-data.js:113
+#: lib/data/roadmap-data.js:107
 msgid "There is a fixed supply of 1 billion NPM tokens."
-msgstr ""
+msgstr "NPM代币供应总量固定在10亿。"
 
 #: lib/data/ecosystem-data.js:15
 msgid "There is always enough liquidity to pay all cover policyholders."
-msgstr ""
+msgstr "保障池会始终保持充足的流动性来偿付所有的保单持有人。"
 
-#: lib/data/roadmap-data.js:241
+#: lib/data/roadmap-data.js:235
 msgid "This upgrade enables multiple policies to be aggregated under a single cover pool providing larger DeFi and Meta projects an ability to secure their portfolio of smaller DApps."
-msgstr ""
+msgstr "这个升级会将多个保单聚合在单个保障池里，以便更大规模的DeFi和元宇宙项目为其旗下众多小规模的去中心化应用提供保障。"
 
-#: lib/data/roadmap-data.js:272
+#: lib/data/roadmap-data.js:266
 msgid "To Be Announced"
-msgstr ""
+msgstr "即将公布"
 
-#: lib/data/roadmap-data.js:105
+#: lib/data/roadmap-data.js:99
 msgid "Token Design"
-msgstr ""
+msgstr "代币设计"
 
 #: components/HomePage/Industry/index.jsx:85
 msgid "Trusted by Industry Leaders"
-msgstr ""
+msgstr "为行业领军者所信赖"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:18
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:20
 msgid "Use"
-msgstr ""
+msgstr "应用"
 
-#: lib/data/roadmap-data.js:101
+#: lib/data/roadmap-data.js:95
 msgid "User Experience"
-msgstr ""
+msgstr "用户体验"
 
 #: lib/data/team-data.js:187
 msgid "Vaishnavi Sahu"
-msgstr ""
+msgstr "Vaishnavi Sahu"
 
-#: components/HomePage/Landing/index.jsx:54
+#: components/HomePage/Landing/index.jsx:57
 msgid "View App Prototype"
-msgstr ""
+msgstr "查看App原型"
 
 #: pages/index.jsx:21
 msgid "View Press Release"
-msgstr ""
+msgstr "查看新闻稿"
 
 #: components/HomePage/OurTeam/index.jsx:33
 msgid "We are a global and dynamic team with a mission to create a reliable, fast, and effective platform that protects digital assets."
-msgstr ""
+msgstr "我们是一个充满活力的全球化团队， 使命是为数字资产建立安全可靠且迅速有效的保障平台"
 
-#: lib/data/roadmap-data.js:83
+#: lib/data/roadmap-data.js:77
 msgid "We saw a growing need for security and reliable covers that inspired us to create Neptune Mutual."
-msgstr ""
+msgstr "我们切身体会到加密领域对安全以及可信赖的保障产品日益增长的需求，这驱使我们创立了Neptune Mutual。"
 
 #: components/CookiePolicy/index.jsx:47
 msgid "We use third-party cookies in order to personalize your experience."
-msgstr ""
+msgstr "我们将使用第三方cookies为您提供个性化的体验。"
 
 #: components/GotCovered/GotCovered.jsx:49
 msgid "We’ve Got You Covered"
-msgstr ""
+msgstr "我们为您提供保障"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:33
 msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
-msgstr ""
+msgstr "通过我们的支持工具，您可以更好的了解您自己创建的保障池中的流动性。"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:8
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:10
 msgid "Write"
-msgstr ""
+msgstr "编写"
 
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:11
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:13
 msgid "Write less code and plug in your own Web3 provider. Get complete access to all coverage features."
-msgstr ""
+msgstr "编写少量代码，再接入您自己的Web3服务提供商，便可使用所有的保障池创建管理功能。"
 
 #: lib/data/ecosystem-data.js:90
 msgid "Your Confident, Protected Community"
-msgstr ""
-
-#: components/HomePage/CoverPoolComponent/CoverPool.jsx:46
-msgid "Your Cover Pool"
-msgstr ""
+msgstr "您自信的受到保障的社区"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:48
+msgid "Your Cover Pool"
+msgstr "您的保障池"
+
+#: components/HomePage/CoverPoolComponent/CoverPool.jsx:50
 msgid "Your Style"
-msgstr ""
+msgstr "您的风格"
 
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
-msgstr ""
+msgstr "零风险"
+
+#: lib/data/team-data.js:41
+msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
+msgstr "{0, select, male {联合创始人} female {联合创始人}}"
+
