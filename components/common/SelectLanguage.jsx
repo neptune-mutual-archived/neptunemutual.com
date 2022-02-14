@@ -56,13 +56,7 @@ export function SelectLanguage({ textFill, arrowFill, borderFill }) {
                 key={idx}
                 className={classNames(lang === locale && "text-amber-600")}
               >
-                <a
-                  href={`/${lang === "en" ? "" : lang}`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {lang}
-                </a>
+                <a href={`/${lang === "en" ? "" : lang}`}>{lang}</a>
               </li>
             ))}
           </ul>
