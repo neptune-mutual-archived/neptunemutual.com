@@ -1,5 +1,6 @@
 import CloseIcon from "@components/icons/CloseIcon";
 import { classNames } from "@lib/utils/classNames";
+import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useState } from "react";
 import styles from "./index.module.scss";
 
@@ -36,6 +37,7 @@ export const Notice = ({
           className={styles.close_icon}
           onClick={() => {
             setShow((prev) => !prev);
+            setTimeout(() => ScrollTrigger.refresh(), 500);
           }}
           aria-label="Button to Close Notice"
         >
