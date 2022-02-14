@@ -26,8 +26,10 @@ export const Header = () => {
 
   return (
     <>
-      <div className={styles.header_wrapper}>
-        <div className={styles.header_container}>
+      <div className={`section_border_container ${styles.header_wrapper}`}>
+        <div
+          className={`${styles.header_container} section_horizontal_container`}
+        >
           <div className={styles.logo}>
             <Link href="/" passHref>
               <img src={logo} alt="Neptune Mutual Logo" />

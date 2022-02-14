@@ -85,7 +85,7 @@
 }
 
 .desc-wrapper {
-  @apply px-4 pb-38 flex flex-col;
+  @apply pb-38 flex flex-col;
   row-gap: 32px;
   overflow-y: hidden;
   height: 100%;
@@ -96,8 +96,6 @@
 @media (min-width: 768px) {
   .desc-wrapper {
     row-gap: 44px;
-    padding-left: 8rem /* 128px */;
-    padding-right: 8rem /* 128px */;
   }
 }
 
@@ -105,15 +103,11 @@
   .desc-wrapper {
     @apply flex-row justify-between;
     column-gap: 115px;
-    padding-left: 130px;
-    padding-right: 130px;
   }
 }
 
 @media (min-width: 1512px) {
   .desc-wrapper {
-    padding-left: 200px;
-    padding-right: 200px;
   }
 }
 
@@ -354,4 +348,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+.h100{
+  height: 100%;
 }

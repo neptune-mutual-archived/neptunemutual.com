@@ -23,18 +23,13 @@
 }
 
 .stay-tuned-wrapper {
-  @apply px-4 pt-24;
+  @apply  pt-24;
 }
 
-@media (min-width: 640px) {
-  .stay-tuned-wrapper {
-    @apply px-32;
-  }
-}
 
 @media (min-width: 1920px) {
   .stay-tuned-wrapper {
-    @apply mx-72 px-26;
+    @apply mx-72;
   }
 }
 
@@ -144,18 +139,13 @@
 }
 
 .disclaimer-wrapper {
-  @apply px-4 mt-6 mb-18 text-center;
+  @apply  mt-6 mb-18 text-center;
 }
 
-@media (min-width: 640px) {
-  .disclaimer-wrapper {
-    @apply px-32;
-  }
-}
 
 @media (min-width: 1920px) {
   .disclaimer-wrapper {
-    @apply mx-72 px-26;
+    @apply mx-72;
   }
 }
 
