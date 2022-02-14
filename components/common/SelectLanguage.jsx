@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import ArrowLeftIcon from "@utils/icons/ArrowLeftIcon";
 import { useRouter } from "next/router";
 import { classNames } from "@lib/utils/classNames";
@@ -7,15 +7,11 @@ import styles from "./style.module.scss";
 
 export function SelectLanguage({ textFill, arrowFill, borderFill }) {
   const router = useRouter();
-  const { locale } = router;
-  const [selectedLang, setSelectedLang] = useState(() =>
-    locale === "zh" ? "zh" : "en"
-  );
+  const { locale, locales } = router;
 
   const handleClick = (e, lang) => {
     e.preventDefault();
     router.push(router.asPath, "", { locale: lang });
-    setSelectedLang(lang);
   };
 
   return (
@@ -34,7 +30,7 @@ export function SelectLanguage({ textFill, arrowFill, borderFill }) {
               "block leading-5 font-inter text-lg pr-7"
             )}
           >
-            {selectedLang}
+            {locale}
           </span>
           <span className="absolute inset-y-0 right-0 flex items-center pr-2 pointer-events-none">
             <div className="-rotate-90 relative top-1 pb-3">
@@ -55,16 +51,12 @@ export function SelectLanguage({ textFill, arrowFill, borderFill }) {
               textFill ?? "text-black"
             )}
           >
-            {router.locales.map((lang, idx) => (
+            {locales.map((lang, idx) => (
               <li
                 key={idx}
-                className={classNames(
-                  lang === selectedLang && "text-amber-600"
-                )}
+                className={classNames(lang === locale && "text-amber-600")}
               >
-                <a href={"/"} onClick={(e) => handleClick(e, lang)}>
-                  {lang}
-                </a>
+                <a href={`/${lang === "en" ? "" : lang}`}>{lang}</a>
               </li>
             ))}
           </ul>
