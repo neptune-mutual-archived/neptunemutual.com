@@ -48,7 +48,7 @@ export const LandingPage = () => {
           </p>
 
           <a
-            href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype?node-id=1%3A3228&starting-point-node-id=1%3A742"
+            href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype"
             rel="noreferrer"
             target="_blank"
             className={styles.cta}
