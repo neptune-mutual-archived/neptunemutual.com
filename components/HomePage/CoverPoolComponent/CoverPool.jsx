@@ -1,5 +1,6 @@
 import CodePreviewComponent from "@components/HomePage/CodePreviewComponent/CodePreviewComponent";
 import { Button } from "@components/HomePage/CoverPoolComponent/Button";
+import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
 import { DownloadIcon } from "@utils/icons/DownloadIcon";
 import styles from "./coverpool.module.scss";
