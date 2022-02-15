@@ -1,6 +1,6 @@
 ## Neptune Mutual
 
-[![Build](https://github.com/neptune-mutual-blue/neptunemutual.com/actions/workflows/build.yml/badge.svg)](https://github.com/neptune-mutual/nep-web/actions/workflows/build.yml)
+[![Build](https://github.com/neptune-mutual-blue/neptunemutual.com/actions/workflows/build.yml/badge.svg)](https://github.com/neptune-mutual-blue/neptunemutual.com/actions/workflows/build.yml)
 
 An open source interface for Neptune Mutual &mdash; a protocol that provides you
 with guaranteed stablecoin liquidity to reduce your risk exposure by hedging
