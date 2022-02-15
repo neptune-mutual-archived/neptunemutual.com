@@ -25,7 +25,7 @@ msgstr "<0>降低</0> <1>您所面临的</1> <2>加密市场风险</2>"
 msgid "A hack on one project will not affect cover for another."
 msgstr "针对一个保障池进行的黑客攻击并不会影响到其他的保障池。"
 
-#: components/CookiePolicy/index.jsx:63
+#: components/CookiePolicy/index.jsx:57
 msgid "Accept"
 msgstr "接受"
 
@@ -191,7 +191,7 @@ msgstr "创建保障池"
 msgid "Crowdfund your investor protection fund."
 msgstr "众筹您的投资者保护基金。"
 
-#: components/CookiePolicy/index.jsx:57
+#: components/CookiePolicy/index.jsx:63
 msgid "Decline"
 msgstr "拒绝"
 
@@ -386,7 +386,7 @@ msgstr "NPM代币的价格波动不会影响保障池的流动性。"
 msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
 msgstr "NPM代币主要用于事件解决通报机制，以及协议上的其他功能比如创建保单。"
 
-#: components/HomePage/NeptuneEcosystem/index.jsx:248
+#: components/HomePage/NeptuneEcosystem/index.jsx:236
 msgid "Neptune Mutual Ecosystem"
 msgstr "Neptune Mutual 生态"
 
@@ -678,4 +678,3 @@ msgstr "零风险"
 #: lib/data/team-data.js:41
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {联合创始人} female {联合创始人}}"
-

@@ -25,7 +25,7 @@ msgstr "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
 msgid "A hack on one project will not affect cover for another."
 msgstr "A hack on one project will not affect cover for another."
 
-#: components/CookiePolicy/index.jsx:63
+#: components/CookiePolicy/index.jsx:57
 msgid "Accept"
 msgstr "Accept"
 
@@ -191,7 +191,7 @@ msgstr "Create Covers"
 msgid "Crowdfund your investor protection fund."
 msgstr "Crowdfund your investor protection fund."
 
-#: components/CookiePolicy/index.jsx:57
+#: components/CookiePolicy/index.jsx:63
 msgid "Decline"
 msgstr "Decline"
 
@@ -386,7 +386,7 @@ msgstr "NPM token price won't affect cover pool liquidity."
 msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
 msgstr "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
 
-#: components/HomePage/NeptuneEcosystem/index.jsx:248
+#: components/HomePage/NeptuneEcosystem/index.jsx:236
 msgid "Neptune Mutual Ecosystem"
 msgstr "Neptune Mutual Ecosystem"
 
