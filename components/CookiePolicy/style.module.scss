@@ -70,10 +70,13 @@
 }
 
 .content_container p {
-  padding-bottom: 14px;
+  margin-bottom: 14px;
 
   @media (min-width: 768px) {
-    padding-right: 14px;
+    margin-right: 14px;
+  }
+  @media (min-width:768px) {
+    margin-bottom: 0;
   }
 }
 
