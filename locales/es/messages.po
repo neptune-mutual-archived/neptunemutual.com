@@ -25,7 +25,7 @@ msgstr "<0>Reduzca</0> <1>su exposición a</1> <2>riesgos del mercado cripto</2>
 msgid "A hack on one project will not affect cover for another."
 msgstr "Un hack en un proyecto no afectará la cobertura de otro."
 
-#: components/CookiePolicy/index.jsx:63
+#: components/CookiePolicy/index.jsx:57
 msgid "Accept"
 msgstr "Aceptar"
 
@@ -191,7 +191,7 @@ msgstr "Crear coberturas"
 msgid "Crowdfund your investor protection fund."
 msgstr "Financia tu fondo de protección de inversores."
 
-#: components/CookiePolicy/index.jsx:57
+#: components/CookiePolicy/index.jsx:63
 msgid "Decline"
 msgstr "Rechazar"
 
@@ -386,7 +386,7 @@ msgstr "El precio del token NPM no afectará la liquidez del grupo de cobertura.
 msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
 msgstr "Los tokens NPM se utilizan principalmente para nuestro mecanismo de informe de resolución de incidentes, incluidas otras funciones del protocolo, como la creación de una cobertura."
 
-#: components/HomePage/NeptuneEcosystem/index.jsx:248
+#: components/HomePage/NeptuneEcosystem/index.jsx:236
 msgid "Neptune Mutual Ecosystem"
 msgstr "Ecosistema de Neptune Mutual"
 
