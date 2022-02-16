@@ -13,17 +13,9 @@ export const CookiePolicy = () => {
   const [accepted, setAccepted] = useLocalStorage("dev-cookies", false);
   const [isOpen, setIsOpen] = useState(!accepted);
 
-  function removeGtag() {
-    const gtagScript = document.querySelector("#gtag-init");
-    if (gtagScript) {
-      gtagScript.remove();
-    }
-  }
-
   function closeModal(allow) {
     setIsOpen(false);
     if (allow) setAccepted(true);
-    else removeGtag();
   }
 
   return (
