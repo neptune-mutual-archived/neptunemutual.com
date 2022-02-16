@@ -1,6 +1,5 @@
 import "../styles/globals.css";
 import "../styles/global.scss";
-import Script from "next/script";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
@@ -32,36 +31,8 @@ function MyApp({ Component, pageProps }) {
     load(locale);
   }, [locale]);
 
-  useEffect(() => {
-    const handleRouteChange = (url) => {
-      window.gtag("config", "G-LF5XJ57N3H", {
-        page_path: url,
-      });
-    };
-    router.events.on("routeChangeComplete", handleRouteChange);
-    return () => {
-      router.events.off("routeChangeComplete", handleRouteChange);
-    };
-  }, [router.events]);
-
   return (
     <>
-      <Script
-        strategy="afterInteractive"
-        src="https://www.googletagmanager.com/gtag/js?id=G-LF5XJ57N3H"
-      />
-      <Script
-        id="gtag-init"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-LF5XJ57N3H', { page_path: window.location.pathname });
-            `,
-        }}
-      />
       <I18nProvider i18n={i18n} forceRenderOnLocaleChange={false}>
         <Component {...pageProps} />
       </I18nProvider>
