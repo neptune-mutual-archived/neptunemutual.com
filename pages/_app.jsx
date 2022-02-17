@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
-import { en, zh, es, fr, ru } from "make-plural";
+import { en, zh, es, fr, ru, vi } from "make-plural";
 
 i18n.loadLocaleData({
   en: { plurals: en },
@@ -14,6 +14,7 @@ i18n.loadLocaleData({
   es: { plurals: es },
   fr: { plurals: fr },
   ru: { plurals: ru },
+  vi: { plurals: vi },
 });
 
 function MyApp({ Component, pageProps }) {

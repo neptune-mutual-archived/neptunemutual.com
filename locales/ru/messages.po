@@ -261,7 +261,7 @@ msgstr "Фротенд разработчики"
 
 #: lib/data/roadmap-data.js:169
 msgid "Fundraising, Recruitment & Build"
-msgstr "Увеличение средсв, расшитение персонала и строительство"
+msgstr "Увеличение средсв, расширение персонала и строительство"
 
 #: lib/data/roadmap-data.js:225
 msgid "Furthermore, the app, Github, hosting, CI/CD pipelines, DNS, HTTP security, and more is thoroughly audited as well. Additional, proper cyber hygienes are implemented across the organization."

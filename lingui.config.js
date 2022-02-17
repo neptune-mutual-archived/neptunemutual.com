@@ -1,5 +1,5 @@
 module.exports = {
-  locales: ["en", "zh", "es", "fr", "ru"],
+  locales: ["en", "zh", "es", "fr", "ru", "vi"],
   sourceLocale: "en",
   fallbackLocales: {
     default: "en",
