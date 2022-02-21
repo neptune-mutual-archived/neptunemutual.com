@@ -9,20 +9,24 @@ import SearchIcon from "@utils/icons/SearchIcon";
 
 const DEBOUNCE_TIMER = 200;
 
+const LANGUAGES = Object.values(languageKey);
+
 const LanguageDropdown = ({ lightMode, mobileView }) => {
   const router = useRouter();
   const { locale } = router;
 
-  const [languages, setLanguages] = useState(Object.values(languageKey));
+  const [languages, setLanguages] = useState(LANGUAGES);
   const [searchValue, setSearchValue] = useState("");
   const debounceTimer = useRef(null);
 
   const searchLanguage = (value) => {
     if (!value) {
-      setLanguages(Object.values(languageKey));
+      setLanguages(LANGUAGES);
       return;
     }
-    const searchedLanguages = languages.filter((el) => el.includes(value));
+    const searchedLanguages = LANGUAGES.filter((el) =>
+      el.toLowerCase().includes(value.toLowerCase())
+    );
     setLanguages(searchedLanguages);
   };
 

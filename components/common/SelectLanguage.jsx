@@ -32,7 +32,9 @@ export function SelectLanguage({
           )}
         >
           <div className="flex gap-2">
-            <GlobalLanguageIcon className={mobileView && styles.svg_color} />
+            <GlobalLanguageIcon
+              className={mobileView ? styles.svg_color : undefined}
+            />
             <span className={classNames("block leading-5 font-inter text-lg")}>
               {languageKey[locale]}
             </span>
