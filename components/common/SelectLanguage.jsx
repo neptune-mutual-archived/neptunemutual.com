@@ -1,3 +1,4 @@
+import { useState, useRef } from "react";
 import { useRouter } from "next/router";
 import { classNames } from "@lib/utils/classNames";
 
@@ -5,26 +6,32 @@ import styles from "./style.module.scss";
 import GlobalLanguageIcon from "@utils/icons/GlobalLanguageIcon";
 import { languageKey } from "./LanguageKey.js";
 import LanguageDropdown from "@components/common/LanguageDropdown";
+import useOnClickOutside from "hooks/useOnClickOutside";
 
 export function SelectLanguage({
   lightMode = false,
   showDropdownOnFocus = true,
-  onButtonClick = () => {},
+  onButtonClick,
   mobileView = false,
 }) {
   const router = useRouter();
   const { locale } = router;
 
-  // const handleClick = (e, lang) => {
-  //   e.preventDefault();
-  //   router.push(router.asPath, "", { locale: lang });
-  // };
+  const [showLanguageDropDown, setShowLanguageDropDown] = useState(false);
+
+  const languagDropdownRef = useRef();
+
+  const onLanguageButtonClick = () => setShowLanguageDropDown((prev) => !prev);
+
+  const closeLanguageDropdowm = () => setShowLanguageDropDown(false);
+
+  useOnClickOutside(languagDropdownRef, closeLanguageDropdowm);
 
   return (
-    <div className="rounded flex items-end py-1 z-30">
+    <div ref={languagDropdownRef} className="rounded flex items-end py-1 z-30">
       <div className={styles.dropdown_container}>
         <button
-          onClick={onButtonClick}
+          onClick={onButtonClick ? onButtonClick : onLanguageButtonClick}
           className={classNames(
             "bg-transparent border  relative w-full py-2 px-3 text-left rounded cursor-pointer focus:outline-none  sm:text-sm",
             styles.dropdown_btn,
@@ -40,7 +47,7 @@ export function SelectLanguage({
             </span>
           </div>
         </button>
-        {showDropdownOnFocus && (
+        {showDropdownOnFocus && showLanguageDropDown && (
           <div className={styles.dropdown_menu}>
             <div
               className={classNames(

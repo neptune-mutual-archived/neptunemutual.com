@@ -1,4 +1,4 @@
-import React, { useState, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import { classNames } from "@lib/utils/classNames";
 
@@ -6,6 +6,7 @@ import styles from "./style.module.scss";
 import { languageKey, localesKey } from "./LanguageKey.js";
 import CheckCircleIcon from "@utils/icons/CheckCircleIcon";
 import SearchIcon from "@utils/icons/SearchIcon";
+import useDebounce from "hooks/useDebounce";
 
 const DEBOUNCE_TIMER = 200;
 
@@ -17,34 +18,19 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
 
   const [languages, setLanguages] = useState(LANGUAGES);
   const [searchValue, setSearchValue] = useState("");
-  const debounceTimer = useRef(null);
 
-  const searchLanguage = (value) => {
-    if (!value) {
+  const debouncedSearch = useDebounce(searchValue, DEBOUNCE_TIMER);
+
+  useEffect(() => {
+    if (!debouncedSearch) {
       setLanguages(LANGUAGES);
       return;
     }
     const searchedLanguages = LANGUAGES.filter((el) =>
-      el.toLowerCase().includes(value.toLowerCase())
+      el.toLowerCase().includes(debouncedSearch.toLowerCase())
     );
     setLanguages(searchedLanguages);
-  };
-
-  const debounceSearch = (value) => {
-    setSearchValue(value);
-    if (debounceTimer.current) {
-      clearTimeout(debounceTimer.current);
-      debounceTimer.current = setTimeout(
-        () => searchLanguage(value),
-        DEBOUNCE_TIMER
-      );
-    } else {
-      debounceTimer.current = setTimeout(
-        () => searchLanguage(value),
-        DEBOUNCE_TIMER
-      );
-    }
-  };
+  }, [debouncedSearch]);
 
   return (
     <>
@@ -62,7 +48,7 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
           type="text"
           placeholder="Search Language"
           value={searchValue}
-          onChange={(e) => debounceSearch(e.target.value)}
+          onChange={(e) => setSearchValue(e.target.value)}
           className={classNames(
             "bg-inherit outline-0 border-0 placeholder-b0c4db max-w-[250px]",
             mobileView && "text-xl"
