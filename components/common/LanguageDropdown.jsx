@@ -44,7 +44,12 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
 
   return (
     <>
-      <section className="flex items-center gap-2 mb-4">
+      <section
+        className={classNames(
+          "flex items-center gap-2 mb-4",
+          mobileView && "mb-8"
+        )}
+      >
         <SearchIcon
           height={mobileView ? 24 : 15}
           width={mobileView ? 24 : 15}
@@ -67,7 +72,8 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
             className={classNames(
               styles.dropdown_list_items,
               localesKey[lang] === locale &&
-                (lightMode ? styles.selected_lang_light : styles.selected_lang)
+                (lightMode ? styles.selected_lang_light : styles.selected_lang),
+              mobileView && "mb-2"
             )}
           >
             <a
