@@ -1,17 +1,18 @@
 const SliderRightIcon = (props) => (
   <svg
+    xmlns="http://www.w3.org/2000/svg"
     width="10"
     height="16"
-    viewBox="0 0 10 16"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
     {...props}
   >
     <path
-      d="M1 1L8 8L1 15"
-      stroke="black"
-      strokeWidth="2"
       strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth={2}
+      d="M9 5l7 7-7 7"
     />
   </svg>
 );
