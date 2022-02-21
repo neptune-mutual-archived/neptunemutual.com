@@ -65,13 +65,25 @@ export const Header = () => {
 };
 
 export const MenuModal = ({ isOpen, onClose }) => {
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+
+  const onLanguageButtonClick = () => setIsLanguageDropdownOpen(true);
+
+  const onCloseButtonClicked = () => {
+    if (isLanguageDropdownOpen) {
+      setIsLanguageDropdownOpen(false);
+    } else {
+      onClose();
+    }
+  };
+
   return (
     <div>
       <Transition appear as={Fragment} show={isOpen}>
         <Dialog
           as="div"
           open={isOpen}
-          onClose={onClose}
+          onClose={onCloseButtonClicked}
           className="fixed inset-0 z-10 overflow-y-auto"
         >
           <div className="min-h-screen px-4 text-center">
@@ -102,8 +114,16 @@ export const MenuModal = ({ isOpen, onClose }) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md p-6 my-8 text-left align-middle transition-all transform shadow-xl rounded-2xl">
-                <MobileMenu />
+              <div
+                className={classNames(
+                  "inline-block w-full max-w-md p-6 my-8  text-left transition-all transform shadow-xl rounded-2xl",
+                  isLanguageDropdownOpen ? "align-top" : "align-middle"
+                )}
+              >
+                <MobileMenu
+                  isLanguageDropdownOpen={isLanguageDropdownOpen}
+                  onLanguageButtonClick={onLanguageButtonClick}
+                />
               </div>
             </Transition.Child>
           </div>

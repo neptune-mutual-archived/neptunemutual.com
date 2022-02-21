@@ -26,11 +26,7 @@ export const Footer = () => {
       >
         <div className="section_horizontal_container">
           <div className={styles["select-lang"]}>
-            <SelectLanguage
-              textFill="text-white"
-              arrowFill="fill-white"
-              borderFill="border-white"
-            />
+            <SelectLanguage lightMode={true} />
           </div>
 
           <div className={styles["stay-tuned-div"]}>

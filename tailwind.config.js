@@ -128,6 +128,9 @@ module.exports = {
         "codeMobile": "0px 13px 38px rgba(0, 0, 0, 0.25)",
         "codeshadow-md": "18.2276px 22.065px 43.1707px rgba(0, 0, 0, 0.25)",
       },
+      placeholderColor: {
+        B0C4DB: "#B0C4DB",
+      },
     },
   },
   plugins: [],
