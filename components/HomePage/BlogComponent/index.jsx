@@ -1,10 +1,10 @@
 import { Fragment, useEffect, useState } from "react";
-import { ArrowNarrowRightIcon } from "@heroicons/react/outline";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 
 import { classNames } from "@lib/utils/classNames";
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
+import ArrowNarrowRightIcon from "@utils/icons/ArrowNarrowRightIcon";
 
 const USERNAME = "neptunemutual";
 const URL = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${USERNAME}`;
