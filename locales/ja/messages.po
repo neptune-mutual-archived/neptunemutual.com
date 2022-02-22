@@ -6,6 +6,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ja\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
@@ -13,7 +19,7 @@ msgstr "100％最低資本資格"
 
 #: components/HomePage/Landing/index.jsx:36
 msgid "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
-msgstr "暗号資産市場での/　あなたのリスクを/　減らしましょう"
+msgstr "暗号資産市場での あなたのリスクを 減らしましょう"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
@@ -125,7 +131,7 @@ msgstr "ブログをチェックする"
 
 #: lib/data/roadmap-data.js:133
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
-msgstr "Neptune Mutual GithubリポジトリでのSDKカバーソースコードをチェックする。/　フロントエンドアプリやバックエンドAPIでカバー機能のアクセス方法を見つけ出すために/　カバーSDKドキュメントを読もう。"
+msgstr "Neptune Mutual GithubリポジトリでのSDKカバーソースコードをチェックしましょう。フロントエンドアプリやバックエンドAPIでカバー機能のアクセス方法を見つけ出すためにカバーSDKドキュメントを読んでください。"
 
 #: lib/data/team-data.js:50
 msgid "Chief Legal Officer"
@@ -133,7 +139,7 @@ msgstr "法務担当役員"
 
 #: components/HomePage/Landing/index.jsx:43
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
-msgstr "カバープールを選択し、期間を選択し、カバーにどれくらいかかるのか入力してください。事象解決後、すぐにｓtablecoinで保険金を受け取れます。"
+msgstr "カバープールを選択し、期間を選択し、カバーにどれくらいかかるのか入力してください。事象解決後、すぐにstablecoinで保険金を受け取れます。"
 
 #: lib/data/team-data.js:219
 msgid "Co-Founder"
@@ -290,7 +296,7 @@ msgstr "グラフィックデザイナー"
 
 #: lib/data/team-data.js:150
 msgid "Growth"
-msgstr "発展"
+msgstr "成長担当"
 
 #: lib/data/ecosystem-data.js:79
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
@@ -487,7 +493,7 @@ msgstr "報酬を受け取る"
 
 #: lib/data/team-data.js:157
 msgid "Research Analyst"
-msgstr "分析家を探す"
+msgstr "調査分析官"
 
 #: lib/data/ecosystem-data.js:101
 msgid "Reward your cover protection community with your native tokens."
