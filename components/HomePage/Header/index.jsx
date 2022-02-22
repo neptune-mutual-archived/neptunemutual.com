@@ -123,8 +123,9 @@ export const MenuModal = ({
             >
               <div
                 className={classNames(
-                  "inline-block w-full max-w-md p-6 text-left transition-all transform shadow-xl rounded-2xl h-screen",
-                  isLanguageDropdownOpen ? "align-top" : "align-middle"
+                  "inline-block w-full max-w-md  text-left transition-all transform shadow-xl rounded-2xl h-screen",
+                  isLanguageDropdownOpen ? "align-top" : "align-middle",
+                  isLanguageDropdownOpen ? "py-6" : "p-6"
                 )}
               >
                 <div className="absolute right-0">

@@ -37,7 +37,8 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
       <section
         className={classNames(
           "flex items-center gap-2 mb-4",
-          mobileView && "mb-8"
+          !mobileView && "px-4",
+          styles.input_container
         )}
       >
         <SearchIcon
@@ -51,7 +52,7 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
           onChange={(e) => setSearchValue(e.target.value)}
           className={classNames(
             "bg-inherit outline-0 border-0 placeholder-b0c4db max-w-[250px]",
-            mobileView && "text-xl"
+            styles.input_font_size
           )}
         />
       </section>
@@ -63,7 +64,8 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
               styles.dropdown_list_items,
               localesKey[lang] === locale &&
                 (lightMode ? styles.selected_lang_light : styles.selected_lang),
-              mobileView && "mb-2"
+              mobileView && "mb-2",
+              !mobileView && styles.dropdown__list_font_size
             )}
           >
             <a
