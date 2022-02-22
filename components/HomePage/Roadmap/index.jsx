@@ -106,7 +106,7 @@ export const Roadmap = () => {
             onClick={onPrev}
             aria-label="Scroll to View Previous Items"
           >
-            <SliderLeftIcon width={24} height="auto" />
+            <SliderLeftIcon width={24} />
           </button>
 
           <div className={styles.slider}>
@@ -165,7 +165,7 @@ export const Roadmap = () => {
             onClick={onNext}
             aria-label="Scroll to View Next Items"
           >
-            <SliderRightIcon width={24} height="auto" />
+            <SliderRightIcon width={24} />
           </button>
         </div>
 
