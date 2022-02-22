@@ -70,7 +70,7 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
           >
             <a
               className={styles.dropdown_list_link}
-              href={`/${localesKey[lang] === "en" ? "" : localesKey[lang]}`}
+              href={`/${localesKey[lang]}`}
             >
               {lang}
             </a>
