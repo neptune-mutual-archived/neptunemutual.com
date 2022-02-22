@@ -5,11 +5,12 @@ import { useEffect } from "react";
 
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
-import { en, zh, es, fr, ru } from "make-plural";
+import { en, zh, ja, es, fr, ru } from "make-plural";
 
 i18n.loadLocaleData({
   en: { plurals: en },
   zh: { plurals: zh },
+  ja: { plurals: ja },
   es: { plurals: es },
   fr: { plurals: fr },
   ru: { plurals: ru },
