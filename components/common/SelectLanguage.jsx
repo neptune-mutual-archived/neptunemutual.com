@@ -33,7 +33,7 @@ export function SelectLanguage({
         <button
           onClick={onButtonClick ? onButtonClick : onLanguageButtonClick}
           className={classNames(
-            "bg-transparent border  relative w-full py-2 px-3 text-left rounded cursor-pointer focus:outline-none  sm:text-sm",
+            "bg-transparent border  relative w-full py-2 px-3 pr-2 text-left rounded cursor-pointer focus:outline-none  sm:text-sm",
             styles.dropdown_btn,
             mobileView && styles.mobile_dropdown_btn
           )}
@@ -42,7 +42,7 @@ export function SelectLanguage({
             <GlobalLanguageIcon
               className={mobileView ? styles.svg_color : undefined}
             />
-            <span className={classNames("block leading-5 font-inter text-lg")}>
+            <span className={classNames("block leading-5 font-inter")}>
               {languageKey[locale]}
             </span>
           </div>
