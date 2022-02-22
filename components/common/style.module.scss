@@ -115,6 +115,9 @@
 }
 
 .input_container{
+  input {
+    outline:none;
+  } 
   @media only screen and (max-width: 640px) {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
