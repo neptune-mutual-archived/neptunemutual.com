@@ -36,7 +36,7 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
     <>
       <section
         className={classNames(
-          "flex items-center gap-2 mb-4",
+          "flex items-center gap-2 mb-6",
           !mobileView && "px-4",
           styles.input_container
         )}
@@ -74,7 +74,12 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
             >
               {lang}
             </a>
-            {localesKey[lang] === locale && <CheckCircleIcon />}
+            {localesKey[lang] === locale && (
+              <CheckCircleIcon
+                width={mobileView ? 24 : 18}
+                height={mobileView ? 24 : 18}
+              />
+            )}
           </li>
         ))}
       </ul>

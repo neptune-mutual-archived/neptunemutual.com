@@ -47,6 +47,7 @@
   border: 1px solid #b0c4db;
   box-sizing: border-box;
   border-radius: 8px;
+  padding-left: 10px;
 }
 
 .language_list {
@@ -68,13 +69,13 @@
 }
 
 .selected_lang {
-  background: #2c325b;
+  background: #2c325b !important;
   border: 1px solid #4e7dd9;
   border-radius: 4px;
 }
 
 .selected_lang_light {
-  background: rgba(176, 196, 219, 0.2);
+  background: rgba(176, 196, 219, 0.2) !important;
   border-radius: 4px;
   color: #4e7dd9;
 }
@@ -106,6 +107,7 @@
 
 .dropdown__list_font_size{
   font-size: 12px;
+  line-height: 15.12px
 }
 
 .input_font_size{

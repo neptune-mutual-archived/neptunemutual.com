@@ -9,7 +9,7 @@ export const MobileMenu = ({
   isLanguageDropdownOpen,
 }) => {
   return isLanguageDropdownOpen ? (
-    <div className="text-white mt-4">
+    <div className={styles.language_dropdown}>
       <LanguageDropdown mobileView={true} />
     </div>
   ) : (

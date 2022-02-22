@@ -16,3 +16,20 @@
 .language_item{
   margin-bottom: 3rem !important;
 }
+
+.language_dropdown{
+  color: #ffffff;
+  padding-top: 1rem;
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
