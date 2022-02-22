@@ -14,13 +14,22 @@ const logo = "/logos/neptune-mutual-full.png";
 
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+
+  const onLanguageButtonClick = () => setIsLanguageDropdownOpen(true);
 
   const toggleMenu = () => {
-    setIsOpen((prev) => !prev);
+    if (!isLanguageDropdownOpen) {
+      setIsOpen((prev) => !prev);
+    }
   };
 
   function onClose() {
-    setIsOpen(false);
+    if (isLanguageDropdownOpen) {
+      setIsLanguageDropdownOpen(false);
+    } else {
+      setIsOpen(false);
+    }
     // TODO: Find a better solution so that menu can also be closed by pressing `Esc`
   }
 
@@ -56,15 +65,25 @@ export const Header = () => {
             </a>
             <SelectLanguage />
           </div>
-          <BurgerComponent isOpen={isOpen} onToggle={toggleMenu} />
+          {!isOpen && <BurgerComponent isOpen={isOpen} onToggle={toggleMenu} />}
         </div>
       </div>
-      <MenuModal isOpen={isOpen} onClose={onClose} />
+      <MenuModal
+        isOpen={isOpen}
+        onClose={onClose}
+        isLanguageDropdownOpen={isLanguageDropdownOpen}
+        onLanguageButtonClick={onLanguageButtonClick}
+      />
     </>
   );
 };
 
-export const MenuModal = ({ isOpen, onClose }) => {
+export const MenuModal = ({
+  isOpen,
+  onClose,
+  isLanguageDropdownOpen,
+  onLanguageButtonClick,
+}) => {
   return (
     <div>
       <Transition appear as={Fragment} show={isOpen}>
@@ -102,8 +121,22 @@ export const MenuModal = ({ isOpen, onClose }) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md p-6 my-8 text-left align-middle transition-all transform shadow-xl rounded-2xl">
-                <MobileMenu />
+              <div
+                className={classNames(
+                  "inline-block w-full max-w-md  text-left transition-all transform shadow-xl rounded-2xl h-screen",
+                  isLanguageDropdownOpen ? "align-top" : "align-middle",
+                  isLanguageDropdownOpen ? "py-6" : "p-6"
+                )}
+              >
+                <div className="absolute right-0">
+                  <BurgerComponent isOpen={true} onToggle={onClose} />
+                </div>
+                <div className="mt-12">
+                  <MobileMenu
+                    isLanguageDropdownOpen={isLanguageDropdownOpen}
+                    onLanguageButtonClick={onLanguageButtonClick}
+                  />
+                </div>
               </div>
             </Transition.Child>
           </div>

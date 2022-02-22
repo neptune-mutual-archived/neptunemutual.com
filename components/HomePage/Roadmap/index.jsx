@@ -2,11 +2,12 @@ import { points } from "@lib/data/roadmap-data";
 import { classNames } from "@lib/utils/classNames";
 import { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
-import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/outline";
 
 import styles from "./style.module.scss";
 import { ContentSlider } from "./ContentSlider";
 import { Trans } from "@lingui/macro";
+import SliderRightIcon from "@utils/icons/SliderRightIcon";
+import SliderLeftIcon from "@utils/icons/SliderLeftIcon";
 
 const currentIndex = points.findIndex((x) => x.highlight);
 
@@ -105,7 +106,7 @@ export const Roadmap = () => {
             onClick={onPrev}
             aria-label="Scroll to View Previous Items"
           >
-            <ChevronLeftIcon width={24} />
+            <SliderLeftIcon width={24} height="auto" />
           </button>
 
           <div className={styles.slider}>
@@ -164,7 +165,7 @@ export const Roadmap = () => {
             onClick={onNext}
             aria-label="Scroll to View Next Items"
           >
-            <ChevronRightIcon width={24} />
+            <SliderRightIcon width={24} height="auto" />
           </button>
         </div>
 

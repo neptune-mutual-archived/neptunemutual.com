@@ -12,7 +12,6 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.4.3",
-    "@heroicons/react": "^1.0.5",
     "@lingui/react": "^3.13.2",
     "gsap": "^3.9.1",
     "make-plural": "^7.1.0",
