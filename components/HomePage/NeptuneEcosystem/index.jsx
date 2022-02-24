@@ -30,6 +30,9 @@ export const NeptuneEcosystemComponent = () => {
       const point2 = points.children[1];
       const point3 = points.children[2];
 
+      const titlesWrapper = titles.parentElement;
+      titlesWrapper.style.height = `${titles.children[0].offsetHeight}px`;
+
       let heights = {
         pointsInner: points?.offsetHeight,
         pointsWrapper: points?.parentElement?.offsetHeight,
@@ -212,7 +215,7 @@ export const NeptuneEcosystemComponent = () => {
 
     setTimeout(() => {
       startEffects();
-    }, 500);
+    }, 1500);
   }, []);
 
   return (
