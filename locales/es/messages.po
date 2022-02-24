@@ -65,21 +65,21 @@ msgstr "Atraer"
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
 msgstr "En función de la demanda, el equipo de Neptune Mutual se asocia con expertos, grupos y empresas en seguridad de blockchain para \"conceptualizar\" un nuevo servicio de análisis de seguridad exclusivamente para nuestros proyectos en cartera. El panel principal se basará en la seguridad del contrato inteligente de producción."
 
-#: lib/data/team-data.js:166
+#: lib/data/team-data.js:168
 msgid "Binita Thapa"
 msgstr "Binita Thapa"
 
-#: lib/data/team-data.js:29
+#: lib/data/team-data.js:30
 msgid "Binod Nirvan"
 msgstr "Binod Nirvan"
 
-#: lib/data/team-data.js:77
-#: lib/data/team-data.js:84
+#: lib/data/team-data.js:78
+#: lib/data/team-data.js:85
 msgid "Blockchain Advisor"
 msgstr "Asesor Blockchain"
 
-#: lib/data/team-data.js:70
-#: lib/data/team-data.js:205
+#: lib/data/team-data.js:71
+#: lib/data/team-data.js:207
 msgid "Blockchain Engineer"
 msgstr "Ingeniero Blockchain"
 
@@ -93,7 +93,7 @@ msgstr "Las coberturas basadas en Blockchain tienen una baja relación reclamos-
 msgid "Blog"
 msgstr "Blog"
 
-#: lib/data/team-data.js:149
+#: lib/data/team-data.js:151
 msgid "Brando"
 msgstr "Brando"
 
@@ -113,7 +113,7 @@ msgstr "Basado en Typescript, los desarrolladores pueden usar el SDK tanto en en
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
 msgstr "Basado en Typescript, el SDK funciona tanto en entornos frontend como backend, en cualquier marco."
 
-#: lib/data/team-data.js:30
+#: lib/data/team-data.js:31
 msgid "CEO & Founder"
 msgstr "CEO y Fundador"
 
@@ -133,7 +133,7 @@ msgstr "Visite nuestro blog"
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
 msgstr "Consulte el código fuente de Cover SDK en el repositorio de Neptune Mutual Github. <0>Lea la documentación del SDK</0> para averiguar cómo obtener acceso a funciones de cobertura en su propia aplicación frontend o API backend."
 
-#: lib/data/team-data.js:50
+#: lib/data/team-data.js:51
 msgid "Chief Legal Officer"
 msgstr "Director legal"
 
@@ -141,15 +141,15 @@ msgstr "Director legal"
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "Elija un grupo de cobertura, seleccione su duración e ingrese cuánto necesita cubrir. Reciba instantáneamente el pago de sus reclamos en moneda estable después de la resolución del incidente."
 
-#: lib/data/team-data.js:219
+#: lib/data/team-data.js:221
 msgid "Co-Founder"
 msgstr "Cofundador"
 
-#: lib/data/team-data.js:198
+#: lib/data/team-data.js:200
 msgid "Community"
 msgstr "Comunidad"
 
-#: lib/data/team-data.js:212
+#: lib/data/team-data.js:214
 msgid "Community Ninja"
 msgstr "Ninja de la comunidad"
 
@@ -163,7 +163,7 @@ msgstr "Conecte con nosotros"
 msgid "Contact"
 msgstr "Contacto"
 
-#: lib/data/team-data.js:100
+#: lib/data/team-data.js:101
 msgid "Content Strategist"
 msgstr "Estrategia de contenido"
 
@@ -199,7 +199,7 @@ msgstr "Rechazar"
 msgid "Dedicated Cover Pools"
 msgstr "Grupo de coberturas dedicadas"
 
-#: lib/data/team-data.js:91
+#: lib/data/team-data.js:92
 msgid "Design Lead"
 msgstr "Líder de diseño"
 
@@ -216,11 +216,11 @@ msgstr "¡No seas un extraño! Únase e interactúe con nosotros en nuestras cre
 msgid "Download Neptune Mutual Lightpaper"
 msgstr "Descargar papel ligero"
 
-#: lib/data/team-data.js:218
+#: lib/data/team-data.js:220
 msgid "Edward Ryall"
 msgstr "Edward Ryall"
 
-#: lib/data/team-data.js:109
+#: lib/data/team-data.js:110
 msgid "Emmanuel Rogel"
 msgstr "Emmanuel Rogel"
 
@@ -228,7 +228,7 @@ msgstr "Emmanuel Rogel"
 msgid "FIND OUT MORE"
 msgstr "SABER MÁS"
 
-#: lib/data/team-data.js:167
+#: lib/data/team-data.js:169
 msgid "Finance Analyst"
 msgstr "Analista financiero"
 
@@ -236,7 +236,7 @@ msgstr "Analista financiero"
 msgid "Flash Loan Income"
 msgstr "Ingresos de préstamos rápidos"
 
-#: lib/data/team-data.js:69
+#: lib/data/team-data.js:70
 msgid "Flashburst"
 msgstr "Flashburst"
 
@@ -248,12 +248,12 @@ msgstr "Sigue nuestro progreso. Únete a nuestra comunidad."
 msgid "Four key principles drive the design of Neptune Mutual's cover protocol:"
 msgstr "Cuatro principios clave impulsan el diseño del protocolo de cobertura de Neptune Mutual:"
 
-#: lib/data/team-data.js:197
+#: lib/data/team-data.js:199
 msgid "Freemind"
 msgstr "Freemind"
 
-#: lib/data/team-data.js:130
-#: lib/data/team-data.js:140
+#: lib/data/team-data.js:131
+#: lib/data/team-data.js:142
 msgid "Frontend Engineer"
 msgstr "Ingeniero frontend"
 
@@ -282,19 +282,19 @@ msgstr "Obtenga pagos garantizados de nuestro modelo de cobertura paramétrica. 
 msgid "Get the Neptune Mutual SDK"
 msgstr "Obtenga el SDK de Neptune Mutual"
 
-#: lib/data/team-data.js:49
+#: lib/data/team-data.js:50
 msgid "Gilbert NG"
 msgstr "Gilbert NG"
 
-#: lib/data/team-data.js:40
+#: lib/data/team-data.js:41
 msgid "Gillian Wu"
 msgstr "Gillian Wu"
 
-#: lib/data/team-data.js:188
+#: lib/data/team-data.js:190
 msgid "Graphics Designer"
 msgstr "Diseñadora gráfica"
 
-#: lib/data/team-data.js:150
+#: lib/data/team-data.js:152
 msgid "Growth"
 msgstr "Crecimiento"
 
@@ -302,15 +302,15 @@ msgstr "Crecimiento"
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
 msgstr "Garantiza protección y rápida resolución a los asegurados de tu cobertura en caso de siniestro."
 
-#: lib/data/team-data.js:76
+#: lib/data/team-data.js:77
 msgid "Hans Koning"
 msgstr "Hans Koning"
 
-#: lib/data/team-data.js:99
+#: lib/data/team-data.js:100
 msgid "Hanz Cabilao"
 msgstr "Hanz Cabilao"
 
-#: lib/data/team-data.js:211
+#: lib/data/team-data.js:213
 msgid "Henry Law"
 msgstr "Henry Law"
 
@@ -334,7 +334,7 @@ msgstr "Incorporación y Legal"
 msgid "Invest stablecoin liquidity to receive rewards and protect your favorite blockchain projects."
 msgstr "Invierta la liquidez de la moneda estable para recibir recompensas y proteger sus proyectos blockchain favoritos."
 
-#: lib/data/team-data.js:176
+#: lib/data/team-data.js:178
 msgid "Jonalyn Delos Santos"
 msgstr "Jonalyn Delos Santos"
 
@@ -370,7 +370,7 @@ msgstr "Rentabilidad de proveedores de liquidez"
 msgid "Low Risk Cover Policies"
 msgstr "Pólizas de cobertura de bajo riesgo"
 
-#: lib/data/team-data.js:90
+#: lib/data/team-data.js:91
 msgid "Mark Garcia"
 msgstr "Mark Garcia"
 
@@ -386,7 +386,7 @@ msgstr "El precio del token NPM no afectará la liquidez del grupo de cobertura.
 msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
 msgstr "Los tokens NPM se utilizan principalmente para nuestro mecanismo de informe de resolución de incidentes, incluidas otras funciones del protocolo, como la creación de una cobertura."
 
-#: components/HomePage/NeptuneEcosystem/index.jsx:236
+#: components/HomePage/NeptuneEcosystem/index.jsx:239
 msgid "Neptune Mutual Ecosystem"
 msgstr "Ecosistema de Neptune Mutual"
 
@@ -414,7 +414,7 @@ msgstr "Neptune Mutual © 2022"
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
 msgstr "El lightpaper de Neptune Mutual brinda información detallada sobre el diseño y uso de nuestro token NPM. Estos son los puntos clave que no debe tomar en cuenta:"
 
-#: lib/data/team-data.js:83
+#: lib/data/team-data.js:84
 msgid "On Yavin"
 msgstr "On Yavin"
 
@@ -434,11 +434,11 @@ msgstr "Replanteo (staking) de POD"
 msgid "Parametric Cover"
 msgstr "Cobertura paramétrica"
 
-#: lib/data/team-data.js:119
+#: lib/data/team-data.js:120
 msgid "Paul Steven Cue"
 msgstr "Paul Steven Cue"
 
-#: lib/data/team-data.js:60
+#: lib/data/team-data.js:61
 msgid "People Manager"
 msgstr "Gerente del personal"
 
@@ -470,7 +470,7 @@ msgstr "Auditoría y lanzamiento de protocolos"
 msgid "Protocol Testnet Launch"
 msgstr "Lanzamiento de Testnet del protocolo"
 
-#: lib/data/team-data.js:156
+#: lib/data/team-data.js:158
 msgid "Pukar Acharya"
 msgstr "Pukar Acharya"
 
@@ -491,7 +491,7 @@ msgstr "La cobertura de reaseguro para los fondos de liquidez está disponible p
 msgid "Receive Rewards"
 msgstr "Recibir recompensas"
 
-#: lib/data/team-data.js:157
+#: lib/data/team-data.js:159
 msgid "Research Analyst"
 msgstr "Analista de investigación"
 
@@ -503,11 +503,11 @@ msgstr "Recompense a su comunidad de protección de cobertura con sus tokens nat
 msgid "Risk warning: Trading crypto assets involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Neptune Mutual based on the legal requirements in your country of residence."
 msgstr "Advertencia de riesgo: el comercio de activos cripto implica un riesgo significativo y puede provocar la pérdida de su capital. No debe invertir más de lo que puede permitirse perder y debe asegurarse de comprender completamente los riesgos involucrados. Antes de operar, tenga en cuenta su nivel de experiencia, objetivos de inversión y busque asesoramiento financiero independiente si es necesario. Es su responsabilidad determinar si está autorizado a utilizar los servicios de Neptune Mutual según los requisitos legales de su país de residencia."
 
-#: lib/data/team-data.js:204
+#: lib/data/team-data.js:206
 msgid "Rudolf"
 msgstr "Rudolf"
 
-#: lib/data/team-data.js:138
+#: lib/data/team-data.js:140
 msgid "Rupak Acharya"
 msgstr "Rupak Acharya"
 
@@ -515,7 +515,7 @@ msgstr "Rupak Acharya"
 msgid "SDK Audit & Launch"
 msgstr "Auditoría y lanzamiento del SDK"
 
-#: lib/data/team-data.js:129
+#: lib/data/team-data.js:130
 msgid "Savin Bhandari"
 msgstr "Savin Bhandari"
 
@@ -539,11 +539,11 @@ msgstr "Panel de análisis de seguridad"
 msgid "Security Scorecards & Widgets"
 msgstr "Cuadros de mando de seguridad y widgets"
 
-#: lib/data/team-data.js:120
+#: lib/data/team-data.js:121
 msgid "Senior Graphic Designer"
 msgstr "Diseñador gráfico senior"
 
-#: lib/data/team-data.js:110
+#: lib/data/team-data.js:111
 msgid "Social Strategist"
 msgstr "Estrategia social"
 
@@ -555,11 +555,11 @@ msgstr "Liquidez de moneda estable"
 msgid "Stay protected against exchange hacks & dApp, DeFi, and smart contract exploits."
 msgstr "Manténgase protegido contra hacks en los intercambios y dApps, DeFi y exploits de contratos inteligentes."
 
-#: lib/data/team-data.js:59
+#: lib/data/team-data.js:60
 msgid "Supritha Shanmugam"
 msgstr "Supritha Shanmugam"
 
-#: lib/data/team-data.js:177
+#: lib/data/team-data.js:179
 msgid "Technical Recruiter"
 msgstr "Reclutadora técnica"
 
@@ -619,7 +619,7 @@ msgstr "Usar"
 msgid "User Experience"
 msgstr "Experiencia de usuario"
 
-#: lib/data/team-data.js:187
+#: lib/data/team-data.js:189
 msgid "Vaishnavi Sahu"
 msgstr "Vaishnavi Sahu"
 
@@ -675,6 +675,6 @@ msgstr "Su estilo"
 msgid "Zero Risk"
 msgstr "Riesgo cero"
 
-#: lib/data/team-data.js:41
+#: lib/data/team-data.js:42
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {Cofundador} female {Cofundadora}}"
