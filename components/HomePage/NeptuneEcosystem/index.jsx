@@ -215,7 +215,7 @@ export const NeptuneEcosystemComponent = () => {
 
     setTimeout(() => {
       startEffects();
-    }, 500);
+    }, 1500);
   }, []);
 
   return (
