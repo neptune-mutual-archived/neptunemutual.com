@@ -65,21 +65,21 @@ msgstr "吸引"
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
 msgstr "根据需求，Neptune Mutual 团队会与区块链安全专家、团体和公司合作，专门为在Neptune Mutual生态中发起保障池的项目组合“构思”了一个全新的安全分析服务方案。"
 
-#: lib/data/team-data.js:166
+#: lib/data/team-data.js:168
 msgid "Binita Thapa"
-msgstr "Ninita Thapa"
+msgstr "Binita Thapa"
 
-#: lib/data/team-data.js:29
+#: lib/data/team-data.js:30
 msgid "Binod Nirvan"
 msgstr "Binod Nirvan"
 
-#: lib/data/team-data.js:77
-#: lib/data/team-data.js:84
+#: lib/data/team-data.js:78
+#: lib/data/team-data.js:85
 msgid "Blockchain Advisor"
 msgstr "区块链顾问"
 
-#: lib/data/team-data.js:70
-#: lib/data/team-data.js:205
+#: lib/data/team-data.js:71
+#: lib/data/team-data.js:207
 msgid "Blockchain Engineer"
 msgstr "区块链工程师"
 
@@ -93,7 +93,7 @@ msgstr "基于区块链的保障产品的偿付比率通常较低。现有的保
 msgid "Blog"
 msgstr "博客"
 
-#: lib/data/team-data.js:149
+#: lib/data/team-data.js:151
 msgid "Brando"
 msgstr "Brando"
 
@@ -113,7 +113,7 @@ msgstr "基于 Typescript，开发人员可以使用任何流行的框架在前�
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
 msgstr "该 SDK 基于 Typescript 构建，适用于任何框架的前端和后端环境。"
 
-#: lib/data/team-data.js:30
+#: lib/data/team-data.js:31
 msgid "CEO & Founder"
 msgstr "首席执行官兼创始人"
 
@@ -133,7 +133,7 @@ msgstr "查看我们的博客"
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
 msgstr "查看 Neptune Mutual Github 存储库上的 Cover SDK 源代码。 <0>阅读 SDK 文档</0>，了解如何通过您自己的前端应用或后端 API 上访问保障池创建管理功能。"
 
-#: lib/data/team-data.js:50
+#: lib/data/team-data.js:51
 msgid "Chief Legal Officer"
 msgstr "首席法务官"
 
@@ -141,15 +141,15 @@ msgstr "首席法务官"
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "选择一个保障池，选择投保期限，然后输入您想投保的金额。事件解决后，您会立即收到以稳定币结算的赔付金额。"
 
-#: lib/data/team-data.js:219
+#: lib/data/team-data.js:221
 msgid "Co-Founder"
 msgstr "联合创始人"
 
-#: lib/data/team-data.js:198
+#: lib/data/team-data.js:200
 msgid "Community"
 msgstr "社区"
 
-#: lib/data/team-data.js:212
+#: lib/data/team-data.js:214
 msgid "Community Ninja"
 msgstr "社区忍者"
 
@@ -163,7 +163,7 @@ msgstr "联系我们"
 msgid "Contact"
 msgstr "联系方式"
 
-#: lib/data/team-data.js:100
+#: lib/data/team-data.js:101
 msgid "Content Strategist"
 msgstr "内容策略师"
 
@@ -199,7 +199,7 @@ msgstr "拒绝"
 msgid "Dedicated Cover Pools"
 msgstr "专属保障池"
 
-#: lib/data/team-data.js:91
+#: lib/data/team-data.js:92
 msgid "Design Lead"
 msgstr "设计主管"
 
@@ -216,11 +216,11 @@ msgstr "欢迎加入我们不断壮大的社交媒体社区来参与互动。随
 msgid "Download Neptune Mutual Lightpaper"
 msgstr "下载 Neptune Mutual 简版白皮书"
 
-#: lib/data/team-data.js:218
+#: lib/data/team-data.js:220
 msgid "Edward Ryall"
 msgstr "Edward Ryall"
 
-#: lib/data/team-data.js:109
+#: lib/data/team-data.js:110
 msgid "Emmanuel Rogel"
 msgstr "Emmanuel Rogel"
 
@@ -228,7 +228,7 @@ msgstr "Emmanuel Rogel"
 msgid "FIND OUT MORE"
 msgstr "了解更多"
 
-#: lib/data/team-data.js:167
+#: lib/data/team-data.js:169
 msgid "Finance Analyst"
 msgstr "财务分析师"
 
@@ -236,7 +236,7 @@ msgstr "财务分析师"
 msgid "Flash Loan Income"
 msgstr "闪贷收入"
 
-#: lib/data/team-data.js:69
+#: lib/data/team-data.js:70
 msgid "Flashburst"
 msgstr "Flashburst"
 
@@ -248,12 +248,12 @@ msgstr "加入我们的社区，了解我们的进度"
 msgid "Four key principles drive the design of Neptune Mutual's cover protocol:"
 msgstr "推动Neptune Mutual 保障协议设计的四个关键原则："
 
-#: lib/data/team-data.js:197
+#: lib/data/team-data.js:199
 msgid "Freemind"
 msgstr "Freemind"
 
-#: lib/data/team-data.js:130
-#: lib/data/team-data.js:140
+#: lib/data/team-data.js:131
+#: lib/data/team-data.js:142
 msgid "Frontend Engineer"
 msgstr "前端工程师"
 
@@ -282,19 +282,19 @@ msgstr "从我们的参数化保障模式中获得确定的赔付。无需理赔
 msgid "Get the Neptune Mutual SDK"
 msgstr "获取Neptune Mutual SDK"
 
-#: lib/data/team-data.js:49
+#: lib/data/team-data.js:50
 msgid "Gilbert NG"
 msgstr "Gilbert NG"
 
-#: lib/data/team-data.js:40
+#: lib/data/team-data.js:41
 msgid "Gillian Wu"
 msgstr "Gillian Wu"
 
-#: lib/data/team-data.js:188
+#: lib/data/team-data.js:190
 msgid "Graphics Designer"
 msgstr "平面设计师"
 
-#: lib/data/team-data.js:150
+#: lib/data/team-data.js:152
 msgid "Growth"
 msgstr "成长"
 
@@ -302,15 +302,15 @@ msgstr "成长"
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
 msgstr "您的保单持有人在事件发生后将会获得迅速的解决以及确定的偿付保障"
 
-#: lib/data/team-data.js:76
+#: lib/data/team-data.js:77
 msgid "Hans Koning"
 msgstr "Hans Koning"
 
-#: lib/data/team-data.js:99
+#: lib/data/team-data.js:100
 msgid "Hanz Cabilao"
 msgstr "Hanz Cabilao"
 
-#: lib/data/team-data.js:211
+#: lib/data/team-data.js:213
 msgid "Henry Law"
 msgstr "Henry Law"
 
@@ -334,7 +334,7 @@ msgstr "公司注册与法律"
 msgid "Invest stablecoin liquidity to receive rewards and protect your favorite blockchain projects."
 msgstr "用稳定币提供流动性以获取奖励，并为您喜爱的区块链项目提供保障"
 
-#: lib/data/team-data.js:176
+#: lib/data/team-data.js:178
 msgid "Jonalyn Delos Santos"
 msgstr "Jonalyn Delos Santos"
 
@@ -370,7 +370,7 @@ msgstr "LP (流动性提供者) 收益"
 msgid "Low Risk Cover Policies"
 msgstr "低风险保单"
 
-#: lib/data/team-data.js:90
+#: lib/data/team-data.js:91
 msgid "Mark Garcia"
 msgstr "Mark Garcia"
 
@@ -386,7 +386,7 @@ msgstr "NPM代币的价格波动不会影响保障池的流动性。"
 msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
 msgstr "NPM代币主要用于事件解决通报机制，以及协议上的其他功能比如创建保单。"
 
-#: components/HomePage/NeptuneEcosystem/index.jsx:236
+#: components/HomePage/NeptuneEcosystem/index.jsx:239
 msgid "Neptune Mutual Ecosystem"
 msgstr "Neptune Mutual 生态"
 
@@ -414,7 +414,7 @@ msgstr "Neptune Mutual © 2022"
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
 msgstr "Neptune Mutual 简化版白皮书介绍了NPM的代币设计和应用。以下是几个要带点："
 
-#: lib/data/team-data.js:83
+#: lib/data/team-data.js:84
 msgid "On Yavin"
 msgstr "On Yavin"
 
@@ -434,11 +434,11 @@ msgstr "POD 权益质押"
 msgid "Parametric Cover"
 msgstr "参数化保障"
 
-#: lib/data/team-data.js:119
+#: lib/data/team-data.js:120
 msgid "Paul Steven Cue"
 msgstr "Paul Steven Cue"
 
-#: lib/data/team-data.js:60
+#: lib/data/team-data.js:61
 msgid "People Manager"
 msgstr "人力资源主管"
 
@@ -470,7 +470,7 @@ msgstr "协议审计及发布"
 msgid "Protocol Testnet Launch"
 msgstr "发布协议测试网络"
 
-#: lib/data/team-data.js:156
+#: lib/data/team-data.js:158
 msgid "Pukar Acharya"
 msgstr "Pukar Acharya"
 
@@ -491,7 +491,7 @@ msgstr "为保障池提供的再保险保障将进一步降低流动性提供者
 msgid "Receive Rewards"
 msgstr "领取奖励"
 
-#: lib/data/team-data.js:157
+#: lib/data/team-data.js:159
 msgid "Research Analyst"
 msgstr "分析师"
 
@@ -503,11 +503,11 @@ msgstr "为您的保障社区用户提供原生代币奖励"
 msgid "Risk warning: Trading crypto assets involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Neptune Mutual based on the legal requirements in your country of residence."
 msgstr "风险提示：交易加密资产涉及重大风险，并可能导致您的资金损失。您的投资不应超过您可以承受的损失，并且您应确保您完全了解所涉及的风险。交易前，请考虑您的投资经验、投资目标，并在必要时寻求独立的财务建议。您有责任根据您所在国家/地区的法律要求来确定您能否使用 Neptune Mutual 的服务。"
 
-#: lib/data/team-data.js:204
+#: lib/data/team-data.js:206
 msgid "Rudolf"
 msgstr "Rudolf"
 
-#: lib/data/team-data.js:138
+#: lib/data/team-data.js:140
 msgid "Rupak Acharya"
 msgstr "Rupak Acharya"
 
@@ -515,7 +515,7 @@ msgstr "Rupak Acharya"
 msgid "SDK Audit & Launch"
 msgstr "SDK 审计与发布"
 
-#: lib/data/team-data.js:129
+#: lib/data/team-data.js:130
 msgid "Savin Bhandari"
 msgstr "Savin Bhandari"
 
@@ -539,11 +539,11 @@ msgstr "安全分析界面"
 msgid "Security Scorecards & Widgets"
 msgstr "安全评分卡和工具"
 
-#: lib/data/team-data.js:120
+#: lib/data/team-data.js:121
 msgid "Senior Graphic Designer"
 msgstr "高级平面设计师"
 
-#: lib/data/team-data.js:110
+#: lib/data/team-data.js:111
 msgid "Social Strategist"
 msgstr "社区战略主管"
 
@@ -555,11 +555,11 @@ msgstr "稳定币流动性"
 msgid "Stay protected against exchange hacks & dApp, DeFi, and smart contract exploits."
 msgstr "保障自己免于交易所黑客和去中心化应用，DeFi，智能合约的安全漏洞攻击"
 
-#: lib/data/team-data.js:59
+#: lib/data/team-data.js:60
 msgid "Supritha Shanmugam"
 msgstr "Supritha Shanmugam"
 
-#: lib/data/team-data.js:177
+#: lib/data/team-data.js:179
 msgid "Technical Recruiter"
 msgstr "技术招聘主管"
 
@@ -619,7 +619,7 @@ msgstr "应用"
 msgid "User Experience"
 msgstr "用户体验"
 
-#: lib/data/team-data.js:187
+#: lib/data/team-data.js:189
 msgid "Vaishnavi Sahu"
 msgstr "Vaishnavi Sahu"
 
@@ -675,6 +675,6 @@ msgstr "您的风格"
 msgid "Zero Risk"
 msgstr "零风险"
 
-#: lib/data/team-data.js:41
+#: lib/data/team-data.js:42
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {联合创始人} female {联合创始人}}"
