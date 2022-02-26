@@ -6,6 +6,7 @@ export const languageKey = {
   es: "Spanish - Español",
   fr: "French - français",
   ru: "Russian - русский",
+  tr: "Turkish - Türkçe",
 };
 
 export const localesKey = {
@@ -16,4 +17,5 @@ export const localesKey = {
   "Spanish - Español": "es",
   "French - français": "fr",
   "Russian - русский": "ru",
+  "Turkish - Türkçe": "tr",
 };
