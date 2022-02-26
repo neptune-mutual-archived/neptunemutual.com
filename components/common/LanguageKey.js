@@ -1,21 +1,21 @@
 export const languageKey = {
-  en: "English",
   zh: "Chinese - 中国人",
+  en: "English",
+  fr: "French - français",
   ja: "Japanese - 日本語",
   ko: "Korean - 한국어",
-  es: "Spanish - Español",
-  fr: "French - français",
   ru: "Russian - русский",
+  es: "Spanish - Español",
   tr: "Turkish - Türkçe",
 };
 
 export const localesKey = {
-  "English": "en",
   "Chinese - 中国人": "zh",
+  "English": "en",
+  "French - français": "fr",
   "Japanese - 日本語": "ja",
   "Korean - 한국어": "ko",
-  "Spanish - Español": "es",
-  "French - français": "fr",
   "Russian - русский": "ru",
+  "Spanish - Español": "es",
   "Turkish - Türkçe": "tr",
 };
