@@ -19,7 +19,7 @@ msgstr "100%+ MCR"
 
 #: components/HomePage/Landing/index.jsx:36
 msgid "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
-msgstr "<0>Kripto Piyasa Rikslerini</0> <1>Kendi Pozisyonunuzla</1> <2>Azaltın</2>"
+msgstr "Kripto Piyasa Rikslerini Kendi Pozisyonunuzla Azaltın"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
@@ -59,7 +59,7 @@ msgstr "Neptune Mutual dashboard çözümünde bir sonraki yineleme ve geliştir
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:30
 msgid "Attract"
-msgstr "Çekmek"
+msgstr "Yükleyin"
 
 #: lib/data/roadmap-data.js:245
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
