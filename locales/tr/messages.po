@@ -19,11 +19,11 @@ msgstr "100%+ MCR"
 
 #: components/HomePage/Landing/index.jsx:36
 msgid "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
-msgstr "<0>Azaltmak</0> <1>Pozisyonun</1> <2>Kripto Piyasa Riskleri </2>"
+msgstr "<0>Kripto Piyasa Rikslerini</0> <1>Kendi Pozisyonunuzla</1> <2>Azaltın</2>"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
-msgstr "Bir projeye yapılan hack saldırısı, diğer projenin kapsamını etkilemez."
+msgstr "Bir projeye yapılan hack saldırısı, diğer projenin teminatını etkilemez."
 
 #: components/CookiePolicy/index.jsx:49
 msgid "Accept"
@@ -47,7 +47,7 @@ msgstr "Neptune Mutual ekosisteminin tüm katılımcıları, Neptune Mutual prot
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
 msgid "Anywhere"
-msgstr "Herhangi bir yer"
+msgstr "Herhangi bir yerde"
 
 #: lib/data/roadmap-data.js:268
 msgid "As the industry evolves and matures further, Neptune Mutual creates even more products, apps, and services to remain relevant in the space and continuously innovate."
@@ -107,11 +107,11 @@ msgstr "Kendi ekosisteminizde teminat koruma topluluğunuzu oluşturun."
 
 #: lib/data/roadmap-data.js:149
 msgid "Built on Typescript, developers can use the SDK in both frontend and backend environments using any popular framework. The SDK is available as an NPM package:"
-msgstr "Typescript üzerine inşa edilen geliştiriciler, herhangi bir popüler çerçeveyi kullanarak SDK'yı hem ön uç hem de arka uç ortamlarında kullanabilir. SDK bir NPM paketi olarak mevcuttur:"
+msgstr "Typescript üzerine inşa edilen geliştiriciler, herhangi bir popüler çerçeveyi kullanarak SDK'yı hem frontend hem de backend ortamlarında kullanabilir. SDK bir NPM paketi olarak mevcuttur:"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:23
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
-msgstr "Typescript üzerine inşa edilen SDK, herhangi bir çerçevede hem ön uç hem de arka uç ortamlarında çalışır."
+msgstr "Typescript üzerine inşa edilen SDK, herhangi bir frameworkde hem frontend hem de backend ortamlarında çalışır."
 
 #: lib/data/team-data.js:31
 msgid "CEO & Founder"
@@ -131,7 +131,7 @@ msgstr "Blogumuza Göz Atın"
 
 #: lib/data/roadmap-data.js:133
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
-msgstr "Neptune Mutual Github deposundaki Cover SDK kaynak kodunu kontrol edin. Kendi ön uç uygulamanızdaki veya arka uç API'nizdeki kapsama özelliklerine nasıl erişeceğinizi öğrenmek için <0>SDK belgelerini okuyun</0>."
+msgstr "Neptune Mutual Github deposundaki Cover SDK kaynak kodunu kontrol edin. Kendi frontend uygulamanızdaki veya backend API'nizdeki kapsama özelliklerine nasıl erişeceğinizi öğrenmek için <0>SDK belgelerini okuyun</0>."
 
 #: lib/data/team-data.js:51
 msgid "Chief Legal Officer"
@@ -139,7 +139,7 @@ msgstr "Hukuk Yöneticisi"
 
 #: components/HomePage/Landing/index.jsx:43
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
-msgstr "Bir teminat havuzu seçin, süresini seçin ve ne kadar kaplamanız gerektiğini girin. Olay çözüldükten sonra talep ettiğiniz ödemelerinizi anında stabilcoin olarak alın."
+msgstr "Bir teminat havuzu seçin, süresini seçin ve ne kadar teminat gerektiğini girin. Olay çözüldükten sonra talep ettiğiniz ödemelerinizi anında stabilcoin olarak alın."
 
 #: lib/data/team-data.js:221
 msgid "Co-Founder"
@@ -165,7 +165,7 @@ msgstr "İletişim"
 
 #: lib/data/team-data.js:101
 msgid "Content Strategist"
-msgstr "İçerik Stratejisi"
+msgstr "İçerik Stratejisti"
 
 #: components/CookiePolicy/index.jsx:36
 msgid "Cookies disclaimer"
@@ -185,7 +185,7 @@ msgstr "Teminat SDL Beta"
 
 #: components/GotCovered/GotCovered.jsx:32
 msgid "Create Covers"
-msgstr "Teminatlar Oluştur"
+msgstr "Teminatlar Oluşturun"
 
 #: lib/data/ecosystem-data.js:87
 msgid "Crowdfund your investor protection fund."
@@ -255,7 +255,7 @@ msgstr "Freemind"
 #: lib/data/team-data.js:131
 #: lib/data/team-data.js:142
 msgid "Frontend Engineer"
-msgstr "Ön Uç Mühendisi"
+msgstr "Frontend Mühendisi"
 
 #: lib/data/roadmap-data.js:169
 msgid "Fundraising, Recruitment & Build"
@@ -292,7 +292,7 @@ msgstr "Gillian Wu"
 
 #: lib/data/team-data.js:190
 msgid "Graphics Designer"
-msgstr "Grafik Tasarım"
+msgstr "Grafik Tasarımcı"
 
 #: lib/data/team-data.js:152
 msgid "Growth"
@@ -356,7 +356,7 @@ msgstr "Hadi İnşaa Edelim"
 
 #: components/utils/Footer/index.jsx:37
 msgid "Let’s Connect"
-msgstr "Hadi Bağlanalım"
+msgstr "Bizi Sosyal Medyadan Takip Edin!"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
 msgid "Liquidity"
@@ -464,7 +464,7 @@ msgstr "Finansman Topluluğunuzu koruyun"
 
 #: lib/data/roadmap-data.js:208
 msgid "Protocol Audit & Launch"
-msgstr "Protokol Denetimi ve lansman"
+msgstr "Protokol Denetimi ve lansmanı"
 
 #: lib/data/roadmap-data.js:185
 msgid "Protocol Testnet Launch"
@@ -613,7 +613,7 @@ msgstr "Endüstri Liderleri Tarafından Güvenilen"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:20
 msgid "Use"
-msgstr "Kullan"
+msgstr "Kullanın"
 
 #: lib/data/roadmap-data.js:95
 msgid "User Experience"
@@ -645,7 +645,7 @@ msgstr "Deneyiminizi kişiselleştirmek için üçüncü taraf çerezleri kullan
 
 #: components/GotCovered/GotCovered.jsx:49
 msgid "We’ve Got You Covered"
-msgstr "Sizi Koruduk"
+msgstr "Teminatlarınızı Koruyoruz"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:33
 msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
@@ -665,11 +665,11 @@ msgstr "Kendinden Emin, Korunan Toplululuğunuz"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:48
 msgid "Your Cover Pool"
-msgstr "Koruma Havuzunuz"
+msgstr "Teminat Havuzun"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:50
 msgid "Your Style"
-msgstr "Senin stilin"
+msgstr "Stilin"
 
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
