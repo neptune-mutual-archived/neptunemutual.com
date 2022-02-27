@@ -1,5 +1,6 @@
-$animation-duration: 1s;
-$animation-delay-base: 0.1;
+$animation-duration: 1; // in seconds
+$animation-delay-base: 0.2; // in seconds
+$animation-intial-delay: 2; // in seconds
 
 .heading-container {
   padding-top: 2.75rem;
@@ -31,12 +32,13 @@ $animation-delay-base: 0.1;
   span {
     // display: block;
     text-align: center;
+    opacity: 0;
   }
 
   p.line1 {
     span {
-      animation: fade-in $animation-duration #{$animation-delay-base}s forwards
-        cubic-bezier(0.11, 0, 0.5, 0);
+      animation: fade-in #{$animation-duration}s #{$animation-intial-delay}s
+        forwards cubic-bezier(0.11, 0, 0.5, 0);
     }
   }
 
@@ -44,8 +46,9 @@ $animation-delay-base: 0.1;
     @for $i from 1 through 3 {
       span:nth-child(#{$i}) {
         animation: fade-in
-          $animation-duration
-          #{($i + 1) *
+          #{$animation-duration}s
+          #{$animation-intial-delay +
+          $i *
           $animation-delay-base}s
           forwards
           cubic-bezier(0.11, 0, 0.5, 0);
@@ -57,8 +60,9 @@ $animation-delay-base: 0.1;
     @for $i from 1 through 3 {
       span:nth-child(#{$i}) {
         animation: fade-in
-          $animation-duration
-          #{($i + 4) *
+          #{$animation-duration}s
+          #{$animation-intial-delay +
+          ($i + 3) *
           $animation-delay-base}s
           forwards
           cubic-bezier(0.11, 0, 0.5, 0);
@@ -82,7 +86,7 @@ $animation-delay-base: 0.1;
 @keyframes fade-in {
   from {
     opacity: 0;
-    filter: blur(4px);
+    filter: blur(6px);
   }
   to {
     opacity: 1;
