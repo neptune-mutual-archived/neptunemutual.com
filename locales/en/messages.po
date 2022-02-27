@@ -17,9 +17,9 @@ msgstr ""
 msgid "100%+ MCR"
 msgstr "100%+ MCR"
 
-#: components/HomePage/Landing/index.jsx:36
-msgid "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
-msgstr "<0>Reduce</0> <1>Your Exposure to</1> <2>Crypto Market Risks</2>"
+#: components/HomePage/Landing/index.jsx:37
+msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
+msgstr "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
@@ -137,7 +137,7 @@ msgstr "Check out the Cover SDK source code on the Neptune Mutual Github reposit
 msgid "Chief Legal Officer"
 msgstr "Chief Legal Officer"
 
-#: components/HomePage/Landing/index.jsx:43
+#: components/HomePage/Landing/index.jsx:51
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 
@@ -623,7 +623,7 @@ msgstr "User Experience"
 msgid "Vaishnavi Sahu"
 msgstr "Vaishnavi Sahu"
 
-#: components/HomePage/Landing/index.jsx:57
+#: components/HomePage/Landing/index.jsx:65
 msgid "View App Prototype"
 msgstr "View App Prototype"
 
