@@ -1,33 +1,7 @@
-import gsap from "gsap";
-import SplitText from "../../utils/Split3.min.js";
-import { useEffect } from "react";
-
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 
 export const LandingPage = () => {
-  useEffect(() => {
-    console.log("loaded");
-    gsap.registerPlugin(SplitText);
-
-    const animate = (el, stagger) => {
-      const timeline = gsap.timeline();
-
-      const text = new SplitText(el, {
-        type: "words",
-      });
-
-      timeline.from(text.words, {
-        duration: 5,
-        opacity: 0.5,
-        ease: "wiggle",
-        stagger,
-      });
-    };
-
-    // animate("#header-text", 0.04);
-  }, []);
-
   return (
     <div className={"section_border_container hero"}>
       <div className={"section_horizontal_container"}>
