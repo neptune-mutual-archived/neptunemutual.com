@@ -1,3 +1,6 @@
+$animation-duration: 1s;
+$animation-delay-base: 0.1;
+
 .heading-container {
   padding-top: 2.75rem;
 
@@ -26,8 +29,41 @@
   line-height: 40px;
 
   span {
-    display: block;
+    // display: block;
     text-align: center;
+  }
+
+  p.line1 {
+    span {
+      animation: fade-in $animation-duration #{$animation-delay-base}s forwards
+        cubic-bezier(0.11, 0, 0.5, 0);
+    }
+  }
+
+  p.line2 {
+    @for $i from 1 through 3 {
+      span:nth-child(#{$i}) {
+        animation: fade-in
+          $animation-duration
+          #{($i + 1) *
+          $animation-delay-base}s
+          forwards
+          cubic-bezier(0.11, 0, 0.5, 0);
+      }
+    }
+  }
+
+  p.line3 {
+    @for $i from 1 through 3 {
+      span:nth-child(#{$i}) {
+        animation: fade-in
+          $animation-duration
+          #{($i + 4) *
+          $animation-delay-base}s
+          forwards
+          cubic-bezier(0.11, 0, 0.5, 0);
+      }
+    }
   }
 
   @media (min-width: 768px) {
@@ -40,6 +76,17 @@
     max-width: 882px;
     font-size: 76px;
     line-height: 104px;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    filter: blur(4px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
   }
 }
 

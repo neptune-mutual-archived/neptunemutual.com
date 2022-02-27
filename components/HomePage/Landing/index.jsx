@@ -7,6 +7,7 @@ import { Trans } from "@lingui/macro";
 
 export const LandingPage = () => {
   useEffect(() => {
+    console.log("loaded");
     gsap.registerPlugin(SplitText);
 
     const animate = (el, stagger) => {
@@ -24,7 +25,7 @@ export const LandingPage = () => {
       });
     };
 
-    animate("#header-text", 0.04);
+    // animate("#header-text", 0.04);
   }, []);
 
   return (
@@ -34,8 +35,15 @@ export const LandingPage = () => {
           <div className={styles["heading-container"]}>
             <h1 id="header-text" className={styles.h2}>
               <Trans>
-                <span>Reduce</span> <span>Your Exposure to</span>{" "}
-                <span>Crypto Market Risks</span>
+                <p className={styles.line1}>
+                  <span>Reduce</span>
+                </p>{" "}
+                <p className={styles.line2}>
+                  <span>Your</span> <span>Exposure</span> <span>to</span>
+                </p>{" "}
+                <p className={styles.line3}>
+                  <span>Crypto</span> <span>Market</span> <span>Risks</span>
+                </p>
               </Trans>
             </h1>
           </div>
