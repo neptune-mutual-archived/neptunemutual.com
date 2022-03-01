@@ -26,8 +26,11 @@ export const SEOMeta = ({
     <link rel="apple-touch-icon" href={iconHref} />
 
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/images/OG.png" />
-    <meta name="twitter:image" content="/images/OG.png" />
+    <meta property="og:image" content="/images/og.png" />
+    <meta
+      name="twitter:image"
+      content="https://neptunemutual.com/images/og.png"
+    />
 
     <link rel="canonical" href={canonical} />
   </Head>
