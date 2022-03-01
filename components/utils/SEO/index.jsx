@@ -25,7 +25,7 @@ export const SEOMeta = ({
 
       <meta
         name="twitter:image"
-        content="https://neptunemutual.com/images/og.png"
+        content="https://neptunemutual.com/images/OG.png"
       />
 
       <link rel="icon" href={iconHref} />
