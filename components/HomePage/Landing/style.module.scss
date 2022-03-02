@@ -160,3 +160,32 @@ $animation-intial-delay: 1.5; // in seconds
     margin-top: 3.5rem;
   }
 }
+
+.hero_container {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 10px;
+  top: 10px;
+  background-size: contain !important;
+  background: url(/images/header/circle-gradient.png);
+  animation: circle-animation 7s infinite alternate linear;
+  display: block;
+
+  @media (max-width: 1366px) {
+    display: none;
+  }
+}
+
+@keyframes circle-animation {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-250px);
+  }
+}

@@ -1,9 +1,16 @@
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
+import { classNames } from "@lib/utils/classNames.js";
 
 export const LandingPage = () => {
   return (
-    <div className={"section_border_container hero"}>
+    <div
+      className={classNames(
+        "section_border_container hero",
+        styles.hero_container
+      )}
+    >
+      <div className={styles.circle}></div>
       <div className={"section_horizontal_container"}>
         <div className="relative w-full pb-24">
           <div className={styles["heading-container"]}>
