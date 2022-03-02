@@ -17,7 +17,7 @@ msgstr ""
 msgid "100%+ MCR"
 msgstr "100% 以上资金/承保额比例"
 
-#: components/HomePage/Landing/index.jsx:37
+#: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
 msgstr "<0><1>降低</1></0> <2><3></3> <4>您所面临的</4> <5></5></2> <6><7></7> <8>加密市场风险</8> <9></9></6>"
 
@@ -137,7 +137,7 @@ msgstr "查看 Neptune Mutual Github 存储库上的 Cover SDK 源代码。 <0>�
 msgid "Chief Legal Officer"
 msgstr "首席法务官"
 
-#: components/HomePage/Landing/index.jsx:51
+#: components/HomePage/Landing/index.jsx:32
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "选择一个保障池，选择投保期限，然后输入您想投保的金额。事件解决后，您会立即收到以稳定币结算的赔付金额。"
 
@@ -623,7 +623,7 @@ msgstr "用户体验"
 msgid "Vaishnavi Sahu"
 msgstr "Vaishnavi Sahu"
 
-#: components/HomePage/Landing/index.jsx:65
+#: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
 msgstr "查看App原型"
 
