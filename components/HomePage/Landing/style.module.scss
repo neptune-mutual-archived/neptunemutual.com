@@ -1,3 +1,7 @@
+$animation-duration: 1; // in seconds
+$animation-delay-base: 0.2; // in seconds
+$animation-intial-delay: 1.5; // in seconds
+
 .heading-container {
   padding-top: 2.75rem;
 
@@ -26,8 +30,44 @@
   line-height: 40px;
 
   span {
-    display: block;
+    // display: block;
     text-align: center;
+    opacity: 0;
+  }
+
+  p.line1 {
+    span {
+      animation: fade-in #{$animation-duration}s #{$animation-intial-delay}s
+        forwards cubic-bezier(0.11, 0, 0.5, 0);
+    }
+  }
+
+  p.line2 {
+    @for $i from 1 through 3 {
+      span:nth-child(#{$i}) {
+        animation: fade-in
+          #{$animation-duration}s
+          #{$animation-intial-delay +
+          $i *
+          $animation-delay-base}s
+          forwards
+          cubic-bezier(0.11, 0, 0.5, 0);
+      }
+    }
+  }
+
+  p.line3 {
+    @for $i from 1 through 3 {
+      span:nth-child(#{$i}) {
+        animation: fade-in
+          #{$animation-duration}s
+          #{$animation-intial-delay +
+          ($i + 3) *
+          $animation-delay-base}s
+          forwards
+          cubic-bezier(0.11, 0, 0.5, 0);
+      }
+    }
   }
 
   @media (min-width: 768px) {
@@ -40,6 +80,17 @@
     max-width: 882px;
     font-size: 76px;
     line-height: 104px;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    filter: blur(6px);
+  }
+  to {
+    opacity: 1;
+    filter: blur(0px);
   }
 }
 
@@ -107,5 +158,34 @@
     font-size: 1.125rem;
     line-height: 1.4375rem;
     margin-top: 3.5rem;
+  }
+}
+
+.hero_container {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  right: 10px;
+  top: 10px;
+  background-size: contain !important;
+  background: url(/images/header/circle-gradient.png);
+  animation: circle-animation 7s infinite alternate linear;
+  display: block;
+
+  @media (max-width: 1366px) {
+    display: none;
+  }
+}
+
+@keyframes circle-animation {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(-250px);
   }
 }
