@@ -5,32 +5,38 @@ export const SEOMeta = ({
   description,
   canonical,
   iconHref = "/favicon.ico",
-}) => (
-  <Head>
-    <title>{title}</title>
+}) => {
+  return (
+    <Head>
+      <title>{title}</title>
 
-    <meta name="description" content={description} />
-    <meta name="og:title" property="og:title" content={title} />
-    <meta
-      name="og:description"
-      property="og:description"
-      content={description}
-    />
-    <meta property="og:url" content={canonical} />
+      <meta name="description" content={description} />
+      <meta name="og:title" property="og:title" content={title} />
+      <meta
+        name="og:description"
+        property="og:description"
+        content={description}
+      />
+      <meta property="og:url" content={canonical} />
 
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content={title} />
-    <meta name="twitter:description" content={description} />
+      <meta name="twitter:card" content="summary" />
+      <meta name="twitter:title" content={title} />
+      <meta name="twitter:description" content={description} />
 
-    <link rel="icon" href={iconHref} />
-    <link rel="apple-touch-icon" href={iconHref} />
+      <meta
+        name="twitter:image"
+        content="https://neptunemutual.com/images/og.png"
+      />
 
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="/images/OG.png" />
-    <meta name="twitter:image" content="/images/OG.png" />
+      <link rel="icon" href={iconHref} />
+      <link rel="apple-touch-icon" href={iconHref} />
 
-    <link rel="canonical" href={canonical} />
-  </Head>
-);
+      <meta property="og:type" content="website" />
+      <meta property="og:image" content="/images/og.png" />
+
+      <link rel="canonical" href={canonical} />
+    </Head>
+  );
+};
 
 export default SEOMeta;
