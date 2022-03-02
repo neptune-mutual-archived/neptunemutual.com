@@ -152,7 +152,7 @@ export const Footer = () => {
             <div className={styles["link"]}>
               <a
                 rel="noreferrer"
-                href="https://docs.neptunemutual.com/usage/terms-of-use"
+                href="https://docs.neptunemutual.com/usage/privacy-policy"
                 target="_blank"
                 aria-label="Privacy Policy"
               >

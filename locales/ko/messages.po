@@ -17,7 +17,7 @@ msgstr ""
 msgid "100%+ MCR"
 msgstr "100%+ MCR"
 
-#: components/HomePage/Landing/index.jsx:37
+#: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
 msgstr "<0><1>암호화폐</1></0> <2><3>시장</3> <4>리스크에</4> <5>대한</5></2> <6><7>노출</7> <8>감소</8> <9></9></6>"
 
@@ -137,7 +137,7 @@ msgstr "Neptune Mutual Github 저장소의 보험 SDK 소스 코드를 확인하
 msgid "Chief Legal Officer"
 msgstr "최고법무책임자"
 
-#: components/HomePage/Landing/index.jsx:51
+#: components/HomePage/Landing/index.jsx:32
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "보험 풀을 선택하고 기간을 선택한 다음 적용해야 할 양을 입력합니다. 사고 해결 후 즉시 스테이블 코인으로 청구 금액을 수령합니다."
 
@@ -623,7 +623,7 @@ msgstr "사용자 환경"
 msgid "Vaishnavi Sahu"
 msgstr "바이슈나비 사후"
 
-#: components/HomePage/Landing/index.jsx:65
+#: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
 msgstr "앱 프로토타입 보기"
 
