@@ -19,7 +19,7 @@ msgstr "100%+ MCR"
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
-msgstr "Kurangi Resiko Pasar Kripto Anda"
+msgstr "<0><1>Kurangi</1></0> <2><3>Resiko</3> <4></4> <5>Pasar</5></2> <6><7>Kripto</7> <8></8> <9>Anda</9></6>"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
