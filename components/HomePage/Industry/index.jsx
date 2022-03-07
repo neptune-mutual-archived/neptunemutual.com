@@ -9,6 +9,7 @@ import { social } from "@components/utils/social";
 import styles from "./style.module.scss";
 import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
+import { DiscordIcon } from "@utils/icons/DiscordIcon";
 
 const neptune = "/images/industry/neptune.png";
 const fenbushiImg = "/images/brand/fenbushi.png";
@@ -71,6 +72,14 @@ export const IndustryComponent = () => {
                 aria-label="Github"
               >
                 <GithubIcon className="w-7 h-7" />
+              </a>
+              <a
+                href={social.discord}
+                target={"_blank"}
+                rel="noreferrer"
+                aria-label="Discord"
+              >
+                <DiscordIcon className=" h-7" />
               </a>
             </div>
           </div>

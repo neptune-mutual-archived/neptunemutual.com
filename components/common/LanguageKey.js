@@ -1,5 +1,5 @@
 export const languageKey = {
-  zh: "Chinese - 中国人",
+  zh: "Chinese - 中文",
   en: "English",
   fr: "French - français",
   id: "Indonesian - Bahasa Indonesia",
@@ -11,7 +11,7 @@ export const languageKey = {
 };
 
 export const localesKey = {
-  "Chinese - 中国人": "zh",
+  "Chinese - 中文": "zh",
   "English": "en",
   "French - français": "fr",
   "Indonesian - Bahasa Indonesia": "id",
