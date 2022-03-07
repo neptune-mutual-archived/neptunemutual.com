@@ -23,9 +23,8 @@
 }
 
 .stay-tuned-wrapper {
-  @apply  pt-24;
+  @apply pt-24;
 }
-
 
 @media (min-width: 1920px) {
   .stay-tuned-wrapper {
@@ -114,6 +113,10 @@
   @apply w-7 h-7;
 }
 
+.github-icon {
+  @apply h-7;
+}
+
 .link-wrapper-1 {
   @apply mt-18 py-4 border-y border-b0c4db border-opacity-40;
 }
@@ -139,9 +142,8 @@
 }
 
 .disclaimer-wrapper {
-  @apply  mt-6 mb-18 text-center;
+  @apply mt-6 mb-18 text-center;
 }
-
 
 @media (min-width: 1920px) {
   .disclaimer-wrapper {

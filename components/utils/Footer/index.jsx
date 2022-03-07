@@ -8,6 +8,7 @@ import RedditIcon from "@utils/icons/RedditIcon";
 import { SelectLanguage } from "@components/common/SelectLanguage";
 import { social } from "@components/utils/social";
 import styles from "./style.module.css";
+import { DiscordIcon } from "@utils/icons/DiscordIcon";
 
 const neptune = "/images/industry/neptune.png";
 const logo = "/logos/neptune-mutual-full-inverse.png";
@@ -91,6 +92,14 @@ export const Footer = () => {
                 aria-label="Github"
               >
                 <GithubIcon className={styles["icon-class"]} />
+              </a>
+              <a
+                href={social.discord}
+                target={"_blank"}
+                rel="noreferrer"
+                aria-label="Discord"
+              >
+                <DiscordIcon className={styles["github-icon"]} />
               </a>
             </div>
           </div>
