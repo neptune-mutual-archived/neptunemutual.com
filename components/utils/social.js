@@ -6,4 +6,5 @@ export const social = {
   medium: "https://medium.com/neptune-mutual",
   github: "https://github.com/neptune-mutual-blue",
   documentation: "https://docs.neptunemutual.com/",
+  discord: "https://discord.gg/2qMGTtJtnW",
 };

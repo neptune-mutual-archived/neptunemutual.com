@@ -17,7 +17,7 @@ msgstr ""
 msgid "100%+ MCR"
 msgstr "100% + MCR"
 
-#: components/HomePage/Landing/index.jsx:37
+#: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
 msgstr "<0><1>Сведите к минимуму</1></0> <2><3>возможные</3> <4>риски</4> <5>на</5></2> <6><7>крипто</7> <8></8> <9>рынке</9></6>"
 
@@ -139,7 +139,7 @@ msgstr "Ознакомьтесь с исходным кодом Cover SDK в р�
 msgid "Chief Legal Officer"
 msgstr "Главный Юр.консультант"
 
-#: components/HomePage/Landing/index.jsx:51
+#: components/HomePage/Landing/index.jsx:32
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "Выберите область покрытия страхования, срок его действия и введите сумму, которая вам необходима для покрытия. После урегулирования инцидента мгновенно получите выплату по страховому случаю в стабильных монетах."
 
@@ -625,7 +625,7 @@ msgstr "Опыт пользователей"
 msgid "Vaishnavi Sahu"
 msgstr "Vaishnavi Sahu"
 
-#: components/HomePage/Landing/index.jsx:65
+#: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
 msgstr "Посмотреть прототип приложения"
 

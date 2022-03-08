@@ -17,7 +17,7 @@ msgstr ""
 msgid "100%+ MCR"
 msgstr "100％最低資本資格"
 
-#: components/HomePage/Landing/index.jsx:37
+#: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
 msgstr "<0><1>暗号資産市場での</1></0> <2><3></3> <4>あなたのリスクを</4> <5></5></2> <6><7></7> <8>減らしましょう</8> <9></9></6>"
 
@@ -137,7 +137,7 @@ msgstr "Neptune Mutual GithubリポジトリでのSDKカバーソースコード
 msgid "Chief Legal Officer"
 msgstr "法務担当役員"
 
-#: components/HomePage/Landing/index.jsx:51
+#: components/HomePage/Landing/index.jsx:32
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "カバープールを選択し、期間を選択し、カバーにどれくらいかかるのか入力してください。事象解決後、すぐにstablecoinで保険金を受け取れます。"
 
@@ -623,7 +623,7 @@ msgstr "ユーザー体験"
 msgid "Vaishnavi Sahu"
 msgstr "バイシュナビ＝サフ"
 
-#: components/HomePage/Landing/index.jsx:65
+#: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
 msgstr "アプリのプロトタイプを見る"
 
