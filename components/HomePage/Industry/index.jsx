@@ -79,7 +79,7 @@ export const IndustryComponent = () => {
                 rel="noreferrer"
                 aria-label="Discord"
               >
-                <DiscordIcon className=" h-7" />
+                <DiscordIcon className="w-8 h-8" />
               </a>
             </div>
           </div>
