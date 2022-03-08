@@ -114,7 +114,7 @@
 }
 
 .github-icon {
-  @apply h-7;
+  @apply w-8 h-8;
 }
 
 .link-wrapper-1 {
