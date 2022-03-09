@@ -37,13 +37,13 @@ export const LandingPage = () => {
           </p>
 
           <a
-            href="https://www.figma.com/proto/nhgU4M0cjW6tKSg50diZyB/New-Prototype"
+            href="https://test.neptunemutual.com/"
             rel="noreferrer"
             target="_blank"
             className={styles.cta}
-            aria-label="App Prototype"
+            aria-label="Launch Testnet"
           >
-            <Trans>View App Prototype</Trans>
+            <Trans>Launch Testnet</Trans>
           </a>
         </div>
       </div>
