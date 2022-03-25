@@ -7,7 +7,9 @@ body {
   color: #000;
 }
 
-/* SECTION - MAX horizontal WIDTH */
+* {
+  outline: none;
+}
 
 .hero {
   text-align: center;
@@ -57,6 +59,6 @@ body {
 .anchor {
   color: #4e7dd9;
 }
-.border_none{
- border: 0px;
+.border_none {
+  border: 0px;
 }
