@@ -140,7 +140,7 @@ export const Footer = () => {
             </div>
             <div className={styles["link"]}>
               <a
-                rel="noreferrer nofollow"
+                rel="noreferrer"
                 href={social.documentation}
                 target="_blank"
                 aria-label="Documentation Site"
@@ -150,7 +150,7 @@ export const Footer = () => {
             </div>
             <div className={styles["link"]}>
               <a
-                rel="noreferrer nofollow"
+                rel="noreferrer"
                 href="https://docs.neptunemutual.com/usage/terms-of-use"
                 target="_blank"
                 aria-label="Terms of Service"
@@ -160,7 +160,7 @@ export const Footer = () => {
             </div>
             <div className={styles["link"]}>
               <a
-                rel="noreferrer nofollow"
+                rel="noreferrer"
                 href="https://docs.neptunemutual.com/usage/privacy-policy"
                 target="_blank"
                 aria-label="Privacy Policy"

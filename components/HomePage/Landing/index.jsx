@@ -38,7 +38,7 @@ export const LandingPage = () => {
 
           <a
             href="https://test.neptunemutual.com/"
-            rel="noreferrer nofollow"
+            rel="noreferrer"
             target="_blank"
             className={styles.cta}
             aria-label="Launch Testnet"

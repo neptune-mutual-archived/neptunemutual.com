@@ -45,7 +45,7 @@ export const MobileMenu = ({
         <a
           href="https://docs.neptunemutual.com"
           target="_blank"
-          rel="noreferrer nofollow"
+          rel="noreferrer"
           aria-label="Documentation"
         >
           <Trans>Documentation</Trans>
