@@ -21,22 +21,22 @@ export const IndustryComponent = () => {
       <div className={classNames(styles.sections_container)}>
         <div className={classNames(styles.connect_container)}>
           <div className="md:pl-12 md:mt-20 xl:mt-0 xl:pl-17 ">
-            <h2 className="font-semibold font-sora  text-white text-2xl text-center md:text-left sm:text-3xxl mt-9 xl:mt-28">
+            <h2 className="text-2xl font-semibold text-center text-white font-sora md:text-left sm:text-3xxl mt-9 xl:mt-28">
               <Trans>Connect with Us</Trans>
             </h2>
             <div className="flex justify-center md:justify-start mt-7 xl:mt-10 gap-7 xl:gap-8 mb-14 md:mb-28">
               <a
                 href={social.twitter}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Twitter"
               >
-                <TwitterIcon className="w-7 h-7 relative top-1" />
+                <TwitterIcon className="relative w-7 h-7 top-1" />
               </a>
               <a
                 href={social.reddit}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Reddit"
               >
                 <RedditIcon className="w-7 h-7" />
@@ -44,7 +44,7 @@ export const IndustryComponent = () => {
               <a
                 href={social.telegram}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Telegram"
               >
                 <TelegramIcon className="w-7 h-7" />
@@ -52,7 +52,7 @@ export const IndustryComponent = () => {
               <a
                 href={social.linkedin}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon className="w-7 h-7" />
@@ -60,7 +60,7 @@ export const IndustryComponent = () => {
               <a
                 href={social.medium}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Medium"
               >
                 <MediumIcon className="w-7 h-7" />
@@ -68,7 +68,7 @@ export const IndustryComponent = () => {
               <a
                 href={social.github}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Github"
               >
                 <GithubIcon className="w-7 h-7" />
@@ -76,24 +76,24 @@ export const IndustryComponent = () => {
               <a
                 href={social.discord}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Discord"
               >
                 <DiscordIcon className="w-8 h-8" />
               </a>
             </div>
           </div>
-          <div className="mt-9 md:mt-0 md:ml-auto max-w-full">
+          <div className="max-w-full mt-9 md:mt-0 md:ml-auto">
             <img src={neptune} alt="Illustration of Neptune Planet" />
           </div>
         </div>
 
-        <div className="mt-58 xl:mt-76 bg-white shadow-powerCard border-transparent rounded-2xl p-3">
+        <div className="p-3 bg-white border-transparent mt-58 xl:mt-76 shadow-powerCard rounded-2xl">
           <div className={styles.inner_container}>
-            <h2 className="text-2xl leading-10 sm:text-h3 text-01052D text-center font-semibold font-sora">
+            <h2 className="text-2xl font-semibold leading-10 text-center sm:text-h3 text-01052D font-sora">
               <Trans>Trusted by Industry Leaders</Trans>
             </h2>
-            <div className="flex flex-col md:flex-row items-center justify-center">
+            <div className="flex flex-col items-center justify-center md:flex-row">
               <img src={fenbushiImg} alt="Fenbushi" />
               <div className="p-7 md:p-9"></div>
               <img src={animocaImg} alt="Animoca Brands" />

@@ -18,7 +18,7 @@ export const TeamMemberDetails = ({ idx }) => {
           <a
             href={links.linkedIn}
             target={"_blank"}
-            rel="noreferrer"
+            rel="noreferrer nofollow"
             aria-label={"LinkedIn Profile of " + nameInvariant}
           >
             <LinkedinFilledIcon />
@@ -28,7 +28,7 @@ export const TeamMemberDetails = ({ idx }) => {
           <a
             href={links.twitter}
             target={"_blank"}
-            rel="noreferrer"
+            rel="noreferrer nofollow"
             aria-label={"Twitter Profile of " + nameInvariant}
           >
             <TwitterFilledIcon />
@@ -38,7 +38,7 @@ export const TeamMemberDetails = ({ idx }) => {
           <a
             href={links.medium}
             target={"_blank"}
-            rel="noreferrer"
+            rel="noreferrer nofollow"
             aria-label={"Medium Link of " + nameInvariant}
           >
             <MediumFilledIcon />
@@ -48,7 +48,7 @@ export const TeamMemberDetails = ({ idx }) => {
           <a
             href={links.facebook}
             target={"_blank"}
-            rel="noreferrer"
+            rel="noreferrer nofollow"
             aria-label={"Facebook Profile of " + nameInvariant}
           >
             <FacebookFilledIcon />

@@ -48,7 +48,7 @@ export const Footer = () => {
               <a
                 href={social.twitter}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Twitter"
               >
                 <TwitterIcon className={styles["twitter-icon"]} />
@@ -56,7 +56,7 @@ export const Footer = () => {
               <a
                 href={social.reddit}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Reddit"
               >
                 <RedditIcon className={styles["icon-class"]} />
@@ -64,7 +64,7 @@ export const Footer = () => {
               <a
                 href={social.telegram}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Telegram"
               >
                 <TelegramIcon className={styles["icon-class"]} />
@@ -72,7 +72,7 @@ export const Footer = () => {
               <a
                 href={social.linkedin}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="LinkedIn"
               >
                 <LinkedinIcon className={styles["icon-class"]} />
@@ -80,7 +80,7 @@ export const Footer = () => {
               <a
                 href={social.medium}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Medium"
               >
                 <MediumIcon className={styles["icon-class"]} />
@@ -88,7 +88,7 @@ export const Footer = () => {
               <a
                 href={social.github}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Github"
               >
                 <GithubIcon className={styles["icon-class"]} />
@@ -96,7 +96,7 @@ export const Footer = () => {
               <a
                 href={social.discord}
                 target={"_blank"}
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Discord"
               >
                 <DiscordIcon className={styles["github-icon"]} />
@@ -110,7 +110,7 @@ export const Footer = () => {
           <div className={styles["link-wrapper-2"]}>
             <div className={styles["link"]}>
               <a
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 href={social.medium}
                 target="_blank"
                 aria-label="Visit Our Medium Blog"
@@ -121,7 +121,7 @@ export const Footer = () => {
             <div className={styles["link"]}>
               <a
                 href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM"
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 target="_self"
                 aria-label="Contact Us"
               >
@@ -131,7 +131,7 @@ export const Footer = () => {
             <div className={styles["link"]}>
               <a
                 href="https://angel.co/company/neptune-mutual"
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 target="_blank"
                 aria-label="Careers Page"
               >

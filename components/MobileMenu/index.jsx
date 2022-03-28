@@ -24,7 +24,7 @@ export const MobileMenu = ({
       <div className={styles.menu_item}>
         <a
           href="https://medium.com/neptune-mutual"
-          rel="noreferrer"
+          rel="noreferrer nofollow"
           target="_blank"
           aria-label="Blog"
         >
@@ -35,7 +35,7 @@ export const MobileMenu = ({
         <a
           href="https://t.me/neptunemutualchat"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer nofollow"
           aria-label="Contact"
         >
           <Trans>Contact</Trans>

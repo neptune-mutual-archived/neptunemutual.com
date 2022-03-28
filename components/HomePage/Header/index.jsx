@@ -47,7 +47,7 @@ export const Header = () => {
           <div className={styles.navbar_content}>
             <a
               href="https://medium.com/neptune-mutual"
-              rel="noreferrer"
+              rel="noreferrer nofollow"
               target="_blank"
               className={styles.nav_item}
               aria-label="Blog"
@@ -56,7 +56,7 @@ export const Header = () => {
             </a>
             <a
               href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM"
-              rel="noreferrer"
+              rel="noreferrer nofollow"
               target="_self"
               aria-label="Contact"
               className={classNames(styles.nav_item, styles.last_nav)}
