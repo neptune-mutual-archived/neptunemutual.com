@@ -76,7 +76,7 @@ export const BlogComponent = () => {
               <a
                 href="https://medium.com/neptune-mutual"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 aria-label="Blog"
               >
                 <span>
@@ -93,7 +93,7 @@ export const BlogComponent = () => {
                 <a
                   href={link}
                   target={"_blank"}
-                  rel="noreferrer"
+                  rel="noreferrer nofollow"
                   className={classNames(styles.post, styles[`post-${idx + 1}`])}
                 >
                   <div className={classNames(styles.image_container)}>
@@ -114,7 +114,7 @@ export const BlogComponent = () => {
 
           <div className={styles.section_second_cta}>
             <a
-              rel="noreferrer"
+              rel="noreferrer nofollow"
               href="https://medium.com/neptune-mutual"
               target="_blank"
               aria-label="Read our Blog"

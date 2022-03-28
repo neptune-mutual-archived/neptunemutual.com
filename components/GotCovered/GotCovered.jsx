@@ -66,7 +66,7 @@ export const GotCoveredComponent = () => {
                 <a
                   href={item.linkTo}
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noreferrer nofollow"
                   className={styles.card_link}
                 >
                   <Trans>FIND OUT MORE</Trans>

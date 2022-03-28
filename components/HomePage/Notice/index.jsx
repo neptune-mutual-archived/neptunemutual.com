@@ -27,7 +27,7 @@ export const Notice = ({
               className="underline"
               href={link}
               target="_blank"
-              rel="noopener noreferrer"
+              rel="noopener noreferrer nofollow"
             >
               {linkText}
             </a>

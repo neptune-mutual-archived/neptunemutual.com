@@ -62,7 +62,7 @@ export const CoverPoolComponent = () => {
               <a
                 href="https://www.npmjs.com/package/@neptunemutual/sdk"
                 target="_blank"
-                rel="noreferrer"
+                rel="noreferrer nofollow"
                 className={classNames(
                   "group",
                   styles.desktop_button,
@@ -95,13 +95,13 @@ export const CoverPoolComponent = () => {
           <a
             href="https://www.npmjs.com/package/@neptunemutual/sdk"
             target="_blank"
-            rel="noreferrer"
+            rel="noreferrer nofollow"
           >
             <Button text={<Trans>Get the Neptune Mutual SDK</Trans>} />
           </a>
         </div>
         <div className={styles.bottom_container}>
-          {/* <div className="mx-4 lg:pr-8 xl:pr-32 2xl:pr-80 mt-10 lg:mt-60 flex flex-col lg:flex-row w-full justify-between gap-8"> */}
+          {/* <div className="flex flex-col justify-between w-full gap-8 mx-4 mt-10 lg:pr-8 xl:pr-32 2xl:pr-80 lg:mt-60 lg:flex-row"> */}
           {coverPoolContent.map((paragraph, idx) => (
             <div key={idx}>
               <h3 className={styles.neutralTitle}>{paragraph.neutralTitle}</h3>
