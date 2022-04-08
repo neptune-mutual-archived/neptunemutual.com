@@ -12,7 +12,7 @@ import { Trans } from "@lingui/macro";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
 
 const neptune = "/images/industry/neptune.png";
-const fenbushiImg = "/images/brand/fenbushi.png";
+const fenbushiImg = "/images/brand/fenbushi.svg";
 const animocaImg = "/images/brand/animoca.svg";
 
 export const IndustryComponent = () => {

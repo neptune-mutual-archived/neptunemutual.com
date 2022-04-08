@@ -2,19 +2,35 @@ import { useOnScreen } from "@lib/hooks/useOnScreen";
 import { useEffect, useRef } from "react";
 import Slider from "react-slick";
 
-const coinbaseImg = "/images/brand-carousel/coinbase.png";
-const gravityImg = "/images/brand-carousel/gravityx.png";
-const huobiImg = "/images/brand-carousel/huobi.png";
-const okexImg = "/images/brand-carousel/okex.png";
-const hextrust = "/images/brand-carousel/hextrust.png";
-const gsr = "/images/brand-carousel/gsr.png";
-const fundamentalLabs = "/images/brand-carousel/fundamental-labs.png";
-const gbv = "/images/brand-carousel/gbv.png";
-const cambiumGrove = "/images/brand-carousel/cambiumgrove.png";
-const pacific = "/images/brand-carousel/pacific.png";
-const newvision = "/images/brand-carousel/newvision.png";
-const baboonvc = "/images/brand-carousel/baboonvc.png";
-const alphabit = "/images/brand-carousel/alphabit.png";
+const coinbaseImg = "/images/brand-carousel/coinbase.svg";
+const gravityImg = "/images/brand-carousel/gravityx.svg";
+const huobiImg = "/images/brand-carousel/huobi.svg";
+const okexImg = "/images/brand-carousel/okex.svg";
+const hextrust = "/images/brand-carousel/hextrust.svg";
+const gsr = "/images/brand-carousel/gsr.svg";
+const fundamentalLabs = "/images/brand-carousel/fundamental-labs.svg";
+const gbv = "/images/brand-carousel/gbv.svg";
+const cambiumGrove = "/images/brand-carousel/cambiumgrove.svg";
+const xt = " images/brand-carousel/xt.svg";
+const bitmart = " images/brand-carousel/bitmart.svg";
+const gate = " images/brand-carousel/gate.svg";
+const pacific = "/images/brand-carousel/pacific.svg";
+const newvision = "/images/brand-carousel/newvision.svg";
+const baboonvc = "/images/brand-carousel/baboonvc.svg";
+const alphabit = "/images/brand-carousel/alphabit.svg";
+const titans = "/images/brand-carousel/titans.svg";
+const mhventures = "/images/brand-carousel/mhventures.svg";
+const cabinvc = "/images/brand-carousel/cabinvc.svg";
+const dweb3 = "/images/brand-carousel/dweb3.svg";
+const mapleblock = "/images/brand-carousel/mapleblock.svg";
+const ldcapital = "/images/brand-carousel/ldcapital.svg";
+const twoacrypto = "/images/brand-carousel/2acrypto.svg";
+const barmy = "/images/brand-carousel/barmy.svg";
+const vespertine = "/images/brand-carousel/vespertine.svg";
+const htr = "/images/brand-carousel/htr.svg";
+const pulsar = "/images/brand-carousel/pulsar.svg";
+const gts = "/images/brand-carousel/gts.svg";
+const icopantera = "/images/brand-carousel/icopantera.svg";
 
 import styles from "./style.module.scss";
 
@@ -56,8 +72,16 @@ const carouselItems = [
     imgSrc: cambiumGrove,
   },
   {
-    name: "Pacific",
-    imgSrc: pacific,
+    name: "XT.com",
+    imgSrc: xt,
+  },
+  {
+    name: "BitMart",
+    imgSrc: bitmart,
+  },
+  {
+    name: "Gate.io",
+    imgSrc: gate,
   },
   {
     name: "New Vision",
@@ -68,8 +92,64 @@ const carouselItems = [
     imgSrc: baboonvc,
   },
   {
+    name: "Pacific Century Group",
+    imgSrc: pacific,
+  },
+  {
+    name: "Titans",
+    imgSrc: titans,
+  },
+  {
+    name: "MH Ventures",
+    imgSrc: mhventures,
+  },
+  {
+    name: "Cabin VC",
+    imgSrc: cabinvc,
+  },
+  {
+    name: "DWEB3",
+    imgSrc: dweb3,
+  },
+  {
     name: "Alphabit",
     imgSrc: alphabit,
+  },
+  {
+    name: "Maple Block",
+    imgSrc: mapleblock,
+  },
+  {
+    name: "LD Capital",
+    imgSrc: ldcapital,
+  },
+  {
+    name: "2A crypto",
+    imgSrc: twoacrypto,
+  },
+  {
+    name: "Barmy",
+    imgSrc: barmy,
+  },
+  {
+    name: "Vespertine Capital",
+    imgSrc: vespertine,
+  },
+  {
+    name: "Htr Group",
+    imgSrc: htr,
+  },
+  {
+    name: "Pulsar",
+    imgSrc: pulsar,
+  },
+  {
+    name: "Gts Ventures",
+    imgSrc: gts,
+  },
+  {
+    name: "Ico Panters",
+    imgSrc: icopantera,
   },
 ];
 
