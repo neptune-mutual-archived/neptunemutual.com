@@ -23,7 +23,7 @@ const mhventures = "/images/brand-carousel/mhventures.png";
 const cabinvc = "/images/brand-carousel/cabinvc.png";
 const dweb3 = "/images/brand-carousel/dweb3.png";
 const mapleblock = "/images/brand-carousel/mapleblock.png";
-const ldcapital = "/images/brand-carousel/Idcapital.png";
+const ldcapital = "/images/brand-carousel/ldcapital.png";
 const twoacrypto = "/images/brand-carousel/2acrypto.png";
 const barmy = "/images/brand-carousel/barmy.png";
 const vespertine = "/images/brand-carousel/vespertine.png";
@@ -150,14 +150,6 @@ const carouselItems = [
   {
     name: "Ico Panters",
     imgSrc: icopantera,
-  },
-  {
-    name: "Alphabit",
-    imgSrc: alphabit,
-  },
-  {
-    name: "Alphabit",
-    imgSrc: alphabit,
   },
 ];
 
