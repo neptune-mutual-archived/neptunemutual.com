@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-12 06:12\n"
+"PO-Revision-Date: 2022-04-12 06:18\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -20,19 +20,19 @@ msgstr ""
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
-msgstr ""
+msgstr "100%+ MCR"
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
-msgstr ""
+msgstr "<0><1>Reduzieren</1></0> <2><3>Dein</3> <4>Auflösung</4> <5>zu</5></2> <6><7>Krypto</7> <8>Markt</8> <9>Risiken</9></6>"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
-msgstr ""
+msgstr "Ein Hack auf einem Projekt wird die Deckung für ein anderes nicht beeinflussen."
 
 #: components/CookiePolicy/index.jsx:49
 msgid "Accept"
-msgstr ""
+msgstr "Akzeptieren"
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:38
 msgid "Add Liquidity"
