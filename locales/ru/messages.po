@@ -1,682 +1,686 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-02-11 11:13+0530\n"
+"POT-Creation-Date: 2022-02-10 12:44+0530\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
+"X-Generator: @lingui/cli\n"
 "Language: ru\n"
-"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100 != 11) ? 0 : ((n%10 >= 2 && n%10 <= 4 && (n%100 < 12 || n%100 > 14)) ? 1 : (n%10 == 0 || (n%10 >= 5 && n%10 <=9) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3);\n"
-"PO-Revision-Date: 2022-02-14 19:34+0700\n"
-"Project-Id-Version: \n"
+"Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2022-04-12 05:05\n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: Russian\n"
+"Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
+"X-Crowdin-Project: neptunemutual-website\n"
+"X-Crowdin-Project-ID: 509728\n"
+"X-Crowdin-Language: ru\n"
+"X-Crowdin-File: /main/locales/en/messages.po\n"
+"X-Crowdin-File-ID: 8\n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
-msgstr "100% + MCR"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
-msgstr "<0><1>Сведите к минимуму</1></0> <2><3>возможные</3> <4>риски</4> <5>на</5></2> <6><7>крипто</7> <8></8> <9>рынке</9></6>"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
-msgstr "Взлом одного проекта никак не повлияет на безопасность страховки другого."
+msgstr ""
 
 #: components/CookiePolicy/index.jsx:49
 msgid "Accept"
-msgstr "Принять"
+msgstr ""
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:38
 msgid "Add Liquidity"
-msgstr "Добавить ликвидность"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:47
 msgid "Add your Proof Of Deposits (PODs) tokens to get native tokens of the cover creator."
-msgstr "Добавьте свои доказательства депозита токенов (POD's) для получения оригинальных токенов создателей защиты."
+msgstr ""
 
 #: lib/data/roadmap-data.js:233
 msgid "Aggregated Policies (v2)"
-msgstr "Совокупная Политика(v2)"
+msgstr ""
 
 #: lib/data/roadmap-data.js:122
 msgid "All participants of the Neptune Mutual ecosystem will get a comprehensive documentation that helps with understanding the different aspects of the Neptune Mutual protocol."
-msgstr "Все участники экосистемы Neptune Mutual получат исчерпывающую документацию, которая поможет понять различные аспекты протокола Neptune Mutual."
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
 msgid "Anywhere"
-msgstr "Везде"
+msgstr ""
 
 #: lib/data/roadmap-data.js:268
 msgid "As the industry evolves and matures further, Neptune Mutual creates even more products, apps, and services to remain relevant in the space and continuously innovate."
 msgstr ""
-"\n"
-"По мере того, как отрасль развивается и совершенствуется, Neptune Mutual создает еще больше продуктов, приложений и услуг, чтобы оставаться актуальными на рынке и постоянно внедрять инновации."
 
 #: lib/data/roadmap-data.js:257
 msgid "As the next iteration and enhancements to the dashboard solution, Neptune Mutual also scores the security posture of our portfolio DeFi projects and apps. The score rating can be used on any external website by simply copying and pasting a few lines of code."
-msgstr "В качестве следующей итерации и для усовершенствования решений приборной панели, Neptune Mutual также оценивает уровень безопасности наших проектов и приложений DeFi. Оценку можно использовать на любом внешнем сайте, просто скопировав и вставив несколько строк кода."
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:30
 msgid "Attract"
-msgstr "Привлечение"
+msgstr ""
 
 #: lib/data/roadmap-data.js:245
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
-msgstr "Основываясь на актуальности спроса, команда Neptune Mutual сотрудничает с экспертами, группами и компаниями по безопасности блокчейна, чтобы «концептуализировать» совершенно новую услугу аналитики безопасности исключительно для наших портфельных проектов. Панель инструментов будет основана на безопасности производственных смарт-контрактов."
+msgstr ""
 
 #: lib/data/team-data.js:168
 msgid "Binita Thapa"
-msgstr "Binita Thapa"
+msgstr ""
 
 #: lib/data/team-data.js:30
 msgid "Binod Nirvan"
-msgstr "Binod Nirvan"
+msgstr ""
 
 #: lib/data/team-data.js:78
 #: lib/data/team-data.js:85
 msgid "Blockchain Advisor"
-msgstr "Консультант по Blockchain"
+msgstr ""
 
 #: lib/data/team-data.js:71
 #: lib/data/team-data.js:207
 msgid "Blockchain Engineer"
-msgstr "Blockchain инженер"
+msgstr ""
 
 #: lib/data/roadmap-data.js:70
 msgid "Blockchain-based covers have a low claims-to-payout ratio. Existing cover products are unscalable, discretionary, and discriminatory. Smart contract audits do not guarantee security. Attacks on exchanges, metaverses, DApps, and DeFi protocols are increasing and getting more sophisticated."
-msgstr "Страховые покрытия на основе блокчейна имеют низкое соотношение претензий к выплатам. Существующие продукты покрытия являются немасштабируемыми, дискреционными и дискриминационными. Аудит смарт-контрактов не гарантирует безопасность. Атаки на биржи, метаверсии, DApps и протоколы DeFi растут и становятся все более изощренными."
+msgstr ""
 
 #: components/HomePage/Header/index.jsx:55
 #: components/MobileMenu/index.jsx:31
 #: components/utils/Footer/index.jsx:109
 msgid "Blog"
-msgstr "Блог"
+msgstr ""
 
 #: lib/data/team-data.js:151
 msgid "Brando"
-msgstr "Brando"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
-msgstr "Создайте защищенное сообщество для ваших протоколов, биржи или проекта DeFi."
+msgstr ""
 
 #: lib/data/ecosystem-data.js:92
 msgid "Build your own dedicated cover protection community within your ecosystem."
-msgstr "Создайте собственное сообщество по защите страхования в своей экосистеме."
+msgstr ""
 
 #: lib/data/roadmap-data.js:149
 msgid "Built on Typescript, developers can use the SDK in both frontend and backend environments using any popular framework. The SDK is available as an NPM package:"
-msgstr "Созданный на основе Typescript, SDK может использоваться разработчиками как во фронтенде, так и в бэкенде с использованием любого популярного фреймворка. SDK доступен в виде пакета NPM:"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:23
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
-msgstr "SDK, созданный на основе Typescript, работает как на фронтенде, так и на бэкенде, на любом фреймворке."
+msgstr ""
 
 #: lib/data/team-data.js:31
 msgid "CEO & Founder"
-msgstr "CEO & Основатели"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:86
 msgid "Capital Efficiency"
-msgstr "Эффективность использования капитала"
+msgstr ""
 
 #: components/utils/Footer/index.jsx:129
 msgid "Careers"
-msgstr "Карьера"
+msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:83
 msgid "Check out Our Blog"
-msgstr "Ознакомьтесь с нашим блогом"
+msgstr ""
 
 #: lib/data/roadmap-data.js:133
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
-msgstr "Ознакомьтесь с исходным кодом Cover SDK в репозитории Neptune Mutual Github. <0> Прочитайте документацию SDK</0>, чтобы узнать, как получить доступ к функциям покрытия страхования в вашем собственном фронтенд-приложении или бэкенд API."
+msgstr ""
 
 #: lib/data/team-data.js:51
 msgid "Chief Legal Officer"
-msgstr "Главный Юр.консультант"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:32
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
-msgstr "Выберите область покрытия страхования, срок его действия и введите сумму, которая вам необходима для покрытия. После урегулирования инцидента мгновенно получите выплату по страховому случаю в стабильных монетах."
+msgstr ""
 
 #: lib/data/team-data.js:221
 msgid "Co-Founder"
-msgstr "Соучередитель"
+msgstr ""
 
 #: lib/data/team-data.js:200
 msgid "Community"
-msgstr "Сообщество"
+msgstr ""
 
 #: lib/data/team-data.js:214
 msgid "Community Ninja"
-msgstr "Сообщество Ninja"
+msgstr ""
 
 #: components/HomePage/Industry/index.jsx:24
 msgid "Connect with Us"
-msgstr "Свяжитесь с нами"
+msgstr ""
 
 #: components/HomePage/Header/index.jsx:64
 #: components/MobileMenu/index.jsx:41
 #: components/utils/Footer/index.jsx:119
 msgid "Contact"
-msgstr "Контакты"
+msgstr ""
 
 #: lib/data/team-data.js:101
 msgid "Content Strategist"
-msgstr "Контент-стратег"
+msgstr ""
 
 #: components/CookiePolicy/index.jsx:36
 msgid "Cookies disclaimer"
-msgstr "Отказ от использования файлов Cookies"
+msgstr ""
 
 #: lib/data/roadmap-data.js:43
 msgid "Copied"
-msgstr "Скопированно"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:74
 msgid "Cover Creation"
-msgstr "Создание покрытия"
+msgstr ""
 
 #: lib/data/roadmap-data.js:130
 msgid "Cover SDK Beta"
-msgstr "Бета-версия покрытия SDK"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:32
 msgid "Create Covers"
-msgstr "Создай покрытие страховкой"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:87
 msgid "Crowdfund your investor protection fund."
-msgstr "Создайте свой фонд защиты инвесторов с помощью краудфандинга."
+msgstr ""
 
 #: components/CookiePolicy/index.jsx:55
 msgid "Decline"
-msgstr "Снижение"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:21
 msgid "Dedicated Cover Pools"
-msgstr "Специализированное покрытие совокупностей"
+msgstr ""
 
 #: lib/data/team-data.js:92
 msgid "Design Lead"
-msgstr "Руководство проектирования"
+msgstr ""
 
 #: components/MobileMenu/index.jsx:51
 #: components/utils/Footer/index.jsx:139
 msgid "Documentation"
-msgstr "Документы"
+msgstr ""
 
 #: components/utils/Footer/index.jsx:40
 msgid "Don't be a stranger! Join and interact with us on our growing social media communities. Stay up to date on our latest developments and progress."
-msgstr "Не оставайся в стороне! Присоединяйся и взаимодействуй с нами в наших быстрорастущих сообществ в социальных сетях."
+msgstr ""
 
 #: lib/data/roadmap-data.js:60
 msgid "Download Neptune Mutual Lightpaper"
-msgstr "Скачать лайтбумагу Neptune Mutual"
+msgstr ""
 
 #: lib/data/team-data.js:220
 msgid "Edward Ryall"
-msgstr "Edward Ryall"
+msgstr ""
 
 #: lib/data/team-data.js:110
 msgid "Emmanuel Rogel"
-msgstr "Emmanuel Rogel"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:72
 msgid "FIND OUT MORE"
-msgstr "УЗНАЙТЕ БОЛЬШЕ"
+msgstr ""
 
 #: lib/data/team-data.js:169
 msgid "Finance Analyst"
-msgstr "Финансовая аналитика"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:54
 msgid "Flash Loan Income"
-msgstr "Доход по срочному кредиту"
+msgstr ""
 
 #: lib/data/team-data.js:70
 msgid "Flashburst"
-msgstr "Flashburst"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:95
 msgid "Follow our progress. Join our community."
-msgstr "Следите за нашим прогрессом. Присоединяйтесь к нашему сообществу."
+msgstr ""
 
 #: lib/data/roadmap-data.js:86
 msgid "Four key principles drive the design of Neptune Mutual's cover protocol:"
-msgstr "Четыре ключевых принципа лежат в основе протокола покрытия Neptune Mutual:"
+msgstr ""
 
 #: lib/data/team-data.js:199
 msgid "Freemind"
-msgstr "Свобода мысли"
+msgstr ""
 
 #: lib/data/team-data.js:131
 #: lib/data/team-data.js:142
 msgid "Frontend Engineer"
-msgstr "Фротенд разработчики"
+msgstr ""
 
 #: lib/data/roadmap-data.js:169
 msgid "Fundraising, Recruitment & Build"
-msgstr "Увеличение средсв, расшитение персонала и строительство"
+msgstr ""
 
 #: lib/data/roadmap-data.js:225
 msgid "Furthermore, the app, Github, hosting, CI/CD pipelines, DNS, HTTP security, and more is thoroughly audited as well. Additional, proper cyber hygienes are implemented across the organization."
-msgstr "Кроме этого, тщательно проверяются приложения, Github, хостинг, конвейеры CI/CD, DNS, безопасность HTTP и многое другое. В организацию внедряются дополнительные надлежащие средства кибергигиены"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:21
 msgid "Get Protection"
-msgstr "Получи защиту"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:42
 msgid "Get cover fee paid by cover policyholders."
-msgstr "Получите оплату за защиту, оплаченную держателями страховки."
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:52
 msgid "Get guaranteed payouts from our parametric cover model. Resolve incidents faster without the need for claims assessment."
-msgstr "Получайте гарантированные выплаты благодаря нашей параметрической модели покрытия. Устраняйте инциденты быстрее без необходимости оценки претензий."
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:74
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:100
 msgid "Get the Neptune Mutual SDK"
-msgstr "Получите Neptune Mutual SDK"
+msgstr ""
 
 #: lib/data/team-data.js:50
 msgid "Gilbert NG"
-msgstr "Gilbert NG"
+msgstr ""
 
 #: lib/data/team-data.js:41
 msgid "Gillian Wu"
-msgstr "Gillian Wu"
+msgstr ""
 
 #: lib/data/team-data.js:190
 msgid "Graphics Designer"
-msgstr "Графический дизайнер"
+msgstr ""
 
 #: lib/data/team-data.js:152
 msgid "Growth"
-msgstr "Развитие"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:79
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
-msgstr "Гарантированная защита и быстрое урегулирование страхователям вашего покрытия в случае инцидента."
+msgstr ""
 
 #: lib/data/team-data.js:77
 msgid "Hans Koning"
-msgstr "Hans Koning"
+msgstr ""
 
 #: lib/data/team-data.js:100
 msgid "Hanz Cabilao"
-msgstr "Hanz Cabilao"
+msgstr ""
 
 #: lib/data/team-data.js:213
 msgid "Henry Law"
-msgstr "Henry Law"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:56
 msgid "Imagine how cool it would be to access all coverage features inside your own app just the way you like it."
-msgstr "Только представьте, как здорово было бы получить доступ ко всем возможностям покрытия страхования в собственном приложении в удобном для вас виде."
+msgstr ""
 
 #: lib/data/roadmap-data.js:161
 msgid "In September 2021, we incorporated legal entities to support the fundraising, development, recruitment, expansion, and operational demand of the Neptune Mutual protocol."
-msgstr "В сентябре 2021 года мы провели регистрацию юридических лиц для поддержки сбора средств, развития, найма, расширения и удовлетворения оперативных потребностей протокола Neptune Mutual."
+msgstr ""
 
 #: lib/data/ecosystem-data.js:56
 msgid "Income received from flash loan lendings gets added to the pool."
-msgstr "Доход, полученный от выдачи флэш-кредитов, добавляется к совокупности."
+msgstr ""
 
 #: lib/data/roadmap-data.js:159
 msgid "Incorporation & Legal"
-msgstr "Регистрация и Легализация"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:12
 msgid "Invest stablecoin liquidity to receive rewards and protect your favorite blockchain projects."
-msgstr "Инвестируйте ликвидность stablecoin, чтобы получить вознаграждение и защитить свои избранные блокчейн-проекты."
+msgstr ""
 
 #: lib/data/team-data.js:178
 msgid "Jonalyn Delos Santos"
-msgstr "Jonalyn Delos Santos"
+msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:73
 msgid "Latest Updates"
-msgstr "Последние обновления"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:62
 msgid "Lending Income"
-msgstr "Доход от кредитования"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:11
 msgid "Less Code"
-msgstr "Меньше кодов"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:53
 msgid "Let's #buidl"
-msgstr "Давайте создавать"
+msgstr ""
 
 #: components/utils/Footer/index.jsx:37
 msgid "Let’s Connect"
-msgstr "Давайте соеденимся"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
 msgid "Liquidity"
-msgstr "Ликвидность"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:38
 msgid "Liquidity Providers Return"
-msgstr "Доходность ликвидности поставщиков"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:6
 msgid "Low Risk Cover Policies"
-msgstr "Политика низких рисков покрытия"
+msgstr ""
 
 #: lib/data/team-data.js:91
 msgid "Mark Garcia"
-msgstr "Mark Garcia"
+msgstr ""
 
 #: lib/data/roadmap-data.js:93
 msgid "Minimizing risk"
-msgstr "Сведение риска к минимуму"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:31
 msgid "NPM token price won't affect cover pool liquidity."
-msgstr "Цена токена NPM не повлияет на ликвидность совокупности покрытия."
+msgstr ""
 
 #: lib/data/roadmap-data.js:111
 msgid "NPM tokes are mainly used for our incident resolution reporting mechanism including other functions of the protocol such as creating a cover."
-msgstr "Токи NPM в основном используются для нашего механизма отчетности о разрешении инцидентов, а так же другие функции протокола, такие как создание покрытия."
+msgstr ""
 
 #: components/HomePage/NeptuneEcosystem/index.jsx:239
 msgid "Neptune Mutual Ecosystem"
-msgstr "Neptune Mutual Ecosystem"
+msgstr ""
 
 #: pages/index.jsx:23
 msgid "Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to Build Cover Protocol for Metaverse Assets"
-msgstr "Neptune Mutual Raises Strategic Round находится под руководством Animoca Brands для создания протоколов покрытия страховки для активов Metaverse."
+msgstr ""
 
 #: lib/data/roadmap-data.js:221
 msgid "Neptune Mutual SDK undergoes a strict internal security audit before it becomes available for public use."
-msgstr "Neptune Mutual SDK проходит строгий внутренний аудит безопасности, прежде чем стать доступным для публичного использования."
+msgstr ""
 
 #: lib/data/roadmap-data.js:178
 msgid "Neptune Mutual has grown quickly from 3 co-founders to a team of over 25, based in countries across the world."
-msgstr "Компания Neptune Mutual быстро выросла из трех соучредителей в команду из более чем 25 человек, находящихся в разных странах мира."
+msgstr ""
 
 #: lib/data/roadmap-data.js:172
 msgid "Neptune Mutual successfully closed its Seed Round backed by industry leaders including Fenbushi and Coinbase Ventures. Soon after, Animoca Brands led the subsequent investment round and has been joined by an impressive list of investors."
-msgstr "Neptune Mutual успешно завершила свой Seed раунд при поддержке лидеров отрасли, включая Fenbushi и Coinbase Ventures. Вскоре после этого компания Animoca Brands возглавила последующий инвестиционный раунд, и к ней присоединился внушительный список инвесторов."
+msgstr ""
 
 #: components/utils/Footer/index.jsx:171
 msgid "Neptune Mutual © 2022"
-msgstr "Neptune Mutual © 2022"
+msgstr ""
 
 #: lib/data/roadmap-data.js:101
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
-msgstr "Neptune Mutual's Lightpaper предоставляет подробную информацию о дизайне и использовании нашего токена NPM. Вот ключевые моменты, которые не следует принимать во внимание:"
+msgstr ""
 
 #: lib/data/team-data.js:84
 msgid "On Yavin"
-msgstr "Он Явин"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:92
 msgid "Our Roadmap for Growing the Neptune Mutual Ecosystem"
-msgstr "Наша карта по развитию Neptune Mutual Ecosystem"
+msgstr ""
 
 #: components/HomePage/OurTeam/index.jsx:30
 msgid "Our Team"
-msgstr "Наша команда"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:45
 msgid "POD Staking"
-msgstr "POD стейкинг"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:77
 msgid "Parametric Cover"
-msgstr "Параметрическая защита"
+msgstr ""
 
 #: lib/data/team-data.js:120
 msgid "Paul Steven Cue"
-msgstr "Пол Стивен Кью"
+msgstr ""
 
 #: lib/data/team-data.js:61
 msgid "People Manager"
-msgstr "Менеджер по персоналу"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:99
 msgid "Personalized Rewards"
-msgstr "Персональные награды"
+msgstr ""
 
 #: components/utils/Footer/index.jsx:159
 msgid "Privacy Policy"
-msgstr "Политика приватности"
+msgstr ""
 
 #: lib/data/roadmap-data.js:84
 msgid "Product Design"
-msgstr "Дизайн продукта"
+msgstr ""
 
 #: lib/data/roadmap-data.js:120
 msgid "Product MVP"
-msgstr "MVP продукта"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:107
 msgid "Protect your Funding Community"
-msgstr "Защитите свое финансовое сообщество"
+msgstr ""
 
 #: lib/data/roadmap-data.js:208
 msgid "Protocol Audit & Launch"
-msgstr "Аудит и запуск протокола"
+msgstr ""
 
 #: lib/data/roadmap-data.js:185
 msgid "Protocol Testnet Launch"
-msgstr "Запуск тестовой сети протокола"
+msgstr ""
 
 #: lib/data/team-data.js:158
 msgid "Pukar Acharya"
-msgstr "Пукар Ачарая"
+msgstr ""
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:46
 msgid "Purchase Covers"
-msgstr "Покупка защиты"
+msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:123
 msgid "Read Our Blog"
-msgstr "Читайте наш блог"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:109
 msgid "Reassurance cover for liquidity pools is available to lower the risk for liquidity providers."
-msgstr "Доступ к страховке защиты для снижения рисков ликвидности поставщиков."
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:10
 #: lib/data/ecosystem-data.js:41
 msgid "Receive Rewards"
-msgstr "Получение наград"
+msgstr ""
 
 #: lib/data/team-data.js:159
 msgid "Research Analyst"
-msgstr "Аналитические исследования"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:101
 msgid "Reward your cover protection community with your native tokens."
-msgstr "Вознаграждайте свое сообщество защиты своими оригинальными токенами."
+msgstr ""
 
 #: components/utils/Footer/index.jsx:174
 msgid "Risk warning: Trading crypto assets involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Neptune Mutual based on the legal requirements in your country of residence."
-msgstr "Предупреждение о рисках: торговля криптоактивами сопряжена со значительным риском и может привести к потере вашего капитала. Вы не должны инвестировать больше, чем можете позволить себе потерять, и вы должны убедиться, что вы полностью понимаете связанные с этим риски. Прежде чем торговать, пожалуйста, примите во внимание свой уровень опыта, инвестиционные цели и при необходимости обратитесь за независимой финансовой консультацией. Вы обязаны выяснить, разрешено ли вам пользоваться услугами Neptune Mutual на основании требований законодательства в вашей стране проживания."
+msgstr ""
 
 #: lib/data/team-data.js:206
 msgid "Rudolf"
-msgstr "Rudolf"
+msgstr ""
 
 #: lib/data/team-data.js:140
 msgid "Rupak Acharya"
-msgstr "Rupak Acharya"
+msgstr ""
 
 #: lib/data/roadmap-data.js:219
 msgid "SDK Audit & Launch"
-msgstr "SDK аудит и запуск"
+msgstr ""
 
 #: lib/data/team-data.js:130
 msgid "Savin Bhandari"
-msgstr "Савин Бхандари"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:10
 msgid "Say goodbye to denied claims assessment."
-msgstr "Попрощайтесь с отказом в оценке претензий."
+msgstr ""
 
 #: lib/data/roadmap-data.js:94
 msgid "Scalability"
-msgstr "Масштабируемость"
+msgstr ""
 
 #: lib/data/roadmap-data.js:92
 msgid "Security"
-msgstr "Безопасность"
+msgstr ""
 
 #: lib/data/roadmap-data.js:243
 msgid "Security Analytics Dashboard"
-msgstr "Панель мониторинга защиты аналитики"
+msgstr ""
 
 #: lib/data/roadmap-data.js:255
 msgid "Security Scorecards & Widgets"
-msgstr "Оценочные карты безопасности и Виджеты"
+msgstr ""
 
 #: lib/data/team-data.js:121
 msgid "Senior Graphic Designer"
-msgstr "Старший графический дизайнер"
+msgstr ""
 
 #: lib/data/team-data.js:111
 msgid "Social Strategist"
-msgstr "Социальный стратег"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:29
 msgid "Stablecoin Liquidity"
-msgstr "Ликвидность Stablecoin"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:23
 msgid "Stay protected against exchange hacks & dApp, DeFi, and smart contract exploits."
-msgstr "Будьте защищены от биржевых взломов и dApp, DeFi и смарт-контрактов."
+msgstr ""
 
 #: lib/data/team-data.js:60
 msgid "Supritha Shanmugam"
-msgstr "Supritha Shanmugam"
+msgstr ""
 
 #: lib/data/team-data.js:179
 msgid "Technical Recruiter"
-msgstr "Технический рекрутер"
+msgstr ""
 
 #: components/utils/Footer/index.jsx:149
 msgid "Terms of Service"
-msgstr "Условия обслуживания"
+msgstr ""
 
 #: lib/data/roadmap-data.js:68
 msgid "The Idea"
-msgstr "Идея"
+msgstr ""
 
 #: lib/data/roadmap-data.js:210
 msgid "The Neptune Mutual Protocol v1 gets audited by a couple of highly-sophisticated security research companies. The protocol gets improved over time through bug-bounty programs and continuous security reviews conducted by independent researchers."
-msgstr "Протокол Neptune Mutual Protocol v1 проверяется несколькими высококвалифицированными компаниями, занимающимися исследованиями в области безопасности. Протокол постоянно совершенствуется благодаря программам \"bug-bounty\" и постоянным проверкам безопасности, проводимыми независимыми исследователями."
+msgstr ""
 
 #: lib/data/roadmap-data.js:188
 msgid "The Neptune Mutual protocol launches on a couple of test networks like Kovan and Binance Smart Chain Testnet. Community members participate in the protocol by becoming cover purchasers, liquidity providers, and consensus witnesses. We will develop <0>Neptune Mutual faucet</0> to provide users with testnet DAI and NPM tokens"
-msgstr "Протокол Neptune Mutual запущен в нескольких тестовых сетях, таких как Kovan и Binance Smart Chain Testnet. Члены сообщества участвуют в протоколе, становясь покупателями покрытия, поставщиками ликвидности и свидетелями консенсуса. Мы разработаем Neptune Mutual кран для обеспечения пользователей токенами DAI и NPM тестовой сети."
+msgstr ""
 
 #: lib/data/roadmap-data.js:108
 msgid "The minting of NPM tokens will have a time-frame of 6 years."
-msgstr "Изготовление NMP токенов заключено в рамки сроком 6 лет."
+msgstr ""
 
 #: lib/data/ecosystem-data.js:64
 msgid "The protocol supplies a small part of the assets that are in excess of the minimum capital requirement to lending protocols."
-msgstr "Протокол предоставляет небольшую часть активов, превышающих минимальные требования предъявляемые к протоколам кредитования."
+msgstr ""
 
 #: lib/data/roadmap-data.js:107
 msgid "There is a fixed supply of 1 billion NPM tokens."
-msgstr "Мы имеем фиксированный запас в 1 миллиард токенов NPM."
+msgstr ""
 
 #: lib/data/ecosystem-data.js:15
 msgid "There is always enough liquidity to pay all cover policyholders."
-msgstr "Ликвидности всегда достаточно для выплаты всем страхователям страхового покрытия."
+msgstr ""
 
 #: lib/data/roadmap-data.js:235
 msgid "This upgrade enables multiple policies to be aggregated under a single cover pool providing larger DeFi and Meta projects an ability to secure their portfolio of smaller DApps."
-msgstr "Это обновление позволяет объединить политику компаний в единый резерв защиты, предоставляя более крупным проектам DeFi и Meta возможность защитить свой портфель небольших DAприложений."
+msgstr ""
 
 #: lib/data/roadmap-data.js:266
 msgid "To Be Announced"
-msgstr "Ближайшие анонсы"
+msgstr ""
 
 #: lib/data/roadmap-data.js:99
 msgid "Token Design"
-msgstr "Дизайн токенов"
+msgstr ""
 
 #: components/HomePage/Industry/index.jsx:85
 msgid "Trusted by Industry Leaders"
-msgstr "Нам доверяют лидеры различных отраслей"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:20
 msgid "Use"
-msgstr "Использование"
+msgstr ""
 
 #: lib/data/roadmap-data.js:95
 msgid "User Experience"
-msgstr "Опыт пользователей"
+msgstr ""
 
 #: lib/data/team-data.js:189
 msgid "Vaishnavi Sahu"
-msgstr "Vaishnavi Sahu"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
-msgstr "Посмотреть прототип приложения"
+msgstr ""
 
 #: pages/index.jsx:21
 msgid "View Press Release"
-msgstr "Посмотреть пресс-релиз"
+msgstr ""
 
 #: components/HomePage/OurTeam/index.jsx:33
 msgid "We are a global and dynamic team with a mission to create a reliable, fast, and effective platform that protects digital assets."
-msgstr "Мы — глобальная и динамичная команда, миссия которой — создать надежную, быструю и эффективную платформу для защиты цифровых активов."
+msgstr ""
 
 #: lib/data/roadmap-data.js:77
 msgid "We saw a growing need for security and reliable covers that inspired us to create Neptune Mutual."
-msgstr "Мы увидели растущую потребность в безопасности и надежной защите покрытия, что и вдохновило нас на создание Neptune Mutual."
+msgstr ""
 
 #: components/CookiePolicy/index.jsx:39
 msgid "We use third-party cookies in order to personalize your experience."
-msgstr "Мы используем third-party cookies, чтобы сделать ваш опыт исключительно персональным."
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:49
 msgid "We’ve Got You Covered"
-msgstr "Мы вас прикроем"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:33
 msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
-msgstr "С нашей поддержкой вы получите большую ясность как повысить ликвидность в своем защитном резерве покрытия."
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:10
 msgid "Write"
-msgstr "Пишите"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:13
 msgid "Write less code and plug in your own Web3 provider. Get complete access to all coverage features."
-msgstr "Пишите меньший объем кода и подключайте собственного Web3 провайдера. Получите полный доступ ко всем возможностям защиты."
+msgstr ""
 
 #: lib/data/ecosystem-data.js:90
 msgid "Your Confident, Protected Community"
-msgstr "Ваше уверенное защищенное сообщество"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:48
 msgid "Your Cover Pool"
-msgstr "Ваша собственный резерв покрытия"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:50
 msgid "Your Style"
-msgstr "Ваш стиль"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
-msgstr "Риски равны нулю"
+msgstr ""
 
 #: lib/data/team-data.js:42
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
-msgstr "{0, select, male {Соучередитель} female {Соучередитель}}"
+msgstr ""
+
