@@ -675,4 +675,3 @@ msgstr ""
 #: lib/data/team-data.js:41
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr ""
-
