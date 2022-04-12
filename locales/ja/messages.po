@@ -70,21 +70,21 @@ msgstr "引きつける"
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
 msgstr "当時の需要によれば、ブランドの新しいセキュリティ分析を”概念化”するBlockchainのセキュリティ専門家・グループ・企業とNeptune Mutualチームパートナーは私たちのポートフォリオに対して独占的にサービスを提供します。ダッシュボードは製品のスマートな契約保全に基づきます。"
 
-#: lib/data/team-data.js:168
+#: lib/data/team-data.js:167
 msgid "Binita Thapa"
 msgstr "ビニタ＝タパ"
 
-#: lib/data/team-data.js:30
+#: lib/data/team-data.js:29
 msgid "Binod Nirvan"
 msgstr "ビノド＝ニルヴァン"
 
-#: lib/data/team-data.js:78
-#: lib/data/team-data.js:85
+#: lib/data/team-data.js:77
+#: lib/data/team-data.js:84
 msgid "Blockchain Advisor"
 msgstr "Blockchainアドバイザー"
 
-#: lib/data/team-data.js:71
-#: lib/data/team-data.js:207
+#: lib/data/team-data.js:70
+#: lib/data/team-data.js:196
 msgid "Blockchain Engineer"
 msgstr "Blockchainエンジニア"
 
@@ -94,11 +94,11 @@ msgstr "Blockchainをベースにしたカバーは保険損害賠償金比率�
 
 #: components/HomePage/Header/index.jsx:55
 #: components/MobileMenu/index.jsx:31
-#: components/utils/Footer/index.jsx:109
+#: components/utils/Footer/index.jsx:118
 msgid "Blog"
 msgstr "ブログ"
 
-#: lib/data/team-data.js:151
+#: lib/data/team-data.js:150
 msgid "Brando"
 msgstr "ブランド"
 
@@ -118,7 +118,7 @@ msgstr "Typescriptに基づいて、開発者は一般的なフレームワー�
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
 msgstr "Typescriptに基づいて、SDKはいかなるフレームワーク上でも、フロントエンドとバックエンドの両環境で動きます。"
 
-#: lib/data/team-data.js:31
+#: lib/data/team-data.js:30
 msgid "CEO & Founder"
 msgstr "CEO＆創設者"
 
@@ -126,7 +126,7 @@ msgstr "CEO＆創設者"
 msgid "Capital Efficiency"
 msgstr "資本効率"
 
-#: components/utils/Footer/index.jsx:129
+#: components/utils/Footer/index.jsx:138
 msgid "Careers"
 msgstr "経歴"
 
@@ -138,7 +138,7 @@ msgstr "ブログをチェックする"
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
 msgstr "Neptune Mutual GithubリポジトリでのSDKカバーソースコードをチェックしましょう。フロントエンドアプリやバックエンドAPIでカバー機能のアクセス方法を見つけ出すためにカバーSDKドキュメントを読んでください。"
 
-#: lib/data/team-data.js:51
+#: lib/data/team-data.js:50
 msgid "Chief Legal Officer"
 msgstr "法務担当役員"
 
@@ -146,29 +146,29 @@ msgstr "法務担当役員"
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "カバープールを選択し、期間を選択し、カバーにどれくらいかかるのか入力してください。事象解決後、すぐにstablecoinで保険金を受け取れます。"
 
-#: lib/data/team-data.js:221
+#: lib/data/team-data.js:210
 msgid "Co-Founder"
 msgstr "共同設立者"
 
-#: lib/data/team-data.js:200
+#: lib/data/team-data.js:189
 msgid "Community"
 msgstr "コミュニティ"
 
-#: lib/data/team-data.js:214
+#: lib/data/team-data.js:203
 msgid "Community Ninja"
 msgstr "ニンジャコミュニティ"
 
-#: components/HomePage/Industry/index.jsx:24
+#: components/HomePage/Industry/index.jsx:25
 msgid "Connect with Us"
 msgstr "私たちと繋がりませんか"
 
 #: components/HomePage/Header/index.jsx:64
 #: components/MobileMenu/index.jsx:41
-#: components/utils/Footer/index.jsx:119
+#: components/utils/Footer/index.jsx:128
 msgid "Contact"
 msgstr "お問い合わせ"
 
-#: lib/data/team-data.js:101
+#: lib/data/team-data.js:100
 msgid "Content Strategist"
 msgstr "戦略担当"
 
@@ -204,16 +204,16 @@ msgstr "拒否する"
 msgid "Dedicated Cover Pools"
 msgstr "専用カバープール"
 
-#: lib/data/team-data.js:92
+#: lib/data/team-data.js:91
 msgid "Design Lead"
 msgstr "設計リーダー"
 
 #: components/MobileMenu/index.jsx:51
-#: components/utils/Footer/index.jsx:139
+#: components/utils/Footer/index.jsx:148
 msgid "Documentation"
 msgstr "ドキュメント"
 
-#: components/utils/Footer/index.jsx:40
+#: components/utils/Footer/index.jsx:41
 msgid "Don't be a stranger! Join and interact with us on our growing social media communities. Stay up to date on our latest developments and progress."
 msgstr "私たちのソーシャルメディアコミュニティに参加し交流しましょう！遠慮せずにどうぞ！最新の開発・状況の情報を待ちましょう。"
 
@@ -221,11 +221,11 @@ msgstr "私たちのソーシャルメディアコミュニティに参加し交
 msgid "Download Neptune Mutual Lightpaper"
 msgstr "Neptune Mutual Lightpaperをダウンロードする"
 
-#: lib/data/team-data.js:220
+#: lib/data/team-data.js:209
 msgid "Edward Ryall"
 msgstr "エドワード＝リアル"
 
-#: lib/data/team-data.js:110
+#: lib/data/team-data.js:109
 msgid "Emmanuel Rogel"
 msgstr "エマニュエル＝ロジェル"
 
@@ -233,7 +233,7 @@ msgstr "エマニュエル＝ロジェル"
 msgid "FIND OUT MORE"
 msgstr "もっと詳しく"
 
-#: lib/data/team-data.js:169
+#: lib/data/team-data.js:168
 msgid "Finance Analyst"
 msgstr "経済分析担当"
 
@@ -241,7 +241,7 @@ msgstr "経済分析担当"
 msgid "Flash Loan Income"
 msgstr "フラッシュローン収益"
 
-#: lib/data/team-data.js:70
+#: lib/data/team-data.js:69
 msgid "Flashburst"
 msgstr "フラッシュバースト"
 
@@ -253,12 +253,12 @@ msgstr "情報を追うなら、コミュニティへ参加を。"
 msgid "Four key principles drive the design of Neptune Mutual's cover protocol:"
 msgstr "4つの主要なキーはNeptune Mutualのカバープロトコルのデザインに基づいて設計されています。"
 
-#: lib/data/team-data.js:199
+#: lib/data/team-data.js:188
 msgid "Freemind"
 msgstr "フリーマインド"
 
-#: lib/data/team-data.js:131
-#: lib/data/team-data.js:142
+#: lib/data/team-data.js:130
+#: lib/data/team-data.js:141
 msgid "Frontend Engineer"
 msgstr "フロントエンドエンジニア"
 
@@ -287,19 +287,15 @@ msgstr "母集団のカバーモデルから支払いを受ける"
 msgid "Get the Neptune Mutual SDK"
 msgstr "Neptune Mutual SDKを手に入れる"
 
-#: lib/data/team-data.js:50
+#: lib/data/team-data.js:49
 msgid "Gilbert NG"
 msgstr "ギルバート＝ン"
 
-#: lib/data/team-data.js:41
+#: lib/data/team-data.js:40
 msgid "Gillian Wu"
 msgstr "ジリアン＝ウー"
 
-#: lib/data/team-data.js:190
-msgid "Graphics Designer"
-msgstr "グラフィックデザイナー"
-
-#: lib/data/team-data.js:152
+#: lib/data/team-data.js:151
 msgid "Growth"
 msgstr "成長担当"
 
@@ -307,15 +303,15 @@ msgstr "成長担当"
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
 msgstr "保証保護と事案におけるカバー保険契約者への迅速な解決"
 
-#: lib/data/team-data.js:77
+#: lib/data/team-data.js:76
 msgid "Hans Koning"
 msgstr "ハンス＝コニン"
 
-#: lib/data/team-data.js:100
+#: lib/data/team-data.js:99
 msgid "Hanz Cabilao"
 msgstr "ハンズ=キャビラオ"
 
-#: lib/data/team-data.js:213
+#: lib/data/team-data.js:202
 msgid "Henry Law"
 msgstr "ヘンリー＝ロー"
 
@@ -339,13 +335,17 @@ msgstr "法人団体"
 msgid "Invest stablecoin liquidity to receive rewards and protect your favorite blockchain projects."
 msgstr "報酬を受け取り、お気に入りのBlockchainプロジェクトを保護するためにstablecoinの流通性に投資しましょう。"
 
-#: lib/data/team-data.js:178
+#: lib/data/team-data.js:177
 msgid "Jonalyn Delos Santos"
 msgstr "ジョナリン＝デロス＝サントス"
 
 #: components/HomePage/BlogComponent/index.jsx:73
 msgid "Latest Updates"
 msgstr "最新情報"
+
+#: components/HomePage/Landing/index.jsx:46
+msgid "Launch Testnet"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:62
 msgid "Lending Income"
@@ -359,7 +359,7 @@ msgstr "Less　コード"
 msgid "Let's #buidl"
 msgstr "#buidlしましょう"
 
-#: components/utils/Footer/index.jsx:37
+#: components/utils/Footer/index.jsx:38
 msgid "Let’s Connect"
 msgstr "繋がりましょう"
 
@@ -375,7 +375,7 @@ msgstr "流通性のある提供者へのリターン"
 msgid "Low Risk Cover Policies"
 msgstr "低リスクカバー保険"
 
-#: lib/data/team-data.js:91
+#: lib/data/team-data.js:90
 msgid "Mark Garcia"
 msgstr "マーク＝ガルシア"
 
@@ -403,15 +403,15 @@ msgstr "Neptune Mutualはメタバース資産に対しカバープロトコル�
 msgid "Neptune Mutual SDK undergoes a strict internal security audit before it becomes available for public use."
 msgstr "Neptune Mutual SDK公で使えるようになる前に、厳しい内部セキュリティ監査を経ています。"
 
-#: lib/data/roadmap-data.js:178
+#: lib/data/roadmap-data.js:177
 msgid "Neptune Mutual has grown quickly from 3 co-founders to a team of over 25, based in countries across the world."
 msgstr "Neptune Mutualは世界中の国々で、3人の共同経営者から25以上のチームまで急速に成長しています。"
 
-#: lib/data/roadmap-data.js:172
+#: lib/data/roadmap-data.js:171
 msgid "Neptune Mutual successfully closed its Seed Round backed by industry leaders including Fenbushi and Coinbase Ventures. Soon after, Animoca Brands led the subsequent investment round and has been joined by an impressive list of investors."
 msgstr "Neptune MutualはFenbushiやCoinbase Venturesを含む産業の主導者によって支援されたSeed Roundのクローズドに成功しました。その後まもなく、Animoca Brands次の投資ラウンドを先導し、印象的な投資者リストに登録されています。"
 
-#: components/utils/Footer/index.jsx:171
+#: components/utils/Footer/index.jsx:180
 msgid "Neptune Mutual © 2022"
 msgstr ""
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
 msgstr "Neptune MutualのLightpaperはNPMトークンデザインと使用方法において、詳細な情報をもたらします。以下が特筆点です。"
 
-#: lib/data/team-data.js:84
+#: lib/data/team-data.js:83
 msgid "On Yavin"
 msgstr "オン＝ヤビン"
 
@@ -439,11 +439,11 @@ msgstr "PODステーキング"
 msgid "Parametric Cover"
 msgstr "母集団のカバー"
 
-#: lib/data/team-data.js:120
+#: lib/data/team-data.js:119
 msgid "Paul Steven Cue"
 msgstr "ポール＝スティーブン＝キュー"
 
-#: lib/data/team-data.js:61
+#: lib/data/team-data.js:60
 msgid "People Manager"
 msgstr "人事管理担当"
 
@@ -451,7 +451,7 @@ msgstr "人事管理担当"
 msgid "Personalized Rewards"
 msgstr "個人向け特典"
 
-#: components/utils/Footer/index.jsx:159
+#: components/utils/Footer/index.jsx:168
 msgid "Privacy Policy"
 msgstr "プライバシーポリシー"
 
@@ -471,11 +471,11 @@ msgstr "あなたの資金コミュニティを守る"
 msgid "Protocol Audit & Launch"
 msgstr "プロトコルの監査＆ローンチ"
 
-#: lib/data/roadmap-data.js:185
+#: lib/data/roadmap-data.js:184
 msgid "Protocol Testnet Launch"
 msgstr "プロトコルのテストネットローンチ"
 
-#: lib/data/team-data.js:158
+#: lib/data/team-data.js:157
 msgid "Pukar Acharya"
 msgstr "プカール＝アチャリヤ"
 
@@ -496,7 +496,7 @@ msgstr "流通性プールに対する安全なカバーは流通性業者なら
 msgid "Receive Rewards"
 msgstr "報酬を受け取る"
 
-#: lib/data/team-data.js:159
+#: lib/data/team-data.js:158
 msgid "Research Analyst"
 msgstr "調査分析官"
 
@@ -504,15 +504,15 @@ msgstr "調査分析官"
 msgid "Reward your cover protection community with your native tokens."
 msgstr "ネイティブトークンでカバープロテクションコミュニティへ返す"
 
-#: components/utils/Footer/index.jsx:174
+#: components/utils/Footer/index.jsx:183
 msgid "Risk warning: Trading crypto assets involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Neptune Mutual based on the legal requirements in your country of residence."
 msgstr "リスク警告： 暗号資産取引には大きなリスクが必ずあり、お客様の資本を損失させる可能性があります。損失してもいいという余裕が無ければ投資すべきではなく、絶対にリスクを伴うということを完全に理解し確認しなければなりません。取引の前には、あなたの経験も考慮に入れて、対象に投資し、必要なら独立した財務アドバイスを探してください。お住いの国や地域での法律に則って、Neptune Mutualのサービスの使用が許可されているかどうか確かめることはお客様の責任になります。"
 
-#: lib/data/team-data.js:206
+#: lib/data/team-data.js:195
 msgid "Rudolf"
 msgstr "ルドルフ"
 
-#: lib/data/team-data.js:140
+#: lib/data/team-data.js:139
 msgid "Rupak Acharya"
 msgstr "ルパク＝アチャリヤ"
 
@@ -520,7 +520,7 @@ msgstr "ルパク＝アチャリヤ"
 msgid "SDK Audit & Launch"
 msgstr "SDKの監査＆ローンチ"
 
-#: lib/data/team-data.js:130
+#: lib/data/team-data.js:129
 msgid "Savin Bhandari"
 msgstr "サビン＝バンダリ"
 
@@ -544,11 +544,11 @@ msgstr "セキュリティ分析ダッシュボード"
 msgid "Security Scorecards & Widgets"
 msgstr "セキュリティのスコアカード＆ウィジェット"
 
-#: lib/data/team-data.js:121
+#: lib/data/team-data.js:120
 msgid "Senior Graphic Designer"
 msgstr "シニアグラフィックデザイナー"
 
-#: lib/data/team-data.js:111
+#: lib/data/team-data.js:110
 msgid "Social Strategist"
 msgstr "ソーシャル戦略担当"
 
@@ -560,15 +560,15 @@ msgstr "Stablecoinの流通性"
 msgid "Stay protected against exchange hacks & dApp, DeFi, and smart contract exploits."
 msgstr "両替ハック、ｄApp、DeFi、スマートコインエクスプロイトから保護します。"
 
-#: lib/data/team-data.js:60
+#: lib/data/team-data.js:59
 msgid "Supritha Shanmugam"
 msgstr "スプリサ＝シャンガム"
 
-#: lib/data/team-data.js:179
+#: lib/data/team-data.js:178
 msgid "Technical Recruiter"
 msgstr "技術採用担当"
 
-#: components/utils/Footer/index.jsx:149
+#: components/utils/Footer/index.jsx:158
 msgid "Terms of Service"
 msgstr "サービス期間"
 
@@ -612,7 +612,7 @@ msgstr "お知らせ"
 msgid "Token Design"
 msgstr "トークンデザイン"
 
-#: components/HomePage/Industry/index.jsx:85
+#: components/HomePage/Industry/index.jsx:94
 msgid "Trusted by Industry Leaders"
 msgstr "産業リーダーにも信用されています。"
 
@@ -623,14 +623,6 @@ msgstr "使う"
 #: lib/data/roadmap-data.js:95
 msgid "User Experience"
 msgstr "ユーザー体験"
-
-#: lib/data/team-data.js:189
-msgid "Vaishnavi Sahu"
-msgstr "バイシュナビ＝サフ"
-
-#: components/HomePage/Landing/index.jsx:46
-msgid "View App Prototype"
-msgstr "アプリのプロトタイプを見る"
 
 #: pages/index.jsx:21
 msgid "View Press Release"
@@ -680,7 +672,6 @@ msgstr "お客様のスタイル"
 msgid "Zero Risk"
 msgstr "リスクゼロ"
 
-#: lib/data/team-data.js:42
+#: lib/data/team-data.js:41
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {共同設立者} female {共同設立者}}"
-
