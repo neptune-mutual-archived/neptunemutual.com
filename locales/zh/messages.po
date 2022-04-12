@@ -2,16 +2,21 @@ msgid ""
 msgstr ""
 "POT-Creation-Date: 2022-02-10 12:44+0530\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: PO File Editor https://pofile.net/free-po-editor\n"
+"X-Generator: @lingui/cli\n"
 "Language: zh\n"
-"Project-Id-Version: \n"
+"Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-02-14 13:21+0800\n"
+"PO-Revision-Date: 2022-04-12 04:27\n"
 "Last-Translator: \n"
-"Language-Team: \n"
+"Language-Team: Chinese Simplified\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: neptunemutual-website\n"
+"X-Crowdin-Project-ID: 509728\n"
+"X-Crowdin-Language: zh-CN\n"
+"X-Crowdin-File: /main/locales/en/messages.po\n"
+"X-Crowdin-File-ID: 8\n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
@@ -67,11 +72,11 @@ msgstr "根据需求，Neptune Mutual 团队会与区块链安全专家、团体
 
 #: lib/data/team-data.js:168
 msgid "Binita Thapa"
-msgstr "Binita Thapa"
+msgstr ""
 
 #: lib/data/team-data.js:30
 msgid "Binod Nirvan"
-msgstr "Binod Nirvan"
+msgstr ""
 
 #: lib/data/team-data.js:78
 #: lib/data/team-data.js:85
@@ -95,7 +100,7 @@ msgstr "博客"
 
 #: lib/data/team-data.js:151
 msgid "Brando"
-msgstr "Brando"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
@@ -218,11 +223,11 @@ msgstr "下载 Neptune Mutual 简版白皮书"
 
 #: lib/data/team-data.js:220
 msgid "Edward Ryall"
-msgstr "Edward Ryall"
+msgstr ""
 
 #: lib/data/team-data.js:110
 msgid "Emmanuel Rogel"
-msgstr "Emmanuel Rogel"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:72
 msgid "FIND OUT MORE"
@@ -238,7 +243,7 @@ msgstr "闪贷收入"
 
 #: lib/data/team-data.js:70
 msgid "Flashburst"
-msgstr "Flashburst"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:95
 msgid "Follow our progress. Join our community."
@@ -250,7 +255,7 @@ msgstr "推动Neptune Mutual 保障协议设计的四个关键原则："
 
 #: lib/data/team-data.js:199
 msgid "Freemind"
-msgstr "Freemind"
+msgstr ""
 
 #: lib/data/team-data.js:131
 #: lib/data/team-data.js:142
@@ -284,11 +289,11 @@ msgstr "获取Neptune Mutual SDK"
 
 #: lib/data/team-data.js:50
 msgid "Gilbert NG"
-msgstr "Gilbert NG"
+msgstr ""
 
 #: lib/data/team-data.js:41
 msgid "Gillian Wu"
-msgstr "Gillian Wu"
+msgstr ""
 
 #: lib/data/team-data.js:190
 msgid "Graphics Designer"
@@ -304,15 +309,15 @@ msgstr "您的保单持有人在事件发生后将会获得迅速的解决以及
 
 #: lib/data/team-data.js:77
 msgid "Hans Koning"
-msgstr "Hans Koning"
+msgstr ""
 
 #: lib/data/team-data.js:100
 msgid "Hanz Cabilao"
-msgstr "Hanz Cabilao"
+msgstr ""
 
 #: lib/data/team-data.js:213
 msgid "Henry Law"
-msgstr "Henry Law"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:56
 msgid "Imagine how cool it would be to access all coverage features inside your own app just the way you like it."
@@ -336,7 +341,7 @@ msgstr "用稳定币提供流动性以获取奖励，并为您喜爱的区块链
 
 #: lib/data/team-data.js:178
 msgid "Jonalyn Delos Santos"
-msgstr "Jonalyn Delos Santos"
+msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:73
 msgid "Latest Updates"
@@ -372,7 +377,7 @@ msgstr "低风险保单"
 
 #: lib/data/team-data.js:91
 msgid "Mark Garcia"
-msgstr "Mark Garcia"
+msgstr ""
 
 #: lib/data/roadmap-data.js:93
 msgid "Minimizing risk"
@@ -408,7 +413,7 @@ msgstr "Neptune Mutual 成功地完成种子轮融资，获得业界领军者Fen
 
 #: components/utils/Footer/index.jsx:171
 msgid "Neptune Mutual © 2022"
-msgstr "Neptune Mutual © 2022"
+msgstr ""
 
 #: lib/data/roadmap-data.js:101
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
@@ -416,7 +421,7 @@ msgstr "Neptune Mutual 简化版白皮书介绍了NPM的代币设计和应用。
 
 #: lib/data/team-data.js:84
 msgid "On Yavin"
-msgstr "On Yavin"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:92
 msgid "Our Roadmap for Growing the Neptune Mutual Ecosystem"
@@ -436,7 +441,7 @@ msgstr "参数化保障"
 
 #: lib/data/team-data.js:120
 msgid "Paul Steven Cue"
-msgstr "Paul Steven Cue"
+msgstr ""
 
 #: lib/data/team-data.js:61
 msgid "People Manager"
@@ -472,7 +477,7 @@ msgstr "发布协议测试网络"
 
 #: lib/data/team-data.js:158
 msgid "Pukar Acharya"
-msgstr "Pukar Acharya"
+msgstr ""
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:46
 msgid "Purchase Covers"
@@ -505,11 +510,11 @@ msgstr "风险提示：交易加密资产涉及重大风险，并可能导致您
 
 #: lib/data/team-data.js:206
 msgid "Rudolf"
-msgstr "Rudolf"
+msgstr ""
 
 #: lib/data/team-data.js:140
 msgid "Rupak Acharya"
-msgstr "Rupak Acharya"
+msgstr ""
 
 #: lib/data/roadmap-data.js:219
 msgid "SDK Audit & Launch"
@@ -517,7 +522,7 @@ msgstr "SDK 审计与发布"
 
 #: lib/data/team-data.js:130
 msgid "Savin Bhandari"
-msgstr "Savin Bhandari"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:10
 msgid "Say goodbye to denied claims assessment."
@@ -557,7 +562,7 @@ msgstr "保障自己免于交易所黑客和去中心化应用，DeFi，智能�
 
 #: lib/data/team-data.js:60
 msgid "Supritha Shanmugam"
-msgstr "Supritha Shanmugam"
+msgstr ""
 
 #: lib/data/team-data.js:179
 msgid "Technical Recruiter"
@@ -621,7 +626,7 @@ msgstr "用户体验"
 
 #: lib/data/team-data.js:189
 msgid "Vaishnavi Sahu"
-msgstr "Vaishnavi Sahu"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
@@ -678,3 +683,4 @@ msgstr "零风险"
 #: lib/data/team-data.js:42
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {联合创始人} female {联合创始人}}"
+
