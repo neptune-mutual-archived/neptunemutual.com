@@ -675,3 +675,4 @@ msgstr "Risque Zéro"
 #: lib/data/team-data.js:41
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {Co-fondateur} female {Co-fondateur}}"
+
