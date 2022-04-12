@@ -8,7 +8,7 @@ msgstr ""
 "Language: tr\n"
 "Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-12 05:08\n"
+"PO-Revision-Date: 2022-04-12 06:12\n"
 "Last-Translator: \n"
 "Language-Team: Turkish\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -70,21 +70,21 @@ msgstr "Yükleyin"
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
 msgstr "O zamanki talebe dayanarak Neptune Mutual ekibi, yalnızca portföy projelerimiz için yepyeni bir güvenlik analitiği hizmetini \"kavramsallaştırmak\" için blok zinciri güvenlik uzmanları, grupları ve şirketleri ile ortaklık kuruyor. Dashboard, akıllı sözleşme üretim güvenliğine dayalı olacaktır."
 
-#: lib/data/team-data.js:168
+#: lib/data/team-data.js:167
 msgid "Binita Thapa"
 msgstr ""
 
-#: lib/data/team-data.js:30
+#: lib/data/team-data.js:29
 msgid "Binod Nirvan"
 msgstr ""
 
-#: lib/data/team-data.js:78
-#: lib/data/team-data.js:85
+#: lib/data/team-data.js:77
+#: lib/data/team-data.js:84
 msgid "Blockchain Advisor"
 msgstr "Blockchain Danışmanı"
 
-#: lib/data/team-data.js:71
-#: lib/data/team-data.js:207
+#: lib/data/team-data.js:70
+#: lib/data/team-data.js:196
 msgid "Blockchain Engineer"
 msgstr "Blockchain Mühendisi"
 
@@ -94,11 +94,11 @@ msgstr "\"Blockchain tabanlı teminatlar, düşük talep-ödeme oranına sahipti
 
 #: components/HomePage/Header/index.jsx:55
 #: components/MobileMenu/index.jsx:31
-#: components/utils/Footer/index.jsx:109
+#: components/utils/Footer/index.jsx:118
 msgid "Blog"
 msgstr ""
 
-#: lib/data/team-data.js:151
+#: lib/data/team-data.js:150
 msgid "Brando"
 msgstr ""
 
@@ -118,7 +118,7 @@ msgstr "Typescript üzerine inşa edilen geliştiriciler, herhangi bir popüler 
 msgid "Built on Typescript, the SDK works on both frontend and backend environments, on any framework."
 msgstr "Typescript üzerine inşa edilen SDK, herhangi bir frameworkde hem frontend hem de backend ortamlarında çalışır."
 
-#: lib/data/team-data.js:31
+#: lib/data/team-data.js:30
 msgid "CEO & Founder"
 msgstr "CEO - Kurucu"
 
@@ -126,7 +126,7 @@ msgstr "CEO - Kurucu"
 msgid "Capital Efficiency"
 msgstr "Sermaye Verimliliği"
 
-#: components/utils/Footer/index.jsx:129
+#: components/utils/Footer/index.jsx:138
 msgid "Careers"
 msgstr "Kariyer"
 
@@ -138,7 +138,7 @@ msgstr "Blogumuza Göz Atın"
 msgid "Check out the Cover SDK source code on the Neptune Mutual Github repository. <0>Read the SDK documentation</0> to find out how to get access to cover features on your own frontend app or backend API."
 msgstr "Neptune Mutual Github deposundaki Cover SDK kaynak kodunu kontrol edin. Kendi frontend uygulamanızdaki veya backend API'nizdeki kapsama özelliklerine nasıl erişeceğinizi öğrenmek için <0>SDK belgelerini okuyun</0>."
 
-#: lib/data/team-data.js:51
+#: lib/data/team-data.js:50
 msgid "Chief Legal Officer"
 msgstr "Hukuk Yöneticisi"
 
@@ -146,29 +146,29 @@ msgstr "Hukuk Yöneticisi"
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
 msgstr "Bir teminat havuzu seçin, süresini seçin ve ne kadar teminat gerektiğini girin. Olay çözüldükten sonra talep ettiğiniz ödemelerinizi anında stabilcoin olarak alın."
 
-#: lib/data/team-data.js:221
+#: lib/data/team-data.js:210
 msgid "Co-Founder"
 msgstr "Kurucu Ortak"
 
-#: lib/data/team-data.js:200
+#: lib/data/team-data.js:189
 msgid "Community"
 msgstr "Topluluk"
 
-#: lib/data/team-data.js:214
+#: lib/data/team-data.js:203
 msgid "Community Ninja"
 msgstr "Topluluk Ninjası"
 
-#: components/HomePage/Industry/index.jsx:24
+#: components/HomePage/Industry/index.jsx:25
 msgid "Connect with Us"
 msgstr "Bizimle İletişime Geç"
 
 #: components/HomePage/Header/index.jsx:64
 #: components/MobileMenu/index.jsx:41
-#: components/utils/Footer/index.jsx:119
+#: components/utils/Footer/index.jsx:128
 msgid "Contact"
 msgstr "İletişim"
 
-#: lib/data/team-data.js:101
+#: lib/data/team-data.js:100
 msgid "Content Strategist"
 msgstr "İçerik Stratejisti"
 
@@ -204,16 +204,16 @@ msgstr "Reddetmek"
 msgid "Dedicated Cover Pools"
 msgstr "Özel Teminat Havuzları"
 
-#: lib/data/team-data.js:92
+#: lib/data/team-data.js:91
 msgid "Design Lead"
 msgstr "Tasarım Lideri"
 
 #: components/MobileMenu/index.jsx:51
-#: components/utils/Footer/index.jsx:139
+#: components/utils/Footer/index.jsx:148
 msgid "Documentation"
 msgstr "Dokümantasyon"
 
-#: components/utils/Footer/index.jsx:40
+#: components/utils/Footer/index.jsx:41
 msgid "Don't be a stranger! Join and interact with us on our growing social media communities. Stay up to date on our latest developments and progress."
 msgstr "Yabancı Kalma! Büyüyen sosyal medya topluluklarımızda bize katılın ve bizimle etkileşim kurun. En son gelişmelerimizden ve ilerlemelerimizden ilk siz haberdar olun."
 
@@ -221,11 +221,11 @@ msgstr "Yabancı Kalma! Büyüyen sosyal medya topluluklarımızda bize katılı
 msgid "Download Neptune Mutual Lightpaper"
 msgstr "Neptune Mutual Lightpaper'ını İndir"
 
-#: lib/data/team-data.js:220
+#: lib/data/team-data.js:209
 msgid "Edward Ryall"
 msgstr ""
 
-#: lib/data/team-data.js:110
+#: lib/data/team-data.js:109
 msgid "Emmanuel Rogel"
 msgstr ""
 
@@ -233,7 +233,7 @@ msgstr ""
 msgid "FIND OUT MORE"
 msgstr "DAHA FAZLASINI BUL"
 
-#: lib/data/team-data.js:169
+#: lib/data/team-data.js:168
 msgid "Finance Analyst"
 msgstr "Finans Analisti"
 
@@ -241,7 +241,7 @@ msgstr "Finans Analisti"
 msgid "Flash Loan Income"
 msgstr "Flash Kredi Geliri"
 
-#: lib/data/team-data.js:70
+#: lib/data/team-data.js:69
 msgid "Flashburst"
 msgstr ""
 
@@ -253,12 +253,12 @@ msgstr "Gelişmelerimizi takip et. Topluluğumuza katıl."
 msgid "Four key principles drive the design of Neptune Mutual's cover protocol:"
 msgstr "Neptune Mutual'ın teminat protokolünün tasarımını dört temel ilke yönlendirir:"
 
-#: lib/data/team-data.js:199
+#: lib/data/team-data.js:188
 msgid "Freemind"
 msgstr ""
 
-#: lib/data/team-data.js:131
-#: lib/data/team-data.js:142
+#: lib/data/team-data.js:130
+#: lib/data/team-data.js:141
 msgid "Frontend Engineer"
 msgstr "Frontend Mühendisi"
 
@@ -287,19 +287,15 @@ msgstr "Parametrik teminat modelimiz ile garantili ödemeler alın. Hasar değer
 msgid "Get the Neptune Mutual SDK"
 msgstr "Neptune Mutual SDK'yı edinin"
 
-#: lib/data/team-data.js:50
+#: lib/data/team-data.js:49
 msgid "Gilbert NG"
 msgstr ""
 
-#: lib/data/team-data.js:41
+#: lib/data/team-data.js:40
 msgid "Gillian Wu"
 msgstr ""
 
-#: lib/data/team-data.js:190
-msgid "Graphics Designer"
-msgstr "Grafik Tasarımcı"
-
-#: lib/data/team-data.js:152
+#: lib/data/team-data.js:151
 msgid "Growth"
 msgstr "Büyüme"
 
@@ -307,15 +303,15 @@ msgstr "Büyüme"
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
 msgstr "Bir olay durumunda teminat politika sahiplerine koruma ve hızlı çözüm garantisi sağlar."
 
-#: lib/data/team-data.js:77
+#: lib/data/team-data.js:76
 msgid "Hans Koning"
 msgstr ""
 
-#: lib/data/team-data.js:100
+#: lib/data/team-data.js:99
 msgid "Hanz Cabilao"
 msgstr ""
 
-#: lib/data/team-data.js:213
+#: lib/data/team-data.js:202
 msgid "Henry Law"
 msgstr ""
 
@@ -339,13 +335,17 @@ msgstr "Şirketleşme ve Hukuk"
 msgid "Invest stablecoin liquidity to receive rewards and protect your favorite blockchain projects."
 msgstr "Favori blok zincirinizi korumak ve ödüller almak için Stablecoin Likiditesine yatırım yapın"
 
-#: lib/data/team-data.js:178
+#: lib/data/team-data.js:177
 msgid "Jonalyn Delos Santos"
 msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:73
 msgid "Latest Updates"
 msgstr "En Son Güncellemeler"
+
+#: components/HomePage/Landing/index.jsx:46
+msgid "Launch Testnet"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:62
 msgid "Lending Income"
@@ -359,7 +359,7 @@ msgstr "Daha Az Kod"
 msgid "Let's #buidl"
 msgstr "Hadi İnşaa Edelim"
 
-#: components/utils/Footer/index.jsx:37
+#: components/utils/Footer/index.jsx:38
 msgid "Let’s Connect"
 msgstr "Bizi Sosyal Medyadan Takip Edin!"
 
@@ -375,7 +375,7 @@ msgstr "Likidite Sağlayıcıların İadesi"
 msgid "Low Risk Cover Policies"
 msgstr "Düşük Risk Teminat Politikaları"
 
-#: lib/data/team-data.js:91
+#: lib/data/team-data.js:90
 msgid "Mark Garcia"
 msgstr ""
 
@@ -403,15 +403,15 @@ msgstr "Neptune Mutual, Metaverse Varlıkları için Teminat oluşturma protokol
 msgid "Neptune Mutual SDK undergoes a strict internal security audit before it becomes available for public use."
 msgstr "Neptune Mutual SDK, genel kullanıma sunulmadan önce sıkı bir iç güvenlik denetiminden geçer."
 
-#: lib/data/roadmap-data.js:178
+#: lib/data/roadmap-data.js:177
 msgid "Neptune Mutual has grown quickly from 3 co-founders to a team of over 25, based in countries across the world."
 msgstr "Neptün Mutual, 3 kurucu ortakla büyümeye başlayıp dünyanın dört bir yanındaki ülkelerde bulunan 25'in üzerinde çalışana sahip bir ekip."
 
-#: lib/data/roadmap-data.js:172
+#: lib/data/roadmap-data.js:171
 msgid "Neptune Mutual successfully closed its Seed Round backed by industry leaders including Fenbushi and Coinbase Ventures. Soon after, Animoca Brands led the subsequent investment round and has been joined by an impressive list of investors."
 msgstr "Neptune Mutual, Fenbushi ve Coinbase Ventures dahil olmak üzere endüstri liderleri tarafından desteklenen Seed Round'unu başarıyla kapattı. Kısa bir süre sonra, Animoca Brands sonraki yatırım turunu yönetti ve etkileyici bir yatırımcı listesine katıldı."
 
-#: components/utils/Footer/index.jsx:171
+#: components/utils/Footer/index.jsx:180
 msgid "Neptune Mutual © 2022"
 msgstr ""
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
 msgstr "Neptune Mutual'ın Lightpaper'ı, NPM token tasarımımız ve kullanımımız hakkında ayrıntılı bilgi verir. İşte dikkat edilmemesi gereken önemli noktalar:"
 
-#: lib/data/team-data.js:84
+#: lib/data/team-data.js:83
 msgid "On Yavin"
 msgstr ""
 
@@ -439,11 +439,11 @@ msgstr ""
 msgid "Parametric Cover"
 msgstr "Parametrik teminat"
 
-#: lib/data/team-data.js:120
+#: lib/data/team-data.js:119
 msgid "Paul Steven Cue"
 msgstr ""
 
-#: lib/data/team-data.js:61
+#: lib/data/team-data.js:60
 msgid "People Manager"
 msgstr "İnsan Kaynakları"
 
@@ -451,7 +451,7 @@ msgstr "İnsan Kaynakları"
 msgid "Personalized Rewards"
 msgstr "Kişiselleştirilmiş Ödüller"
 
-#: components/utils/Footer/index.jsx:159
+#: components/utils/Footer/index.jsx:168
 msgid "Privacy Policy"
 msgstr "Gizlilik Politikaları"
 
@@ -471,11 +471,11 @@ msgstr "Finansman Topluluğunuzu koruyun"
 msgid "Protocol Audit & Launch"
 msgstr "Protokol Denetimi ve lansmanı"
 
-#: lib/data/roadmap-data.js:185
+#: lib/data/roadmap-data.js:184
 msgid "Protocol Testnet Launch"
 msgstr "Protokol Testnet Lansmanı"
 
-#: lib/data/team-data.js:158
+#: lib/data/team-data.js:157
 msgid "Pukar Acharya"
 msgstr ""
 
@@ -496,7 +496,7 @@ msgstr "Likidite sağlayıcılarının riskini azaltmak için Likidite havuzlar�
 msgid "Receive Rewards"
 msgstr "Ödüller Alın"
 
-#: lib/data/team-data.js:159
+#: lib/data/team-data.js:158
 msgid "Research Analyst"
 msgstr "Araştırma Analisti"
 
@@ -504,15 +504,15 @@ msgstr "Araştırma Analisti"
 msgid "Reward your cover protection community with your native tokens."
 msgstr "Teminat koruma topluluğunuzu yerel tokenlerinizle ödüllendirin."
 
-#: components/utils/Footer/index.jsx:174
+#: components/utils/Footer/index.jsx:183
 msgid "Risk warning: Trading crypto assets involves significant risk and can result in the loss of your capital. You should not invest more than you can afford to lose and you should ensure that you fully understand the risks involved. Before trading, please take into consideration your level of experience, investment objectives, and seek independent financial advice if necessary. It is your responsibility to ascertain whether you are permitted to use the services of Neptune Mutual based on the legal requirements in your country of residence."
 msgstr "Risk uyarısı: Kripto varlık ticareti önemli riskler içerir ve sermayenizin kaybolmasına neden olabilir. Kaybetmeyi göze alabileceğinizden daha fazla yatırım yapmamalı ve ilgili riskleri tam olarak anladığınızdan emin olmalısınız. Ticaret yapmadan önce lütfen deneyim seviyenizi, yatırım hedeflerinizi göz önünde bulundurun ve gerekirse bağımsız finansal tavsiye alın. İkamet ettiğiniz ülkedeki yasal gerekliliklere göre Neptune Mutual hizmetlerini kullanmanıza izin verilip verilmediğini öğrenmek sizin sorumluluğunuzdadır."
 
-#: lib/data/team-data.js:206
+#: lib/data/team-data.js:195
 msgid "Rudolf"
 msgstr ""
 
-#: lib/data/team-data.js:140
+#: lib/data/team-data.js:139
 msgid "Rupak Acharya"
 msgstr ""
 
@@ -520,7 +520,7 @@ msgstr ""
 msgid "SDK Audit & Launch"
 msgstr "SDK Denetimi & Lansmanı"
 
-#: lib/data/team-data.js:130
+#: lib/data/team-data.js:129
 msgid "Savin Bhandari"
 msgstr ""
 
@@ -544,11 +544,11 @@ msgstr "Güvenlik Analitiği Dashboardu"
 msgid "Security Scorecards & Widgets"
 msgstr "Güvenlik Puan Kartları ve Widget'lar"
 
-#: lib/data/team-data.js:121
+#: lib/data/team-data.js:120
 msgid "Senior Graphic Designer"
 msgstr "Kıdemli Grafik Tasarımcısı"
 
-#: lib/data/team-data.js:111
+#: lib/data/team-data.js:110
 msgid "Social Strategist"
 msgstr "Sosyal Stratejist"
 
@@ -560,15 +560,15 @@ msgstr "Stablecoin Likiditesi"
 msgid "Stay protected against exchange hacks & dApp, DeFi, and smart contract exploits."
 msgstr "Borsa hack'lerine & dApp, DeFi ve akıllı sözleşme istismarlarına karşı korunmaya devam edin."
 
-#: lib/data/team-data.js:60
+#: lib/data/team-data.js:59
 msgid "Supritha Shanmugam"
 msgstr ""
 
-#: lib/data/team-data.js:179
+#: lib/data/team-data.js:178
 msgid "Technical Recruiter"
 msgstr "Teknik İşveren"
 
-#: components/utils/Footer/index.jsx:149
+#: components/utils/Footer/index.jsx:158
 msgid "Terms of Service"
 msgstr "Şartlar ve Hizmetler"
 
@@ -612,7 +612,7 @@ msgstr "Duyurulacak"
 msgid "Token Design"
 msgstr "Token Tasarımı"
 
-#: components/HomePage/Industry/index.jsx:85
+#: components/HomePage/Industry/index.jsx:94
 msgid "Trusted by Industry Leaders"
 msgstr "Endüstri Liderleri Tarafından Güvenilen"
 
@@ -623,14 +623,6 @@ msgstr "Kullanın"
 #: lib/data/roadmap-data.js:95
 msgid "User Experience"
 msgstr "Kullanıcı Deneyimi"
-
-#: lib/data/team-data.js:189
-msgid "Vaishnavi Sahu"
-msgstr ""
-
-#: components/HomePage/Landing/index.jsx:46
-msgid "View App Prototype"
-msgstr "Uygulama Prototipini Görüntüle"
 
 #: pages/index.jsx:21
 msgid "View Press Release"
@@ -680,7 +672,7 @@ msgstr "Stilin"
 msgid "Zero Risk"
 msgstr "Sıfır risk"
 
-#: lib/data/team-data.js:42
+#: lib/data/team-data.js:41
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {Kurucu Ortak} female {Kurucu Ortak}}"
 
