@@ -1,21 +1,26 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-02-26 14:30+0530\n"
+"POT-Creation-Date: 2022-02-10 12:44+0530\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: tr\n"
-"Project-Id-Version: \n"
+"Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2022-04-12 05:08\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language-Team: Turkish\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: neptunemutual-website\n"
+"X-Crowdin-Project-ID: 509728\n"
+"X-Crowdin-Language: tr\n"
+"X-Crowdin-File: /main/locales/en/messages.po\n"
+"X-Crowdin-File-ID: 8\n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
-msgstr "100%+ MCR"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
@@ -67,11 +72,11 @@ msgstr "O zamanki talebe dayanarak Neptune Mutual ekibi, yalnızca portföy proj
 
 #: lib/data/team-data.js:168
 msgid "Binita Thapa"
-msgstr "Binita Thapa"
+msgstr ""
 
 #: lib/data/team-data.js:30
 msgid "Binod Nirvan"
-msgstr "Binod Nirvan"
+msgstr ""
 
 #: lib/data/team-data.js:78
 #: lib/data/team-data.js:85
@@ -91,11 +96,11 @@ msgstr "\"Blockchain tabanlı teminatlar, düşük talep-ödeme oranına sahipti
 #: components/MobileMenu/index.jsx:31
 #: components/utils/Footer/index.jsx:109
 msgid "Blog"
-msgstr "Blog"
+msgstr ""
 
 #: lib/data/team-data.js:151
 msgid "Brando"
-msgstr "Brando"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
@@ -218,11 +223,11 @@ msgstr "Neptune Mutual Lightpaper'ını İndir"
 
 #: lib/data/team-data.js:220
 msgid "Edward Ryall"
-msgstr "Edward Ryall"
+msgstr ""
 
 #: lib/data/team-data.js:110
 msgid "Emmanuel Rogel"
-msgstr "Emmanuel Rogel"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:72
 msgid "FIND OUT MORE"
@@ -238,7 +243,7 @@ msgstr "Flash Kredi Geliri"
 
 #: lib/data/team-data.js:70
 msgid "Flashburst"
-msgstr "Flashburst"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:95
 msgid "Follow our progress. Join our community."
@@ -250,7 +255,7 @@ msgstr "Neptune Mutual'ın teminat protokolünün tasarımını dört temel ilke
 
 #: lib/data/team-data.js:199
 msgid "Freemind"
-msgstr "Freemind"
+msgstr ""
 
 #: lib/data/team-data.js:131
 #: lib/data/team-data.js:142
@@ -284,11 +289,11 @@ msgstr "Neptune Mutual SDK'yı edinin"
 
 #: lib/data/team-data.js:50
 msgid "Gilbert NG"
-msgstr "Gilbert NG"
+msgstr ""
 
 #: lib/data/team-data.js:41
 msgid "Gillian Wu"
-msgstr "Gillian Wu"
+msgstr ""
 
 #: lib/data/team-data.js:190
 msgid "Graphics Designer"
@@ -304,15 +309,15 @@ msgstr "Bir olay durumunda teminat politika sahiplerine koruma ve hızlı çöz�
 
 #: lib/data/team-data.js:77
 msgid "Hans Koning"
-msgstr "Hans Koning"
+msgstr ""
 
 #: lib/data/team-data.js:100
 msgid "Hanz Cabilao"
-msgstr "Hanz Cabilao"
+msgstr ""
 
 #: lib/data/team-data.js:213
 msgid "Henry Law"
-msgstr "Henry Law"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:56
 msgid "Imagine how cool it would be to access all coverage features inside your own app just the way you like it."
@@ -336,7 +341,7 @@ msgstr "Favori blok zincirinizi korumak ve ödüller almak için Stablecoin Liki
 
 #: lib/data/team-data.js:178
 msgid "Jonalyn Delos Santos"
-msgstr "Jonalyn Delos Santos"
+msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:73
 msgid "Latest Updates"
@@ -372,7 +377,7 @@ msgstr "Düşük Risk Teminat Politikaları"
 
 #: lib/data/team-data.js:91
 msgid "Mark Garcia"
-msgstr "Mark Garcia"
+msgstr ""
 
 #: lib/data/roadmap-data.js:93
 msgid "Minimizing risk"
@@ -408,7 +413,7 @@ msgstr "Neptune Mutual, Fenbushi ve Coinbase Ventures dahil olmak üzere endüst
 
 #: components/utils/Footer/index.jsx:171
 msgid "Neptune Mutual © 2022"
-msgstr "Neptune Mutual © 2022"
+msgstr ""
 
 #: lib/data/roadmap-data.js:101
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
@@ -416,7 +421,7 @@ msgstr "Neptune Mutual'ın Lightpaper'ı, NPM token tasarımımız ve kullanım�
 
 #: lib/data/team-data.js:84
 msgid "On Yavin"
-msgstr "On Yavin"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:92
 msgid "Our Roadmap for Growing the Neptune Mutual Ecosystem"
@@ -428,7 +433,7 @@ msgstr "Takımımız"
 
 #: lib/data/ecosystem-data.js:45
 msgid "POD Staking"
-msgstr "POD Staking"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:77
 msgid "Parametric Cover"
@@ -436,7 +441,7 @@ msgstr "Parametrik teminat"
 
 #: lib/data/team-data.js:120
 msgid "Paul Steven Cue"
-msgstr "Paul Steven Cue"
+msgstr ""
 
 #: lib/data/team-data.js:61
 msgid "People Manager"
@@ -472,7 +477,7 @@ msgstr "Protokol Testnet Lansmanı"
 
 #: lib/data/team-data.js:158
 msgid "Pukar Acharya"
-msgstr "Pukar Acharya"
+msgstr ""
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:46
 msgid "Purchase Covers"
@@ -505,11 +510,11 @@ msgstr "Risk uyarısı: Kripto varlık ticareti önemli riskler içerir ve serma
 
 #: lib/data/team-data.js:206
 msgid "Rudolf"
-msgstr "Rudolf"
+msgstr ""
 
 #: lib/data/team-data.js:140
 msgid "Rupak Acharya"
-msgstr "Rupak Acharya"
+msgstr ""
 
 #: lib/data/roadmap-data.js:219
 msgid "SDK Audit & Launch"
@@ -517,7 +522,7 @@ msgstr "SDK Denetimi & Lansmanı"
 
 #: lib/data/team-data.js:130
 msgid "Savin Bhandari"
-msgstr "Savin Bhandari"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:10
 msgid "Say goodbye to denied claims assessment."
@@ -557,7 +562,7 @@ msgstr "Borsa hack'lerine & dApp, DeFi ve akıllı sözleşme istismarlarına ka
 
 #: lib/data/team-data.js:60
 msgid "Supritha Shanmugam"
-msgstr "Supritha Shanmugam"
+msgstr ""
 
 #: lib/data/team-data.js:179
 msgid "Technical Recruiter"
@@ -621,7 +626,7 @@ msgstr "Kullanıcı Deneyimi"
 
 #: lib/data/team-data.js:189
 msgid "Vaishnavi Sahu"
-msgstr "Vaishnavi Sahu"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
@@ -678,3 +683,4 @@ msgstr "Sıfır risk"
 #: lib/data/team-data.js:42
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {Kurucu Ortak} female {Kurucu Ortak}}"
+
