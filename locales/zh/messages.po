@@ -8,7 +8,7 @@ msgstr ""
 "Language: zh\n"
 "Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-12 06:12\n"
+"PO-Revision-Date: 2022-04-12 09:07\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
@@ -72,11 +72,11 @@ msgstr "根据需求，Neptune Mutual 团队会与区块链安全专家、团体
 
 #: lib/data/team-data.js:167
 msgid "Binita Thapa"
-msgstr ""
+msgstr "Binita Thapa"
 
 #: lib/data/team-data.js:29
 msgid "Binod Nirvan"
-msgstr ""
+msgstr "Binod Nirvan"
 
 #: lib/data/team-data.js:77
 #: lib/data/team-data.js:84
@@ -100,7 +100,7 @@ msgstr "博客"
 
 #: lib/data/team-data.js:150
 msgid "Brando"
-msgstr ""
+msgstr "Brando"
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
@@ -223,11 +223,11 @@ msgstr "下载 Neptune Mutual 简版白皮书"
 
 #: lib/data/team-data.js:209
 msgid "Edward Ryall"
-msgstr ""
+msgstr "Edward Ryall"
 
 #: lib/data/team-data.js:109
 msgid "Emmanuel Rogel"
-msgstr ""
+msgstr "Emmanuel Rogel"
 
 #: components/GotCovered/GotCovered.jsx:72
 msgid "FIND OUT MORE"
@@ -243,7 +243,7 @@ msgstr "闪贷收入"
 
 #: lib/data/team-data.js:69
 msgid "Flashburst"
-msgstr ""
+msgstr "Flashburst"
 
 #: components/HomePage/Roadmap/index.jsx:95
 msgid "Follow our progress. Join our community."
@@ -255,7 +255,7 @@ msgstr "推动Neptune Mutual 保障协议设计的四个关键原则："
 
 #: lib/data/team-data.js:188
 msgid "Freemind"
-msgstr ""
+msgstr "Freemind"
 
 #: lib/data/team-data.js:130
 #: lib/data/team-data.js:141
@@ -289,11 +289,11 @@ msgstr "获取Neptune Mutual SDK"
 
 #: lib/data/team-data.js:49
 msgid "Gilbert NG"
-msgstr ""
+msgstr "Gilbert NG"
 
 #: lib/data/team-data.js:40
 msgid "Gillian Wu"
-msgstr ""
+msgstr "Gillian Wu"
 
 #: lib/data/team-data.js:151
 msgid "Growth"
