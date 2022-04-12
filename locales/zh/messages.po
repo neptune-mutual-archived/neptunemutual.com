@@ -8,15 +8,15 @@ msgstr ""
 "Language: zh\n"
 "Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-12 09:07\n"
+"PO-Revision-Date: 2022-04-12 11:21\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Crowdin-Project: neptunemutual-website\n"
 "X-Crowdin-Project-ID: 509728\n"
 "X-Crowdin-Language: zh-CN\n"
-"X-Crowdin-File: /main/locales/en/messages.po\n"
-"X-Crowdin-File-ID: 8\n"
+"X-Crowdin-File: /[neptune-mutual-blue.neptunemutual.com] main/locales/en/messages.po\n"
+"X-Crowdin-File-ID: 16\n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
@@ -72,11 +72,11 @@ msgstr "根据需求，Neptune Mutual 团队会与区块链安全专家、团体
 
 #: lib/data/team-data.js:167
 msgid "Binita Thapa"
-msgstr "Binita Thapa"
+msgstr ""
 
 #: lib/data/team-data.js:29
 msgid "Binod Nirvan"
-msgstr "Binod Nirvan"
+msgstr ""
 
 #: lib/data/team-data.js:77
 #: lib/data/team-data.js:84
@@ -100,7 +100,7 @@ msgstr "博客"
 
 #: lib/data/team-data.js:150
 msgid "Brando"
-msgstr "Brando"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
@@ -223,11 +223,11 @@ msgstr "下载 Neptune Mutual 简版白皮书"
 
 #: lib/data/team-data.js:209
 msgid "Edward Ryall"
-msgstr "Edward Ryall"
+msgstr ""
 
 #: lib/data/team-data.js:109
 msgid "Emmanuel Rogel"
-msgstr "Emmanuel Rogel"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:72
 msgid "FIND OUT MORE"
@@ -243,7 +243,7 @@ msgstr "闪贷收入"
 
 #: lib/data/team-data.js:69
 msgid "Flashburst"
-msgstr "Flashburst"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:95
 msgid "Follow our progress. Join our community."
@@ -255,7 +255,7 @@ msgstr "推动Neptune Mutual 保障协议设计的四个关键原则："
 
 #: lib/data/team-data.js:188
 msgid "Freemind"
-msgstr "Freemind"
+msgstr ""
 
 #: lib/data/team-data.js:130
 #: lib/data/team-data.js:141
@@ -289,11 +289,11 @@ msgstr "获取Neptune Mutual SDK"
 
 #: lib/data/team-data.js:49
 msgid "Gilbert NG"
-msgstr "Gilbert NG"
+msgstr ""
 
 #: lib/data/team-data.js:40
 msgid "Gillian Wu"
-msgstr "Gillian Wu"
+msgstr ""
 
 #: lib/data/team-data.js:151
 msgid "Growth"
