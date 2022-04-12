@@ -1,21 +1,26 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-02-24 18:46+0530\n"
+"POT-Creation-Date: 2022-02-10 12:44+0530\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: ko\n"
-"Project-Id-Version: \n"
+"Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2022-04-12 05:04\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language-Team: Korean\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: neptunemutual-website\n"
+"X-Crowdin-Project-ID: 509728\n"
+"X-Crowdin-Language: ko\n"
+"X-Crowdin-File: /main/locales/en/messages.po\n"
+"X-Crowdin-File-ID: 8\n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
-msgstr "100%+ MCR"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
@@ -95,7 +100,7 @@ msgstr "블로그"
 
 #: lib/data/team-data.js:151
 msgid "Brando"
-msgstr "Brando"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
@@ -181,7 +186,7 @@ msgstr "보험 창작"
 
 #: lib/data/roadmap-data.js:130
 msgid "Cover SDK Beta"
-msgstr "Cover SDK Beta"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:32
 msgid "Create Covers"
@@ -408,7 +413,7 @@ msgstr "Neptune Mutual이  Fenbushi,  Coinbase Ventures 등 업계 선두주자�
 
 #: components/utils/Footer/index.jsx:171
 msgid "Neptune Mutual © 2022"
-msgstr "Neptune Mutual © 2022"
+msgstr ""
 
 #: lib/data/roadmap-data.js:101
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
@@ -678,3 +683,4 @@ msgstr "위험 요소가 없는"
 #: lib/data/team-data.js:42
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {공동 설립자} female {공동 설립자}}"
+
