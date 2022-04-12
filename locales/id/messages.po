@@ -1,21 +1,26 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 2022-03-02 16:09+0530\n"
+"POT-Creation-Date: 2022-02-10 12:44+0530\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: @lingui/cli\n"
 "Language: id\n"
-"Project-Id-Version: \n"
+"Project-Id-Version: neptunemutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: \n"
+"PO-Revision-Date: 2022-04-12 05:08\n"
 "Last-Translator: \n"
-"Language-Team: \n"
-"Plural-Forms: \n"
+"Language-Team: Indonesian\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Crowdin-Project: neptunemutual-website\n"
+"X-Crowdin-Project-ID: 509728\n"
+"X-Crowdin-Language: id\n"
+"X-Crowdin-File: /main/locales/en/messages.po\n"
+"X-Crowdin-File-ID: 8\n"
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
-msgstr "100%+ MCR"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
@@ -67,21 +72,21 @@ msgstr "Neptune Mutual bermitra dengan pakar keamanan blockchain, grup, dan peru
 
 #: lib/data/team-data.js:168
 msgid "Binita Thapa"
-msgstr "Binita Thapa"
+msgstr ""
 
 #: lib/data/team-data.js:30
 msgid "Binod Nirvan"
-msgstr "Binod Nirvan"
+msgstr ""
 
 #: lib/data/team-data.js:78
 #: lib/data/team-data.js:85
 msgid "Blockchain Advisor"
-msgstr "Blockchain Advisor"
+msgstr ""
 
 #: lib/data/team-data.js:71
 #: lib/data/team-data.js:207
 msgid "Blockchain Engineer"
-msgstr "Blockchain Engineer"
+msgstr ""
 
 #: lib/data/roadmap-data.js:70
 msgid "Blockchain-based covers have a low claims-to-payout ratio. Existing cover products are unscalable, discretionary, and discriminatory. Smart contract audits do not guarantee security. Attacks on exchanges, metaverses, DApps, and DeFi protocols are increasing and getting more sophisticated."
@@ -91,11 +96,11 @@ msgstr "Keamanan berbasis Blockchain memiliki rasio klaim terhadap pembayaran ya
 #: components/MobileMenu/index.jsx:31
 #: components/utils/Footer/index.jsx:109
 msgid "Blog"
-msgstr "Blog"
+msgstr ""
 
 #: lib/data/team-data.js:151
 msgid "Brando"
-msgstr "Brando"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
@@ -115,7 +120,7 @@ msgstr "Menggunakan TypeScript, SDK berfungsi di lingkup depan dan belakang, pad
 
 #: lib/data/team-data.js:31
 msgid "CEO & Founder"
-msgstr "CEO & Founder"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:86
 msgid "Capital Efficiency"
@@ -123,7 +128,7 @@ msgstr "Efisiensi Modal"
 
 #: components/utils/Footer/index.jsx:129
 msgid "Careers"
-msgstr "Careers"
+msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:83
 msgid "Check out Our Blog"
@@ -135,7 +140,7 @@ msgstr "Lihat kode sumber Cover SDK di repositori Neptune Mutual Github. <0>Baca
 
 #: lib/data/team-data.js:51
 msgid "Chief Legal Officer"
-msgstr "Chief Legal Officer"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:32
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
@@ -143,33 +148,33 @@ msgstr "Tentukan cover pool, pilih durasinya, dan masukkan kebutuhan proteksi An
 
 #: lib/data/team-data.js:221
 msgid "Co-Founder"
-msgstr "Co-Founder"
+msgstr ""
 
 #: lib/data/team-data.js:200
 msgid "Community"
-msgstr "Community"
+msgstr ""
 
 #: lib/data/team-data.js:214
 msgid "Community Ninja"
-msgstr "Community Ninja"
+msgstr ""
 
 #: components/HomePage/Industry/index.jsx:24
 msgid "Connect with Us"
-msgstr "Connect with Us"
+msgstr ""
 
 #: components/HomePage/Header/index.jsx:64
 #: components/MobileMenu/index.jsx:41
 #: components/utils/Footer/index.jsx:119
 msgid "Contact"
-msgstr "Contact"
+msgstr ""
 
 #: lib/data/team-data.js:101
 msgid "Content Strategist"
-msgstr "Content Strategist"
+msgstr ""
 
 #: components/CookiePolicy/index.jsx:36
 msgid "Cookies disclaimer"
-msgstr "Cookies disclaimer"
+msgstr ""
 
 #: lib/data/roadmap-data.js:43
 msgid "Copied"
@@ -181,11 +186,11 @@ msgstr "Penciptaan Proteksi"
 
 #: lib/data/roadmap-data.js:130
 msgid "Cover SDK Beta"
-msgstr "Cover SDK Beta"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:32
 msgid "Create Covers"
-msgstr "Create Covers"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:87
 msgid "Crowdfund your investor protection fund."
@@ -201,7 +206,7 @@ msgstr "Cover Pool Khusus"
 
 #: lib/data/team-data.js:92
 msgid "Design Lead"
-msgstr "Design Lead"
+msgstr ""
 
 #: components/MobileMenu/index.jsx:51
 #: components/utils/Footer/index.jsx:139
@@ -218,11 +223,11 @@ msgstr "Unduh Lembar Panduan Neptune Mutual"
 
 #: lib/data/team-data.js:220
 msgid "Edward Ryall"
-msgstr "Edward Ryall"
+msgstr ""
 
 #: lib/data/team-data.js:110
 msgid "Emmanuel Rogel"
-msgstr "Emmanuel Rogel"
+msgstr ""
 
 #: components/GotCovered/GotCovered.jsx:72
 msgid "FIND OUT MORE"
@@ -230,7 +235,7 @@ msgstr "TEMUKAN LEBIH BANYAK LAGI"
 
 #: lib/data/team-data.js:169
 msgid "Finance Analyst"
-msgstr "Finance Analyst"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:54
 msgid "Flash Loan Income"
@@ -238,7 +243,7 @@ msgstr "Pendapatan Pinjaman Kilat"
 
 #: lib/data/team-data.js:70
 msgid "Flashburst"
-msgstr "Flashburst"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:95
 msgid "Follow our progress. Join our community."
@@ -250,12 +255,12 @@ msgstr "Empat prinsip utama dalam desain protokol perlindungan Neptune Mutual:"
 
 #: lib/data/team-data.js:199
 msgid "Freemind"
-msgstr "Freemind"
+msgstr ""
 
 #: lib/data/team-data.js:131
 #: lib/data/team-data.js:142
 msgid "Frontend Engineer"
-msgstr "Frontend Engineer"
+msgstr ""
 
 #: lib/data/roadmap-data.js:169
 msgid "Fundraising, Recruitment & Build"
@@ -284,15 +289,15 @@ msgstr "Dapatkan SDK Neptune Mutual"
 
 #: lib/data/team-data.js:50
 msgid "Gilbert NG"
-msgstr "Gilbert NG"
+msgstr ""
 
 #: lib/data/team-data.js:41
 msgid "Gillian Wu"
-msgstr "Gillian Wu"
+msgstr ""
 
 #: lib/data/team-data.js:190
 msgid "Graphics Designer"
-msgstr "Graphics Designer"
+msgstr ""
 
 #: lib/data/team-data.js:152
 msgid "Growth"
@@ -304,15 +309,15 @@ msgstr "Perlindungan dan penyelesaian cepat untuk pemegang polis jika terjadi in
 
 #: lib/data/team-data.js:77
 msgid "Hans Koning"
-msgstr "Hans Koning"
+msgstr ""
 
 #: lib/data/team-data.js:100
 msgid "Hanz Cabilao"
-msgstr "Hanz Cabilao"
+msgstr ""
 
 #: lib/data/team-data.js:213
 msgid "Henry Law"
-msgstr "Henry Law"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:56
 msgid "Imagine how cool it would be to access all coverage features inside your own app just the way you like it."
@@ -336,11 +341,11 @@ msgstr "Investasikan likuiditas stablecoin untuk menerima hadiah dan melindungi 
 
 #: lib/data/team-data.js:178
 msgid "Jonalyn Delos Santos"
-msgstr "Jonalyn Delos Santos"
+msgstr ""
 
 #: components/HomePage/BlogComponent/index.jsx:73
 msgid "Latest Updates"
-msgstr "Latest Updates"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:62
 msgid "Lending Income"
@@ -352,11 +357,11 @@ msgstr "Lebih Sedikit Kode"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:53
 msgid "Let's #buidl"
-msgstr "Let's #buidl"
+msgstr ""
 
 #: components/utils/Footer/index.jsx:37
 msgid "Let’s Connect"
-msgstr "Let’s Connect"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:31
 msgid "Liquidity"
@@ -372,7 +377,7 @@ msgstr "Kebijakan Perlindungan Risiko Rendah"
 
 #: lib/data/team-data.js:91
 msgid "Mark Garcia"
-msgstr "Mark Garcia"
+msgstr ""
 
 #: lib/data/roadmap-data.js:93
 msgid "Minimizing risk"
@@ -408,7 +413,7 @@ msgstr "Neptune Mutual berhasil menutup Seed Round yang didukung oleh para pemim
 
 #: components/utils/Footer/index.jsx:171
 msgid "Neptune Mutual © 2022"
-msgstr "Neptune Mutual © 2022"
+msgstr ""
 
 #: lib/data/roadmap-data.js:101
 msgid "Neptune Mutual's Lightpaper gives detailed information on our NPM token design and usage. Here are key points to take not of:"
@@ -416,7 +421,7 @@ msgstr "Lembar panduan Neptune Mutual memberikan informasi terperinci tentang de
 
 #: lib/data/team-data.js:84
 msgid "On Yavin"
-msgstr "On Yavin"
+msgstr ""
 
 #: components/HomePage/Roadmap/index.jsx:92
 msgid "Our Roadmap for Growing the Neptune Mutual Ecosystem"
@@ -428,7 +433,7 @@ msgstr "Tim Kami"
 
 #: lib/data/ecosystem-data.js:45
 msgid "POD Staking"
-msgstr "POD Staking"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:77
 msgid "Parametric Cover"
@@ -436,11 +441,11 @@ msgstr "Perlindungan Parametrik"
 
 #: lib/data/team-data.js:120
 msgid "Paul Steven Cue"
-msgstr "Paul Steven Cue"
+msgstr ""
 
 #: lib/data/team-data.js:61
 msgid "People Manager"
-msgstr "People Manager"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:99
 msgid "Personalized Rewards"
@@ -448,7 +453,7 @@ msgstr "Hadiah Pilihan Anda"
 
 #: components/utils/Footer/index.jsx:159
 msgid "Privacy Policy"
-msgstr "Privacy Policy"
+msgstr ""
 
 #: lib/data/roadmap-data.js:84
 msgid "Product Design"
@@ -472,7 +477,7 @@ msgstr "Peluncuran Protokol Testnet"
 
 #: lib/data/team-data.js:158
 msgid "Pukar Acharya"
-msgstr "Pukar Acharya"
+msgstr ""
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:46
 msgid "Purchase Covers"
@@ -493,7 +498,7 @@ msgstr "Dapatkan Reward"
 
 #: lib/data/team-data.js:159
 msgid "Research Analyst"
-msgstr "Research Analyst"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:101
 msgid "Reward your cover protection community with your native tokens."
@@ -505,11 +510,11 @@ msgstr "Peringatan risiko: Perdagangan aset kripto memiliki risiko yang besar da
 
 #: lib/data/team-data.js:206
 msgid "Rudolf"
-msgstr "Rudolf"
+msgstr ""
 
 #: lib/data/team-data.js:140
 msgid "Rupak Acharya"
-msgstr "Rupak Acharya"
+msgstr ""
 
 #: lib/data/roadmap-data.js:219
 msgid "SDK Audit & Launch"
@@ -517,7 +522,7 @@ msgstr "Audit & Peluncuran SDK"
 
 #: lib/data/team-data.js:130
 msgid "Savin Bhandari"
-msgstr "Savin Bhandari"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:10
 msgid "Say goodbye to denied claims assessment."
@@ -541,11 +546,11 @@ msgstr "Proteksi Kartu Skor & Widget "
 
 #: lib/data/team-data.js:121
 msgid "Senior Graphic Designer"
-msgstr "Senior Graphic Designer"
+msgstr ""
 
 #: lib/data/team-data.js:111
 msgid "Social Strategist"
-msgstr "Social Strategist"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:29
 msgid "Stablecoin Liquidity"
@@ -557,11 +562,11 @@ msgstr "Terlindungi dari peretasan & dApp, DeFi, dan eksploitasi smart contract.
 
 #: lib/data/team-data.js:60
 msgid "Supritha Shanmugam"
-msgstr "Supritha Shanmugam"
+msgstr ""
 
 #: lib/data/team-data.js:179
 msgid "Technical Recruiter"
-msgstr "Technical Recruiter"
+msgstr ""
 
 #: components/utils/Footer/index.jsx:149
 msgid "Terms of Service"
@@ -621,7 +626,7 @@ msgstr "Pengalaman pengguna"
 
 #: lib/data/team-data.js:189
 msgid "Vaishnavi Sahu"
-msgstr "Vaishnavi Sahu"
+msgstr ""
 
 #: components/HomePage/Landing/index.jsx:46
 msgid "View App Prototype"
@@ -645,7 +650,7 @@ msgstr "Kami menggunakan third-party cookie untuk mempersonalisasi pengalaman An
 
 #: components/GotCovered/GotCovered.jsx:49
 msgid "We’ve Got You Covered"
-msgstr "We’ve Got You Covered"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:33
 msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
@@ -665,16 +670,17 @@ msgstr "Komunitas Anda yang Terlindungi dan Kukuh"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:48
 msgid "Your Cover Pool"
-msgstr "Your Cover Pool"
+msgstr ""
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:50
 msgid "Your Style"
-msgstr "Your Style"
+msgstr ""
 
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
-msgstr "Zero Risk"
+msgstr ""
 
 #: lib/data/team-data.js:42
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
-msgstr "{0, select, male {Co-Founder} female {Co-Founder}}"
+msgstr ""
+
