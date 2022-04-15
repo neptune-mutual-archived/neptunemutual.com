@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: neptune-mutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-15 05:36\n"
+"PO-Revision-Date: 2022-04-15 05:53\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -160,7 +160,7 @@ msgstr ""
 
 #: components/HomePage/Industry/index.jsx:25
 msgid "Connect with Us"
-msgstr ""
+msgstr "Verbinde dich mit uns"
 
 #: components/HomePage/Header/index.jsx:64
 #: components/MobileMenu/index.jsx:41
