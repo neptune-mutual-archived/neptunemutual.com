@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: neptune-mutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-15 05:34\n"
+"PO-Revision-Date: 2022-04-15 05:36\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
-msgstr ""
+msgstr "<0><1>Reduzieren</1></0> <2><3>Dein</3> <4>Auflösung</4> <5>zu</5></2> <6><7>Krypto</7> <8>Markt</8> <9>Risiken</9></6>"
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
@@ -144,7 +144,7 @@ msgstr ""
 
 #: components/HomePage/Landing/index.jsx:32
 msgid "Choose a cover pool, select its duration, and enter how much you need to cover. Instantly receive your claims payout in stablecoin after incident resolution."
-msgstr ""
+msgstr "Wählen Sie einen Deckungspool, wählen Sie dessen Dauer und geben Sie ein, wieviel Sie decken müssen. Sofort erhalten Sie Ihre Schadensauszahlung in Stablecoin nach Auflösung des Vorfalls."
 
 #: lib/data/team-data.js:210
 msgid "Co-Founder"
@@ -345,7 +345,7 @@ msgstr ""
 
 #: components/HomePage/Landing/index.jsx:46
 msgid "Launch Testnet"
-msgstr ""
+msgstr "Testnet starten"
 
 #: lib/data/ecosystem-data.js:62
 msgid "Lending Income"
