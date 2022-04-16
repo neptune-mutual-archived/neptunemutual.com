@@ -18,7 +18,7 @@ export const localesKey = {
   "English": "en",
   "French - français": "fr",
   "Indonesian - Bahasa Indonesia": "id",
-  "Italian - italiano": "id",
+  "Italian - italiano": "it",
   "Japanese - 日本語": "ja",
   "Korean - 한국어": "ko",
   "Russian - русский": "ru",
