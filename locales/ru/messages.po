@@ -8,7 +8,7 @@ msgstr ""
 "Language: ru\n"
 "Project-Id-Version: neptune-mutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-15 05:34\n"
+"PO-Revision-Date: 2022-04-16 11:14\n"
 "Last-Translator: \n"
 "Language-Team: Russian\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
@@ -56,8 +56,7 @@ msgstr "Везде"
 
 #: lib/data/roadmap-data.js:268
 msgid "As the industry evolves and matures further, Neptune Mutual creates even more products, apps, and services to remain relevant in the space and continuously innovate."
-msgstr ""
-"\n"
+msgstr "\n"
 "По мере того, как отрасль развивается и совершенствуется, Neptune Mutual создает еще больше продуктов, приложений и услуг, чтобы оставаться актуальными на рынке и постоянно внедрять инновации."
 
 #: lib/data/roadmap-data.js:257
@@ -677,3 +676,4 @@ msgstr "Риски равны нулю"
 #: lib/data/team-data.js:41
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
 msgstr "{0, select, male {Соучередитель} female {Соучередитель}}"
+
