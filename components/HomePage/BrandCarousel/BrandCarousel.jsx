@@ -30,6 +30,7 @@ const vespertine = "/images/brand-carousel/vespertine.svg";
 const htr = "/images/brand-carousel/htr.svg";
 const pulsar = "/images/brand-carousel/pulsar.svg";
 const gts = "/images/brand-carousel/gts.svg";
+const qadax = "/images/brand-carousel/qadax.svg";
 const icopantera = "/images/brand-carousel/icopantera.svg";
 
 import styles from "./style.module.scss";
@@ -146,6 +147,10 @@ const carouselItems = [
   {
     name: "Gts Ventures",
     imgSrc: gts,
+  },
+  {
+    name: "Qadax",
+    imgSrc: qadax,
   },
   {
     name: "Ico Panters",
