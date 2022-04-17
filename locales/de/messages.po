@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: neptune-mutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-17 13:45\n"
+"PO-Revision-Date: 2022-04-17 13:51\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -646,33 +646,33 @@ msgstr "Wir haben alles für dich"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:33
 msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
-msgstr ""
+msgstr "Mit unserer Unterstützung kannst du mehr Sichtbarkeit erlangen, um Liquidität in deinen eigenen Deckungsstock zu schaufeln."
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:10
 msgid "Write"
-msgstr ""
+msgstr "Schreibe"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:13
 msgid "Write less code and plug in your own Web3 provider. Get complete access to all coverage features."
-msgstr ""
+msgstr "Schreibe weniger Code und binde deinen eigenen Web3-Anbieter ein. Erhalte vollständigen Zugriff auf alle Funktionen der Abdeckung."
 
 #: lib/data/ecosystem-data.js:90
 msgid "Your Confident, Protected Community"
-msgstr ""
+msgstr "Deine vertrauensvolle, geschützte Gemeinschaft"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:48
 msgid "Your Cover Pool"
-msgstr ""
+msgstr "Dein Deckungsstock"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:50
 msgid "Your Style"
-msgstr ""
+msgstr "Dein Stil"
 
 #: lib/data/ecosystem-data.js:9
 msgid "Zero Risk"
-msgstr ""
+msgstr "Null Risiko"
 
 #: lib/data/team-data.js:41
 msgid "{0, select, male {Co-Founder} female {Co-Founder}}"
-msgstr ""
+msgstr "{0, select, male {Co-Founder} female {Co-Founder}}"
 
