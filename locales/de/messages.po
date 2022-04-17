@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: neptune-mutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-17 13:38\n"
+"PO-Revision-Date: 2022-04-17 13:45\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -606,43 +606,43 @@ msgstr "Mit diesem Upgrade können mehrere Policen in einem einzigen Deckungspoo
 
 #: lib/data/roadmap-data.js:266
 msgid "To Be Announced"
-msgstr ""
+msgstr "Wird noch bekannt gegeben"
 
 #: lib/data/roadmap-data.js:99
 msgid "Token Design"
-msgstr ""
+msgstr "Token Design"
 
 #: components/HomePage/Industry/index.jsx:94
 msgid "Trusted by Industry Leaders"
-msgstr ""
+msgstr "Vertrauen bei Branchenführern"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:20
 msgid "Use"
-msgstr ""
+msgstr "Nutzen"
 
 #: lib/data/roadmap-data.js:95
 msgid "User Experience"
-msgstr ""
+msgstr "Nutzererfahrung"
 
 #: pages/index.jsx:21
 msgid "View Press Release"
-msgstr ""
+msgstr "Pressemitteilung ansehen"
 
 #: components/HomePage/OurTeam/index.jsx:33
 msgid "We are a global and dynamic team with a mission to create a reliable, fast, and effective platform that protects digital assets."
-msgstr ""
+msgstr "Wir sind ein globales und dynamisches Team, das es sich zur Aufgabe gemacht hat, eine zuverlässige, schnelle und effektive Plattform zu schaffen, die digitale Werte schützt."
 
 #: lib/data/roadmap-data.js:77
 msgid "We saw a growing need for security and reliable covers that inspired us to create Neptune Mutual."
-msgstr ""
+msgstr "Wir sahen ein wachsendes Bedürfnis nach Sicherheit und zuverlässiger Absicherung, das uns zur Gründung von Neptune Mutual inspirierte."
 
 #: components/CookiePolicy/index.jsx:39
 msgid "We use third-party cookies in order to personalize your experience."
-msgstr ""
+msgstr "Wir verwenden Cookies von Dritten, um dein Erlebnis zu personalisieren."
 
 #: components/GotCovered/GotCovered.jsx:49
 msgid "We’ve Got You Covered"
-msgstr ""
+msgstr "Wir haben alles für dich"
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:33
 msgid "With our support, you can get more visibility to bootstrap liquidity into your own cover pool."
