@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: neptune-mutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-16 11:14\n"
+"PO-Revision-Date: 2022-04-17 12:56\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: lib/data/ecosystem-data.js:13
 msgid "100%+ MCR"
-msgstr ""
+msgstr "100%+ MCR"
 
 #: components/HomePage/Landing/index.jsx:18
 msgid "<0><1>Reduce</1></0> <2><3>Your</3> <4>Exposure</4> <5>to</5></2> <6><7>Crypto</7> <8>Market</8> <9>Risks</9></6>"
@@ -28,79 +28,79 @@ msgstr "<0><1>Reduzieren</1></0> <2><3>Dein</3> <4>Auflösung</4> <5>zu</5></2> 
 
 #: lib/data/ecosystem-data.js:23
 msgid "A hack on one project will not affect cover for another."
-msgstr ""
+msgstr "Wenn ein Projekt gehackt wird, hat das keine Auswirkungen auf die Deckung eines anderen Projekts."
 
 #: components/CookiePolicy/index.jsx:49
 msgid "Accept"
-msgstr ""
+msgstr "Akzeptieren"
 
 #: components/HomePage/CodePreviewComponent/CodePreviewComponent.jsx:38
 msgid "Add Liquidity"
-msgstr ""
+msgstr "Liquidität hinzufügen"
 
 #: lib/data/ecosystem-data.js:47
 msgid "Add your Proof Of Deposits (PODs) tokens to get native tokens of the cover creator."
-msgstr ""
+msgstr "Füge deine Proof Of Deposits (PODs) Token hinzu, um native Token des Cover-Erstellers zu erhalten."
 
 #: lib/data/roadmap-data.js:233
 msgid "Aggregated Policies (v2)"
-msgstr ""
+msgstr "Aggregierte Richtlinien (v2)"
 
 #: lib/data/roadmap-data.js:122
 msgid "All participants of the Neptune Mutual ecosystem will get a comprehensive documentation that helps with understanding the different aspects of the Neptune Mutual protocol."
-msgstr ""
+msgstr "Alle Teilnehmer des Neptune Mutual Ökosystems erhalten eine umfassende Dokumentation, die dabei hilft, die verschiedenen Aspekte des Neptune Mutual Protokolls zu verstehen."
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:21
 msgid "Anywhere"
-msgstr ""
+msgstr "Überall"
 
 #: lib/data/roadmap-data.js:268
 msgid "As the industry evolves and matures further, Neptune Mutual creates even more products, apps, and services to remain relevant in the space and continuously innovate."
-msgstr ""
+msgstr "Während sich die Branche weiterentwickelt und reift, entwickelt Neptune Mutual noch mehr Produkte, Apps und Dienstleistungen, um in diesem Bereich relevant zu bleiben und kontinuierlich Innovationen zu entwickeln."
 
 #: lib/data/roadmap-data.js:257
 msgid "As the next iteration and enhancements to the dashboard solution, Neptune Mutual also scores the security posture of our portfolio DeFi projects and apps. The score rating can be used on any external website by simply copying and pasting a few lines of code."
-msgstr ""
+msgstr "Als nächste Iteration und Erweiterung der Dashboard-Lösung bewertet Neptune Mutual auch die Sicherheitslage unserer DeFi-Projekte und -Apps im Portfolio. Die Bewertung kann auf jeder externen Website verwendet werden, indem einfach ein paar Zeilen Code kopiert und eingefügt werden."
 
 #: components/HomePage/CoverPoolComponent/CoverPool.jsx:30
 msgid "Attract"
-msgstr ""
+msgstr "Anziehen"
 
 #: lib/data/roadmap-data.js:245
 msgid "Based on the-then demand, the Neptune Mutual team partners with blockchain security experts, groups, and companies to “conceptualize” a brand new security analytics service exclusively for our portfolio projects. The dashboard will be based on production smart contract security."
-msgstr ""
+msgstr "Aufgrund der Nachfrage arbeitet das Neptune Mutual-Team mit Blockchain-Sicherheitsexperten, -Gruppen und -Unternehmen zusammen, um einen brandneuen Sicherheitsanalysedienst exklusiv für unsere Portfolio-Projekte zu \"konzipieren\". Das Dashboard wird auf der Sicherheit von Produktions-Smart-Contracts basieren."
 
 #: lib/data/team-data.js:167
 msgid "Binita Thapa"
-msgstr ""
+msgstr "Binita Thapa"
 
 #: lib/data/team-data.js:29
 msgid "Binod Nirvan"
-msgstr ""
+msgstr "Binod Nirvan"
 
 #: lib/data/team-data.js:77
 #: lib/data/team-data.js:84
 msgid "Blockchain Advisor"
-msgstr ""
+msgstr "Blockchain-Berater"
 
 #: lib/data/team-data.js:70
 #: lib/data/team-data.js:196
 msgid "Blockchain Engineer"
-msgstr ""
+msgstr "Blockchain Ingenieur"
 
 #: lib/data/roadmap-data.js:70
 msgid "Blockchain-based covers have a low claims-to-payout ratio. Existing cover products are unscalable, discretionary, and discriminatory. Smart contract audits do not guarantee security. Attacks on exchanges, metaverses, DApps, and DeFi protocols are increasing and getting more sophisticated."
-msgstr ""
+msgstr "Blockchain-basierte Deckungen haben ein niedriges Verhältnis von Ansprüchen zu Auszahlungen. Bestehende Deckungsprodukte sind nicht skalierbar, diskretionär und diskriminierend. Smart-Contract-Prüfungen garantieren keine Sicherheit. Die Angriffe auf Börsen, Metaversen, DApps und DeFi-Protokolle nehmen zu und werden immer ausgefeilter."
 
 #: components/HomePage/Header/index.jsx:55
 #: components/MobileMenu/index.jsx:31
 #: components/utils/Footer/index.jsx:118
 msgid "Blog"
-msgstr ""
+msgstr "Blog"
 
 #: lib/data/team-data.js:150
 msgid "Brando"
-msgstr ""
+msgstr "Brando"
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
