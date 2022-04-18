@@ -43,17 +43,13 @@ export const BlogComponent = () => {
 
       const getImages = (content) => {
         const imageRegex = /<img.*?src="(.*?)"[^>]+>/g;
-        const images = [];
-        let img;
-        while ((img = imageRegex.exec(content))) {
-          images.push(img[1]);
-        }
-        return images[0];
+        let img = imageRegex.exec(content);
+        return img[1];
       };
 
-      const data = await response.json();
+      const { data } = await response.json();
 
-      const _posts = data.data.items.slice(0, 4).map((x) => {
+      const _posts = data.items.slice(0, 4).map((x) => {
         return {
           date: getFormattedDate(x.pubDate[0]),
           title: x.title[0],
