@@ -3,7 +3,7 @@ module.exports = [
     key: "Content-Security-Policy",
     values: [
       "script-src 'self' 'sha256-I6XOxHID6WSV5+Yw8I4nOPpEa89MTudqup2y4+vYcg0='",
-      "connect-src 'self' https://api.rss2json.com/v1/api.json",
+      "connect-src 'self' https://api.neptunemutual.com/blog",
       "style-src 'self' 'unsafe-inline'",
       "upgrade-insecure-requests",
       "frame-ancestors 'none'",

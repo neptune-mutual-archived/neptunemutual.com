@@ -6,8 +6,7 @@ import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import ArrowNarrowRightIcon from "@utils/icons/ArrowNarrowRightIcon";
 
-const USERNAME = "neptunemutual";
-const URL = `https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@${USERNAME}`;
+const URL = `https://api.neptunemutual.com/blog`;
 
 export const BlogComponent = () => {
   const [posts, setPosts] = useState([]);
@@ -42,14 +41,24 @@ export const BlogComponent = () => {
         });
       };
 
+      const getImages = (content) => {
+        const imageRegex = /<img.*?src="(.*?)"[^>]+>/g;
+        const images = [];
+        let img;
+        while ((img = imageRegex.exec(content))) {
+          images.push(img[1]);
+        }
+        return images[0];
+      };
+
       const data = await response.json();
 
-      const _posts = data.items.slice(0, 4).map((x) => {
+      const _posts = data.data.items.slice(0, 4).map((x) => {
         return {
-          date: getFormattedDate(x.pubDate),
-          title: x.title,
+          date: getFormattedDate(x.pubDate[0]),
+          title: x.title[0],
           link: x.link,
-          thumbnail: x.thumbnail,
+          thumbnail: getImages(x["content:encoded"]),
         };
       });
       setPosts(_posts);
