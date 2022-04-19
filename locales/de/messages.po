@@ -8,7 +8,7 @@ msgstr ""
 "Language: de\n"
 "Project-Id-Version: neptune-mutual-website\n"
 "Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2022-04-17 16:29\n"
+"PO-Revision-Date: 2022-04-19 10:38\n"
 "Last-Translator: \n"
 "Language-Team: German\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
@@ -393,7 +393,7 @@ msgstr "NPM-Token werden hauptsächlich für unseren Meldemechanismus zur Behebu
 
 #: components/HomePage/NeptuneEcosystem/index.jsx:239
 msgid "Neptune Mutual Ecosystem"
-msgstr "Neptun Mutual Ökosystem"
+msgstr "Neptune Mutual Ökosystem"
 
 #: pages/index.jsx:23
 msgid "Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to Build Cover Protocol for Metaverse Assets"
