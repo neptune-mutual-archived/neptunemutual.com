@@ -4,10 +4,12 @@ export const languageKey = {
   fr: "French - français",
   de: "German - Deutsch",
   id: "Indonesian - Bahasa Indonesia",
+  it: "Italian - italiano",
   ja: "Japanese - 日本語",
   ko: "Korean - 한국어",
   ru: "Russian - русский",
   es: "Spanish - Español",
+  el: "Greek - Ελληνικά",
   tr: "Turkish - Türkçe",
 };
 
@@ -16,10 +18,12 @@ export const localesKey = {
   "English": "en",
   "French - français": "fr",
   "Indonesian - Bahasa Indonesia": "id",
+  "Italian - italiano": "it",
   "Japanese - 日本語": "ja",
   "Korean - 한국어": "ko",
   "Russian - русский": "ru",
   "Spanish - Español": "es",
   "German - Deutsch": "de",
   "Turkish - Türkçe": "tr",
+  "Greek - Ελληνικά": "el",
 };
