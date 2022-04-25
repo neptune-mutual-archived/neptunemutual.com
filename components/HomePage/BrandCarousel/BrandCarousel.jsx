@@ -28,6 +28,7 @@ const twoacrypto = "/images/brand-carousel/2acrypto.svg";
 const barmy = "/images/brand-carousel/barmy.svg";
 const vespertine = "/images/brand-carousel/vespertine.svg";
 const htr = "/images/brand-carousel/htr.svg";
+const avstar = "/images/brand-carousel/avstar.svg";
 const pulsar = "/images/brand-carousel/pulsar.svg";
 const gts = "/images/brand-carousel/gts.svg";
 const qadax = "/images/brand-carousel/qadax.svg";
@@ -140,6 +141,10 @@ const carouselItems = [
   {
     name: "Htr Group",
     imgSrc: htr,
+  },
+  {
+    name: "AV Star Capital",
+    imgSrc: avstar,
   },
   {
     name: "Pulsar",
