@@ -28,9 +28,11 @@ const twoacrypto = "/images/brand-carousel/2acrypto.svg";
 const barmy = "/images/brand-carousel/barmy.svg";
 const vespertine = "/images/brand-carousel/vespertine.svg";
 const htr = "/images/brand-carousel/htr.svg";
+const avstar = "/images/brand-carousel/avstar.svg";
 const pulsar = "/images/brand-carousel/pulsar.svg";
 const gts = "/images/brand-carousel/gts.svg";
 const qadax = "/images/brand-carousel/qadax.svg";
+const lux = "/images/brand-carousel/lux.svg";
 const icopantera = "/images/brand-carousel/icopantera.svg";
 
 import styles from "./style.module.scss";
@@ -141,6 +143,10 @@ const carouselItems = [
     imgSrc: htr,
   },
   {
+    name: "AV Star Capital",
+    imgSrc: avstar,
+  },
+  {
     name: "Pulsar",
     imgSrc: pulsar,
   },
@@ -151,6 +157,10 @@ const carouselItems = [
   {
     name: "Qadax",
     imgSrc: qadax,
+  },
+  {
+    name: "Lux",
+    imgSrc: lux,
   },
   {
     name: "Ico Panters",
