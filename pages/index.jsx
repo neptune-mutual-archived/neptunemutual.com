@@ -17,12 +17,12 @@ export default function Home() {
     >
       <>
         <Notice
-          link="https://www.cointelligence.com/content/neptune-mutual-raises-strategic-round-led-by-animoca-brands-to-build-cover-protocol-for-metaverse-assets/"
+          link="https://cryptoslate.com/press-releases/neptune-mutual-protocol-raises-5-3m-in-a-private-funding-round-after-successful-testnet-launch/"
           linkText={<Trans>View Press Release</Trans>}
           text={
             <Trans>
-              Neptune Mutual Raises Strategic Round, Led by Animoca Brands, to
-              Build Cover Protocol for Metaverse Assets
+              Neptune Mutual Protocol raises 5.3M$ in a private funding round
+              after successful testnet launch
             </Trans>
           }
         />
