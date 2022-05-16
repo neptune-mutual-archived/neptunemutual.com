@@ -21,6 +21,7 @@ const alphabit = "/images/brand-carousel/alphabit.svg";
 const titans = "/images/brand-carousel/titans.svg";
 const mhventures = "/images/brand-carousel/mhventures.svg";
 const cabinvc = "/images/brand-carousel/cabinvc.svg";
+const redlineDao = "/images/brand-carousel/redline-dao.svg";
 const dweb3 = "/images/brand-carousel/dweb3.svg";
 const mapleblock = "/images/brand-carousel/mapleblock.svg";
 const ldcapital = "/images/brand-carousel/ldcapital.svg";
@@ -110,6 +111,10 @@ const carouselItems = [
   {
     name: "Cabin VC",
     imgSrc: cabinvc,
+  },
+  {
+    name: "Redline DAO",
+    imgSrc: redlineDao,
   },
   {
     name: "DWEB3",
