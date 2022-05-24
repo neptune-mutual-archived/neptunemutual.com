@@ -96,7 +96,7 @@
 }
 
 .icons-wrapper {
-  @apply mx-1 flex justify-center mt-8 gap-8;
+  @apply mx-1 flex flex-wrap justify-center mt-8 gap-8;
 }
 
 @media (min-width: 1024px) {
