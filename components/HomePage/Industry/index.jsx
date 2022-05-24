@@ -10,6 +10,7 @@ import styles from "./style.module.scss";
 import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
+import YoutubeIcon from "@utils/icons/YoutubeIcon";
 
 const neptune = "/images/industry/neptune.png";
 const fenbushiImg = "/images/brand/fenbushi.svg";
@@ -80,6 +81,14 @@ export const IndustryComponent = () => {
                 aria-label="Discord"
               >
                 <DiscordIcon className="w-8 h-8" />
+              </a>
+              <a
+                href={social.youtube}
+                target={"_blank"}
+                rel="noreferrer nofollow"
+                aria-label="Youtube"
+              >
+                <YoutubeIcon className="w-8 h-8" />
               </a>
             </div>
           </div>

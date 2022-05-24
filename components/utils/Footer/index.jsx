@@ -9,6 +9,7 @@ import { SelectLanguage } from "@components/common/SelectLanguage";
 import { social } from "@components/utils/social";
 import styles from "./style.module.css";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
+import YoutubeIcon from "@utils/icons/YoutubeIcon";
 
 const neptune = "/images/industry/neptune.png";
 const logo = "/logos/neptune-mutual-full-inverse.png";
@@ -100,6 +101,14 @@ export const Footer = () => {
                 aria-label="Discord"
               >
                 <DiscordIcon className={styles["github-icon"]} />
+              </a>
+              <a
+                href={social.youtube}
+                target={"_blank"}
+                rel="noreferrer nofollow"
+                aria-label="Youtube"
+              >
+                <YoutubeIcon className={styles["github-icon"]} />
               </a>
             </div>
           </div>

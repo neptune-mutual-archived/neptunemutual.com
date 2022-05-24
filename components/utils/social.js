@@ -7,4 +7,5 @@ export const social = {
   github: "https://github.com/neptune-mutual-blue",
   documentation: "https://docs.neptunemutual.com/",
   discord: "https://discord.gg/2qMGTtJtnW",
+  youtube: "https://www.youtube.com/c/NeptuneMutual",
 };
