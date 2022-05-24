@@ -25,7 +25,7 @@ export const IndustryComponent = () => {
             <h2 className="text-2xl font-semibold text-center text-white font-sora md:text-left sm:text-3xxl mt-9 xl:mt-28">
               <Trans>Connect with Us</Trans>
             </h2>
-            <div className="flex justify-center md:justify-start mt-7 xl:mt-10 gap-7 xl:gap-8 mb-14 md:mb-28">
+            <div className="flex flex-wrap justify-center md:justify-start mt-7 xl:mt-10 gap-7 xl:gap-8 mb-14 md:mb-28">
               <a
                 href={social.twitter}
                 target={"_blank"}
