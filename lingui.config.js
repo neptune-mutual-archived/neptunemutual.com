@@ -12,6 +12,7 @@ module.exports = {
     "es",
     "el",
     "tr",
+    "vi",
   ],
   sourceLocale: "en",
   fallbackLocales: {
