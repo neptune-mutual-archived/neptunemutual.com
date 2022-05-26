@@ -104,7 +104,7 @@ msgstr "Brando"
 
 #: components/GotCovered/GotCovered.jsx:34
 msgid "Build a cover protection community for your protocol, exchange, or DeFi project."
-msgstr "Xây dựng một lớp bảo vệ cộng đồng cho giao thức của bạn, trao đổi hoặc dự án DeFi."
+msgstr "Xây dựng một lớp bảo vệ cộng đồng cho giao thức của bạn, sàn giao dịch hoặc dự án DeFi."
 
 #: lib/data/ecosystem-data.js:92
 msgid "Build your own dedicated cover protection community within your ecosystem."
@@ -297,7 +297,7 @@ msgstr "Gillian Wu"
 
 #: lib/data/team-data.js:173
 msgid "Growth"
-msgstr "Growth"
+msgstr "Phát triển"
 
 #: lib/data/ecosystem-data.js:79
 msgid "Guarantees protection and fast resolution to your cover policyholders in the event of an incident."
@@ -345,7 +345,7 @@ msgstr "Cập nhật mới nhất"
 
 #: components/HomePage/Landing/index.jsx:46
 msgid "Launch Testnet"
-msgstr ""
+msgstr "Khởi chạy Testnet"
 
 #: lib/data/ecosystem-data.js:62
 msgid "Lending Income"
@@ -405,7 +405,7 @@ msgstr "Hệ sinh thái Neptune Mutual"
 
 #: pages/index.jsx:23
 msgid "Neptune Mutual Protocol raises 5.3M$ in a private funding round after successful testnet launch"
-msgstr ""
+msgstr "Neptune Mutual Protocol huy động được 5,3 triệu đô la tài trợ trong vòng Private sau khi ra mắt testnet thành công"
 
 #: lib/data/roadmap-data.js:222
 msgid "Neptune Mutual SDK undergoes a strict internal security audit before it becomes available for public use."
@@ -493,7 +493,7 @@ msgstr "Mua các lớp bảo vệ"
 
 #: lib/data/team-data.js:153
 msgid "React Developer"
-msgstr ""
+msgstr "Nhà phát triển React"
 
 #: components/HomePage/BlogComponent/index.jsx:128
 msgid "Read Our Blog"
