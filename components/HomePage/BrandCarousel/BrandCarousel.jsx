@@ -5,7 +5,7 @@ import Slider from "react-slick";
 const coinbaseImg = "/images/brand-carousel/coinbase.svg";
 const gravityImg = "/images/brand-carousel/gravityx.svg";
 const huobiImg = "/images/brand-carousel/huobi.svg";
-const okexImg = "/images/brand-carousel/okex.svg";
+const okxImg = "/images/brand-carousel/okx.svg";
 const hextrust = "/images/brand-carousel/hextrust.svg";
 const gsr = "/images/brand-carousel/gsr.svg";
 const fundamentalLabs = "/images/brand-carousel/fundamental-labs.svg";
@@ -49,8 +49,8 @@ const carouselItems = [
     imgSrc: huobiImg,
   },
   {
-    name: "Okex",
-    imgSrc: okexImg,
+    name: "OKX",
+    imgSrc: okxImg,
   },
   {
     name: "GravityX",
