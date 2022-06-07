@@ -156,11 +156,11 @@
   background-color: #01052d;
 
   @media (min-width: 640px) {
-    padding-bottom: 30px;
+    padding: 0px;
   }
-
+  
   @media (min-width: 1024px) {
-    padding-top: 0;
+    padding: 0px;
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
 

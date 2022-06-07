@@ -6,7 +6,13 @@
 
   @media (min-width: 640px) {
     margin-left: 2.75rem;
+    margin-top: 1.25rem;
     justify-content: flex-start;
+    position: absolute;
+  }
+
+  @media (min-width: 768px) {
+    margin-top: 1.75rem
   }
 
   .active {
