@@ -91,7 +91,7 @@ export const MenuModal = ({
           as="div"
           open={isOpen}
           onClose={onClose}
-          className="fixed inset-0 z-10 overflow-y-auto"
+          className="fixed inset-0 z-10 block overflow-y-auto sm:hidden"
         >
           <div className="min-h-screen px-4 text-center">
             <Transition.Child
