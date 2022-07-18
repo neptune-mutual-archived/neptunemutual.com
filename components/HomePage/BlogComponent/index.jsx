@@ -5,63 +5,25 @@ import { classNames } from "@lib/utils/classNames";
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import ArrowNarrowRightIcon from "@utils/icons/ArrowNarrowRightIcon";
+import { getFormattedDate } from "@lib/utils/methods";
 
-const URL = `https://api.neptunemutual.com/blog`;
-
-export const BlogComponent = () => {
+export const BlogComponent = ({ blogs }) => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    async function fetchPosts() {
-      const response = await fetch(URL, {
-        method: "get",
-        headers: {
-          Accept: "application/json",
-        },
-      });
-
-      const getFormattedDate = (x) => {
-        // Safari doesn't like dashes
-        const normalized = x.replace(/-/g, "/");
-
-        const code =
-          navigator.userLanguage ||
-          (navigator.languages &&
-            navigator.languages.length &&
-            navigator.languages[0]) ||
-          navigator.language ||
-          navigator.browserLanguage ||
-          navigator.systemLanguage ||
-          "en";
-
-        return new Date(normalized).toLocaleDateString(code, {
-          year: "numeric",
-          month: "short",
-          day: "2-digit",
-        });
-      };
-
-      const getImages = (content) => {
-        const imageRegex = /<img.*?src="(.*?)"[^>]+>/g;
-        let img = imageRegex.exec(content);
-        return img[1];
-      };
-
-      const { data } = await response.json();
-
-      const _posts = data.items.slice(0, 4).map((x) => {
+    if (blogs && blogs.length > 0) {
+      const _posts = blogs.map((x) => {
+        const _date = getFormattedDate(new Date(x.published_at).toString());
         return {
-          date: getFormattedDate(x.pubDate[0]),
-          title: x.title[0],
-          link: x.link,
-          thumbnail: getImages(x["content:encoded"]),
+          date: _date,
+          title: x.title,
+          link: x.url,
+          thumbnail: x.feature_image,
         };
       });
       setPosts(_posts);
     }
-
-    fetchPosts();
-  }, []);
+  }, [blogs]);
 
   useEffect(() => {
     if (posts.length > 0) {
@@ -69,6 +31,7 @@ export const BlogComponent = () => {
     }
   }, [posts]);
 
+  const blogLink = "https://blog.neptunemutual.com";
   return (
     <div className={"section_border_container"}>
       <div className={"section_horizontal_container"}>
@@ -79,7 +42,7 @@ export const BlogComponent = () => {
             </h2>
             <div className={styles.section_cta}>
               <a
-                href="https://medium.com/neptune-mutual"
+                href={blogLink}
                 target="_blank"
                 rel="noreferrer nofollow"
                 aria-label="Blog"
@@ -120,7 +83,7 @@ export const BlogComponent = () => {
           <div className={styles.section_second_cta}>
             <a
               rel="noreferrer nofollow"
-              href="https://medium.com/neptune-mutual"
+              href={blogLink}
               target="_blank"
               aria-label="Read our Blog"
             >

@@ -3,7 +3,7 @@ module.exports = [
     key: "Content-Security-Policy",
     values: [
       "script-src 'self' 'sha256-I6XOxHID6WSV5+Yw8I4nOPpEa89MTudqup2y4+vYcg0='",
-      "connect-src 'self' https://api.neptunemutual.com/blog",
+      "connect-src 'self' https://api.neptunemutual.com/blog https://blog.neptunemutual.com",
       "style-src 'self' 'unsafe-inline'",
       "upgrade-insecure-requests",
       "frame-ancestors 'none'",
@@ -13,7 +13,7 @@ module.exports = [
       "base-uri 'none'",
       "form-action 'none'",
       "object-src 'none'",
-      "img-src 'self' https://*.medium.com",
+      "img-src 'self' https://blog.neptunemutual.com",
       "font-src 'self'",
     ],
   },

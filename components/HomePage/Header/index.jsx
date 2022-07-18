@@ -33,6 +33,8 @@ export const Header = () => {
     // TODO: Find a better solution so that menu can also be closed by pressing `Esc`
   }
 
+  const blogLink = "https://blog.neptunemutual.com";
+
   return (
     <>
       <div className={`section_border_container ${styles.header_wrapper}`}>
@@ -46,7 +48,7 @@ export const Header = () => {
           </div>
           <div className={styles.navbar_content}>
             <a
-              href="https://medium.com/neptune-mutual"
+              href={blogLink}
               rel="noreferrer nofollow"
               target="_blank"
               className={styles.nav_item}

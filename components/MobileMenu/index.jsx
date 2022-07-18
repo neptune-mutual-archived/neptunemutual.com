@@ -8,6 +8,7 @@ export const MobileMenu = ({
   onLanguageButtonClick,
   isLanguageDropdownOpen,
 }) => {
+  const blogLink = "https://blog.neptunemutual.com";
   return isLanguageDropdownOpen ? (
     <div className={styles.language_dropdown}>
       <LanguageDropdown mobileView={true} />
@@ -23,7 +24,7 @@ export const MobileMenu = ({
       </div>
       <div className={styles.menu_item}>
         <a
-          href="https://medium.com/neptune-mutual"
+          href={blogLink}
           rel="noreferrer nofollow"
           target="_blank"
           aria-label="Blog"
