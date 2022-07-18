@@ -6,7 +6,7 @@ import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import ArrowNarrowRightIcon from "@utils/icons/ArrowNarrowRightIcon";
 
-const URL = `https://api.neptunemutual.com/blog`;
+const URL = `https://blog.neptunemutual.com/ghost/api/content/posts/?key=b233bf125c72668b6477e7536c`;
 
 export const BlogComponent = () => {
   const [posts, setPosts] = useState([]);
@@ -41,20 +41,13 @@ export const BlogComponent = () => {
         });
       };
 
-      const getImages = (content) => {
-        const imageRegex = /<img.*?src="(.*?)"[^>]+>/g;
-        let img = imageRegex.exec(content);
-        return img[1];
-      };
-
-      const { data } = await response.json();
-
-      const _posts = data.items.slice(0, 4).map((x) => {
+      const { posts: data } = await response.json();
+      const _posts = data.slice(0, 4).map((x) => {
         return {
-          date: getFormattedDate(x.pubDate[0]),
-          title: x.title[0],
-          link: x.link,
-          thumbnail: getImages(x["content:encoded"]),
+          date: getFormattedDate(new Date(x.published_at).toString()),
+          title: x.title,
+          link: x.url,
+          thumbnail: x.feature_image,
         };
       });
       setPosts(_posts);
@@ -69,6 +62,7 @@ export const BlogComponent = () => {
     }
   }, [posts]);
 
+  const blogLink = "https://blog.neptunemutual.com";
   return (
     <div className={"section_border_container"}>
       <div className={"section_horizontal_container"}>
@@ -79,7 +73,7 @@ export const BlogComponent = () => {
             </h2>
             <div className={styles.section_cta}>
               <a
-                href="https://medium.com/neptune-mutual"
+                href={blogLink}
                 target="_blank"
                 rel="noreferrer nofollow"
                 aria-label="Blog"
@@ -120,7 +114,7 @@ export const BlogComponent = () => {
           <div className={styles.section_second_cta}>
             <a
               rel="noreferrer nofollow"
-              href="https://medium.com/neptune-mutual"
+              href={blogLink}
               target="_blank"
               aria-label="Read our Blog"
             >

@@ -2,7 +2,7 @@ import TwitterIcon from "@utils/icons/TwitterIcon";
 import GithubIcon from "@utils/icons/GithubIcon";
 import TelegramIcon from "@utils/icons/TelegramIcon";
 import LinkedinIcon from "@utils/icons/LinkedinIcon";
-import MediumIcon from "@utils/icons/MediumIcon";
+import BlogIcon from "@utils/icons/BlogIcon";
 import RedditIcon from "@utils/icons/RedditIcon";
 import { BrandCarouselComponent } from "@components/HomePage/BrandCarousel/BrandCarousel";
 import { social } from "@components/utils/social";
@@ -59,12 +59,12 @@ export const IndustryComponent = () => {
                 <LinkedinIcon className="w-7 h-7" />
               </a>
               <a
-                href={social.medium}
+                href={social.blog}
                 target={"_blank"}
                 rel="noreferrer nofollow"
-                aria-label="Medium"
+                aria-label="Blog"
               >
-                <MediumIcon className="w-7 h-7" />
+                <BlogIcon className="w-7 h-7" />
               </a>
               <a
                 href={social.github}
