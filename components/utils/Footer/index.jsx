@@ -120,9 +120,9 @@ export const Footer = () => {
             <div className={styles["link"]}>
               <a
                 rel="noreferrer nofollow"
-                href={social.medium}
+                href={social.blog}
                 target="_blank"
-                aria-label="Visit Our Medium Blog"
+                aria-label="Visit Our Blog"
               >
                 <Trans>Blog</Trans>
               </a>

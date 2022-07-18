@@ -5,9 +5,10 @@ import { Notice } from "@components/HomePage/Notice";
 
 import "slick-carousel/slick/slick.css";
 import { Trans } from "@lingui/macro";
+import { getPosts } from "@lib/utils/methods";
 // import "slick-carousel/slick/slick-theme.css";
 
-export default function Home() {
+export default function Home({ postsData }) {
   return (
     <BaseLayout
       title="Neptune Mutual"
@@ -26,8 +27,17 @@ export default function Home() {
             </Trans>
           }
         />
-        <HomePage />
+        <HomePage postsData={postsData} />
       </>
     </BaseLayout>
   );
+}
+
+export async function getStaticProps() {
+  return {
+    props: {
+      postsData: await getPosts(),
+    },
+    revalidate: 60,
+  };
 }

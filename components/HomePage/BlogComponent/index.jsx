@@ -5,46 +5,17 @@ import { classNames } from "@lib/utils/classNames";
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import ArrowNarrowRightIcon from "@utils/icons/ArrowNarrowRightIcon";
+import { getFormattedDate } from "@lib/utils/methods";
 
-const URL = `https://blog.neptunemutual.com/ghost/api/content/posts/?key=b233bf125c72668b6477e7536c`;
-
-export const BlogComponent = () => {
+export const BlogComponent = ({ blogs }) => {
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
-    async function fetchPosts() {
-      const response = await fetch(URL, {
-        method: "get",
-        headers: {
-          Accept: "application/json",
-        },
-      });
-
-      const getFormattedDate = (x) => {
-        // Safari doesn't like dashes
-        const normalized = x.replace(/-/g, "/");
-
-        const code =
-          navigator.userLanguage ||
-          (navigator.languages &&
-            navigator.languages.length &&
-            navigator.languages[0]) ||
-          navigator.language ||
-          navigator.browserLanguage ||
-          navigator.systemLanguage ||
-          "en";
-
-        return new Date(normalized).toLocaleDateString(code, {
-          year: "numeric",
-          month: "short",
-          day: "2-digit",
-        });
-      };
-
-      const { posts: data } = await response.json();
-      const _posts = data.slice(0, 4).map((x) => {
+    if (blogs && blogs.length > 0) {
+      const _posts = blogs.map((x) => {
+        const _date = getFormattedDate(new Date(x.published_at).toString());
         return {
-          date: getFormattedDate(new Date(x.published_at).toString()),
+          date: _date,
           title: x.title,
           link: x.url,
           thumbnail: x.feature_image,
@@ -52,9 +23,7 @@ export const BlogComponent = () => {
       });
       setPosts(_posts);
     }
-
-    fetchPosts();
-  }, []);
+  }, [blogs]);
 
   useEffect(() => {
     if (posts.length > 0) {

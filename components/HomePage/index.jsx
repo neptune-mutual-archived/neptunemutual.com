@@ -11,7 +11,7 @@ import { HorizontalDivider } from "@components/utils/Divider";
 import { CookiePolicy } from "@components/CookiePolicy";
 import { BlogComponent } from "@components/HomePage/BlogComponent";
 
-export function HomePage() {
+export function HomePage({ postsData }) {
   return (
     <div data-scroll-section className="relative overflow-x-hidden">
       <CookiePolicy />
@@ -23,7 +23,7 @@ export function HomePage() {
       <Background>
         <IndustryComponent />
       </Background>
-      <BlogComponent />
+      <BlogComponent blogs={postsData} />
       <GotCoveredComponent />
       <CoverPoolComponent />
       <NeptuneEcosystemComponent />
