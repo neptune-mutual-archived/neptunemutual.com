@@ -11,9 +11,9 @@ import { getPosts } from "@lib/utils/methods";
 export default function Home({ postsData }) {
   return (
     <BaseLayout
-      title="Neptune Mutual"
+      title="Neptune Mutual Decentralized Insurance"
       selectedNavKey=""
-      description="Reduce Your Exposure to Crypto Market Risks"
+      description="Neptune Mutual is a DeFi insurance protocol that safeguards the Ethereum community from cyber threats to contemporary financial products."
       canonical={pageRoutes.home}
     >
       <>
