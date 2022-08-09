@@ -36,6 +36,7 @@ const gts = "/images/brand-carousel/gts.svg";
 const qadax = "/images/brand-carousel/qadax.svg";
 const lux = "/images/brand-carousel/lux.svg";
 const icopantera = "/images/brand-carousel/icopantera.svg";
+const dwflabs = "/images/brand-carousel/dwflabs.svg";
 
 import styles from "./style.module.scss";
 
@@ -131,6 +132,10 @@ const carouselItems = [
   {
     name: "LD Capital",
     imgSrc: ldcapital,
+  },
+  {
+    name: "DWF Labs",
+    imgSrc: dwflabs,
   },
   {
     name: "2A crypto",
