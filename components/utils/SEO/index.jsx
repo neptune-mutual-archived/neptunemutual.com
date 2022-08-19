@@ -11,6 +11,10 @@ export const SEOMeta = ({
       <title>{title}</title>
 
       <meta name="description" content={description} />
+      <meta
+        name="keywords"
+        content="Decentralized Insurance, DeFi Insurance, Neptune Mutual, Parametric, Cover, Pool, NPM, Reassurance, POD"
+      />
       <meta name="og:title" property="og:title" content={title} />
       <meta
         name="og:description"
