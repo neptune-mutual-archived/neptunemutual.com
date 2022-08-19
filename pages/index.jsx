@@ -13,7 +13,7 @@ export default function Home({ postsData }) {
     <BaseLayout
       title="Neptune Mutual Decentralized Insurance"
       selectedNavKey=""
-      description="Neptune Mutual is a DeFi insurance protocol that safeguards the Ethereum community from cyber threats to contemporary financial products."
+      description="Neptune Mutual protects the Ethereum community from hacks and exploits through its unique parametric DeFi insurance marketplace designed to cover, protect and secure onchain digital assets; power by Ethereum, driven by stablecoins."
       canonical={pageRoutes.home}
     >
       <>
