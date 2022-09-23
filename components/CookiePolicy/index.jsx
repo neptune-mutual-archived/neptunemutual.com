@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
@@ -13,11 +13,9 @@ export const CookiePolicy = () => {
   const { showPopup, setConsent } = useCookies({
     cookieName: "cookie-consent",
   });
-  const [isOpen, setIsOpen] = useState(showPopup);
 
   function closeModal(allow) {
     setConsent(allow);
-    setIsOpen(false);
   }
 
   return (
