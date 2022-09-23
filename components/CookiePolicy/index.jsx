@@ -1,8 +1,8 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import styles from "./style.module.scss";
-import { useLocalStorage } from "@lib/hooks/useLocalStorage";
 import { Trans } from "@lingui/macro";
+import useCookies from "@lib/hooks/useCookies";
 
 function handleClose() {
   // Called when hit `Esc`
@@ -10,16 +10,18 @@ function handleClose() {
 }
 
 export const CookiePolicy = () => {
-  const [accepted, setAccepted] = useLocalStorage("dev-cookies", false);
-  const [isOpen, setIsOpen] = useState(!accepted);
+  const { showPopup, setConsent } = useCookies({
+    cookieName: "cookie-consent",
+  });
+  const [isOpen, setIsOpen] = useState(showPopup);
 
   function closeModal(allow) {
+    setConsent(allow);
     setIsOpen(false);
-    if (allow) setAccepted(true);
   }
 
   return (
-    <Transition appear show={isOpen} as={Fragment}>
+    <Transition appear show={showPopup} as={Fragment}>
       <Dialog as="div" className={styles.dialog} onClose={handleClose}>
         <div className={styles.dialog_content}>
           <Transition.Child as={Fragment}>
