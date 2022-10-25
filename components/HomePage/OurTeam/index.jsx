@@ -7,6 +7,7 @@ import { TeamMemberDetails } from "@components/HomePage/OurTeam/TeamMemberDetail
 
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
+import { logButtonClick, logGesture } from "@analytics/index";
 
 const settings = {
   slidesToShow: 3,
@@ -43,6 +44,12 @@ export const OurTeamComponent = () => {
               settings={{
                 ...settings,
                 afterChange: (idx) => setActiveIdx(idx || 0),
+                onSwipe: (i) => {
+                  logGesture(
+                    `Team Slider ${i === "left" ? "Left" : "Right"}`,
+                    `${i === "left" ? "Left" : "Right"} swipe in team carousel`
+                  );
+                },
               }}
               navElement={(props) => (
                 <>
@@ -77,15 +84,27 @@ const NavElement = ({ prev, next }) => {
       <div className={styles.nav_wrapper}>
         <button
           className={styles["nav-btn"]}
-          onClick={prev}
-          aria-label="Previous Team Member Button"
+          onClick={() => {
+            logButtonClick(
+              "Team Slider Left button",
+              "Left team member arrow button clicked"
+            );
+            prev();
+          }}
+          aria-label="Left Team Member Button"
         >
           <ChevronLeftIcon className={styles["nav-btn-icon"]} />
         </button>
         <button
           className={styles["nav-btn"]}
-          onClick={next}
-          aria-label="Next Team Member Button"
+          onClick={() => {
+            logButtonClick(
+              "Team Slider Right button",
+              "Right team member arrow button clicked"
+            );
+            next();
+          }}
+          aria-label="Right Team Member Button"
         >
           <ChevronRightIcon className={styles["nav-btn-icon"]} />
         </button>

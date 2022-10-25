@@ -11,10 +11,54 @@ import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
 import YoutubeIcon from "@utils/icons/YoutubeIcon";
+import { logButtonClick } from "@analytics/index";
 
 const neptune = "/images/industry/neptune.png";
 const fenbushiImg = "/images/brand/fenbushi.svg";
 const animocaImg = "/images/brand/animoca.svg";
+
+const socialLinks = [
+  {
+    name: "Twitter",
+    link: social.twitter,
+    Icon: <TwitterIcon className="relative w-7 h-7 top-1" />,
+  },
+  {
+    name: "Reddit",
+    link: social.reddit,
+    Icon: <RedditIcon className="w-7 h-7" />,
+  },
+  {
+    name: "Telegram",
+    link: social.telegram,
+    Icon: <TelegramIcon className="w-7 h-7" />,
+  },
+  {
+    name: "LinkedIn",
+    link: social.linkedin,
+    Icon: <LinkedinIcon className="w-7 h-7" />,
+  },
+  {
+    name: "Blog",
+    link: social.blog,
+    Icon: <BlogIcon className="w-7 h-7" />,
+  },
+  {
+    name: "Github",
+    link: social.github,
+    Icon: <GithubIcon className="w-7 h-7" />,
+  },
+  {
+    name: "Discord",
+    link: social.discord,
+    Icon: <DiscordIcon className="w-8 h-8" />,
+  },
+  {
+    name: "Youtube",
+    link: social.youtube,
+    Icon: <YoutubeIcon className="w-8 h-8" />,
+  },
+];
 
 export const IndustryComponent = () => {
   return (
@@ -26,70 +70,26 @@ export const IndustryComponent = () => {
               <Trans>Connect with Us</Trans>
             </h2>
             <div className="flex flex-wrap justify-center md:justify-start mt-7 xl:mt-10 gap-7 xl:gap-8 mb-14 md:mb-28">
-              <a
-                href={social.twitter}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Twitter"
-              >
-                <TwitterIcon className="relative w-7 h-7 top-1" />
-              </a>
-              <a
-                href={social.reddit}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Reddit"
-              >
-                <RedditIcon className="w-7 h-7" />
-              </a>
-              <a
-                href={social.telegram}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Telegram"
-              >
-                <TelegramIcon className="w-7 h-7" />
-              </a>
-              <a
-                href={social.linkedin}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="LinkedIn"
-              >
-                <LinkedinIcon className="w-7 h-7" />
-              </a>
-              <a
-                href={social.blog}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Blog"
-              >
-                <BlogIcon className="w-7 h-7" />
-              </a>
-              <a
-                href={social.github}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Github"
-              >
-                <GithubIcon className="w-7 h-7" />
-              </a>
-              <a
-                href={social.discord}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Discord"
-              >
-                <DiscordIcon className="w-8 h-8" />
-              </a>
-              <a
-                href={social.youtube}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Youtube"
-              >
-                <YoutubeIcon className="w-8 h-8" />
-              </a>
+              {socialLinks.map(({ name, link, Icon }, i) => (
+                <a
+                  key={i}
+                  href={link}
+                  target={"_blank"}
+                  rel="noreferrer nofollow"
+                  aria-label={name}
+                  onClick={() =>
+                    logButtonClick(
+                      `${name} link:cwu`,
+                      `${name} link at \`Connect with Us\` section clicked`,
+                      {
+                        link,
+                      }
+                    )
+                  }
+                >
+                  {Icon}
+                </a>
+              ))}
             </div>
           </div>
           <div className="max-w-full mt-9 md:mt-0 md:ml-auto">

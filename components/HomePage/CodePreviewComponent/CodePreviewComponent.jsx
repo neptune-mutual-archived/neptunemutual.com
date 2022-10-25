@@ -1,3 +1,4 @@
+import { logButtonClick } from "@analytics/index";
 import { CodeButtonComponent } from "@components/CodeButtonComponent";
 import { Trans } from "@lingui/macro";
 import { useState } from "react";
@@ -14,6 +15,10 @@ const CodePreviewComponent = () => {
 
   const handleAddLiquidity = () => {
     if (!addLiquidityActive) {
+      logButtonClick(
+        "`Add Liquidity` Code",
+        "`Add Liquidity` button clicked in code preview section"
+      );
       setAddLiquidityActive(true);
       setProvideCoverActive(false);
     }
@@ -21,6 +26,10 @@ const CodePreviewComponent = () => {
 
   const handleProvideCover = () => {
     if (!provideCoverActive) {
+      logButtonClick(
+        "`Purchase Covers` Code",
+        "`Purchase Covers` button clicked in code preview section"
+      );
       setAddLiquidityActive(false);
       setProvideCoverActive(true);
     }

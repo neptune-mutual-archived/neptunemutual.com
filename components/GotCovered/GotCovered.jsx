@@ -68,6 +68,17 @@ export const GotCoveredComponent = () => {
                   target="_blank"
                   rel="noreferrer"
                   className={styles.card_link}
+                  onClick={() =>
+                    logButtonClick(
+                      "`Find out more` link",
+                      `\`Find out more\` link in \`${item.title}\` clicked`,
+                      {
+                        title: item.title,
+                        description: item.description,
+                        link: item.linkTo,
+                      }
+                    )
+                  }
                 >
                   <Trans>FIND OUT MORE</Trans>
                 </a>

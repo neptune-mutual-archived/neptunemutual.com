@@ -21,7 +21,8 @@
       "@assets/*": ["assets/*"],
       "@lib/*": ["lib/*"],
       "@layouts/*": ["layouts/*"],
-      "@utils/*": ["utils/*"]
+      "@utils/*": ["utils/*"],
+      "@analytics/*": ["analytics/*"]
     }
   },
   "include": ["**/*.js", "**/*.jsx"],

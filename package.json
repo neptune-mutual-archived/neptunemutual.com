@@ -11,6 +11,7 @@
     "prettier:fix": "prettier --check \"components/**/*.js\""
   },
   "dependencies": {
+    "@amplitude/analytics-browser": "^1.5.5",
     "@headlessui/react": "^1.4.3",
     "@lingui/react": "^3.13.2",
     "gsap": "^3.9.1",

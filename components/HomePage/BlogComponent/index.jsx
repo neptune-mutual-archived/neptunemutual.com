@@ -6,6 +6,7 @@ import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import ArrowNarrowRightIcon from "@utils/icons/ArrowNarrowRightIcon";
 import { getFormattedDate } from "@lib/utils/methods";
+import { logButtonClick } from "@analytics/index";
 
 export const BlogComponent = ({ blogs }) => {
   const [posts, setPosts] = useState([]);
@@ -46,6 +47,15 @@ export const BlogComponent = ({ blogs }) => {
                 target="_blank"
                 rel="noreferrer nofollow"
                 aria-label="Blog"
+                onClick={() =>
+                  logButtonClick(
+                    "Blog home link",
+                    `'Check out our blog' link click in blog section`,
+                    {
+                      link: blogLink,
+                    }
+                  )
+                }
               >
                 <span>
                   <Trans>Check out Our Blog</Trans>
@@ -63,6 +73,20 @@ export const BlogComponent = ({ blogs }) => {
                   target={"_blank"}
                   rel="noreferrer nofollow"
                   className={classNames(styles.post, styles[`post-${idx + 1}`])}
+                  onClick={() =>
+                    logButtonClick(
+                      `Blog ${idx + 1}`,
+                      `Blog \`${title}\` clicked`,
+                      {
+                        blogDetails: {
+                          link,
+                          thumbnail,
+                          title,
+                          date,
+                        },
+                      }
+                    )
+                  }
                 >
                   <div className={classNames(styles.image_container)}>
                     <img
@@ -86,6 +110,15 @@ export const BlogComponent = ({ blogs }) => {
               href={blogLink}
               target="_blank"
               aria-label="Read our Blog"
+              onClick={() =>
+                logButtonClick(
+                  "`Read our Blog` mobile link",
+                  `'Read our blog' mobile view link clicked`,
+                  {
+                    link: blogLink,
+                  }
+                )
+              }
             >
               <span>
                 <Trans>Read Our Blog</Trans>

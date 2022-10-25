@@ -8,6 +8,7 @@ import { ContentSlider } from "./ContentSlider";
 import { Trans } from "@lingui/macro";
 import SliderRightIcon from "@utils/icons/SliderRightIcon";
 import SliderLeftIcon from "@utils/icons/SliderLeftIcon";
+import { logButtonClick } from "@analytics/index";
 
 const currentIndex = points.findIndex((x) => x.highlight);
 
@@ -63,8 +64,17 @@ export const Roadmap = () => {
     ],
   };
 
-  const onNext = () => sliderRef?.current?.slickNext();
-  const onPrev = () => sliderRef?.current?.slickPrev();
+  const onNext = () => {
+    logButtonClick(
+      "Roadmap Slider Right",
+      "Roadmap Slider Right button clicked"
+    );
+    sliderRef?.current?.slickNext();
+  };
+  const onPrev = () => {
+    logButtonClick("Roadmap Slider Left", "Roadmap Slider Left button clicked");
+    sliderRef?.current?.slickPrev();
+  };
   const handleContentSlideUpdate = (_idx) => {
     let toIdx = _idx > 0 ? _idx - 1 : _idx;
 
@@ -122,7 +132,17 @@ export const Roadmap = () => {
 
                 const isFuture = passedCurrent && !isCurrent;
 
-                const onSelect = () => setSelected(idx);
+                const onSelect = () => {
+                  logButtonClick(
+                    "Roadmap Item",
+                    `\`${point.name}\` item clicked in the Roadmap component`,
+                    {
+                      index: idx,
+                      isCurrent: isCurrent,
+                    }
+                  );
+                  setSelected(idx);
+                };
 
                 return (
                   <div key={point.name}>

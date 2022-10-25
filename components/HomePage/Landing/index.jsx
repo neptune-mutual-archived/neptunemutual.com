@@ -1,6 +1,7 @@
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import { classNames } from "@lib/utils/classNames.js";
+import { logButtonClick } from "@analytics/index";
 
 export const LandingPage = () => {
   return (
@@ -42,6 +43,15 @@ export const LandingPage = () => {
             target="_blank"
             className={styles.cta}
             aria-label="Launch Testnet"
+            onClick={() =>
+              logButtonClick(
+                "Launch Testnet",
+                "`Launch Testnet` in hero section clicked",
+                {
+                  href: "https://test.neptunemutual.com/",
+                }
+              )
+            }
           >
             <Trans>Launch Testnet</Trans>
           </a>

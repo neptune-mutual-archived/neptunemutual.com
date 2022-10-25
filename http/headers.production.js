@@ -1,6 +1,7 @@
 const connectSources = [
   "https://blog.neptunemutual.com",
   "https://*.clarity.ms",
+  process.env.NEXT_PUBLIC_AMPLITUDE_SERVER_URL,
 ]
   .map((x) => (x || "").trim())
   .filter((x) => !!x)
