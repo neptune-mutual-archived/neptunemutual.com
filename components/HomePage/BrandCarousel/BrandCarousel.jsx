@@ -35,6 +35,7 @@ const pulsar = "/images/brand-carousel/pulsar.svg";
 const gts = "/images/brand-carousel/gts.svg";
 const qadax = "/images/brand-carousel/qadax.svg";
 const lux = "/images/brand-carousel/lux.svg";
+const bbs = "/images/brand-carousel/bbs.svg";
 const icopantera = "/images/brand-carousel/icopantera.svg";
 const dwflabs = "/images/brand-carousel/dwflabs.svg";
 
@@ -176,6 +177,10 @@ const carouselItems = [
   {
     name: "Lux",
     imgSrc: lux,
+  },
+  {
+    name: "BBS Finance",
+    imgSrc: bbs,
   },
   {
     name: "Ico Panters",
