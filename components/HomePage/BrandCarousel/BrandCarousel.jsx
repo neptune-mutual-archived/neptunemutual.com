@@ -238,7 +238,9 @@ export const BrandCarouselComponent = () => {
         ref={sliderRef}
         {...{
           ...settings,
-          afterChange: () => console.log(sliderRef.current),
+          afterChange: () => {
+            /*console.log(sliderRef.current)*/
+          },
         }}
       >
         {carouselItems.map((item, idx) => {
