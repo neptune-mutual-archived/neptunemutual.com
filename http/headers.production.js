@@ -1,9 +1,25 @@
+const connectSources = [
+  "https://blog.neptunemutual.com",
+  "https://*.clarity.ms",
+]
+  .map((x) => (x || "").trim())
+  .filter((x) => !!x)
+  .join(" ");
+
+const scriptSources = [
+  "https://www.clarity.ms",
+  "'sha256-SVUvoQc+BXipYt8+vOhr+l4ps7wVFxvvTw113vu3p8o='",
+]
+  .map((x) => (x || "").trim())
+  .filter((x) => !!x)
+  .join(" ");
+
 module.exports = [
   {
     key: "Content-Security-Policy",
     values: [
-      "script-src 'self' 'sha256-I6XOxHID6WSV5+Yw8I4nOPpEa89MTudqup2y4+vYcg0='",
-      "connect-src 'self' https://api.neptunemutual.com/blog https://blog.neptunemutual.com",
+      `script-src 'self' ${scriptSources}`,
+      `connect-src 'self' ${connectSources}`,
       "style-src 'self' 'unsafe-inline'",
       "upgrade-insecure-requests",
       "frame-ancestors 'none'",
@@ -13,7 +29,7 @@ module.exports = [
       "base-uri 'none'",
       "form-action 'none'",
       "object-src 'none'",
-      "img-src 'self' https://blog.neptunemutual.com",
+      "img-src 'self' data: https://*.clarity.ms https://*.bing.com https://blog.neptunemutual.com",
       "font-src 'self'",
     ],
   },
