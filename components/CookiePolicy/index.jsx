@@ -1,8 +1,8 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import styles from "./style.module.scss";
-import { useLocalStorage } from "@lib/hooks/useLocalStorage";
 import { Trans } from "@lingui/macro";
+import { useCookies } from "context/cookies";
 
 function handleClose() {
   // Called when hit `Esc`
@@ -10,7 +10,7 @@ function handleClose() {
 }
 
 export const CookiePolicy = () => {
-  const [accepted, setAccepted] = useLocalStorage("dev-cookies", false);
+  const { accepted, setAccepted } = useCookies();
   const [isOpen, setIsOpen] = useState(!accepted);
 
   function closeModal(allow) {
