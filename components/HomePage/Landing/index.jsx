@@ -2,6 +2,7 @@ import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import { classNames } from "@lib/utils/classNames.js";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 export const LandingPage = () => {
   return (
@@ -44,12 +45,14 @@ export const LandingPage = () => {
             className={styles.cta}
             aria-label="Launch Testnet"
             onClick={() =>
-              logButtonClick(
-                "Launch Testnet",
-                "`Launch Testnet` in hero section clicked",
-                {
-                  href: "https://test.neptunemutual.com/",
-                }
+              analyticsLogger(() =>
+                logButtonClick(
+                  "Launch Testnet",
+                  "`Launch Testnet` in hero section clicked",
+                  {
+                    href: "https://test.neptunemutual.com/",
+                  }
+                )
               )
             }
           >

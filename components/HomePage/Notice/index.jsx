@@ -1,6 +1,7 @@
 import { logButtonClick } from "@analytics/index";
 import CloseIcon from "@components/icons/CloseIcon";
 import { classNames } from "@lib/utils/classNames";
+import { analyticsLogger } from "@utils/logger";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useState } from "react";
 import styles from "./index.module.scss";
@@ -18,13 +19,17 @@ export const Notice = ({
   }
 
   const handleLinkClick = () => {
-    logButtonClick("Banner link", "Banner press release link", {
-      linkHref: link,
-    });
+    analyticsLogger(() =>
+      logButtonClick("Banner link", "Banner press release link", {
+        linkHref: link,
+      })
+    );
   };
 
   const handleBannerClose = () => {
-    logButtonClick("Banner close", "Close website top banner");
+    analyticsLogger(() =>
+      logButtonClick("Banner close", "Close website top banner")
+    );
     setShow((prev) => !prev);
     setTimeout(() => ScrollTrigger.refresh(), 500);
   };

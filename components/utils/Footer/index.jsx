@@ -11,6 +11,7 @@ import styles from "./style.module.css";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
 import YoutubeIcon from "@utils/icons/YoutubeIcon";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 const neptune = "/images/industry/neptune.png";
 const logo = "/logos/neptune-mutual-full-inverse.png";
@@ -131,12 +132,14 @@ export const Footer = () => {
                   rel="noreferrer nofollow"
                   aria-label={name}
                   onClick={() =>
-                    logButtonClick(
-                      `Footer:${name} link`,
-                      `${name} link at Footer section clicked`,
-                      {
-                        link,
-                      }
+                    analyticsLogger(() =>
+                      logButtonClick(
+                        `Footer:${name} link`,
+                        `${name} link at Footer section clicked`,
+                        {
+                          link,
+                        }
+                      )
                     )
                   }
                 >
@@ -158,12 +161,14 @@ export const Footer = () => {
                   target="_self"
                   aria-label={ariaLabel}
                   onClick={() =>
-                    logButtonClick(
-                      `Footer-Quicklink:${name} link`,
-                      `${name} quicklink at Footer section clicked`,
-                      {
-                        link,
-                      }
+                    analyticsLogger(() =>
+                      logButtonClick(
+                        `Footer-Quicklink:${name} link`,
+                        `${name} quicklink at Footer section clicked`,
+                        {
+                          link,
+                        }
+                      )
                     )
                   }
                 >

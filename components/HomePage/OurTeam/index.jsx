@@ -8,6 +8,7 @@ import { TeamMemberDetails } from "@components/HomePage/OurTeam/TeamMemberDetail
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import { logButtonClick, logGesture } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 const settings = {
   slidesToShow: 3,
@@ -45,9 +46,13 @@ export const OurTeamComponent = () => {
                 ...settings,
                 afterChange: (idx) => setActiveIdx(idx || 0),
                 onSwipe: (i) => {
-                  logGesture(
-                    `Team Slider ${i === "left" ? "Left" : "Right"}`,
-                    `${i === "left" ? "Left" : "Right"} swipe in team carousel`
+                  analyticsLogger(() =>
+                    logGesture(
+                      `Team Slider ${i === "left" ? "Left" : "Right"}`,
+                      `${
+                        i === "left" ? "Left" : "Right"
+                      } swipe in team carousel`
+                    )
                   );
                 },
               }}
@@ -85,9 +90,11 @@ const NavElement = ({ prev, next }) => {
         <button
           className={styles["nav-btn"]}
           onClick={() => {
-            logButtonClick(
-              "Team Slider Left button",
-              "Left team member arrow button clicked"
+            analyticsLogger(() =>
+              logButtonClick(
+                "Team Slider Left button",
+                "Left team member arrow button clicked"
+              )
             );
             prev();
           }}
@@ -98,9 +105,11 @@ const NavElement = ({ prev, next }) => {
         <button
           className={styles["nav-btn"]}
           onClick={() => {
-            logButtonClick(
-              "Team Slider Right button",
-              "Right team member arrow button clicked"
+            analyticsLogger(() =>
+              logButtonClick(
+                "Team Slider Right button",
+                "Right team member arrow button clicked"
+              )
             );
             next();
           }}

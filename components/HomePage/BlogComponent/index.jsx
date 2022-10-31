@@ -7,6 +7,7 @@ import { Trans } from "@lingui/macro";
 import ArrowNarrowRightIcon from "@utils/icons/ArrowNarrowRightIcon";
 import { getFormattedDate } from "@lib/utils/methods";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 export const BlogComponent = ({ blogs }) => {
   const [posts, setPosts] = useState([]);
@@ -48,12 +49,14 @@ export const BlogComponent = ({ blogs }) => {
                 rel="noreferrer nofollow"
                 aria-label="Blog"
                 onClick={() =>
-                  logButtonClick(
-                    "Blog home link",
-                    `'Check out our blog' link click in blog section`,
-                    {
-                      link: blogLink,
-                    }
+                  analyticsLogger(() =>
+                    logButtonClick(
+                      "Blog home link",
+                      `'Check out our blog' link click in blog section`,
+                      {
+                        link: blogLink,
+                      }
+                    )
                   )
                 }
               >
@@ -74,17 +77,19 @@ export const BlogComponent = ({ blogs }) => {
                   rel="noreferrer nofollow"
                   className={classNames(styles.post, styles[`post-${idx + 1}`])}
                   onClick={() =>
-                    logButtonClick(
-                      `Blog ${idx + 1}`,
-                      `Blog \`${title}\` clicked`,
-                      {
-                        blogDetails: {
-                          link,
-                          thumbnail,
-                          title,
-                          date,
-                        },
-                      }
+                    analyticsLogger(() =>
+                      logButtonClick(
+                        `Blog ${idx + 1}`,
+                        `Blog \`${title}\` clicked`,
+                        {
+                          blogDetails: {
+                            link,
+                            thumbnail,
+                            title,
+                            date,
+                          },
+                        }
+                      )
                     )
                   }
                 >
@@ -111,12 +116,14 @@ export const BlogComponent = ({ blogs }) => {
               target="_blank"
               aria-label="Read our Blog"
               onClick={() =>
-                logButtonClick(
-                  "`Read our Blog` mobile link",
-                  `'Read our blog' mobile view link clicked`,
-                  {
-                    link: blogLink,
-                  }
+                analyticsLogger(() =>
+                  logButtonClick(
+                    "`Read our Blog` mobile link",
+                    `'Read our blog' mobile view link clicked`,
+                    {
+                      link: blogLink,
+                    }
+                  )
                 )
               }
             >

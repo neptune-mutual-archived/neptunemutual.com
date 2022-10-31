@@ -10,6 +10,7 @@ import { MobileMenu } from "@components/MobileMenu";
 
 import { Trans } from "@lingui/macro";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 const logo = "/logos/neptune-mutual-full.png";
 
@@ -20,9 +21,11 @@ export const Header = () => {
   const onLanguageButtonClick = () => setIsLanguageDropdownOpen(true);
 
   const toggleMenu = () => {
-    logButtonClick("Mobile menu open", "Opened mobile menu", {
-      screenWidth: window?.screen?.width ?? "N/A",
-    });
+    analyticsLogger(() =>
+      logButtonClick("Mobile menu open", "Opened mobile menu", {
+        screenWidth: window?.screen?.width ?? "N/A",
+      })
+    );
     if (!isLanguageDropdownOpen) {
       setIsOpen((prev) => !prev);
     }
@@ -32,9 +35,11 @@ export const Header = () => {
     if (isLanguageDropdownOpen) {
       setIsLanguageDropdownOpen(false);
     } else {
-      logButtonClick("Mobile menu close", "Closed mobile menu", {
-        screenWidth: window?.screen?.width ?? "N/A",
-      });
+      analyticsLogger(() =>
+        logButtonClick("Mobile menu close", "Closed mobile menu", {
+          screenWidth: window?.screen?.width ?? "N/A",
+        })
+      );
       setIsOpen(false);
     }
     // TODO: Find a better solution so that menu can also be closed by pressing `Esc`
@@ -61,12 +66,14 @@ export const Header = () => {
               className={styles.nav_item}
               aria-label="Blog"
               onClick={() =>
-                logButtonClick(
-                  "Header Blog Link",
-                  "Blog link clicked at header",
-                  {
-                    blogLink,
-                  }
+                analyticsLogger(() =>
+                  logButtonClick(
+                    "Header Blog Link",
+                    "Blog link clicked at header",
+                    {
+                      blogLink,
+                    }
+                  )
                 )
               }
             >
@@ -79,13 +86,15 @@ export const Header = () => {
               aria-label="Contact"
               className={classNames(styles.nav_item, styles.last_nav)}
               onClick={() =>
-                logButtonClick(
-                  "Header Contact Link",
-                  "Contact link clicked at header",
-                  {
-                    contactLink:
-                      "https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM",
-                  }
+                analyticsLogger(() =>
+                  logButtonClick(
+                    "Header Contact Link",
+                    "Contact link clicked at header",
+                    {
+                      contactLink:
+                        "https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM",
+                    }
+                  )
                 )
               }
             >

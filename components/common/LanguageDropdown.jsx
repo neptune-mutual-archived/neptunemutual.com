@@ -8,6 +8,7 @@ import CheckCircleIcon from "@utils/icons/CheckCircleIcon";
 import SearchIcon from "@utils/icons/SearchIcon";
 import useDebounce from "hooks/useDebounce";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 const DEBOUNCE_TIMER = 200;
 
@@ -73,15 +74,17 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
               className={styles.dropdown_list_link}
               href={`/${localesKey[lang]}`}
               onClick={() =>
-                logButtonClick(
-                  `language switch:${
-                    mobileView ? "mobile" : lightMode ? "footer" : "header"
-                  }`,
-                  "Language switch button clicked",
-                  {
-                    lang,
-                    href: `/${localesKey[lang]}`,
-                  }
+                analyticsLogger(() =>
+                  logButtonClick(
+                    `language switch:${
+                      mobileView ? "mobile" : lightMode ? "footer" : "header"
+                    }`,
+                    "Language switch button clicked",
+                    {
+                      lang,
+                      href: `/${localesKey[lang]}`,
+                    }
+                  )
                 )
               }
             >

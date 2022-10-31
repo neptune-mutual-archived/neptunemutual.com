@@ -3,6 +3,7 @@ import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
 import styles from "./style.module.scss";
 import LanguageDropdown from "@components/common/LanguageDropdown";
+import { analyticsLogger } from "@utils/logger";
 
 export const MobileMenu = ({
   onLanguageButtonClick,
@@ -29,12 +30,14 @@ export const MobileMenu = ({
           target="_blank"
           aria-label="Blog"
           onClick={() =>
-            logButtonClick(
-              "Mobile Blog Link",
-              "Mobile menu blog link clicked",
-              {
-                blogLink,
-              }
+            analyticsLogger(() =>
+              logButtonClick(
+                "Mobile Blog Link",
+                "Mobile menu blog link clicked",
+                {
+                  blogLink,
+                }
+              )
             )
           }
         >
@@ -48,12 +51,14 @@ export const MobileMenu = ({
           rel="noreferrer nofollow"
           aria-label="Contact"
           onClick={() =>
-            logButtonClick(
-              "Mobile Contact Link",
-              "Mobile menu contact link clicked",
-              {
-                contactLink: "https://t.me/neptunemutualchat",
-              }
+            analyticsLogger(() =>
+              logButtonClick(
+                "Mobile Contact Link",
+                "Mobile menu contact link clicked",
+                {
+                  contactLink: "https://t.me/neptunemutualchat",
+                }
+              )
             )
           }
         >
@@ -67,12 +72,14 @@ export const MobileMenu = ({
           rel="noreferrer"
           aria-label="Documentation"
           onClick={() =>
-            logButtonClick(
-              "Mobile Documentation Link",
-              "Mobile menu Documentation link clicked",
-              {
-                documentationLink: "https://docs.neptunemutual.com",
-              }
+            analyticsLogger(() =>
+              logButtonClick(
+                "Mobile Documentation Link",
+                "Mobile menu Documentation link clicked",
+                {
+                  documentationLink: "https://docs.neptunemutual.com",
+                }
+              )
             )
           }
         >

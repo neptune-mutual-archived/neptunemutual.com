@@ -12,6 +12,7 @@ import { Trans } from "@lingui/macro";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
 import YoutubeIcon from "@utils/icons/YoutubeIcon";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 const neptune = "/images/industry/neptune.png";
 const fenbushiImg = "/images/brand/fenbushi.svg";
@@ -78,12 +79,14 @@ export const IndustryComponent = () => {
                   rel="noreferrer nofollow"
                   aria-label={name}
                   onClick={() =>
-                    logButtonClick(
-                      `${name} link:cwu`,
-                      `${name} link at \`Connect with Us\` section clicked`,
-                      {
-                        link,
-                      }
+                    analyticsLogger(() =>
+                      logButtonClick(
+                        `${name} link:cwu`,
+                        `${name} link at \`Connect with Us\` section clicked`,
+                        {
+                          link,
+                        }
+                      )
                     )
                   }
                 >

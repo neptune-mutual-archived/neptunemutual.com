@@ -5,6 +5,7 @@ import FacebookFilledIcon from "@utils/icons/FacebookFilledIcon";
 import styles from "./style.module.scss";
 import { teamMembers } from "@lib/data/team-data";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 export const TeamMemberDetails = ({ idx }) => {
   const { name, title, nameInvariant, links } =
@@ -22,14 +23,16 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"LinkedIn Profile of " + nameInvariant}
             onClick={() =>
-              logButtonClick(
-                "Team LinkedIn link",
-                `${name} LinkedIn link clicked`,
-                {
-                  member: name,
-                  linkName: "LinkedIn",
-                  href: links.linkedIn,
-                }
+              analyticsLogger(() =>
+                logButtonClick(
+                  "Team LinkedIn link",
+                  `${name} LinkedIn link clicked`,
+                  {
+                    member: name,
+                    linkName: "LinkedIn",
+                    href: links.linkedIn,
+                  }
+                )
               )
             }
           >
@@ -43,14 +46,16 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"Twitter Profile of " + nameInvariant}
             onClick={() =>
-              logButtonClick(
-                "Team Twitter link",
-                `${name} Twitter link clicked`,
-                {
-                  member: name,
-                  linkName: "Twitter",
-                  href: links.twitter,
-                }
+              analyticsLogger(() =>
+                logButtonClick(
+                  "Team Twitter link",
+                  `${name} Twitter link clicked`,
+                  {
+                    member: name,
+                    linkName: "Twitter",
+                    href: links.twitter,
+                  }
+                )
               )
             }
           >
@@ -64,14 +69,16 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"Medium Link of " + nameInvariant}
             onClick={() =>
-              logButtonClick(
-                "Team Medium link",
-                `${name} Medium link clicked`,
-                {
-                  member: name,
-                  linkName: "Medium",
-                  href: links.medium,
-                }
+              analyticsLogger(() =>
+                logButtonClick(
+                  "Team Medium link",
+                  `${name} Medium link clicked`,
+                  {
+                    member: name,
+                    linkName: "Medium",
+                    href: links.medium,
+                  }
+                )
               )
             }
           >
@@ -85,14 +92,16 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"Facebook Profile of " + nameInvariant}
             onClick={() =>
-              logButtonClick(
-                "Team Facebook link",
-                `${name} Facebook link clicked`,
-                {
-                  member: name,
-                  linkName: "Facebook",
-                  href: links.facebook,
-                }
+              analyticsLogger(() =>
+                logButtonClick(
+                  "Team Facebook link",
+                  `${name} Facebook link clicked`,
+                  {
+                    member: name,
+                    linkName: "Facebook",
+                    href: links.facebook,
+                  }
+                )
               )
             }
           >

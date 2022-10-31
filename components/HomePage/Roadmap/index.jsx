@@ -9,6 +9,7 @@ import { Trans } from "@lingui/macro";
 import SliderRightIcon from "@utils/icons/SliderRightIcon";
 import SliderLeftIcon from "@utils/icons/SliderLeftIcon";
 import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 const currentIndex = points.findIndex((x) => x.highlight);
 
@@ -65,14 +66,21 @@ export const Roadmap = () => {
   };
 
   const onNext = () => {
-    logButtonClick(
-      "Roadmap Slider Right",
-      "Roadmap Slider Right button clicked"
+    analyticsLogger(() =>
+      logButtonClick(
+        "Roadmap Slider Right",
+        "Roadmap Slider Right button clicked"
+      )
     );
     sliderRef?.current?.slickNext();
   };
   const onPrev = () => {
-    logButtonClick("Roadmap Slider Left", "Roadmap Slider Left button clicked");
+    analyticsLogger(() =>
+      logButtonClick(
+        "Roadmap Slider Left",
+        "Roadmap Slider Left button clicked"
+      )
+    );
     sliderRef?.current?.slickPrev();
   };
   const handleContentSlideUpdate = (_idx) => {
@@ -133,13 +141,15 @@ export const Roadmap = () => {
                 const isFuture = passedCurrent && !isCurrent;
 
                 const onSelect = () => {
-                  logButtonClick(
-                    "Roadmap Item",
-                    `\`${point.name}\` item clicked in the Roadmap component`,
-                    {
-                      index: idx,
-                      isCurrent: isCurrent,
-                    }
+                  analyticsLogger(() =>
+                    logButtonClick(
+                      "Roadmap Item",
+                      `\`${point.name}\` item clicked in the Roadmap component`,
+                      {
+                        index: idx,
+                        isCurrent: isCurrent,
+                      }
+                    )
                   );
                   setSelected(idx);
                 };

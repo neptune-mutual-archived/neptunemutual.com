@@ -3,6 +3,7 @@ import CautionIcon from "@utils/icons/CautionIcon";
 import CreateIcon from "@utils/icons/CreateIcon";
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
+import { analyticsLogger } from "@utils/logger";
 
 const data = [
   {
@@ -69,14 +70,16 @@ export const GotCoveredComponent = () => {
                   rel="noreferrer"
                   className={styles.card_link}
                   onClick={() =>
-                    logButtonClick(
-                      "`Find out more` link",
-                      `\`Find out more\` link in \`${item.title}\` clicked`,
-                      {
-                        title: item.title,
-                        description: item.description,
-                        link: item.linkTo,
-                      }
+                    analyticsLogger(() =>
+                      logButtonClick(
+                        "`Find out more` link",
+                        `\`Find out more\` link in \`${item.title}\` clicked`,
+                        {
+                          title: item.title,
+                          description: item.description,
+                          link: item.linkTo,
+                        }
+                      )
                     )
                   }
                 >
