@@ -2,10 +2,10 @@ import "../styles/globals.css";
 import "../styles/global.scss";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import Script from "next/script";
 
 import { i18n } from "@lingui/core";
 import { I18nProvider } from "@lingui/react";
+import { CookiesProvider } from "context/cookies";
 import {
   zh,
   en,
@@ -38,8 +38,6 @@ i18n.loadLocaleData({
   vi: { plurals: vi },
 });
 
-const clarityTrackingCode = process.env.NEXT_PUBLIC_CLARITY_TRACKING_CODE;
-
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
@@ -58,22 +56,11 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <>
-      <I18nProvider i18n={i18n} forceRenderOnLocaleChange={false}>
-        <Component {...pageProps} />
-      </I18nProvider>
-      <Script
-        id="ms-clarity"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{
-          __html: `
-            (function(c,l,a,r,i,t,y){
-              c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-              t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-              y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-            })(window, document, "clarity", "script", "${clarityTrackingCode}");
-          `,
-        }}
-      />
+      <CookiesProvider>
+        <I18nProvider i18n={i18n} forceRenderOnLocaleChange={false}>
+          <Component {...pageProps} />
+        </I18nProvider>
+      </CookiesProvider>
     </>
   );
 }
