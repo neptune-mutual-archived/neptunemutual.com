@@ -43,16 +43,16 @@ export const CookiePolicy = () => {
               </p>
               <div>
                 <button
-                  className={styles.accept}
-                  onClick={() => closeModal(true)}
-                >
-                  <Trans>Accept</Trans>
-                </button>
-                <button
                   className={styles.decline}
                   onClick={() => closeModal(false)}
                 >
                   <Trans>Decline</Trans>
+                </button>
+                <button
+                  className={styles.accept}
+                  onClick={() => closeModal(true)}
+                >
+                  <Trans>Accept</Trans>
                 </button>
               </div>
             </div>
