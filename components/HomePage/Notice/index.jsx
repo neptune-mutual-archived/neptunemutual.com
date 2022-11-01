@@ -1,5 +1,7 @@
+import { logButtonClick } from "@analytics/index";
 import CloseIcon from "@components/icons/CloseIcon";
 import { classNames } from "@lib/utils/classNames";
+import { analyticsLogger } from "@utils/logger";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
 import { useState } from "react";
 import styles from "./index.module.scss";
@@ -16,6 +18,22 @@ export const Notice = ({
     return null;
   }
 
+  const handleLinkClick = () => {
+    analyticsLogger(() =>
+      logButtonClick("Banner link", "Banner press release link", {
+        linkHref: link,
+      })
+    );
+  };
+
+  const handleBannerClose = () => {
+    analyticsLogger(() =>
+      logButtonClick("Banner close", "Close website top banner")
+    );
+    setShow((prev) => !prev);
+    setTimeout(() => ScrollTrigger.refresh(), 500);
+  };
+
   return (
     <div className={classNames(styles.notice_container, bgColor)}>
       <div className={styles.notice_content}>
@@ -28,6 +46,7 @@ export const Notice = ({
               href={link}
               target="_blank"
               rel="noopener noreferrer nofollow"
+              onClick={handleLinkClick}
             >
               {linkText}
             </a>
@@ -35,10 +54,7 @@ export const Notice = ({
         </div>
         <button
           className={styles.close_icon}
-          onClick={() => {
-            setShow((prev) => !prev);
-            setTimeout(() => ScrollTrigger.refresh(), 500);
-          }}
+          onClick={handleBannerClose}
           aria-label="Button to Close Notice"
         >
           <CloseIcon width="14" height="14" fill="white" />

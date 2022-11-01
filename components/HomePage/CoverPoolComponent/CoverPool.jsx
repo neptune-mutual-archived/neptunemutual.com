@@ -1,8 +1,10 @@
+import { logButtonClick } from "@analytics/index";
 import CodePreviewComponent from "@components/HomePage/CodePreviewComponent/CodePreviewComponent";
 import { Button } from "@components/HomePage/CoverPoolComponent/Button";
 import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
 import { DownloadIcon } from "@utils/icons/DownloadIcon";
+import { analyticsLogger } from "@utils/logger";
 import styles from "./coverpool.module.scss";
 
 const coverPoolContent = [
@@ -68,6 +70,17 @@ export const CoverPoolComponent = () => {
                   styles.desktop_button,
                   styles.btn_container
                 )}
+                onClick={() =>
+                  analyticsLogger(() =>
+                    logButtonClick(
+                      "[Desktop]Get SDK button",
+                      "`Get the Neptune Mutual SDK` button clicked in desktop",
+                      {
+                        link: "https://www.npmjs.com/package/@neptunemutual/sdk",
+                      }
+                    )
+                  )
+                }
               >
                 <DownloadIcon className={styles.button_icon} />
                 <span className={styles.button_style}>
@@ -96,6 +109,17 @@ export const CoverPoolComponent = () => {
             href="https://www.npmjs.com/package/@neptunemutual/sdk"
             target="_blank"
             rel="noreferrer nofollow"
+            onClick={() =>
+              analyticsLogger(() =>
+                logButtonClick(
+                  "[Mobile]Get SDK button",
+                  "`Get the Neptune Mutual SDK` button clicked in mobile",
+                  {
+                    link: "https://www.npmjs.com/package/@neptunemutual/sdk",
+                  }
+                )
+              )
+            }
           >
             <Button text={<Trans>Get the Neptune Mutual SDK</Trans>} />
           </a>

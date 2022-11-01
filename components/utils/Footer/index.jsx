@@ -10,9 +10,87 @@ import { social } from "@components/utils/social";
 import styles from "./style.module.css";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
 import YoutubeIcon from "@utils/icons/YoutubeIcon";
+import { logButtonClick } from "@analytics/index";
+import { analyticsLogger } from "@utils/logger";
 
 const neptune = "/images/industry/neptune.png";
 const logo = "/logos/neptune-mutual-full-inverse.png";
+
+const socialLinks = [
+  {
+    name: "Twitter",
+    link: social.twitter,
+    Icon: <TwitterIcon className={styles["twitter-icon"]} />,
+  },
+  {
+    name: "Reddit",
+    link: social.reddit,
+    Icon: <RedditIcon className={styles["icon-class"]} />,
+  },
+  {
+    name: "Telegram",
+    link: social.telegram,
+    Icon: <TelegramIcon className={styles["icon-class"]} />,
+  },
+  {
+    name: "LinkedIn",
+    link: social.linkedin,
+    Icon: <LinkedinIcon className={styles["icon-class"]} />,
+  },
+  {
+    name: "Blog",
+    link: social.blog,
+    Icon: <BlogIcon className={styles["icon-class"]} />,
+  },
+  {
+    name: "Github",
+    link: social.github,
+    Icon: <GithubIcon className={styles["icon-class"]} />,
+  },
+  {
+    name: "Discord",
+    link: social.discord,
+    Icon: <DiscordIcon className={styles["github-icon"]} />,
+  },
+  {
+    name: "Youtube",
+    link: social.youtube,
+    Icon: <YoutubeIcon className={styles["github-icon"]} />,
+  },
+];
+
+const quickLinks = [
+  {
+    name: "Blog",
+    ariaLabel: "Visit Our Blog",
+    href: social.blog,
+  },
+  {
+    name: "Contact",
+    ariaLabel: "Contact Us",
+    href: "https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM",
+  },
+  {
+    name: "Careers",
+    ariaLabel: "Careers Page",
+    href: "https://angel.co/company/neptune-mutual",
+  },
+  {
+    name: "Documentation",
+    ariaLabel: "Documentation Site",
+    href: social.documentation,
+  },
+  {
+    name: "Terms Of Service",
+    ariaLabel: "Terms Of Service",
+    href: "https://docs.neptunemutual.com/usage/terms-of-use",
+  },
+  {
+    name: "Privacy Policy",
+    ariaLabel: "Privacy Policy",
+    href: "https://docs.neptunemutual.com/usage/privacy-policy",
+  },
+];
 
 export const Footer = () => {
   return (
@@ -46,70 +124,28 @@ export const Footer = () => {
               </Trans>
             </p>
             <div className={styles["icons-wrapper"]}>
-              <a
-                href={social.twitter}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Twitter"
-              >
-                <TwitterIcon className={styles["twitter-icon"]} />
-              </a>
-              <a
-                href={social.reddit}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Reddit"
-              >
-                <RedditIcon className={styles["icon-class"]} />
-              </a>
-              <a
-                href={social.telegram}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Telegram"
-              >
-                <TelegramIcon className={styles["icon-class"]} />
-              </a>
-              <a
-                href={social.linkedin}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="LinkedIn"
-              >
-                <LinkedinIcon className={styles["icon-class"]} />
-              </a>
-              <a
-                href={social.blog}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Blog"
-              >
-                <BlogIcon className={styles["icon-class"]} />
-              </a>
-              <a
-                href={social.github}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Github"
-              >
-                <GithubIcon className={styles["icon-class"]} />
-              </a>
-              <a
-                href={social.discord}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Discord"
-              >
-                <DiscordIcon className={styles["github-icon"]} />
-              </a>
-              <a
-                href={social.youtube}
-                target={"_blank"}
-                rel="noreferrer nofollow"
-                aria-label="Youtube"
-              >
-                <YoutubeIcon className={styles["github-icon"]} />
-              </a>
+              {socialLinks.map(({ name, link, Icon }, i) => (
+                <a
+                  key={i}
+                  href={link}
+                  target={"_blank"}
+                  rel="noreferrer nofollow"
+                  aria-label={name}
+                  onClick={() =>
+                    analyticsLogger(() =>
+                      logButtonClick(
+                        `Footer:${name} link`,
+                        `${name} link at Footer section clicked`,
+                        {
+                          link,
+                        }
+                      )
+                    )
+                  }
+                >
+                  {Icon}
+                </a>
+              ))}
             </div>
           </div>
         </div>
@@ -117,66 +153,29 @@ export const Footer = () => {
       <div className={styles["link-wrapper-1"]}>
         <div className="section_border_container border_none">
           <div className={styles["link-wrapper-2"]}>
-            <div className={styles["link"]}>
-              <a
-                rel="noreferrer nofollow"
-                href={social.blog}
-                target="_blank"
-                aria-label="Visit Our Blog"
-              >
-                <Trans>Blog</Trans>
-              </a>
-            </div>
-            <div className={styles["link"]}>
-              <a
-                href="https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM"
-                rel="noreferrer nofollow"
-                target="_self"
-                aria-label="Contact Us"
-              >
-                <Trans>Contact</Trans>
-              </a>
-            </div>
-            <div className={styles["link"]}>
-              <a
-                href="https://angel.co/company/neptune-mutual"
-                rel="noreferrer nofollow"
-                target="_blank"
-                aria-label="Careers Page"
-              >
-                <Trans>Careers</Trans>
-              </a>
-            </div>
-            <div className={styles["link"]}>
-              <a
-                rel="noreferrer"
-                href={social.documentation}
-                target="_blank"
-                aria-label="Documentation Site"
-              >
-                <Trans>Documentation</Trans>
-              </a>
-            </div>
-            <div className={styles["link"]}>
-              <a
-                rel="noreferrer"
-                href="https://docs.neptunemutual.com/usage/terms-of-use"
-                target="_blank"
-                aria-label="Terms of Service"
-              >
-                <Trans>Terms of Service</Trans>
-              </a>
-            </div>
-            <div className={styles["link"]}>
-              <a
-                rel="noreferrer"
-                href="https://docs.neptunemutual.com/usage/privacy-policy"
-                target="_blank"
-                aria-label="Privacy Policy"
-              >
-                <Trans>Privacy Policy</Trans>
-              </a>
-            </div>
+            {quickLinks.map(({ name, ariaLabel, href }, i) => (
+              <div key={i} className={styles["link"]}>
+                <a
+                  href={href}
+                  rel="noreferrer nofollow"
+                  target="_self"
+                  aria-label={ariaLabel}
+                  onClick={() =>
+                    analyticsLogger(() =>
+                      logButtonClick(
+                        `Footer-Quicklink:${name} link`,
+                        `${name} quicklink at Footer section clicked`,
+                        {
+                          link,
+                        }
+                      )
+                    )
+                  }
+                >
+                  <Trans>{name}</Trans>
+                </a>
+              </div>
+            ))}
           </div>
         </div>
       </div>

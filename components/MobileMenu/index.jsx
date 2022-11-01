@@ -3,6 +3,7 @@ import { classNames } from "@lib/utils/classNames";
 import { Trans } from "@lingui/macro";
 import styles from "./style.module.scss";
 import LanguageDropdown from "@components/common/LanguageDropdown";
+import { analyticsLogger } from "@utils/logger";
 
 export const MobileMenu = ({
   onLanguageButtonClick,
@@ -28,6 +29,17 @@ export const MobileMenu = ({
           rel="noreferrer nofollow"
           target="_blank"
           aria-label="Blog"
+          onClick={() =>
+            analyticsLogger(() =>
+              logButtonClick(
+                "Mobile Blog Link",
+                "Mobile menu blog link clicked",
+                {
+                  blogLink,
+                }
+              )
+            )
+          }
         >
           <Trans>Blog</Trans>
         </a>
@@ -38,6 +50,17 @@ export const MobileMenu = ({
           target="_blank"
           rel="noreferrer nofollow"
           aria-label="Contact"
+          onClick={() =>
+            analyticsLogger(() =>
+              logButtonClick(
+                "Mobile Contact Link",
+                "Mobile menu contact link clicked",
+                {
+                  contactLink: "https://t.me/neptunemutualchat",
+                }
+              )
+            )
+          }
         >
           <Trans>Contact</Trans>
         </a>
@@ -48,6 +71,17 @@ export const MobileMenu = ({
           target="_blank"
           rel="noreferrer"
           aria-label="Documentation"
+          onClick={() =>
+            analyticsLogger(() =>
+              logButtonClick(
+                "Mobile Documentation Link",
+                "Mobile menu Documentation link clicked",
+                {
+                  documentationLink: "https://docs.neptunemutual.com",
+                }
+              )
+            )
+          }
         >
           <Trans>Documentation</Trans>
         </a>

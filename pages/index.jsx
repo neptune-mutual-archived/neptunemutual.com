@@ -6,9 +6,15 @@ import { Notice } from "@components/HomePage/Notice";
 import "slick-carousel/slick/slick.css";
 import { Trans } from "@lingui/macro";
 import { getPosts } from "@lib/utils/methods";
+import { useEffect } from "react";
+import { logPageLoad } from "@analytics/index";
 // import "slick-carousel/slick/slick-theme.css";
 
 export default function Home({ postsData }) {
+  useEffect(() => {
+    logPageLoad("HomePage");
+  }, []);
+
   return (
     <BaseLayout
       title="Neptune Mutual Decentralized Insurance"
