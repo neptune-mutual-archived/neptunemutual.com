@@ -5,11 +5,13 @@ import FacebookFilledIcon from "@utils/icons/FacebookFilledIcon";
 import styles from "./style.module.scss";
 import { teamMembers } from "@lib/data/team-data";
 import { logButtonClick } from "@analytics/index";
-import { analyticsLogger } from "@utils/logger";
+import { useCookies } from "context/cookies";
 
 export const TeamMemberDetails = ({ idx }) => {
   const { name, title, nameInvariant, links } =
     teamMembers[idx] || teamMembers[0];
+
+  const { accepted } = useCookies();
 
   return (
     <div className={styles.details_wrapper}>
@@ -23,16 +25,15 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"LinkedIn Profile of " + nameInvariant}
             onClick={() =>
-              analyticsLogger(() =>
-                logButtonClick(
-                  "Team LinkedIn link",
-                  `${name} LinkedIn link clicked`,
-                  {
-                    member: name,
-                    linkName: "LinkedIn",
-                    href: links.linkedIn,
-                  }
-                )
+              accepted &&
+              logButtonClick(
+                "Team LinkedIn link",
+                `${name} LinkedIn link clicked`,
+                {
+                  member: name,
+                  linkName: "LinkedIn",
+                  href: links.linkedIn,
+                }
               )
             }
           >
@@ -46,16 +47,15 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"Twitter Profile of " + nameInvariant}
             onClick={() =>
-              analyticsLogger(() =>
-                logButtonClick(
-                  "Team Twitter link",
-                  `${name} Twitter link clicked`,
-                  {
-                    member: name,
-                    linkName: "Twitter",
-                    href: links.twitter,
-                  }
-                )
+              accepted &&
+              logButtonClick(
+                "Team Twitter link",
+                `${name} Twitter link clicked`,
+                {
+                  member: name,
+                  linkName: "Twitter",
+                  href: links.twitter,
+                }
               )
             }
           >
@@ -69,16 +69,15 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"Medium Link of " + nameInvariant}
             onClick={() =>
-              analyticsLogger(() =>
-                logButtonClick(
-                  "Team Medium link",
-                  `${name} Medium link clicked`,
-                  {
-                    member: name,
-                    linkName: "Medium",
-                    href: links.medium,
-                  }
-                )
+              accepted &&
+              logButtonClick(
+                "Team Medium link",
+                `${name} Medium link clicked`,
+                {
+                  member: name,
+                  linkName: "Medium",
+                  href: links.medium,
+                }
               )
             }
           >
@@ -92,16 +91,15 @@ export const TeamMemberDetails = ({ idx }) => {
             rel="noreferrer nofollow"
             aria-label={"Facebook Profile of " + nameInvariant}
             onClick={() =>
-              analyticsLogger(() =>
-                logButtonClick(
-                  "Team Facebook link",
-                  `${name} Facebook link clicked`,
-                  {
-                    member: name,
-                    linkName: "Facebook",
-                    href: links.facebook,
-                  }
-                )
+              accepted &&
+              logButtonClick(
+                "Team Facebook link",
+                `${name} Facebook link clicked`,
+                {
+                  member: name,
+                  linkName: "Facebook",
+                  href: links.facebook,
+                }
               )
             }
           >

@@ -8,7 +8,7 @@ import { TeamMemberDetails } from "@components/HomePage/OurTeam/TeamMemberDetail
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
 import { logButtonClick, logGesture } from "@analytics/index";
-import { analyticsLogger } from "@utils/logger";
+import { useCookies } from "context/cookies";
 
 const settings = {
   slidesToShow: 3,
@@ -22,6 +22,7 @@ const settings = {
 
 export const OurTeamComponent = () => {
   const [activeIdx, setActiveIdx] = useState(settings.initialSlide);
+  const { accepted } = useCookies();
 
   return (
     <div className={"section_border_container"}>
@@ -46,14 +47,13 @@ export const OurTeamComponent = () => {
                 ...settings,
                 afterChange: (idx) => setActiveIdx(idx || 0),
                 onSwipe: (i) => {
-                  analyticsLogger(() =>
+                  accepted &&
                     logGesture(
                       `Team Slider ${i === "left" ? "Left" : "Right"}`,
                       `${
                         i === "left" ? "Left" : "Right"
                       } swipe in team carousel`
-                    )
-                  );
+                    );
                 },
               }}
               navElement={(props) => (
@@ -90,12 +90,12 @@ const NavElement = ({ prev, next }) => {
         <button
           className={styles["nav-btn"]}
           onClick={() => {
-            analyticsLogger(() =>
+            accepted &&
               logButtonClick(
                 "Team Slider Left button",
                 "Left team member arrow button clicked"
-              )
-            );
+              );
+
             prev();
           }}
           aria-label="Left Team Member Button"
@@ -105,12 +105,12 @@ const NavElement = ({ prev, next }) => {
         <button
           className={styles["nav-btn"]}
           onClick={() => {
-            analyticsLogger(() =>
+            accepted &&
               logButtonClick(
                 "Team Slider Right button",
                 "Right team member arrow button clicked"
-              )
-            );
+              );
+
             next();
           }}
           aria-label="Right Team Member Button"

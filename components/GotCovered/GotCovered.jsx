@@ -3,7 +3,7 @@ import CautionIcon from "@utils/icons/CautionIcon";
 import CreateIcon from "@utils/icons/CreateIcon";
 import styles from "./style.module.scss";
 import { Trans } from "@lingui/macro";
-import { analyticsLogger } from "@utils/logger";
+import { useCookies } from "context/cookies";
 
 const data = [
   {
@@ -42,6 +42,7 @@ const data = [
 ];
 
 export const GotCoveredComponent = () => {
+  const { accepted } = useCookies();
   return (
     <div className={styles.container}>
       <div className="section_horizontal_container">
@@ -70,16 +71,15 @@ export const GotCoveredComponent = () => {
                   rel="noreferrer"
                   className={styles.card_link}
                   onClick={() =>
-                    analyticsLogger(() =>
-                      logButtonClick(
-                        "`Find out more` link",
-                        `\`Find out more\` link in \`${item.title}\` clicked`,
-                        {
-                          title: item.title,
-                          description: item.description,
-                          link: item.linkTo,
-                        }
-                      )
+                    accepted &&
+                    logButtonClick(
+                      "`Find out more` link",
+                      `\`Find out more\` link in \`${item.title}\` clicked`,
+                      {
+                        title: item.title,
+                        description: item.description,
+                        link: item.linkTo,
+                      }
                     )
                   }
                 >

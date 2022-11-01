@@ -1,7 +1,7 @@
 import { logButtonClick } from "@analytics/index";
 import { CodeButtonComponent } from "@components/CodeButtonComponent";
 import { Trans } from "@lingui/macro";
-import { analyticsLogger } from "@utils/logger";
+import { useCookies } from "context/cookies";
 import { useState } from "react";
 import styles from "./code.module.scss";
 
@@ -14,14 +14,16 @@ const CodePreviewComponent = () => {
   const [addLiquidityActive, setAddLiquidityActive] = useState(true);
   const [provideCoverActive, setProvideCoverActive] = useState(false);
 
+  const { accepted } = useCookies();
+
   const handleAddLiquidity = () => {
     if (!addLiquidityActive) {
-      analyticsLogger(() =>
+      accepted &&
         logButtonClick(
           "`Add Liquidity` Code",
           "`Add Liquidity` button clicked in code preview section"
-        )
-      );
+        );
+
       setAddLiquidityActive(true);
       setProvideCoverActive(false);
     }
@@ -29,12 +31,12 @@ const CodePreviewComponent = () => {
 
   const handleProvideCover = () => {
     if (!provideCoverActive) {
-      analyticsLogger(() =>
+      accepted &&
         logButtonClick(
           "`Purchase Covers` Code",
           "`Purchase Covers` button clicked in code preview section"
-        )
-      );
+        );
+
       setAddLiquidityActive(false);
       setProvideCoverActive(true);
     }

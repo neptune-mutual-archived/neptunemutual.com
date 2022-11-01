@@ -8,7 +8,7 @@ import CheckCircleIcon from "@utils/icons/CheckCircleIcon";
 import SearchIcon from "@utils/icons/SearchIcon";
 import useDebounce from "hooks/useDebounce";
 import { logButtonClick } from "@analytics/index";
-import { analyticsLogger } from "@utils/logger";
+import { useCookies } from "context/cookies";
 
 const DEBOUNCE_TIMER = 200;
 
@@ -22,6 +22,8 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
   const [searchValue, setSearchValue] = useState("");
 
   const debouncedSearch = useDebounce(searchValue, DEBOUNCE_TIMER);
+
+  const { accepted } = useCookies();
 
   useEffect(() => {
     if (!debouncedSearch) {
@@ -74,17 +76,16 @@ const LanguageDropdown = ({ lightMode, mobileView }) => {
               className={styles.dropdown_list_link}
               href={`/${localesKey[lang]}`}
               onClick={() =>
-                analyticsLogger(() =>
-                  logButtonClick(
-                    `language switch:${
-                      mobileView ? "mobile" : lightMode ? "footer" : "header"
-                    }`,
-                    "Language switch button clicked",
-                    {
-                      lang,
-                      href: `/${localesKey[lang]}`,
-                    }
-                  )
+                accepted &&
+                logButtonClick(
+                  `language switch:${
+                    mobileView ? "mobile" : lightMode ? "footer" : "header"
+                  }`,
+                  "Language switch button clicked",
+                  {
+                    lang,
+                    href: `/${localesKey[lang]}`,
+                  }
                 )
               }
             >
