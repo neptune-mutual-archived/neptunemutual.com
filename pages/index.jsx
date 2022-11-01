@@ -8,12 +8,14 @@ import { Trans } from "@lingui/macro";
 import { getPosts } from "@lib/utils/methods";
 import { useEffect } from "react";
 import { logPageLoad } from "@analytics/index";
+import { useCookies } from "context/cookies";
 // import "slick-carousel/slick/slick-theme.css";
 
 export default function Home({ postsData }) {
+  const { accepted } = useCookies();
   useEffect(() => {
-    logPageLoad("HomePage");
-  }, []);
+    if (accepted) logPageLoad("HomePage");
+  }, [accepted]);
 
   return (
     <BaseLayout

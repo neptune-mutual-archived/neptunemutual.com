@@ -11,7 +11,7 @@ import styles from "./style.module.css";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
 import YoutubeIcon from "@utils/icons/YoutubeIcon";
 import { logButtonClick } from "@analytics/index";
-import { analyticsLogger } from "@utils/logger";
+import { useCookies } from "context/cookies";
 
 const neptune = "/images/industry/neptune.png";
 const logo = "/logos/neptune-mutual-full-inverse.png";
@@ -93,6 +93,8 @@ const quickLinks = [
 ];
 
 export const Footer = () => {
+  const { accepted } = useCookies();
+
   return (
     <div data-scroll-section className={styles["footer-wrapper"]}>
       <div
@@ -132,14 +134,13 @@ export const Footer = () => {
                   rel="noreferrer nofollow"
                   aria-label={name}
                   onClick={() =>
-                    analyticsLogger(() =>
-                      logButtonClick(
-                        `Footer:${name} link`,
-                        `${name} link at Footer section clicked`,
-                        {
-                          link,
-                        }
-                      )
+                    accepted &&
+                    logButtonClick(
+                      `Footer:${name} link`,
+                      `${name} link at Footer section clicked`,
+                      {
+                        link,
+                      }
                     )
                   }
                 >
@@ -161,14 +162,13 @@ export const Footer = () => {
                   target="_self"
                   aria-label={ariaLabel}
                   onClick={() =>
-                    analyticsLogger(() =>
-                      logButtonClick(
-                        `Footer-Quicklink:${name} link`,
-                        `${name} quicklink at Footer section clicked`,
-                        {
-                          link,
-                        }
-                      )
+                    accepted &&
+                    logButtonClick(
+                      `Footer-Quicklink:${name} link`,
+                      `${name} quicklink at Footer section clicked`,
+                      {
+                        link,
+                      }
                     )
                   }
                 >

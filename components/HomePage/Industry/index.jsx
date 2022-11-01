@@ -12,7 +12,7 @@ import { Trans } from "@lingui/macro";
 import { DiscordIcon } from "@utils/icons/DiscordIcon";
 import YoutubeIcon from "@utils/icons/YoutubeIcon";
 import { logButtonClick } from "@analytics/index";
-import { analyticsLogger } from "@utils/logger";
+import { useCookies } from "context/cookies";
 
 const neptune = "/images/industry/neptune.png";
 const fenbushiImg = "/images/brand/fenbushi.svg";
@@ -62,6 +62,8 @@ const socialLinks = [
 ];
 
 export const IndustryComponent = () => {
+  const { accepted } = useCookies();
+
   return (
     <>
       <div className={classNames(styles.sections_container)}>
@@ -79,14 +81,13 @@ export const IndustryComponent = () => {
                   rel="noreferrer nofollow"
                   aria-label={name}
                   onClick={() =>
-                    analyticsLogger(() =>
-                      logButtonClick(
-                        `${name} link:cwu`,
-                        `${name} link at \`Connect with Us\` section clicked`,
-                        {
-                          link,
-                        }
-                      )
+                    accepted &&
+                    logButtonClick(
+                      `${name} link:cwu`,
+                      `${name} link at \`Connect with Us\` section clicked`,
+                      {
+                        link,
+                      }
                     )
                   }
                 >
