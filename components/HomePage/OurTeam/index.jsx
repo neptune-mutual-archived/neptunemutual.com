@@ -84,6 +84,7 @@ export const OurTeamComponent = () => {
 };
 
 const NavElement = ({ prev, next }) => {
+  const { accepted } = useCookies();
   return (
     <>
       <div className={styles.nav_wrapper}>
