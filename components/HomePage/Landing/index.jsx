@@ -41,23 +41,23 @@ export const LandingPage = () => {
           </p>
 
           <a
-            href="https://test.neptunemutual.com/"
+            href="https://app.neptunemutual.com/"
             rel="noreferrer"
             target="_blank"
             className={styles.cta}
-            aria-label="Launch Testnet"
+            aria-label="Launch App"
             onClick={() =>
               accepted &&
               logButtonClick(
-                "Launch Testnet",
-                "`Launch Testnet` in hero section clicked",
+                "Launch App",
+                "`Launch App` button in hero section clicked",
                 {
-                  href: "https://test.neptunemutual.com/",
+                  href: "https://app.neptunemutual.com/",
                 }
               )
             }
           >
-            <Trans>Launch Testnet</Trans>
+            <Trans>Launch App</Trans>
           </a>
         </div>
       </div>
