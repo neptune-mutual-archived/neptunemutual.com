@@ -26,12 +26,12 @@ export default function Home({ postsData }) {
     >
       <>
         <Notice
-          link="https://cryptoslate.com/press-releases/neptune-mutual-protocol-raises-5-3m-in-a-private-funding-round-after-successful-testnet-launch/"
-          linkText={<Trans>View Press Release</Trans>}
+          link="https://blog.neptunemutual.com/ethereum-defi-cover-protocol-launch-announcement/"
+          linkText={<Trans>View Annoucement</Trans>}
           text={
             <Trans>
-              Neptune Mutual Protocol raises 5.3M$ in a private funding round
-              after successful testnet launch
+              Parametric Cover Protection for Prime dApps Now Live on the
+              Ethereum Mainnet!
             </Trans>
           }
         />

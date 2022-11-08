@@ -44,8 +44,8 @@ export const Notice = ({
               className="underline"
               href={link}
               target="_blank"
-              rel="noopener noreferrer nofollow"
               onClick={handleLinkClick}
+              rel="noreferrer"
             >
               {linkText}
             </a>
