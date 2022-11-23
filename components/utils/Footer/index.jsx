@@ -1,4 +1,4 @@
-import { Trans } from "@lingui/macro";
+import { Trans, t } from "@lingui/macro";
 import TwitterIcon from "@utils/icons/TwitterIcon";
 import GithubIcon from "@utils/icons/GithubIcon";
 import TelegramIcon from "@utils/icons/TelegramIcon";
@@ -61,32 +61,32 @@ const socialLinks = [
 
 const quickLinks = [
   {
-    name: "Blog",
+    name: t`Blog`,
     ariaLabel: "Visit Our Blog",
     href: social.blog,
   },
   {
-    name: "Contact",
+    name: t`Contact`,
     ariaLabel: "Contact Us",
     href: "https://forms.clickup.com/f/6vvfh-4624/UVJHEDAS2T3P6DCFJM",
   },
   {
-    name: "Careers",
+    name: t`Careers`,
     ariaLabel: "Careers Page",
     href: "https://angel.co/company/neptune-mutual",
   },
   {
-    name: "Documentation",
+    name: t`Documentation`,
     ariaLabel: "Documentation Site",
     href: social.documentation,
   },
   {
-    name: "Terms Of Service",
+    name: t`Terms Of Service`,
     ariaLabel: "Terms Of Service",
     href: "https://docs.neptunemutual.com/usage/terms-of-use",
   },
   {
-    name: "Privacy Policy",
+    name: t`Privacy Policy`,
     ariaLabel: "Privacy Policy",
     href: "https://docs.neptunemutual.com/usage/privacy-policy",
   },
@@ -172,7 +172,7 @@ export const Footer = () => {
                     )
                   }
                 >
-                  <Trans>{name}</Trans>
+                  {name}
                 </a>
               </div>
             ))}
